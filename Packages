@@ -1,0 +1,2004 @@
+Package: android-tools
+Version: 31.0.3-7562133
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./android-tools_31.0.3-7562133_amd64.deb
+Size: 8010332
+MD5sum: 64d3f0ea929c82407599654b0ca758ab
+SHA1: 19d77112e46a520c12810da8ed3c999ba3419039
+SHA256: a93dbecf57df69ce396c0604640f9c6c49ff77b3c733985483307711fe9afef3
+Section: base
+Priority: optional
+Description: android tools for Debian
+
+Package: e1000e-dkms
+Version: 3.8.7
+Architecture: all
+Maintainer: Kolja Hildebrand <kolja.hildebrand@gmail.com>
+Depends: dkms (>= 1.95)
+Filename: ./e1000e-dkms_3.8.7_all.deb
+Size: 241548
+MD5sum: 9eed0400f409bf0ed262edbd31084703
+SHA1: 672b51755d57914f466f4ade75eee79eb6757596
+SHA256: 7c055d7d73094a5447a3d385b349cbbc8907c8b137be442fd3370ad6b12dd816
+Section: kernel
+Priority: optional
+Homepage: http://sourceforge.net/projects/e1000/
+Description: Intel e1000e Ethernet adapter driver (DKMS version)
+
+Package: gprename
+Version: 20201214-0.2
+Architecture: all
+Maintainer: Marvin Stark <marv@der-marv.de>
+Installed-Size: 218
+Depends: perl:any, libglib-perl, libpango-perl, libgtk3-perl, liblocale-gettext-perl, libintl-perl
+Filename: ./gprename_20201214-0.2_all.deb
+Size: 46376
+MD5sum: 16db6ba621dec8dfc8e67371a3ea4ce6
+SHA1: d9524a6d1bcea8adb2324a6159ce21cf500f6735
+SHA256: 2ca5c4c9723df59a733416c19a61958ab7dac4bdf81cb313c3427f12e1c33014
+Section: utils
+Priority: optional
+Homepage: http://gprename.sourceforge.net
+Description: Complete batch renamer for Linux
+ GPRename is a complete batch renamer for files and directorys.
+ GPRename easily can replace, remove, insert, delete and number
+ consecutively files and directorys.
+
+Package: gprename-menu-item
+Version: 1.0-4
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./gprename-menu-item_1.0-4_all.deb
+Size: 964
+MD5sum: 3698c608c5f05006458b3ee34eaa6afe
+SHA1: d2068136481d2eff28f0da2f4cafc34038e903c7
+SHA256: c93f3f822b3bcbe3f27ae97bf313a6a6bd98c9f3f0dafe7706d5ff1770953918
+Section: base
+Priority: optional
+Description: luckybackup admin correction for Debian
+
+Package: hypno-keyring
+Version: 1.3-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./hypno-keyring_1.3-1_all.deb
+Size: 29764
+MD5sum: 49ebfa7a73aac0171a95a41d3e753372
+SHA1: a9e609bb78681f9ad6d4a59b354409fdb8630dc5
+SHA256: 96481ad6cf0bc8137b668d53f58c8ab111aace7f558289bad8498ece903f2c1d
+Section: base
+Priority: optional
+Description: custom keyring for Debian Bullseye
+
+Package: hypno-tools
+Version: 1.7-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./hypno-tools_1.7-1_amd64.deb
+Size: 9506268
+MD5sum: 933d9d243bfb0f32623438bb4a4728d9
+SHA1: f5bf2e7057c960c32f2fa55cf41d01fd39c455ae
+SHA256: 8f206b5214fcbd9c4b1e5d378b220a09d876bf55400ca25dc63ef22ed861a071
+Section: base
+Priority: optional
+Description: personal tools for Debian Bullseye
+
+Package: kde-service-menu-hypno-collection
+Version: 1.5-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
+Filename: ./kde-service-menu-hypno-collection_1.5-1_all.deb
+Size: 3608
+MD5sum: 77a035d48578fb74457ca1747d13915a
+SHA1: eef64c6215b88d2060529d467318aa610b426607
+SHA256: d0cad1c1e47c97145fed24141ece6bd63c9bf7b95dda6566449127ec2ee94e86
+Section: base
+Priority: optional
+Description: KDE Service Menu items collection by Hypno
+
+Package: kde-service-menu-pdf
+Version: 2.3
+Architecture: all
+Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
+Installed-Size: 250
+Depends: dolphin (>= 18) | konqueror (>= 18), ghostscript, pdf2djvu, poppler-utils, texlive-extra-utils
+Filename: ./kde-service-menu-pdf_2.3_all.deb
+Size: 43064
+MD5sum: 2a404a654c35d44c03d6b554e2726a9e
+SHA1: ee40544804acf041e7860c14b1cc2fbbc932bdd1
+SHA256: 3f95663c132a2af87fd9269fb231523a8fb4d4e2f4adacedf1fa64a117072d2a
+Section: kde
+Priority: optional
+Homepage: http://www.egregorion.net
+Description: Manage and modify PDF documents using Dolphin/Konqueror
+ kde-service-menu-pdf is a package that extends the functionalities of Dolphin
+ or Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. It's similar to gnome nautilus actions.
+ These actions are related to pdf files.
+ .
+ You can extract pages or images, optimize, join, print, rotate,
+ detach files, repaginate, converto to djvu, html, plain text, ps,
+ image (png, jpg, fax), converto to booklet and many others actions.
+ .
+ Copyright (C) 2007-2019 Giuseppe Benigno <giuseppe.benigno@gmail.com>
+
+Package: kde-service-menu-reimage
+Version: 2.5
+Architecture: all
+Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
+Installed-Size: 78
+Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
+Filename: ./kde-service-menu-reimage_2.5_all.deb
+Size: 16640
+MD5sum: f6fbeb70681628a306a3207376c58e26
+SHA1: 6fcd6a652828c177569b3cb7e8164097d0a8390c
+SHA256: 1a9dcd41f048058d8e486963b5a8008bd862dd082debc3f88a870bdacd983985
+Section: kde
+Priority: optional
+Homepage: http://www.egregorion.net
+Description: Manipulate images e their metadata.
+ kde-service-menu-reimage is a package that extends the functionalities of
+ Dolphin/Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. These actions are related to picture files.
+ .
+ Compress and resize
+ Advanced optimization for web
+ Compress in % (change quality)
+ Resize in % or square
+ .
+ Convert and rotate
+ Convert to all formats supported by ImageMagick
+ Convert to PDF or PDF/A-1
+ Generate favicons for browser/android/apple/ms
+ Convert to Base64
+ Rotate
+ Overturn vertically/horizontally
+ .
+ Metadata:
+ Rename jpg and tiff files with data content in Exif metadata.
+ (For example: 001.jpg -> 2018-04-27_133741.jpg)
+ Rename jpg and tiff files with file's data.
+ Set file's datetime from Exif date.
+ Set file date from file's name
+ Set Exif datetime from file's date.
+ Set Exif datetime from file's name.
+ Add comment
+ View metadata
+ Extract metadata to file
+ Delete comment field
+ Strip Exif section
+ Delete IPTC section
+ Delete XMP section
+ Strip all unnecessary data
+ Add timestamp from Exif
+ .
+ Tools
+ Create animated GIF
+ Append to right
+ GrayScale
+ Sepia filter
+ Change transparent to color
+ Add colored border
+ Add transparent border
+ Drop shadow
+ .
+ Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
+
+Package: libappindicator1
+Source: libappindicator
+Version: 0.4.92-8
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 102
+Depends: libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libindicator7 (>= 0.4.90)
+Filename: ./libappindicator1_0.4.92-8_amd64.deb
+Size: 53184
+MD5sum: 13bafbbb4abbce65090c3d7878197673
+SHA1: 403d2001878808aac1a269445b7292a9abdffee3
+SHA256: 6beb18c063fbcc4af6ea67c91c7520f992f50365a3c1dab12e26ce4ee34cf6ef
+Section: oldlibs
+Priority: optional
+Multi-Arch: same
+Homepage: https://launchpad.net/libappindicator
+Description: allow applications to export a menu into the panel
+ A library to allow applications to export a menu into the panel.
+ Based on KSNI it also works in KDE and will fallback to generic Systray
+ support if none of those are available.
+ .
+ This package contains shared libraries to be used by applications.
+
+Package: libdvdcss-dev
+Source: libdvdcss
+Version: 1.4.2-1~local
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 26
+Depends: libdvd-pkg, libdvdcss2 (= 1.4.2-1~local)
+Conflicts: libdvdcss2-dev
+Replaces: libdvdcss2-dev
+Filename: ./libdvdcss-dev_1.4.2-1~local_amd64.deb
+Size: 6744
+MD5sum: f559d824c890f1404f77c3eb6610b183
+SHA1: f1d7ef9d53904f4f117c6a75c479f6a42cf6cc6c
+SHA256: 7c30871be9cc72d2a3d310d24b6dea0b20ab61e424a2a0bc1a98e88d8a21e264
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Description: library for accessing encrypted DVDs - development files
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides development files.
+
+Package: libdvdcss2
+Source: libdvdcss
+Version: 1.4.2-1~local
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 58
+Depends: libdvd-pkg, libc6 (>= 2.7)
+Replaces: libdvdcss-dev (<= 0.0.3-3), libdvdcss0 (<= 1.0.0-0.0), libdvdcss2-dev (<= 1.2.10-0.0)
+Provides: libdvdcss
+Filename: ./libdvdcss2_1.4.2-1~local_amd64.deb
+Size: 22332
+MD5sum: d05d3f6d9fdcf2ad932a84121472b710
+SHA1: 483afcbda9d586cac3626037a78a947f0b91079c
+SHA256: 94b4f90d17361d83baaee87907a2ee6221a44b445c3e09539ed33b35539afa5d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Description: library for accessing encrypted DVDs
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides runtime libraries.
+
+Package: libdvdcss2-dbgsym
+Source: libdvdcss
+Version: 1.4.2-1~local
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 54
+Depends: libdvdcss2 (= 1.4.2-1~local)
+Filename: ./libdvdcss2-dbgsym_1.4.2-1~local_amd64.deb
+Size: 39328
+MD5sum: 36c4e77f9871709bb1ae090d83b4ebb2
+SHA1: 036f7b1828a47723653c2bba48d2e5e052d37e88
+SHA256: afd8a3b7a68000acfed565298d33662a4457bb168b0bf54729419347db3287a7
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libdvdcss2
+Build-Ids: 3cb616dfbcbe768e5b7ce46541b01c3c11bec048
+
+Package: libindicator7
+Source: libindicator
+Version: 0.5.0-4
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 106
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Filename: ./libindicator7_0.5.0-4_amd64.deb
+Size: 53028
+MD5sum: eeff52103a841397f50594257b49f085
+SHA1: 495c53c3c9ee0f5ce9105efa9d7ad901cb495d96
+SHA256: 0a40b668f49dbd47c7aa859b648179448d44a52bb6e2f62597681330d65508d2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://launchpad.net/libindicator
+Description: panel indicator applet - shared library
+ This library contains information to build indicators to go into
+ the indicator applet.
+ .
+ This package contains the library itself.
+
+Package: live-build
+Version: 1:20210903
+Architecture: all
+Maintainer: Debian Live <debian-live@lists.debian.org>
+Installed-Size: 1187
+Depends: debootstrap
+Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
+Suggests: e2fsprogs, parted, mtd-utils
+Filename: ./live-build_20210903_all.deb
+Size: 397640
+MD5sum: 96c2783aaa6a9c040dbd16d1be87762e
+SHA1: e4c541475f1f133910bacb3ef5e1af572d8d46f9
+SHA256: ec9b1fcc5a3004ed29896bf473e144e91752477be66f6359794c47b7c9240494
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Build Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-build contains the components to build a live system from a configuration
+ directory.
+
+Package: opensesame-toolbox
+Version: 2.7-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1263
+Depends: python3 (>= 3.2), python3-pyqt5, python3-pyqt5.qtwebkit, python3-numpy, python3-configobj
+Recommends: opensesame
+Filename: ./opensesame-toolbox_2.7-1_all.deb
+Size: 369480
+MD5sum: b601de17adc834f0a34a4814eaf53b4a
+SHA1: 0c6798ebc09e66f9e50f614f6d60547c9a76df8c
+SHA256: 9d4fd1b0773eec6438a2eeeb01ecf95d85bc25005c8e11e81e9138522e0336e5
+Section: science
+Priority: extra
+Homepage: https://github.com/dev-jam/opensesame-toolbox
+Description: OpenSesame Experiment Manager and OpenSesame Questionnaire Processor
+ OpenSesame Toolbox offers two applications to supplement OpenSesame.
+ OpenSesame Experiment Manager can manage, order and execute OpenSesame Experiments and create OpenSesame Questionnaires.
+ OpenSesame Questionnaire Processor can process OpenSesame multiple choice questionnaires by giving a summary of the scores.
+
+Package: oss-linux
+Version: 4.2-2020
+Architecture: amd64
+Maintainer: 4Front Technologies <support@opensound.com>
+Installed-Size: 7352
+Depends: binutils, gcc, libc6, libgtk2.0-0, sed (>= 1.0.0)
+Suggests: libsdl1.2debian-oss | libsdl1.2debian-all, libesd0, libwine-oss, libsox-fmt-oss, mpg123, gstreamer0.10-plugins-bad (>= 0.10.7), libasound2-plugins
+Conflicts: libflashsupport
+Provides: oss
+Filename: ./oss-linux_4.2-2020_amd64.deb
+Size: 2633446
+MD5sum: 5bff42067d7e40acbc6f0fe555e2a5a8
+SHA1: e559ec3009fa6192fcb20dd192342802975b2f4b
+SHA256: 373ff90a885dc534d4589d48554bdcf22f100b10e702a43d072cbaa3e8e819f5
+Section: sound
+Priority: optional
+Description: Open Sound System (http://www.opensound.com)
+ OSS provides libraries and necessary drivers for practically all sound
+  cards on the market including PnP and many PCI ones which enable you
+  to play sound files, compose music, use MIDI (only included in the
+  testing releases) and adjust your sound card using various user space
+  programs.
+Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
+
+Package: phoronix-test-suite
+Version: 10.4.0
+Architecture: all
+Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
+Installed-Size: 31656
+Depends: php-cli|php5-cli,php5-cli|php-xml
+Recommends: build-essential, php-gd|php5-gd
+Filename: ./phoronix-test-suite_10.4.0_all.deb
+Size: 1164944
+MD5sum: c6b33fcfb27dfc18caf93b7204ef71e7
+SHA1: 16ae749aa5edf32f59e24aa945b834f7832a349c
+SHA256: f608a9d2cba5e38b0cc428fed4b2a1a52152cb27e0fa552e5241b2e9028f1ad7
+Section: Utilities
+Priority: optional
+Homepage: http://www.phoronix-test-suite.com/
+Description: An Automated, Open-Source Testing Framework
+ The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
+
+Package: plasma-appimage-integration
+Version: 0.1.0-neon-user-lts
+Architecture: amd64
+Maintainer: Alexis Lopez Zubieta <contact@azubieta.net>
+Installed-Size: 301
+Pre-Depends: bash, libqt5widgets5 (>= 5.2.1), libqt5gui5 (>= 5.2.1), libqt5core5a (>= 5.2.1), dbus-user-session
+Provides: appimage-services
+Filename: ./plasma-appimage-integration_0.1.0-neon-user-lts_amd64.deb
+Size: 51816
+MD5sum: deab94e0ba6ea8a4cf5d33a9b1260cba
+SHA1: dbc126d2805f64cd1ec8637f6a6fce98f2d6f6ff
+SHA256: 77b4ea1d106fade0bfe75b9512cee112303aab439e3b2ac656967ff6818a6b88
+Section: devel
+Priority: optional
+Description: plasma-appimage-integration built using CMake
+
+Package: praat
+Version: 6.1.54-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 71556
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), libx11-6, oss-compat, python3:any
+Filename: ./praat_6.1.54-1~bpo11+1_amd64.deb
+Size: 14401792
+MD5sum: 5d6ccb199a1e74c12c0ad000962efc76
+SHA1: 6b7246e4eaf57d0bc85bba90b1edcc6ac824746d
+SHA256: 8b450d1670dbffad2fb10f5fbd110db64132544b960387a7460610b3881f516c
+Section: science
+Priority: optional
+Homepage: https://www.praat.org
+Description: program for speech analysis and synthesis
+ According to its authors, praat is "doing phonetics by computer".  Through
+ its graphical interface, several speech analysis functionalities are
+ available: spectrograms, cochleograms, and pitch and formant
+ extraction.  Articulatory synthesis, as well as synthesis from pitch,
+ formant, and intensity are also available.  Other features are
+ segmentation, labelling using the phonetic alphabet, and computation of
+ statistics.  Praat is configurable and extensible through its own scripting
+ language and has provisions for communicating with other programs.
+
+Package: python3-arabic-reshaper
+Source: arabic-reshaper
+Version: 2.1.3-1
+Architecture: all
+Maintainer: Abdullah Diab <mpcabd@gmail.com>
+Installed-Size: 117
+Depends: python3-future, python3-pkg-resources, python3:any
+Filename: ./python3-arabic-reshaper_2.1.3-1_all.deb
+Size: 16096
+MD5sum: 7af5a6c44e5e93956aedf0fa67b3f440
+SHA1: f560e9fbcd76a9830374a1e9609383bf3f2d0014
+SHA256: 49929c456c06657a335fd5a9268cc82071c6c5cea85ed364b16494099837833d
+Section: python
+Priority: optional
+Homepage: https://github.com/mpcabd/python-arabic-reshaper/
+Description: Reconstruct Arabic sentences to be used in applications that
+ ## Python Arabic Reshaper
+ .
+ [![Build Status](https://travis-ci.org/mpcabd/python-arabic-reshaper.svg?branch=master)](https://travis-ci.org/mpcabd/python-arabic-reshaper)
+ .
+ Reconstruct Arabic sentences to be used in applications that don't support
+ Arabic script.
+ .
+ Works with Python 2.x and 3.x
+ .
+ ## Description
+ .
+ Arabic script is very special with two essential features:
+ .
+ 1. It is written from right to left.
+ 2. The characters change shape according to their surrounding characters.
+ .
+ So when you try to print text written in Arabic script in an application
+ – or a library – that doesn’t support Arabic you’re pretty likely to end up
+ with something that looks like this:
+
+Package: python3-argcomplete
+Source: argcomplete
+Version: 1.12.3-1
+Architecture: all
+Maintainer: Andrey Kislyuk <kislyuk@gmail.com>
+Installed-Size: 136
+Depends: python3:any
+Filename: ./python3-argcomplete_1.12.3-1_all.deb
+Size: 31192
+MD5sum: ca72286558942fc47fb9d981b219b552
+SHA1: a6337de2d55e85b6d23c96e03ed5382820613a9a
+SHA256: b8926536729a729e3d981da86c4131e8689466f6afdc85ce2e6fb9b31741a89c
+Section: python
+Priority: optional
+Homepage: https://github.com/kislyuk/argcomplete
+Description: Bash tab completion for argparse
+ argcomplete - Bash tab completion for argparse
+ ==============================================
+ *Tab complete all the things!*
+ .
+ Argcomplete provides easy, extensible command line tab completion of arguments for your Python script.
+ .
+ It makes two assumptions:
+ .
+ * You're using bash as your shell (limited support for zsh, fish, and tcsh is available)
+ * You're using `argparse <http://docs.python.org/3/library/argparse.html>`_ to manage your command line arguments/options
+ .
+ Argcomplete is particularly useful if your program has lots of options or subparsers, and if your program can
+ dynamically suggest completions for your argument/option values (for example, if the user is browsing resources over
+ the network).
+ .
+ Installation
+ ------------
+ ::
+ .
+     pip3 install argcomplete
+
+Package: python3-astunparse
+Source: astunparse
+Version: 1.6.3-1
+Architecture: all
+Maintainer: Simon Percivall <percivall@gmail.com>
+Installed-Size: 56
+Depends: python3-six (<< 2.0), python3-six (>= 1.6.1), python3-wheel, python3:any
+Filename: ./python3-astunparse_1.6.3-1_all.deb
+Size: 10840
+MD5sum: 6b376c6a2f2c511c47e66bde9867372b
+SHA1: f79530a294b7204f542746b107827f5048a79d26
+SHA256: 442def12a8a7e74174ac12bcd154b0850a0c8f71897aa9443514667375e67c00
+Section: python
+Priority: optional
+Homepage: https://github.com/simonpercivall/astunparse
+Description: An AST unparser for Python
+ ============
+ AST Unparser
+ ============
+ .
+ .. image:: https://badge.fury.io/py/astunparse.png
+     :target: http://badge.fury.io/py/astunparse
+ .
+ .. image:: https://travis-ci.org/simonpercivall/astunparse.png?branch=master
+     :target: https://travis-ci.org/simonpercivall/astunparse
+ .
+ .. image:: https://readthedocs.org/projects/astunparse/badge/
+     :target: https://astunparse.readthedocs.org/
+ .
+ An AST unparser for Python.
+ .
+ This is a factored out version of ``unparse`` found in the Python
+ source distribution; under Demo/parser in Python 2 and under Tools/parser
+ in Python 3.
+ .
+ Basic example::
+
+Package: python3-dirsync
+Source: dirsync
+Version: 2.2.5-1
+Architecture: all
+Maintainer: Thomas Khyn <thomas@ksytek.com>
+Installed-Size: 57
+Depends: python3-six, python3:any
+Filename: ./python3-dirsync_2.2.5-1_all.deb
+Size: 11504
+MD5sum: 0e644b260f52a4ebeb42841ddf51378a
+SHA1: 08672f144fd2a34d0dc354f48b0987ca9c6fdd9f
+SHA256: 2cb109986d5d76ddb1abc7cbe7d7e406be42d43de562e136bc1c2c2ca61a76ca
+Section: python
+Priority: optional
+Homepage: https://github.com/tkhyn/dirsync/
+Description: Advanced directory tree synchronisation tool
+ dirsync
+ =======
+ .
+ |copyright| 2014-2019 Thomas Khyn
+ |copyright| 2003-2015 Anand B Pillai
+ .
+ Advanced directory tree synchronisation tool
+ .
+ based on `Python robocopier`_ by Anand B Pillai
+ .
+ If you like dirsync and are looking for a way to thank me and/or encourage
+ future development, here is my BTC or BCH donation address:
+ ``1EwENyR8RV6tMc1hsLTkPURtn5wJgaBfG9``.
+ .
+ Usage
+ -----
+ .
+ From the command line::
+ .
+    dirsync <sourcedir> <targetdir> [options]
+
+Package: python3-dr14-tmeter
+Source: dr14-tmeter
+Version: 2.0.0-2
+Architecture: all
+Maintainer: Simone Riva <simone.rva [at] gmail.com>
+Installed-Size: 209
+Depends: python3:any
+Filename: ./python3-dr14-tmeter_2.0.0-2_all.deb
+Size: 32096
+MD5sum: ca39442f279ab509ff8ec82a0dd08da4
+SHA1: 2d8a385fd7b33ce37663100de0d7328999a96457
+SHA256: 8d2498c39d2f943ba52c36584cf3fb19ecd3adff8da2dfdfc78a47126183cfbc
+Section: python
+Priority: optional
+Homepage: http://simon-r.github.com/dr14_t.meter
+Description: Compute the DR14 value of the given audio files
+ Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
+
+Package: python3-dukpy
+Source: dukpy
+Version: 0.2.3-1
+Architecture: amd64
+Maintainer: Alessandro Molina <alessandro.molina@axant.it>
+Installed-Size: 5727
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-dukpy_0.2.3-1_amd64.deb
+Size: 933784
+MD5sum: de2bdc063415695785630de4c143fdb9
+SHA1: 8664daf3897bec7af059f30f94847dc9f58a87cc
+SHA256: 093ca83c994530af5596e76d115dc028a6cf73e925b7bcf3776cf7f3470b2fe0
+Section: python
+Priority: optional
+Homepage: https://github.com/amol-/dukpy
+Description: Simple JavaScript interpreter for Python
+ dukpy
+ =====
+ .
+ .. image:: https://img.shields.io/travis/amol-/dukpy/master.svg?label=Linux%20build%20%40%20Travis%20CI
+     :target: https://travis-ci.org/amol-/dukpy
+ .
+ .. image:: https://img.shields.io/appveyor/ci/amol-/dukpy/master.svg?label=Windows%20build%20%40%20Appveyor
+     :target: https://ci.appveyor.com/project/amol-/dukpy
+ .
+ .. image:: https://coveralls.io/repos/amol-/dukpy/badge.png?branch=master
+     :target: https://coveralls.io/r/amol-/dukpy?branch=master
+ .
+ .. image:: https://img.shields.io/pypi/v/dukpy.svg
+    :target: https://pypi.org/p/dukpy
+ .
+ .
+ DukPy is a simple javascript interpreter for Python built on top of
+ duktape engine **without any external dependency**.
+ It comes with a bunch of common transpilers built-in for convenience:
+
+Package: python3-esprima
+Source: esprima
+Version: 4.0.1-1
+Architecture: all
+Maintainer: German M. Bravo (Kronuz) <german.mb@gmail.com>
+Installed-Size: 294
+Depends: python3:any
+Filename: ./python3-esprima_4.0.1-1_all.deb
+Size: 37048
+MD5sum: d8205994e61ccd1564e1d15c11c23f93
+SHA1: 43d3598577aae3ca148b7bd2c475f9240653c9da
+SHA256: 28f095ef08cd1d83f7d4cb136184a16a2ac72101acb1610cb396c0b37302e5c7
+Section: python
+Priority: optional
+Homepage: https://github.com/Kronuz/esprima-python
+Description: ECMAScript parsing infrastructure for multipurpose analysis
+
+Package: python3-expyriment
+Source: expyriment
+Version: 0.10.0-1
+Architecture: all
+Maintainer: Florian Krause, Oliver Lindemann <florian@expyriment.org, oliver@expyriment.org>
+Installed-Size: 12062
+Depends: python3-future, python3-opengl, python3-pygame, python3:any
+Filename: ./python3-expyriment_0.10.0-1_all.deb
+Size: 4550556
+MD5sum: 4560d2055672426c11002cb91addd602
+SHA1: fba99e8be369e0bb7dcda3f3a7f69dc04fa93f7a
+SHA256: ba8aad716f1a52b5461bc0b12fc05bd568c71ba883cd71d62473b43a31bc23fb
+Section: python
+Priority: optional
+Homepage: http://www.expyriment.org
+Description: A Python library for cognitive and neuroscientific experimen
+
+Package: python3-fastnumbers
+Source: fastnumbers
+Version: 3.1.0-1
+Architecture: amd64
+Maintainer: Seth M. Morton <drtuba78@gmail.com>
+Installed-Size: 109
+Depends: python3 (<< 3.10), python3 (>= 3.9~), libc6 (>= 2.14)
+Filename: ./python3-fastnumbers_3.1.0-1_amd64.deb
+Size: 26960
+MD5sum: 91416abbc0385105f9f0475cb5629d71
+SHA1: f9105e5981c61e7700b8ac551710b7bc4fa2a395
+SHA256: 62f37f5540fa24b39ae47f303d4efb20c3a49d4cb495dec353d231072248bcc3
+Section: python
+Priority: optional
+Homepage: https://github.com/SethMMorton/fastnumbers
+Description: Super-fast and clean conversions to numbers.
+ fastnumbers
+ ===========
+ .
+ .. image:: https://img.shields.io/pypi/v/fastnumbers.svg
+     :target: https://pypi.org/project/fastnumbers/
+ .
+ .. image:: https://img.shields.io/pypi/pyversions/fastnumbers.svg
+     :target: https://pypi.org/project/fastnumbers/
+ .
+ .. image:: https://img.shields.io/pypi/l/fastnumbers.svg
+     :target: https://github.com/SethMMorton/fastnumbers/blob/master/LICENSE
+ .
+ .. image:: https://img.shields.io/travis/SethMMorton/fastnumbers/master.svg?label=travis-ci
+     :target: https://travis-ci.com/SethMMorton/fastnumbers
+ .
+ .. image:: https://codecov.io/gh/SethMMorton/fastnumbers/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/SethMMorton/fastnumbers
+ .
+ .. image:: https://api.codacy.com/project/badge/Grade/7221f3d2be3147e9a975d604f1770cfb
+     :target: https://www.codacy.com/app/SethMMorton/fastnumbers
+
+Package: python3-glfw
+Source: glfw
+Version: 2.3.0-1
+Architecture: all
+Maintainer: Florian Rhiem <florian.rhiem@gmail.com>
+Installed-Size: 154
+Depends: python3:any
+Filename: ./python3-glfw_2.3.0-1_all.deb
+Size: 23464
+MD5sum: 7205aa4f7f4adad57f6e22dabec48777
+SHA1: f51f36fc6e3e1a4f65e0d82b6030f78723517914
+SHA256: 7529200a6581a32b8109fec7f314cfe11f8fa184bc57acaf0995c4a8cd8442fb
+Section: python
+Priority: optional
+Homepage: https://github.com/FlorianRhiem/pyGLFW
+Description: A ctypes-based wrapper for GLFW3.
+ pyGLFW
+ ======
+ .
+ This module provides Python bindings for `GLFW <http://www.glfw.org/>`__
+ (on GitHub: `glfw/glfw <http://github.com/glfw/glfw>`__). It is a
+ ``ctypes`` wrapper which keeps very close to the original GLFW API,
+ except for:
+ .
+ -  function names use the pythonic ``words_with_underscores`` notation
+    instead of ``camelCase``
+ -  ``GLFW_`` and ``glfw`` prefixes have been removed, as their function
+    is replaced by the module namespace
+    (you can use ``from glfw.GLFW import *`` if you prefer the naming
+    convention used by the GLFW C API)
+ -  structs have been replaced with Python sequences and namedtuples
+ -  functions like ``glfwGetMonitors`` return a list instead of a pointer
+    and an object count
+ -  Gamma ramps use floats between 0.0 and 1.0 instead of unsigned shorts
+    (use ``glfw.NORMALIZE_GAMMA_RAMPS=False`` to disable this)
+ -  GLFW errors are reported as ``glfw.GLFWError`` warnings if no error
+
+Package: python3-imageio
+Source: imageio
+Version: 2.9.0-1
+Architecture: all
+Maintainer: imageio contributors <almar.klein@gmail.com>
+Installed-Size: 4304
+Depends: python3-numpy, python3-pil, python3:any
+Filename: ./python3-imageio_2.9.0-1_all.deb
+Size: 3135440
+MD5sum: 277e4b5fd764403e7c49e62aa577034f
+SHA1: e395200745903ab99c295d8f7f0d62c5bbb48c12
+SHA256: c03e1b132296a2d3f387216b2eff94dbb71c9eb69105eb124c6bed2f3d89febc
+Section: python
+Priority: optional
+Homepage: https://github.com/imageio/imageio
+Description: Library for reading and writing a wide range of image, video
+ .
+ .. image:: https://travis-ci.org/imageio/imageio.svg?branch=master
+     :target: https://travis-ci.org/imageio/imageio'
+ .
+ .. image:: https://coveralls.io/repos/imageio/imageio/badge.png?branch=master
+   :target: https://coveralls.io/r/imageio/imageio?branch=master
+ .
+ .
+ Imageio is a Python library that provides an easy interface to read and
+ write a wide range of image data, including animated images, volumetric
+ data, and scientific formats. It is cross-platform, runs on Python 3.5+,
+ and is easy to install.
+ .
+ Main website: https://imageio.github.io
+ .
+ .
+ Release notes: hhttps://github.com/imageio/imageio/blob/master/CHANGELOG.md
+ .
+ Example:
+
+Package: python3-imageio-ffmpeg
+Source: imageio-ffmpeg
+Version: 0.4.5-1
+Architecture: all
+Maintainer: imageio contributors <almar.klein@gmail.com>
+Installed-Size: 55
+Depends: python3:any
+Filename: ./python3-imageio-ffmpeg_0.4.5-1_all.deb
+Size: 12512
+MD5sum: 64542647a2b2031d9414fd4258005166
+SHA1: ffc8da016fe6fb97e7dd3824a39950cfee62b31a
+SHA256: b34fef208226a7bfdbdf9a8df61cffa77c768db5ed05eadade78e3fc248e66ee
+Section: python
+Priority: optional
+Homepage: https://github.com/imageio/imageio-ffmpeg
+Description: FFMPEG wrapper for Python
+ FFMPEG wrapper for Python.
+ .
+ Note that the platform-specific wheels contain the binary executable
+ of ffmpeg, which makes this package around 60 MiB in size.
+ I guess that's the cost for being able to read/write video files.
+ .
+ For Linux users: the above is not the case when installing via your
+ Linux package manager (if that is possible), because this package would
+ simply depend on ffmpeg in that case.
+
+Package: python3-javascripthon
+Source: javascripthon
+Version: 0.11-1
+Architecture: all
+Maintainer: Alberto Berti <alberto@arstecnica.it>
+Installed-Size: 1751
+Depends: python3-pkg-resources, python3:any
+Filename: ./python3-javascripthon_0.11-1_all.deb
+Size: 323272
+MD5sum: e93f5142094835458c8bc77eec97bf77
+SHA1: f09c443f12fe80165e37a4caff8d47c0f2a08874
+SHA256: 6da0c5ddea211ed9260e6b02ee9491da47d4c30f9a42b3fb6eff9131b9f3b4ac
+Section: python
+Priority: optional
+Homepage: https://github.com/azazel75/metapensiero.pj
+Description: Javascript for refined palates: a Python 3 to ES6 Javascript
+ .. -*- coding: utf-8 -*-
+ .. :Project:  metapensiero.pj -- readme
+ .. :Created:  mar 01 mar 2016 15:52:36 CET
+ .. :Author:   Alberto Berti <alberto@metapensiero.it>
+ .. :License:  GNU General Public License version 3 or later
+ ..
+ .
+ ======================================================
+ JavaScripthon: a Python 3 to ES6 JavaScript translator
+ ======================================================
+ .
+ .. image:: https://gitlab.com/metapensiero/metapensiero.pj/badges/master/pipeline.svg
+    :target: https://gitlab.com/metapensiero/metapensiero.pj/commits/master
+    :align: left
+    :alt: tests status
+ .
+ .. image:: https://gitlab.com/metapensiero/metapensiero.pj/badges/master/coverage.svg
+    :target: https://gitlab.com/metapensiero/metapensiero.pj/commits/master
+    :align: left
+    :alt: tests coverage
+
+Package: python3-js2py
+Source: js2py
+Version: 0.71-1
+Architecture: all
+Maintainer: Piotr Dabkowski <piodrus@gmail.com>
+Installed-Size: 7784
+Depends: python3-pyjsparser, python3-six (>= 1.10), python3-tzlocal, python3:any
+Filename: ./python3-js2py_0.71-1_all.deb
+Size: 575576
+MD5sum: 70d3fcbb75161b08ba52fc6d786854b7
+SHA1: cdb0547d67c9d8296b6362459f2f3194be4baf46
+SHA256: 11d01e3ee78ee53c94608d03156e00d7caa0ca9e4b810fdfd5ccc5277718152f
+Section: python
+Priority: optional
+Homepage: https://github.com/PiotrDabkowski/Js2Py
+Description: JavaScript to Python Translator & JavaScript interpreter wri
+ Translates JavaScript to Python code. Js2Py is able to translate and execute virtually any JavaScript code.
+ .
+ Js2Py is written in pure python and does not have any dependencies. Basically an implementation of JavaScript core in pure python.
+ .
+ .
+     import js2py
+ .
+     f = js2py.eval_js( "function $(name) {return name.length}" )
+ .
+     f("Hello world")
+ .
+     # returns 11
+ .
+ Now also supports ECMA 6 through js2py.eval_js6(js6_code)!
+ .
+ More examples at: https://github.com/PiotrDabkowski/Js2Py
+
+Package: python3-json-tricks
+Source: json-tricks
+Version: 3.15.5-1
+Architecture: all
+Maintainer: Mark V <markv.nl.dev@gmail.com>
+Installed-Size: 92
+Depends: python3:any
+Filename: ./python3-json-tricks_3.15.5-1_all.deb
+Size: 21368
+MD5sum: 696642201ea1969dfb190bd4fd50e4fa
+SHA1: 8f7106c65b824d74108977859d1e1f76b6f33905
+SHA256: 208dc21a89ebad35a15ff78c9d11c00ad024511bd52f6100b400cf221b7ddc22
+Section: python
+Priority: optional
+Homepage: https://github.com/mverleg/pyjson_tricks
+Description: Extra features for Python's JSON: comments, order, numpy, pa
+ .
+ JSON tricks (python)
+ ---------------------------------------
+ .
+ The `pyjson-tricks` package brings several pieces of functionality to python handling of json files:
+ .
+ 1. **Store and load numpy arrays** in human-readable format.
+ 2. **Store and load class instances** both generic and customized.
+ 3. **Store and load date/times** as a dictionary (including timezone).
+ 4. **Preserve map order** ``{}`` using ``OrderedDict``.
+ 5. **Allow for comments** in json files by starting lines with ``#``.
+ 6. Sets, complex numbers, Decimal, Fraction, enums, compression, duplicate keys, pathlib Paths ...
+ .
+ As well as compression and disallowing duplicate keys.
+ .
+ * Code: https://github.com/mverleg/pyjson_tricks
+ * Documentation: http://json-tricks.readthedocs.org/en/latest/
+ * PIP: https://pypi.python.org/pypi/json_tricks
+ .
+ The 2.0 series added some of the above features and broke backward compatibility. The version 3.0 series is a more readable rewrite that also makes it easier to combine encoders, again not fully backward compatible.
+
+Package: python3-konfsave
+Version: 0:0.3.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@parkoview.com>
+Installed-Size: 96
+Depends: python3:any
+Filename: ./python3-konfsave_0.3.1-1~w2d0_all.deb
+Size: 20924
+MD5sum: 35abd4eda7fdfefe0920ec3386a63360
+SHA1: 207019ace47b8f212602eb075f0bfa9146a0e1ae
+SHA256: 396679d8b759f7b0f7dec5496fa3a363908b5c2802249748f2817e272a77a9a8
+Section: python
+Priority: optional
+Homepage: https://github.com/selplacei/konfsave
+Description: Easy saving and switching between multiple KDE configurations.
+ This package was generated by wheel2deb v0.5.7
+
+Package: python3-macropy3
+Source: macropy3
+Version: 1.1.0b2-1
+Architecture: all
+Maintainer: Alberto Berti <alberto@metapensiero.it>
+Installed-Size: 182
+Depends: python3:any
+Filename: ./python3-macropy3_1.1.0b2-1_all.deb
+Size: 38708
+MD5sum: 2692ae4071425cdab94e66d674b0341d
+SHA1: 2ceab3dc904ca2070ceba6251ae40d7453acf807
+SHA256: 284542e163a86053a6db44aee47e25611073677deec7519641e44682d9062157
+Section: python
+Priority: optional
+Homepage: https://github.com/lihaoyi/macropy
+Description: Macros for Python: Quasiquotes, Case Classes, LINQ and more!
+ .. -*- coding: utf-8 -*-
+ .
+ =============================
+  MacroPy3 1.1.0b2
+ =============================
+ .
+ .. image:: https://travis-ci.org/azazel75/macropy.svg?branch=master
+   :target: https://travis-ci.org/azazel75/macropy
+ .
+ **MacroPy** is an implementation of `Syntactic Macros
+ <http://tinyurl.com/cmlls8v>`_ in the `Python Programming Language
+ <http://python.org/>`_. MacroPy provides a mechanism for user-defined
+ functions (macros) to perform transformations on the `abstract syntax
+ tree <http://en.wikipedia.org/wiki/Abstract_syntax_tree>`_ (AST) of a
+ Python program at *import time*. This is an easy way to enhance the
+ semantics of a Python program in ways which are otherwise impossible,
+ for example providing an extremely concise way of declaring classes.
+ .
+ Python like you've never seen before
+ ====================================
+
+Package: python3-mediadecoder
+Source: mediadecoder
+Version: 0.1.5-1
+Architecture: all
+Maintainer: Daniel Schreij <dschreij@gmail.com>
+Installed-Size: 53
+Depends: python3-numpy, python3:any
+Filename: ./python3-mediadecoder_0.1.5-1_all.deb
+Size: 10244
+MD5sum: 87f1ee465e30a9e3ab51dd149b88ffe3
+SHA1: e16435ee4f8994a3e773c8a729f6f9404391487b
+SHA256: 8e380e7394f73288f3cb334061995465d28c78785f33a5c00f88687b7a00b95c
+Section: python
+Priority: optional
+Homepage: https://github.com/dschreij/python-mediadecoder
+Description: Moviepy based media decoding library
+
+Package: python3-moviepy
+Source: moviepy
+Version: 1.0.3-1
+Architecture: all
+Maintainer: unknown <unknown@unknown>
+Installed-Size: 337
+Depends: python3-decorator, python3-requests, python3-tqdm, python3:any
+Filename: ./python3-moviepy_1.0.3-1_all.deb
+Size: 69988
+MD5sum: f681563c354b2fc37a84d61c96676ec8
+SHA1: 705a0359be292918b43b1bec4fa9391f739401e9
+SHA256: 9aff2d7ded494f94763c00f650cc18dca458f9db0f15d36fbf88c4c2eb404f3a
+Section: python
+Priority: optional
+Homepage: https://zulko.github.io/moviepy/
+Description: Video editing with Python
+ MoviePy
+ =======
+ .
+ .. image:: https://badge.fury.io/py/moviepy.svg
+     :target: PyPI_
+     :alt: MoviePy page on the Python Package Index
+ .. image:: https://badges.gitter.im/movie-py/gitter.png
+     :target: Gitter_
+     :alt: Discuss MoviePy on Gitter
+ .. image:: https://travis-ci.org/Zulko/moviepy.svg?branch=master
+     :target: https://travis-ci.org/Zulko/moviepy
+     :alt: Build status on travis-ci
+ .. image:: https://ci.appveyor.com/api/projects/status/github/zulko/moviepy?svg=true
+     :target: https://ci.appveyor.com/project/Zulko/moviepy
+     :alt: Build status on appveyor
+ .. image:: https://coveralls.io/repos/github/Zulko/moviepy/badge.svg?branch=master
+     :target: https://coveralls.io/github/Zulko/moviepy?branch=master
+     :alt: Code coverage from coveralls.io
+ .
+ MoviePy (full documentation_) is a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects. See the gallery_ for some examples of use.
+
+Package: python3-opensesame-plugin-audio-low-latency
+Source: opensesame-plugin-audio-low-latency
+Version: 6.0.1-1
+Architecture: all
+Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
+Installed-Size: 343
+Filename: ./python3-opensesame-plugin-audio-low-latency_6.0.1-1_all.deb
+Size: 69128
+MD5sum: 70f58f5ddf8c5ab6c9fb5635ae88d942
+SHA1: ee4162313b6ea67867e64243f491641c2c0a724b
+SHA256: 41ab2908ec0c3946245418682052facbb05287ee72eee92d63646e95dd19b8d7
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
+Description: An OpenSesame Plug-in for playing and recording audio files
+
+Package: python3-opensesame-plugin-broadcast-screen
+Source: opensesame-plugin-broadcast-screen
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Installed-Size: 33
+Filename: ./python3-opensesame-plugin-broadcast-screen_0.2.1-1_all.deb
+Size: 8760
+MD5sum: 10f9858016dc111538f56c618d063861
+SHA1: c73ae6a62eb2141fa99a2edd99b5c3d828f5af5b
+SHA256: f897b9dbe1840b944b2f26b43bff819874e8e164040bd785187418a4e8c38314
+Section: python
+Priority: optional
+Homepage: https://github.com/smathot/opensesame-plugin-broadcast_screen
+Description: Screen broadcast plugin for OpenSesame
+
+Package: python3-opensesame-plugin-experiment-manager
+Source: opensesame-plugin-experiment-manager
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
+Installed-Size: 26
+Filename: ./python3-opensesame-plugin-experiment-manager_2.0.0-1_all.deb
+Size: 7132
+MD5sum: b7b2429623c00677dbdac4a4d5e7b8ca
+SHA1: b560da1c16d1e7b482209c51ebb06b3bcca50115
+SHA256: bf665e2c35e8a25f04af9ff46cc2245ed83b3728b3fe0101e551a01066dcbb04
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
+Description: An OpenSesame Plug-in for managing/executing multiple OpenSe
+
+Package: python3-opensesame-plugin-media-player-mpy
+Source: opensesame-plugin-media-player-mpy
+Version: 0.1.11-1
+Architecture: all
+Maintainer: Daniel Schreij <dschreij@gmail.com>
+Installed-Size: 58
+Filename: ./python3-opensesame-plugin-media-player-mpy_0.1.11-1_all.deb
+Size: 12208
+MD5sum: c9983c6a523df1799043c9e4eca27e4d
+SHA1: 86c00689c58824e4dd2cdd630afccbc60fe72c54
+SHA256: fd14f62d1be8e183bc1827e7c8422edc9463afc90e30c40f9e40f5b169b5da5c
+Section: python
+Priority: optional
+Homepage: https://github.com/dschreij/opensesame-plugin-mediaplayer
+Description: Media player plugin for OpenSesame, based on MoviePy
+
+Package: python3-opensesame-plugin-mousetrap
+Source: opensesame-plugin-mousetrap
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Pascal Kieslich & Felix Henninger <pascal.kieslich@gmail.com>
+Installed-Size: 114
+Filename: ./python3-opensesame-plugin-mousetrap_2.0.0-1_all.deb
+Size: 23664
+MD5sum: b4aefc797d706bb639e68aacff68e28c
+SHA1: 1cd351daa598022fd9c2f31c07c0a41ae5d6bb3e
+SHA256: c7c220f4803a1102d384eee54f5686acfe73f0d25bf719a8f321de9392987a23
+Section: python
+Priority: optional
+Homepage: https://github.com/PascalKieslich/mousetrap-os
+Description: Mousetrap plugin for OpenSesame
+ .
+ Mousetrap plugin for OpenSesame
+ ===============================
+ .
+ **Easily build mouse-tracking experiments with OpenSesame.**
+ .
+ The Mousetrap plugin provides two items that implement mouse-tracking in `OpenSesame`_. Both offer different ways of implementing mouse-tracking:
+ .
+ The `mousetrap_response item`_ tracks mouse movements while another stimulus (e.g., a sketchpad) is presented.
+ .
+ The `mousetrap_form item`_ allows tracking of mouse movements in custom forms specified using OpenSesame script.
+ .
+ More information about each item can be found in the corresponding helpfile (as linked above). Besides, a number of example experiments that demonstrate the basic features of the items can be found in the `examples folder`_.
+ .
+ Once data have been collected with the mousetrap plugin, the data can be processed, analyzed and visualized using the `mousetrap R package`_.
+ .
+ .. _OpenSesame: http://osdoc.cogsci.nl/
+ .. _mousetrap_response item: https://github.com/PascalKieslich/mousetrap-os/blob/master/plugins/mousetrap_response/mousetrap_response.md
+ .. _mousetrap_form item: https://github.com/PascalKieslich/mousetrap-os/blob/master/plugins/mousetrap_form/mousetrap_form.md
+ .. _examples folder: https://github.com/PascalKieslich/mousetrap-os/blob/master/examples
+
+Package: python3-opensesame-plugin-parallel-port-trigger
+Source: opensesame-plugin-parallel-port-trigger
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
+Installed-Size: 161
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_2.0.0-1_all.deb
+Size: 52576
+MD5sum: 1da638a136a67f6c8a43ae79dfa1a8c3
+SHA1: 37d41ad3b5a402ad8acd0610cea578cbd157d326
+SHA256: 72842ff8b602a8c874961549f86d5f2430b8f94b2cf0d59d7ddc820b5b663293
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
+Description: An OpenSesame Plug-in for sending stimulus synchronization t
+
+Package: python3-opensesame-plugin-pygaze-roi
+Source: opensesame-plugin-pygaze-roi
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Installed-Size: 24
+Filename: ./python3-opensesame-plugin-pygaze-roi_0.1.0-1_all.deb
+Size: 5588
+MD5sum: 549fa2dabd5dab39c5a8237b08b75747
+SHA1: b031e1fe78e763547610eb29c7fa5fd968cad273
+SHA256: d04569dff7dacf0c0a0251e760c7f0277bf8c5400cd9dd83f2702920cd3a2a48
+Section: python
+Priority: optional
+Homepage: https://github.com/smathot/opensesame-plugin-pygaze_roi
+Description: ROI analysis plugin for OpenSesame and PyGaze
+
+Package: python3-opensesame-plugin-radboudbox
+Source: opensesame-plugin-radboudbox
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
+Installed-Size: 93
+Filename: ./python3-opensesame-plugin-radboudbox_2.0.0-1_all.deb
+Size: 22652
+MD5sum: 5f61417d44d50a21d81e11afed6908c8
+SHA1: 56e3a14e99cb54731bffe2240a5a7d53e9330418
+SHA256: 6f2289a8f66b97a2cabd5ab1bfa159b4ce4a7d5f308e1b7fb3557ce486b36a00
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
+Description: An OpenSesame Plug-in for collecting button responses, audio
+
+Package: python3-pip
+Source: pip
+Version: 21.3.1-1
+Architecture: all
+Maintainer: The pip developers <distutils-sig@python.org>
+Installed-Size: 5902
+Depends: python3:any
+Filename: ./python3-pip_21.3.1-1_all.deb
+Size: 1058824
+MD5sum: f58139d6252e290e9f5606fbb59fd915
+SHA1: e9c421c49605a095b9d36444ec03e3dc95c7f789
+SHA256: ca49d6e6403f757ab104f7345a63b4d5828e78d71321a0e12f93b0114b250f3a
+Section: python
+Priority: optional
+Homepage: https://pip.pypa.io/
+Description: The PyPA recommended tool for installing Python packages.
+ pip - The Python Package Installer
+ ==================================
+ .
+ .. image:: https://img.shields.io/pypi/v/pip.svg
+    :target: https://pypi.org/project/pip/
+ .
+ .. image:: https://readthedocs.org/projects/pip/badge/?version=latest
+    :target: https://pip.pypa.io/en/latest
+ .
+ pip is the `package installer`_ for Python. You can use pip to install packages from the `Python Package Index`_ and other indexes.
+ .
+ Please take a look at our documentation for how to install and use pip:
+ .
+ * `Installation`_
+ * `Usage`_
+ .
+ We release updates regularly, with a new version every 3 months. Find more details in our documentation:
+ .
+ * `Release notes`_
+ * `Release process`_
+
+Package: python3-pipx
+Source: pipx
+Version: 0.16.4-1
+Architecture: all
+Maintainer: Chad Smith <Chad Smith <grassfedcode@gmail.com>>
+Installed-Size: 190
+Depends: python3-argcomplete, python3-packaging, python3-userpath, python3:any
+Filename: ./python3-pipx_0.16.4-1_all.deb
+Size: 37612
+MD5sum: 1abedc42cdc6f32a7521d06f62dbdc7d
+SHA1: 1d171a70480be5081363b415ad21c06ae45a4c24
+SHA256: 29da152ddcc038986bb770b851693a1d5655af93d261841bef0128ae9726eb32
+Section: python
+Priority: optional
+Homepage: https://github.com/pypa/pipx
+Description: Install and Run Python Applications in Isolated Environments
+ <p align="center">
+ <a href="https://pypa.github.io/pipx/">
+ <img align="center" src="https://github.com/pypa/pipx/raw/master/logo.png"/>
+ </a>
+ </p>
+ .
+ # pipx — Install and Run Python Applications in Isolated Environments
+ .
+ <p align="center">
+ <a href="https://github.com/pypa/pipx/raw/master/pipx_demo.gif">
+ <img src="https://github.com/pypa/pipx/raw/master/pipx_demo.gif"/>
+ </a>
+ </p>
+ .
+ <p align="center">
+ <a href="https://github.com/pypa/pipx/actions?query=workflow%3ATest"><img src="https://github.com/pypa/pipx/workflows/Test/badge.svg?branch=master" alt="Test CI" ></a>
+ <a href="https://badge.fury.io/py/pipx"><img src="https://badge.fury.io/py/pipx.svg" alt="PyPI version"></a>
+ </p>
+ .
+ **Documentation**: https://pypa.github.io/pipx/
+
+Package: python3-playsound
+Version: 0:1.2.2-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@parkoview.com>
+Installed-Size: 29
+Depends: python3 (>= 3.1~), python3:any
+Filename: ./python3-playsound_1.2.2-1~w2d0_all.deb
+Size: 5584
+MD5sum: b90285a9e6d8642d78f1df4f10db98a4
+SHA1: 42590c61501feb98e280515c99bfea01dc3b756b
+SHA256: 7dee728caef9fbd8df2b5e696e8c6e35e721e2cd43bdd7fa74f686362222b18a
+Section: python
+Priority: optional
+Homepage: https://github.com/TaylorSMarks/playsound
+Description: Pure Python, cross platform, single function module with no dependencies for playing sounds.
+ This package was generated by wheel2deb v0.5.7
+
+Package: python3-proglog
+Source: proglog
+Version: 0.1.9-1
+Architecture: all
+Maintainer: unknown <unknown@unknown>
+Installed-Size: 32
+Depends: python3-tqdm, python3:any
+Filename: ./python3-proglog_0.1.9-1_all.deb
+Size: 5872
+MD5sum: ebae077eaf87addf1a3954f603d468b9
+SHA1: f1aadfc13fb9fa303d7cd5c5c9b2d75384994524
+SHA256: 042bb527ffacdcdbac75474a6a1477eaa1fda22aec69df7c2a5060a9eb210ce0
+Section: python
+Priority: optional
+Description: Log and progress bar manager for console, notebooks, web...
+ Proglog
+ ===================
+ Proglog is a progress logging system for Python. It allows to build complex
+ libraries while giving the user control on the management of logs, callbacks and progress bars.
+ .
+ .
+ Infos
+ -----
+ .
+ **PIP installation:**
+ .
+ .. code:: bash
+ .
+   pip install proglog
+ .
+ **Github Page**
+ .
+ `<https://github.com/Edinburgh-Genome-Foundry/Proglog>`_
+ .
+ **License:** MIT, Copyright Edinburgh Genome Foundry
+
+Package: python3-ps-mem
+Source: ps-mem
+Version: 3.12-1
+Architecture: all
+Maintainer: Pádraig Brady <P@draigBrady.com>
+Installed-Size: 44
+Depends: python3:any
+Filename: ./python3-ps-mem_3.12-1_all.deb
+Size: 10024
+MD5sum: b3bb2fc5987c44b26dd3bf52bc058423
+SHA1: c5287eb22cef848a191fabf34a9954123c613954
+SHA256: 79d2cd7659f1ae8ad0c0bf3cc5a4e7791854f347de6b95093ac4192bd26c54d3
+Section: python
+Priority: optional
+Homepage: http://github.com/pixelb/ps_mem
+Description: A utility to report core memory usage per program
+ ps_mem
+ ======
+ .
+ A utility to accurately report the core memory usage for a program
+ .
+ Yes the name is a bit weird. coremem would be more appropriate,
+ but for backwards compatible reasons the ps_mem name remains.
+ .
+ Install:
+ .
+ `pip install ps_mem` is supported, or rpm and deb packages
+ are available for most distros.  Also the ps_mem.py script
+ can be run directly.
+ .
+ Usage:
+ .
+ ```
+ ps_mem [-h|--help] [-p PID,...] [-s|--split-args] [-t|--total] [-w N]
+        [-d|--discriminate-by-pid] [-S|--swap]
+ ```
+
+Package: python3-psychopy
+Source: psychopy
+Version: 2021.2.3-1
+Architecture: all
+Maintainer: Jonathan Peirce <jon.peirce@gmail.com>
+Installed-Size: 24411
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-esprima, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-opengl, python3-openpyxl, python3-packaging, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyo, python3-python-bidi, python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-tables, python3-ujson, python3-websocket, python3-xlrd, python3-yaml, python3-zmq, python3:any
+Filename: ./python3-psychopy_2021.2.3-1_all.deb
+Size: 7833132
+MD5sum: 1c6e7e0612c9125e107b6effd4360493
+SHA1: acb6ec733d5a0d7c3eb9cdc45843cb88d3d27cd9
+SHA256: 9c871fb2907ac57d6d84858325f1fa36e62bd42e7d2ad981f5b8f85be966f51a
+Section: python
+Priority: optional
+Homepage: https://www.psychopy.org/
+Description: Psychology experiment software in Python
+ # PsychoPy
+ .
+ [![GH tests](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml/badge.svg)](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml)
+ [![PyPI version](https://img.shields.io/pypi/v/psychopy.svg)](https://pypi.python.org/pypi/PsychoPy)
+ [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+ .
+ PsychoPy is an open-source package for creating experiments in behavioral science. It aims to provide a single package that is:
+ .
+ * precise enough for psychophysics
+ * easy enough for teaching
+ * flexible enough for everything else
+ * able to run experiments in a local Python script or online in JavaScript
+ .
+ To meet these goals PsychoPy provides a choice of interface - you can use a
+ simple graphical user interface called Builder, or write your experiments in
+ Python code. The entire application and library are written in Python and is
+ platform independent.
+ .
+ There is a range of documentation at:
+
+Package: python3-psychtoolbox
+Source: psychtoolbox
+Version: 3.0.18.0-1
+Architecture: amd64
+Maintainer: Mario Kleiner <mario.kleiner.de@gmail.com>
+Installed-Size: 922
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3-numpy, python3:any, libasound2 (>= 1.0.16), libc6 (>= 2.28), libportaudio2 (>= 19+svn20101113), libusb-1.0-0 (>= 2:1.0.9), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
+Filename: ./python3-psychtoolbox_3.0.18.0-1_amd64.deb
+Size: 195308
+MD5sum: 8b0892e687a3570223b6ce4397ca5e15
+SHA1: cf7f79a36ab83e5f3b69e6305751c2d990b6c668
+SHA256: 0b92fb2f41a10bded8e23a475de5684e09791b685d10ef4cf5154f23ff081971
+Section: python
+Priority: optional
+Homepage: http://psychtoolbox.org
+Description: Pieces of Psychtoolbox-3 ported to CPython.
+
+Package: python3-pyalsaaudio
+Source: pyalsaaudio
+Version: 0.9.0-1
+Architecture: amd64
+Maintainer: Lars Immisch <lars@ibp.de>
+Installed-Size: 82
+Depends: python3 (<< 3.10), python3 (>= 3.9~), libasound2 (>= 1.0.16), libc6 (>= 2.4)
+Filename: ./python3-pyalsaaudio_0.9.0-1_amd64.deb
+Size: 20832
+MD5sum: 5ac481e7d2454026dec253b3ce61b61a
+SHA1: 07d8fa5be94834e84e0303d4b420554cf3e463bc
+SHA256: 4471cdf0b8331fa617a673b3f26dee8e9624b8303dbcbe224fa6f986dbb949c1
+Section: python
+Priority: optional
+Homepage: http://larsimmisch.github.io/pyalsaaudio/
+Description: ALSA bindings
+ This package contains wrappers for accessing the ALSA API from Python.
+ It is fairly complete for PCM devices and Mixer access.
+
+Package: python3-pycryptodome
+Source: pycryptodome
+Version: 3.11.0-1
+Architecture: amd64
+Maintainer: Helder Eijs <helderijs@gmail.com>
+Installed-Size: 3500
+Depends: python3 (>= 3~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-pycryptodome_3.11.0-1_amd64.deb
+Size: 1005392
+MD5sum: 8708a630a44b0ff7464330eb1ad17687
+SHA1: d8721744c224845ddfa73a5cc81efd1b52d665e5
+SHA256: c7603d76ad8b133834063e46fc59c6d800a2aa3c5d284f1e798224715711bca5
+Section: python
+Priority: optional
+Homepage: https://www.pycryptodome.org
+Description: Cryptographic library for Python
+ .
+ PyCryptodome
+ ============
+ .
+ PyCryptodome is a self-contained Python package of low-level
+ cryptographic primitives.
+ .
+ It supports Python 2.7, Python 3.5 and newer, and PyPy.
+ .
+ You can install it with::
+ .
+     pip install pycryptodome
+ .
+ All modules are installed under the ``Crypto`` package.
+ .
+ Check the pycryptodomex_ project for the equivalent library that
+ works under the ``Cryptodome`` package.
+ .
+ PyCryptodome is a fork of PyCrypto. It brings several enhancements
+ with respect to the last official version of PyCrypto (2.6.1),
+
+Package: python3-pyjsparser
+Source: pyjsparser
+Version: 2.7.1-1
+Architecture: all
+Maintainer: Piotr Dabkowski <piodrus@gmail.com>
+Installed-Size: 148
+Depends: python3:any
+Filename: ./python3-pyjsparser_2.7.1-1_all.deb
+Size: 22296
+MD5sum: 25cee34062b5cbb5a898b65bb7d7615a
+SHA1: e141a3666070e410badbf77573f2d8e253453baa
+SHA256: 9e7f878d99ad03cfd4d40bc82cbef3230ab0096fb530667dd47deac1ed3edb3a
+Section: python
+Priority: optional
+Homepage: https://github.com/PiotrDabkowski/pyjsparser
+Description: Fast javascript parser (based on esprima.js)
+
+Package: python3-pyosf
+Version: 0:1.0.5-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@parkoview.com>
+Installed-Size: 106
+Depends: python3 (>= 3.3~), python3:any
+Filename: ./python3-pyosf_1.0.5-1~w2d0_all.deb
+Size: 20548
+MD5sum: e6ceb1281f2f1decf7f760618e6d87e0
+SHA1: 5e705ccf5ed2e0202a13cf9b0112c3079c300a27
+SHA256: fef1708dd49ffe9b62a986ad70358616e2ed98ca7ad58ff5c8f7f7af48a0f2da
+Section: python
+Priority: optional
+Homepage: https://github.com/psychopy/pyosf
+Description: Python lib for synching with OpenScienceFramework projects
+ This package was generated by wheel2deb v0.5.7
+
+Package: python3-pyspellchecker
+Source: pyspellchecker
+Version: 0.6.2-1
+Architecture: all
+Maintainer: Tyler Barrus <barrust@gmail.com>
+Installed-Size: 2721
+Depends: python3:any
+Filename: ./python3-pyspellchecker_0.6.2-1_all.deb
+Size: 2742576
+MD5sum: 3b2c50d08a3697f25eb3c656b0568fea
+SHA1: 25fe94fbfa67ce5c54e4b79de50586fcaa798b1e
+SHA256: 5a9bc3c5e5b4f55759f1d1cc8fbd0c51f8a5c862c11d0f7021334713c8c74391
+Section: python
+Priority: optional
+Homepage: https://github.com/barrust/pyspellchecker
+Description: Pure python spell checker based on work by Peter Norvig
+ pyspellchecker
+ ===============================================================================
+ .
+ .. image:: https://img.shields.io/badge/license-MIT-blue.svg
+     :target: https://opensource.org/licenses/MIT/
+     :alt: License
+ .. image:: https://img.shields.io/github/release/barrust/pyspellchecker.svg
+     :target: https://github.com/barrust/pyspellchecker/releases
+     :alt: GitHub release
+ .. image:: https://github.com/barrust/pyspellchecker/workflows/Python%20package/badge.svg
+     :target: https://github.com/barrust/pyspellchecker/actions?query=workflow%3A%22Python+package%22
+     :alt: Build Status
+ .. image:: https://codecov.io/gh/barrust/pyspellchecker/branch/master/graph/badge.svg?token=OdETiNgz9k
+     :target: https://codecov.io/gh/barrust/pyspellchecker
+     :alt: Test Coverage
+ .. image:: https://badge.fury.io/py/pyspellchecker.svg
+     :target: https://badge.fury.io/py/pyspellchecker
+     :alt: PyPi Package
+ .. image:: http://pepy.tech/badge/pyspellchecker
+     :target: http://pepy.tech/count/pyspellchecker
+
+Package: python3-python-bidi
+Source: python-bidi
+Version: 0.4.2-1
+Architecture: all
+Maintainer: Meir Kriheli <mkriheli@gmail.com>
+Installed-Size: 74
+Depends: python3-six, python3:any
+Filename: ./python3-python-bidi_0.4.2-1_all.deb
+Size: 14272
+MD5sum: 2b256f26e5f6aee2daa2a420e6f1f880
+SHA1: 6685093a6f60515b4b3630ce5d6b5f525be68a14
+SHA256: ca286b1720174416d9c57e3b82dd1854663b22c6977b1c1137923edadd6c8360
+Section: python
+Priority: optional
+Homepage: https://github.com/MeirKriheli/python-bidi
+Description: Pure python implementation of the BiDi layout algorithm
+ ===============================
+ Python BiDi
+ ===============================
+ .
+ .. image:: https://badge.fury.io/py/python-bidi.png
+     :target: http://badge.fury.io/py/python-bidi
+ .
+ .. image:: https://travis-ci.org/MeirKriheli/python-bidi.png?branch=master
+         :target: https://travis-ci.org/MeirKriheli/python-bidi
+ .
+ `Bi-directional`_ (BiDi) layout implementation in pure python
+ .
+ `Package documentation`_
+ .
+ .. _Bi-directional: http://en.wikipedia.org/wiki/Bi-directional_text
+ .. _Package documentation: http://python-bidi.readthedocs.org/en/latest/
+ .
+ API
+ ----
+
+Package: python3-python-eyelinkparser
+Source: python-eyelinkparser
+Version: 0.10.1-1
+Architecture: all
+Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Installed-Size: 53
+Depends: python3-datamatrix, python3-fastnumbers, python3:any
+Filename: ./python3-python-eyelinkparser_0.10.1-1_all.deb
+Size: 9536
+MD5sum: eeb780c372dce7a0bf493d8e204069cd
+SHA1: 4bafb8b81e96a6612186eb57a87f5f3b3ca77b86
+SHA256: d4919c52c82ff17f29f08dc94ada0ee7c3ef0e2860250e90b68bb6aedd32b65d
+Section: python
+Priority: optional
+Homepage: https://github.com/smathot/python-eyelinkparser
+Description: An extensible parser for EyeLink data files (EDF)
+ No readme information
+
+Package: python3-python-vlc
+Source: python-vlc
+Version: 3.0.12118-1
+Architecture: all
+Maintainer: Olivier Aubert <contact@olivieraubert.net>
+Installed-Size: 375
+Depends: python3:any
+Filename: ./python3-python-vlc_3.0.12118-1_all.deb
+Size: 50884
+MD5sum: 0744f173af0585a8fa10d74739584aac
+SHA1: 8c4deb7f2958360c6f44e6d822b37055e91ac513
+SHA256: 740b7894cda40eb2f7c77a1d0f1dd65dee1b8020036f0cf8f936fb5e69785851
+Section: python
+Priority: optional
+Homepage: http://wiki.videolan.org/PythonBinding
+Description: VLC bindings for python.
+ This module provides ctypes-based bindings (see
+       http://wiki.videolan.org/PythonBinding) for the native libvlc
+       API (see http://wiki.videolan.org/LibVLC) of the VLC video
+       player. Note that it relies on an already present install of VLC.
+ .
+       It has been automatically generated from the include files of
+       vlc 3.0.12, using generator 1.18.
+
+Package: python3-rusocsci
+Source: rusocsci
+Version: 0.8.7-1
+Architecture: all
+Maintainer: Wilbert van Ham <w.vanham@socsci.ru.nl>
+Installed-Size: 44
+Depends: python3-serial, python3:any
+Filename: ./python3-rusocsci_0.8.7-1_all.deb
+Size: 9716
+MD5sum: 21d0795155edc1f575f67e37afa63da0
+SHA1: 3e8a52a1d2c1d4e2d0d91b5e3ac98e8e872c8dc7
+SHA256: c6e24a8e11de866158587585735f9826e0d036ea30a8aaf4924bb7d10e06a991
+Section: python
+Priority: optional
+Homepage: https://www.socsci.ru.nl/wilberth/python/rusocsci.html
+Description: Support package for Radboud University Nijmegen, Faculty of
+ # Copyright (C) 2013-2019 Wilbert van Ham, Radboud University Nijmegen
+ # Distributed under the terms of the GNU General Public License (GPL).
+ .
+ RuSocSci is a package
+ for connecting to the Radboud University Nijmegen, Faculty of Social
+ Sciences USB Buttonbox and Red Joystick in a PsychoPy-like way.
+ .
+ Starting with version 0.8 this package is both Python 2 and Python 3 compatible.
+
+Package: python3-sounddevice
+Source: sounddevice
+Version: 0.4.3-1
+Architecture: all
+Maintainer: Matthias Geier <Matthias.Geier@gmail.com>
+Installed-Size: 139
+Depends: python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any
+Filename: ./python3-sounddevice_0.4.3-1_all.deb
+Size: 28324
+MD5sum: bd0ca7c537a9db7a8d13cd5f331739d3
+SHA1: edb6ffc0d1fec067c0869bef710347829eb6c97d
+SHA256: fdb03514047df987c7f36ba6144831537ede2f8e84a1bd62fb060e3659e8a58b
+Section: python
+Priority: optional
+Homepage: http://python-sounddevice.readthedocs.io/
+Description: Play and Record Sound with Python
+ Play and Record Sound with Python
+ =================================
+ .
+ This Python_ module provides bindings for the PortAudio_ library and a few
+ convenience functions to play and record NumPy_ arrays containing audio signals.
+ .
+ The ``sounddevice`` module is available for Linux, macOS and Windows.
+ .
+ Documentation:
+    https://python-sounddevice.readthedocs.io/
+ .
+ Source code repository and issue tracker:
+    https://github.com/spatialaudio/python-sounddevice/
+ .
+ License:
+    MIT -- see the file ``LICENSE`` for details.
+ .
+ .. _Python: https://www.python.org/
+ .. _PortAudio: http://www.portaudio.com/
+ .. _NumPy: https://numpy.org/
+
+Package: python3-sr-research-pylink
+Version: 0:2.1.1.0-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 313
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any
+Filename: ./python3-sr-research-pylink_2.1.1.0-1~w2d0_amd64.deb
+Size: 64924
+MD5sum: 0a196ba4d473cf2e8778cbf63b31f053
+SHA1: c1570a3de6878aad74fa15d275fe7cceb6881075
+SHA256: bade204ca997a571f517eeee90d6854db1d29a15b139df1ad112aaadd5da2d15
+Section: python
+Priority: optional
+Homepage: https://www.sr-support.com
+Description: Python module for interfacing SR Research EyeLink eye trackers
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-tartube
+Source: tartube
+Version: 2.3.332-1
+Architecture: all
+Maintainer: A S Lewis <aslewis@cpan.org>
+Installed-Size: 5863
+Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
+Filename: ./python3-tartube_2.3.332-STRICT.deb
+Size: 2272940
+MD5sum: ca5c84e3c002c2a84d256e8302028c54
+SHA1: 35baf8a48e5a36b0aee90eaae6d3b24eafe031c3
+SHA256: 070d7f8425c8ad384b51f4faec8d1bb3ee33c008bb188e9dece857bf86566e71
+Section: python
+Priority: optional
+Homepage: https://tartube.sourceforge.io
+Description: GUI front-end for youtube-dl
+ .
+ Tartube is a GUI front-end for youtube-dl, partly based on youtube-dl-gui
+ and written in Python 3 / Gtk 3.
+
+Package: python3-tobii-research
+Version: 0:1.8.0-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@parkoview.com>
+Installed-Size: 4593
+Depends: python3 (>= 3.6~), python3:any
+Filename: ./python3-tobii-research_1.8.0-1~w2d0_amd64.deb
+Size: 1447424
+MD5sum: c3d005f1ca827589d6b9deed5fc6acaf
+SHA1: 3ab8a31d737351349c38cc3142a19528af6254ee
+SHA256: a699c91e7fa5e3207103edb797c390a8d227e3a800addad20031081536226f4a
+Section: python
+Priority: optional
+Homepage: http://developer.tobiipro.com/
+Description: The Tobii Pro SDK is a tool for letting you interact easily with your eye tracker and write your own research applications for collecting and analyzing eye tracking data. Full support for usb and network eye trackers from Tobii Pro.
+ This package was generated by wheel2deb v0.5.7
+
+Package: python3-userpath
+Source: userpath
+Version: 1.6.0-1
+Architecture: all
+Maintainer: Ofek Lev <ofekmeister@gmail.com>
+Installed-Size: 52
+Depends: python3-click, python3:any
+Filename: ./python3-userpath_1.6.0-1_all.deb
+Size: 12012
+MD5sum: 3aa208259324ff52e49f46a2789e375b
+SHA1: 06ad6dbc72d9a4af38adde2c7f8346f538361e4b
+SHA256: 10efbb1cbad2a9640fadf477e6f25be23246378718f7e0b4a27f85f2f5131f36
+Section: python
+Priority: optional
+Homepage: https://github.com/ofek/userpath
+Description: Cross-platform tool for adding locations to the user PATH, n
+ userpath
+ ========
+ .
+ .. image:: https://img.shields.io/travis/ofek/userpath/master.svg?logo=travis&label=Travis%20CI
+     :target: https://travis-ci.org/ofek/userpath
+     :alt: CI - Travis
+ .
+ .. image:: https://img.shields.io/appveyor/ci/ofek/userpath/master.svg?logo=appveyor&label=AppVeyor
+     :target: https://ci.appveyor.com/project/ofek/userpath
+     :alt: CI - AppVeyor
+ .
+ .. image:: https://img.shields.io/codecov/c/github/ofek/userpath/master.svg?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CgogPGc+CiAgPHRpdGxlPmJhY2tncm91bmQ8L3RpdGxlPgogIDxyZWN0IGZpbGw9Im5vbmUiIGlkPSJjYW52YXNfYmFja2dyb3VuZCIgaGVpZ2h0PSI0MDIiIHdpZHRoPSI1ODIiIHk9Ii0xIiB4PSItMSIvPgogPC9nPgogPGc+CiAgPHRpdGxlPkxheWVyIDE8L3RpdGxlPgogIDxwYXRoIGlkPSJzdmdfMSIgZmlsbC1ydWxlPSJldmVub2RkIiBmaWxsPSIjZmZmZmZmIiBkPSJtMjUuMDE0LDBjLTEzLjc4NCwwLjAxIC0yNS4wMDQsMTEuMTQ5IC0yNS4wMTQsMjQuODMybDAsMC4wNjJsNC4yNTQsMi40ODJsMC4wNTgsLTAuMDM5YTEyLjIzOCwxMi4yMzggMCAwIDEgOS4wNzgsLTEuOTI4YTExLjg0NCwxMS44NDQgMCAwIDEgNS45OCwyLjk3NWwwLjczLDAuNjhsMC40MTMsLTAuOTA0YzAuNCwtMC44NzQgMC44NjIsLTEuNjk2IDEuMzc0LC0yLjQ0M2MwLjIwNiwtMC4zIDAuNDMzLC0wLjYwNCAwLjY5MiwtMC45MjlsMC40MjcsLTAuNTM1bC0wLjUyNiwtMC40NGExNy40NSwxNy40NSAwIDAgMCAtOC4xLC0zLjc4MWExNy44NTMsMTcuODUzIDAgMCAwIC04LjM3NSwwLjQ5YzIuMDIzLC04Ljg2OCA5LjgyLC0xNS4wNSAxOS4wMjcsLTE1LjA1N2M1LjE5NSwwIDEwLjA3OCwyLjAwNyAxMy43NTIsNS42NTJjMi42MTksMi41OTggNC40MjIsNS44MzUgNS4yMjQsOS4zNzJhMTcuOTA4LDE3LjkwOCAwIDAgMCAtNS4yMDgsLTAuNzlsLTAuMzE4LC0wLjAwMWExOC4wOTYsMTguMDk2IDAgMCAwIC0yLjA2NywwLjE1M2wtMC4wODcsMC4wMTJjLTAuMzAzLDAuMDQgLTAuNTcsMC4wODEgLTAuODEzLDAuMTI2Yy0wLjExOSwwLjAyIC0wLjIzNywwLjA0NSAtMC4zNTUsMC4wNjhjLTAuMjgsMC4wNTcgLTAuNTU0LDAuMTE5IC0wLjgxNiwwLjE4NWwtMC4yODgsMC4wNzNjLTAuMzM2LDAuMDkgLTAuNjc1LDAuMTkxIC0xLjAwNiwwLjNsLTAuMDYxLDAuMDJjLTAuNzQsMC4yNTEgLTEuNDc4LDAuNTU4IC0yLjE5LDAuOTE0bC0wLjA1NywwLjAyOWMtMC4zMTYsMC4xNTggLTAuNjM2LDAuMzMzIC0wLjk3OCwwLjUzNGwtMC4wNzUsMC4wNDVhMTYuOTcsMTYuOTcgMCAwIDAgLTQuNDE0LDMuNzhsLTAuMTU3LDAuMTkxYy0wLjMxNywwLjM5NCAtMC41NjcsMC43MjcgLTAuNzg3LDEuMDQ4Yy0wLjE4NCwwLjI3IC0wLjM2OSwwLjU2IC0wLjYsMC45NDJsLTAuMTI2LDAuMjE3Yy0wLjE4NCwwLjMxOCAtMC4zNDgsMC42MjIgLTAuNDg3LDAuOWwtMC4wMzMsMC4wNjFjLTAuMzU0LDAuNzExIC0wLjY2MSwxLjQ1NSAtMC45MTcsMi4yMTRsLTAuMDM2LDAuMTExYTE3LjEzLDE3LjEzIDAgMCAwIC0wLjg1NSw1LjY0NGwwLjAwMywwLjIzNGEyMy41NjUsMjMuNTY1IDAgMCAwIDAuMDQzLDAuODIyYzAuMDEsMC4xMyAwLjAyMywwLjI1OSAwLjAzNiwwLjM4OGMwLjAxNSwwLjE1OCAwLjAzNCwwLjMxNiAwLjA1MywwLjQ3MWwwLjAxMSwwLjA4OGwwLjAyOCwwLjIxNGMwLjAzNywwLjI2NCAwLjA4LDAuNTI1IDAuMTMsMC43ODdjMC41MDMsMi42MzcgMS43Niw1LjI3NCAzLjYzNSw3LjYyNWwwLjA4NSwwLjEwNmwwLjA4NywtMC4xMDRjMC43NDgsLTAuODg0IDIuNjAzLC0zLjY4NyAyLjc2LC01LjM2OWwwLjAwMywtMC4wMzFsLTAuMDE1LC0wLjAyOGExMS43MzYsMTEuNzM2IDAgMCAxIC0xLjMzMywtNS40MDdjMCwtNi4yODQgNC45NCwtMTEuNTAyIDExLjI0MywtMTEuODhsMC40MTQsLTAuMDE1YzIuNTYxLC0wLjA1OCA1LjA2NCwwLjY3MyA3LjIzLDIuMTM2bDAuMDU4LDAuMDM5bDQuMTk3LC0yLjQ0bDAuMDU1LC0wLjAzM2wwLC0wLjA2MmMwLjAwNiwtNi42MzIgLTIuNTkyLC0xMi44NjUgLTcuMzE0LC0xNy41NTFjLTQuNzE2LC00LjY3OSAtMTAuOTkxLC03LjI1NSAtMTcuNjcyLC03LjI1NSIvPgogPC9nPgo8L3N2Zz4=&label=Codecov
+     :target: https://codecov.io/github/ofek/userpath?branch=master
+     :alt: Codecov
+ .
+ |
+ .
+ .. image:: https://img.shields.io/pypi/pyversions/userpath.svg?logo=python&label=Python&logoColor=gold
+     :target: https://pypi.org/project/userpath
+     :alt: PyPI - Supported Python versions
+
+Package: python3-vlc
+Source: vlc
+Version: 3.0.12118-1
+Architecture: all
+Maintainer: Olivier Aubert <contact@olivieraubert.net>
+Installed-Size: 375
+Depends: python3:any
+Filename: ./python3-vlc_3.0.12118-1_all.deb
+Size: 50880
+MD5sum: 746cc6471809c249d22268e15c3096f7
+SHA1: ca8f85eea7d46703df1d169d9ded24b8887ad6d4
+SHA256: 83d69891e0a6649569a6f1cc88c266d26aca3aca17ae973ef1708d9263e0b0f4
+Section: python
+Priority: optional
+Homepage: http://wiki.videolan.org/PythonBinding
+Description: VLC bindings for python.
+ This module provides ctypes-based bindings (see
+       http://wiki.videolan.org/PythonBinding) for the native libvlc
+       API (see http://wiki.videolan.org/LibVLC) of the VLC video
+       player. Note that it relies on an already present install of VLC.
+ .
+       It has been automatically generated from the include files of
+       vlc 3.0.12, using generator 1.18.
+
+Package: python3-websockets
+Source: websockets
+Version: 9.1-1
+Architecture: amd64
+Maintainer: Aymeric Augustin <aymeric.augustin@m4x.org>
+Installed-Size: 339
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4)
+Filename: ./python3-websockets_9.1-1_amd64.deb
+Size: 56332
+MD5sum: 6f97f7c2d33c363d883436e8d511882a
+SHA1: 6472c2c727168fae2d94c235bcf8ed9bd06551e8
+SHA256: c8b7499e1a335d26629b16b5bbfb696fb2460377388443a0118c61ee9bc8c052
+Section: python
+Priority: optional
+Homepage: https://github.com/aaugustin/websockets
+Description: An implementation of the WebSocket Protocol (RFC 6455 & 7692
+ .. image:: logo/horizontal.svg
+    :width: 480px
+    :alt: websockets
+ .
+ |rtd| |pypi-v| |pypi-pyversions| |pypi-l| |pypi-wheel| |tests|
+ .
+ .. |rtd| image:: https://readthedocs.org/projects/websockets/badge/?version=latest
+    :target: https://websockets.readthedocs.io/
+ .
+ .. |pypi-v| image:: https://img.shields.io/pypi/v/websockets.svg
+     :target: https://pypi.python.org/pypi/websockets
+ .
+ .. |pypi-pyversions| image:: https://img.shields.io/pypi/pyversions/websockets.svg
+     :target: https://pypi.python.org/pypi/websockets
+ .
+ .. |pypi-l| image:: https://img.shields.io/pypi/l/websockets.svg
+     :target: https://pypi.python.org/pypi/websockets
+ .
+ .. |pypi-wheel| image:: https://img.shields.io/pypi/wheel/websockets.svg
+     :target: https://pypi.python.org/pypi/websockets
+
+Package: python3-wheel2deb
+Version: 0:0.5.8-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@parkoview.com>
+Installed-Size: 91
+Depends: python3 (>= 3.4~), python3-attr (>= 17), python3-colorama, python3-dirsync, python3-jinja2, python3-packaging, python3-pkginfo, python3-setuptools, python3-wheel, python3-yaml, python3:any
+Filename: ./python3-wheel2deb_0.5.8-1~w2d0_all.deb
+Size: 19760
+MD5sum: ef3d52b655d0793f4a88feb7682d00df
+SHA1: 8c04ab93d63fe47379d695b4a8ba02387ce3c771
+SHA256: 5818adc8ae0a860ac84ead84adaaf6fdd15c88ab50fc458c5a2ff2da50873d8a
+Section: python
+Priority: optional
+Homepage: https://github.com/upciti/wheel2deb/
+Description: wheel2deb: python wheel to debian package converter
+ This package was generated by wheel2deb v0.5.7
+
+Package: python3-woeusb-ng
+Source: woeusb-ng
+Version: 0.2.9-1
+Architecture: all
+Maintainer: Jakub Szymański <jakubmateusz@poczta.onet.pl>
+Installed-Size: 403
+Depends: python3-termcolor, python3-wxgtk4.0, python3:any
+Filename: ./python3-woeusb-ng_0.2.9-1_all.deb
+Size: 141860
+MD5sum: 67ed5c88d3143c101a954a18ab3e5006
+SHA1: a273b9ffcff97fdd95d82d6e9975a6ef640c522e
+SHA256: 321dc21319bc3b10a28d0fb5e865207535614c91b36c991af6f3148aed128127
+Section: python
+Priority: optional
+Homepage: https://github.com/WoeUSB/WoeUSB-ng
+Description: WoeUSB-ng is a simple tool that enable you to create your ow
+ # WoeUSB-ng
+ ![brand](.github/woeusb-logo.png)
+ .
+ _A Linux program to create a Windows USB stick installer from a real Windows DVD or image._
+ .
+ This package contains two programs:
+ .
+ * woeusb: A command-line utility that enables you to create your own bootable Windows installation USB storage device from an existing Windows Installation disc or disk image
+ * woeusbgui: Graphic version of woeusb
+ .
+ Supported images:
+ .
+ Windows Vista, Windows 7, Window 8.x, Windows 10. All languages and any version (home, pro...) and Windows PE are supported.
+ .
+ Supported bootmodes:
+ .
+ * Legacy/MBR-style/IBM PC compatible bootmode
+ * Native UEFI booting is supported for Windows 7 and later images (limited to the FAT filesystem as the target)
+ .
+ This project rewrite of original [WoeUSB](https://github.com/slacka/WoeUSB)
+
+Package: realtimeconfigquickscan
+Version: 1.1-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./realtimeconfigquickscan_1.1-1_amd64.deb
+Size: 12956
+MD5sum: cba39a2be3f934ba9514d82a5e74ed04
+SHA1: 67fabbbaf2936e430a7e1c1e9e46aa44268527c9
+SHA256: a45bf642a108e97658d7491b22be743a3c7b0dfee976b342c6b45c893194fd49
+Section: base
+Priority: optional
+Description: realtimeconfigquickscan for Debian
+
+Package: rescuezilla
+Version: 2.2-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2179
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Filename: ./rescuezilla_2.2-1_all.deb
+Size: 408936
+MD5sum: e674bda34bea2e59f4260167c6e9ca6d
+SHA1: 969bbff980191736e4a727f82905986baaa26ab3
+SHA256: 2e50a4c396f38bcac1c3e5b324031eb36798342cbd60279ee2f3fd83efd94233
+Section: admin
+Priority: optional
+Homepage: https://rescuezilla.com
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: strawberry
+Version: 1.0-bullseye
+Architecture: amd64
+Maintainer: Jonas Kvinge <jonas@jkvinge.net>
+Installed-Size: 13520
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.7.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libmtp9 (>= 1.1.0), libprotobuf23 (>= 3.12.4), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-alsa, gstreamer1.0-pulseaudio
+Filename: ./strawberry_1.0-bullseye_amd64.deb
+Size: 5418408
+MD5sum: 6f69dd42b0b4f9bf9bb8b120d8123b97
+SHA1: ec92c811711ebbc4656de7e1f42daf6894ad7b69
+SHA256: e528b8e64f88bb5107fab1aec2a8b9d5b49381b36a256092e8216bb9aa446d17
+Section: sound
+Priority: optional
+Homepage: http://www.strawberrymusicplayer.org/
+Description: Audio player and music collection organizer
+ Strawberry is a music player aimed at music collectors and audiophiles.
+ .
+ Features:
+  - Play and organize music
+  - Supports WAV, FLAC, WavPack, Ogg Vorbis, Speex, MPC, TrueAudio, AIFF, MP4, MP3 and ASF
+  - Audio CD playback
+  - Native desktop notifications
+  - Playlist management
+  - Playlists in multiple formats
+  - Advanced audio output and device configuration for bit-perfect playback on Linux
+  - Edit tags on audio files
+  - Automatically retrieve tags from MusicBrainz
+  - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer, Tidal, Qobuz and Spotify
+  - Song lyrics from AudD, Genius, Musixmatch, ChartLyrics, lyrics.ovh and lololyrics.com
+  - Support for multiple backends
+  - Audio analyzer
+  - Audio equalizer
+  - Transfer music to mass-storage USB players, MTP compatible devices and iPod Nano/Classic
+  - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
+  - Streaming support for Subsonic-compatible servers
+  - Unofficial streaming support for Tidal and Qobuz
+ .
+ It is a fork of Clementine. The name is inspired by the band Strawbs.
+
+Package: tobiiproeyetrackermanager
+Version: 2.1.0-1161
+Architecture: amd64
+Maintainer: Tobii Pro - Team Bromine
+Installed-Size: 252570
+Depends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, libxss1
+Filename: ./tobiiproeyetrackermanager_2.1.0-1_amd64.deb
+Size: 57050234
+MD5sum: 76e2633a3f0de1be4e40236be53441bf
+SHA1: 3c182ab1b3f977ee7f7bf0ace9b7e6d5a231b5ba
+SHA256: 20ba3a2fdfc9a7ca12ab4abfbd237b9e974535db29295aecb0ffba7ea2c8121e
+Section: default
+Priority: extra
+Homepage: https://www.tobiipro.com/product-listing/eye-tracker-manager/
+Description: Free software to help manage your screen-based eye tracker.
+  The Tobii Pro Eye Tracker Manager is a new configuration and setting utility that helps you manage your connected eye trackers. It is available free of charge and greatly increases efficiency for users of either the Tobii Pro SDK or Tobii Pro Lab.
+License: Apache-2.0
+Vendor: Tobii Pro - Team Bromine
+
+Package: virtualbox-guest-additions-iso
+Version: 6.1.28-1~bpo11+1
+Architecture: all
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Installed-Size: 60791
+Recommends: virtualbox (>= 6.1.28)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
+Filename: ./virtualbox-guest-additions-iso_6.1.28-1~bpo11+1_all.deb
+Size: 45377820
+MD5sum: 9dc201e88e81ea4d6e0d96f68c21308c
+SHA1: a4d0c4dbe08d57c7d583c7a92b0f73230e69cd35
+SHA256: 9d2e629b013c185f1886773ea70bc14e1a95c37fa71614332adb1ad8222d94fd
+Section: non-free/misc
+Priority: optional
+Homepage: https://www.virtualbox.org
+Description: guest additions iso image for VirtualBox
+ VirtualBox is a free x86 virtualization solution allowing a wide range of
+ x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides an iso image which contains the guest additions
+ for Linux, Solaris and Windows to be installed on the host system. The guest
+ systems then can mount the iso and install the guest additions from there.
+
+Package: yt-dlp
+Version: 2021.10.10-1
+Architecture: all
+Maintainer: pukkandan <pukkandan.ytdlp@gmail.com>
+Installed-Size: 6981
+Depends: python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
+Filename: ./yt-dlp_2021.10.10-1_all.deb
+Size: 1268180
+MD5sum: f5b11f337bd0a45db97abdf0ddda2026
+SHA1: a964401c25aa2300cab02b15a5c2840bd5ae8617
+SHA256: 76d89c4dd09fff14b7c66435d9fdfb9e0049a179dba0fc94003e4e04e7746e50
+Section: python
+Priority: optional
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: Command-line program to download videos from YouTube.com and
+ Official repository: <https://github.com/yt-dlp/yt-dlp>
+ .
+ **PS**: Some links in this document will not work since this is a copy of the README.md from Github
+ .
+ <div align="center">
+ .
+ [![YT-DLP](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)](#readme)
+ .
+ [![Release version](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?color=blue&label=&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/releases/latest)
+ [![CI Status](https://img.shields.io/github/workflow/status/yt-dlp/yt-dlp/Core%20Tests/master?label=&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/actions)
+ [![License: Unlicense](https://img.shields.io/badge/-Unlicense-blue.svg?style=for-the-badge)](LICENSE)
+ [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](Collaborators.md#collaborators)
+ [![Supported Sites](https://img.shields.io/badge/-Supported_Sites-brightgreen.svg?style=for-the-badge)](supportedsites.md)
+ [![Discord](https://img.shields.io/discord/807245652072857610?color=blue&label=​&logo=discord&style=for-the-badge)](https://discord.gg/H5MNcFW63r)
+ [![Doc Status](https://readthedocs.org/projects/yt-dlp/badge/?version=latest&style=for-the-badge)](https://yt-dlp.readthedocs.io)
+ [![Commits](https://img.shields.io/github/commit-activity/m/yt-dlp/yt-dlp?label=commits&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/commits)
+ [![Last Commit](https://img.shields.io/github/last-commit/yt-dlp/yt-dlp/master?label=&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/commits)
+ [![Downloads](https://img.shields.io/github/downloads/yt-dlp/yt-dlp/total?style=for-the-badge&color=blue)](https://github.com/yt-dlp/yt-dlp/releases/latest)
+ [![PyPi Downloads](https://img.shields.io/pypi/dm/yt-dlp?label=PyPi&style=for-the-badge)](https://pypi.org/project/yt-dlp)
+
