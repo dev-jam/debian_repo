@@ -367,6 +367,24 @@ Description: Open Sound System (http://www.opensound.com)
   programs.
 Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
 
+Package: phoronix-test-suite
+Version: 10.4.0
+Architecture: all
+Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
+Installed-Size: 31656
+Depends: php-cli|php5-cli,php5-cli|php-xml
+Recommends: build-essential, php-gd|php5-gd
+Filename: ./phoronix-test-suite_10.4.0_all.deb
+Size: 1164944
+MD5sum: c6b33fcfb27dfc18caf93b7204ef71e7
+SHA1: 16ae749aa5edf32f59e24aa945b834f7832a349c
+SHA256: f608a9d2cba5e38b0cc428fed4b2a1a52152cb27e0fa552e5241b2e9028f1ad7
+Section: Utilities
+Priority: optional
+Homepage: http://www.phoronix-test-suite.com/
+Description: An Automated, Open-Source Testing Framework
+ The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
+
 Package: plasma-appimage-integration
 Version: 0.1.0-neon-user-lts
 Architecture: amd64
