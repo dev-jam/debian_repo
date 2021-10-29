@@ -736,26 +736,23 @@ Description: A ctypes-based wrapper for GLFW3.
 
 Package: python3-imageio
 Source: imageio
-Version: 2.9.0-1
+Version: 2.10.1-1
 Architecture: all
 Maintainer: imageio contributors <almar.klein@gmail.com>
-Installed-Size: 4304
+Installed-Size: 4373
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.9.0-1_all.deb
-Size: 3135440
-MD5sum: 277e4b5fd764403e7c49e62aa577034f
-SHA1: e395200745903ab99c295d8f7f0d62c5bbb48c12
-SHA256: c03e1b132296a2d3f387216b2eff94dbb71c9eb69105eb124c6bed2f3d89febc
+Filename: ./python3-imageio_2.10.1-1_all.deb
+Size: 3148168
+MD5sum: 46c5e5d6d9ca3956d705ac7e05dfa99c
+SHA1: 4614d3be8dacf94180d03aeec5981eccc3414d09
+SHA256: 07488ae875cdcb65b93a8b9aac170a19d093131b20c5404da989ef5d6df89248
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
 Description: Library for reading and writing a wide range of image, video
  .
- .. image:: https://travis-ci.org/imageio/imageio.svg?branch=master
-     :target: https://travis-ci.org/imageio/imageio'
- .
- .. image:: https://coveralls.io/repos/imageio/imageio/badge.png?branch=master
-   :target: https://coveralls.io/r/imageio/imageio?branch=master
+ .. image:: https://github.com/imageio/imageio/workflows/CI/badge.svg
+     :target: https://github.com/imageio/imageio/actions
  .
  .
  Imageio is a Python library that provides an easy interface to read and
@@ -763,12 +760,16 @@ Description: Library for reading and writing a wide range of image, video
  data, and scientific formats. It is cross-platform, runs on Python 3.5+,
  and is easy to install.
  .
- Main website: https://imageio.github.io
+ Main website: https://imageio.readthedocs.io/
  .
  .
- Release notes: hhttps://github.com/imageio/imageio/blob/master/CHANGELOG.md
+ Release notes: https://github.com/imageio/imageio/blob/master/CHANGELOG.md
  .
  Example:
+ .
+ .. code-block:: python
+ .
+     >>> import imageio
 
 Package: python3-imageio-ffmpeg
 Source: imageio-ffmpeg
