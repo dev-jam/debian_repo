@@ -72,14 +72,14 @@ Priority: optional
 Description: custom keyring for Debian Bullseye
 
 Package: hypno-tools
-Version: 1.7-1
+Version: 1.9-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./hypno-tools_1.7-1_amd64.deb
-Size: 9506268
-MD5sum: 933d9d243bfb0f32623438bb4a4728d9
-SHA1: f5bf2e7057c960c32f2fa55cf41d01fd39c455ae
-SHA256: 8f206b5214fcbd9c4b1e5d378b220a09d876bf55400ca25dc63ef22ed861a071
+Filename: ./hypno-tools_1.9-1_amd64.deb
+Size: 9505516
+MD5sum: 28d028daa598bcb1bc413e0ffc935644
+SHA1: e0dc2580a8ee800717491cc35918d7507a9c5d95
+SHA256: a9f8f0a7d4cefacd0dd6d08eeb73444dc5f0fc79357b0699ef28b4b434b46c46
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
