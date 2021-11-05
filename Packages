@@ -425,6 +425,41 @@ Description: program for speech analysis and synthesis
  statistics.  Praat is configurable and extensible through its own scripting
  language and has provisions for communicating with other programs.
 
+Package: psychopy
+Version: 2021.2.3+dfsg-1~bpo11+1
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 24291
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-esprima, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-opengl, python3-openpyxl, python3-packaging, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyo, python3-python-bidi, python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-tables, python3-ujson, python3-websocket, python3-xlrd, python3-yaml, python3-zmq, python3:any, python3-lxml, python3-configobj
+Recommends: python3-wxgtk4.0, python3-pyglet, python3-opencv, python3-xlib, python3-questplus, python3-distro, libxxf86vm1, ipython3, python3-pyxid
+Filename: ./psychopy_2021.2.3+dfsg-1~bpo11+1_all.deb
+Size: 7845928
+MD5sum: cead408b3213d632920ad03d718267fe
+SHA1: 13184fb8aedaf720ca6a0c1761a04c2c5d04c69d
+SHA256: 08e9512d21ae4481135da72407a7e3e1e49f008ec8e19b560af00e42313cffbb
+Section: science
+Priority: optional
+Homepage: https://www.psychopy.org
+Description: environment for creating psychology stimuli in Python
+ PsychoPy provides an environment for creating psychology stimuli
+ using Python scripting language.  It combines the graphical
+ strengths of OpenGL with easy Python syntax to give psychophysics
+ a free and simple stimulus presentation and control package.
+ .
+ The goal is to provide, for the busy scientist, tools to control
+ timing and windowing and a simple set of pre-packaged stimuli and
+ methods.  PsychoPy features
+ .
+  - IDE GUI for coding in a powerful scripting language (Python)
+  - Builder GUI for rapid development of stimulation sequences
+  - Use of hardware-accelerated graphics (OpenGL)
+  - Integration with Spectrascan PR650 for easy monitor calibration
+  - Simple routines for staircase and constant stimuli experimental
+    methods as well as curve-fitting and bootstrapping
+  - Simple (or complex) GUIs via wxPython
+  - Easy interfaces to joysticks, mice, sound cards etc. via PyGame
+  - Video playback (MPG, DivX, AVI, QuickTime, etc.) as stimuli
+
 Package: python3-arabic-reshaper
 Source: arabic-reshaper
 Version: 2.1.3-1
@@ -662,16 +697,16 @@ Description: A Python library for cognitive and neuroscientific experimen
 
 Package: python3-fastnumbers
 Source: fastnumbers
-Version: 3.1.0-1
+Version: 3.2.1-1
 Architecture: amd64
 Maintainer: Seth M. Morton <drtuba78@gmail.com>
-Installed-Size: 109
-Depends: python3 (<< 3.10), python3 (>= 3.9~), libc6 (>= 2.14)
-Filename: ./python3-fastnumbers_3.1.0-1_amd64.deb
-Size: 26960
-MD5sum: 91416abbc0385105f9f0475cb5629d71
-SHA1: f9105e5981c61e7700b8ac551710b7bc4fa2a395
-SHA256: 62f37f5540fa24b39ae47f303d4efb20c3a49d4cb495dec353d231072248bcc3
+Installed-Size: 126
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-fastnumbers_3.2.1-1_amd64.deb
+Size: 28564
+MD5sum: 20760fadf4c52eab9b852335ece460f1
+SHA1: 35c449567b05187ca7d1e994cb77211caeddff67
+SHA256: 34156870a82557e845a3fd6945fa7516a930919ec7986c8136a4eefa2adaa275
 Section: python
 Priority: optional
 Homepage: https://github.com/SethMMorton/fastnumbers
@@ -688,14 +723,13 @@ Description: Super-fast and clean conversions to numbers.
  .. image:: https://img.shields.io/pypi/l/fastnumbers.svg
      :target: https://github.com/SethMMorton/fastnumbers/blob/master/LICENSE
  .
- .. image:: https://img.shields.io/travis/SethMMorton/fastnumbers/master.svg?label=travis-ci
-     :target: https://travis-ci.com/SethMMorton/fastnumbers
+ .. image:: https://github.com/SethMMorton/fastnumbers/workflows/Tests/badge.svg
+     :target: https://github.com/SethMMorton/fastnumbers/workflows
  .
  .. image:: https://codecov.io/gh/SethMMorton/fastnumbers/branch/master/graph/badge.svg
      :target: https://codecov.io/gh/SethMMorton/fastnumbers
  .
- .. image:: https://api.codacy.com/project/badge/Grade/7221f3d2be3147e9a975d604f1770cfb
-     :target: https://www.codacy.com/app/SethMMorton/fastnumbers
+ Super-fast and clean conversions to numbers.
 
 Package: python3-glfw
 Source: glfw
@@ -736,16 +770,16 @@ Description: A ctypes-based wrapper for GLFW3.
 
 Package: python3-imageio
 Source: imageio
-Version: 2.10.1-1
+Version: 2.10.2-1
 Architecture: all
 Maintainer: imageio contributors <almar.klein@gmail.com>
 Installed-Size: 4373
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.10.1-1_all.deb
-Size: 3148168
-MD5sum: 46c5e5d6d9ca3956d705ac7e05dfa99c
-SHA1: 4614d3be8dacf94180d03aeec5981eccc3414d09
-SHA256: 07488ae875cdcb65b93a8b9aac170a19d093131b20c5404da989ef5d6df89248
+Filename: ./python3-imageio_2.10.2-1_all.deb
+Size: 3148220
+MD5sum: 647a091c7aaddff96fa199e57b19df07
+SHA1: 6234c542be2c8db790cc24ad088bb4f996912170
+SHA256: 8a96bba4c2294446229272df3650a4c7367cb2a3b739d4708c79c4e05b55d16f
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -1719,21 +1753,21 @@ Description: GUI front-end for youtube-dl
  and written in Python 3 / Gtk 3.
 
 Package: python3-tobii-research
-Version: 0:1.8.0-1~w2d0
+Version: 0:1.9.0-1~w2d0
 Architecture: amd64
-Maintainer: wheel2deb <wheel2deb@parkoview.com>
-Installed-Size: 4593
-Depends: python3 (>= 3.6~), python3:any
-Filename: ./python3-tobii-research_1.8.0-1~w2d0_amd64.deb
-Size: 1447424
-MD5sum: c3d005f1ca827589d6b9deed5fc6acaf
-SHA1: 3ab8a31d737351349c38cc3142a19528af6254ee
-SHA256: a699c91e7fa5e3207103edb797c390a8d227e3a800addad20031081536226f4a
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 4611
+Depends: python3 (>= 3.8~), python3:any
+Filename: ./python3-tobii-research_1.9.0-1~w2d0_amd64.deb
+Size: 1459848
+MD5sum: 370db2cb5511b974ac2263275c76f5ca
+SHA1: 758f0ccc3ed787d34eca18ea70994f75c65a109d
+SHA256: d0605a96a54130aaf426bbd64df32d3fa2edf32f7b0e6e01f801718eab964816
 Section: python
 Priority: optional
 Homepage: http://developer.tobiipro.com/
 Description: The Tobii Pro SDK is a tool for letting you interact easily with your eye tracker and write your own research applications for collecting and analyzing eye tracking data. Full support for usb and network eye trackers from Tobii Pro.
- This package was generated by wheel2deb v0.5.7
+ This package was generated by wheel2deb v0.5.8
 
 Package: python3-userpath
 Source: userpath
