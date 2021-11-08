@@ -11,6 +11,73 @@ Section: base
 Priority: optional
 Description: android tools for Debian
 
+Package: deadbeef
+Version: 1.8.4-1~obs~bpo11+1
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 12149
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.29), libcairo2 (>= 1.4.10), libcddb2, libcdio19 (>= 2.1.0), libcdparanoia0 (>= 3.10.2+debian), libcurl3-gnutls (>= 7.16.2), libdbus-1-3 (>= 1.9.14), libfaad2 (>= 2.7), libflac8 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libgtk2.0-0 (>= 2.24.0), libimlib2 (>= 1.4.5), libjansson4 (>= 2.0.1), libmad0 (>= 0.15.1b-3), libmpg123-0 (>= 1.6.2), libogg0 (>= 1.3.0), libopusfile0 (>= 0.5), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libsamplerate0 (>= 0.1.7), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5.2), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 4.40.0), libx11-6, libzip4 (>= 0.10), zlib1g (>= 1:1.1.4)
+Conflicts: deadbeef-gtk2, deadbeef-gtk3
+Replaces: deadbeef-gtk2, deadbeef-gtk3
+Filename: ./deadbeef_1.8.4-1~obs~bpo11+1_amd64.deb
+Size: 3363336
+MD5sum: 2d50899fedc0d0f414f7a7c29cca55aa
+SHA1: 5cb99b7b6d7ae107425ae5519cd98d1d5737d119
+SHA256: b9560d11adb4007b8aec968682d516f7af51ab8fc8e876ecb2c597303bf5676b
+Section: sound
+Priority: optional
+Homepage: http://deadbeef.sourceforge.net/
+Description: ultimate music player for GNU/Linux systems
+ DeaDBeeF (as in 0xDEADBEEF) is an audio player for GNU/Linux systems with X11.
+ .
+ Features:
+ .
+  * mp3, ogg vorbis, flac, ape, wv, wav
+  * ID3v1, ID3v2.2, ID3v2.3, ID3v2.4, APEv2, xing/info tags support
+  * character set detection for non-unicode ID3 tags - supports cp1251
+    and iso8859-1
+  * unicode tags are fully supported as well (both utf8 and ucs2)
+  * cuesheet support for mp3, ogg, flac, ape
+  * autodetection of utf8/cp1251/iso8859-1 charsets in cuesheets
+  * sid and some popular chiptune formats like nsf
+  * tracker modules like mod, s3m, it, xm, etc
+  * HVSC song length database support for sid
+  * gtk2 interface with custom highly speed/memory optimized widgets
+  * no GNOME or KDE dependencies - just gtk2 or 3 and several small libraries
+  * minimize to tray, with scrollwheel volume control
+  * drag and drop, both inside of playlist, and from filemanagers and such
+  * control playback from command line (allows global hotkeys using xbindkeys)
+  * seeking works in all supported formats
+  * plugin support; ships with several standard plugins, such as global hotkeys
+    and last.fm scrobbler; sdk is included
+  * duration calculation is as precise as possible for vbr mp3
+    files (with and without xing/info tags)
+Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+
+Package: deadbeef-dev
+Source: deadbeef
+Version: 1.8.4-1~obs~bpo11+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 123
+Depends: deadbeef (>= 1.8.4-1~obs~bpo11+1)
+Conflicts: deadbeef-plugins-dev
+Replaces: deadbeef-plugins-dev
+Filename: ./deadbeef-dev_1.8.4-1~obs~bpo11+1_all.deb
+Size: 46376
+MD5sum: 21d50ace27f8a04a32bdc5e895ee8903
+SHA1: ef9fa525e211d60eb2fc38526e2c831852991d7d
+SHA256: b4322595f1e57f634a54567ac5365ffb3577aff06c1135b1e588a1d6a4d0a267
+Section: libdevel
+Priority: optional
+Homepage: http://deadbeef.sourceforge.net/
+Description: DeaDBeeF plugins development files
+ DeaDBeeF (as in 0xDEADBEEF) is an audio player for GNU/Linux systems with X11.
+ .
+ This package contains all supplementary files you need to develop your plugins
+ for the DeaDBeeF audio player.
+Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+
 Package: e1000e-dkms
 Version: 3.8.7
 Architecture: all
@@ -25,6 +92,289 @@ Section: kernel
 Priority: optional
 Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
+
+Package: glmark2-data
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9311
+Recommends: glmark2-drm (>= 2021.02+ds-1~bpo11+1) | glmark2-wayland (>= 2021.02+ds-1~bpo11+1) | glmark2-x11 (>= 2021.02+ds-1~bpo11+1) | glmark2-es2-wayland (>= 2021.02+ds-1~bpo11+1) | glmark2-es2-drm (>= 2021.02+ds-1~bpo11+1) | glmark2-es2-x11 (>= 2021.02+ds-1~bpo11+1)
+Filename: ./glmark2-data_2021.02+ds-1~bpo11+1_all.deb
+Size: 6600312
+MD5sum: e2e81ec24c97b9d52b35a6c29a8eb012
+SHA1: 5ba1b7ea4a55df2885bcf854a0f3b07391cd0931
+SHA256: ffa44abe873fbd386b7d3a5c4e144a6f5fe7c9426cc07742bac68d0cb4ca6f83
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+
+Package: glmark2-drm
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1026
+Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-drm_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 293940
+MD5sum: 3ce6ae7d90c27b0db2d027eab77c8d52
+SHA1: e0d219562fb31e5abe268078dac868dddb820bb4
+SHA256: 46f1d1a018219f71a4f7030cca76846c8161c37a98cec03af6e0959c444197c8
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the DRM stand-alone back-end. GL version.
+
+Package: glmark2-drm-dbgsym
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5213
+Depends: glmark2-drm (= 2021.02+ds-1~bpo11+1)
+Filename: ./glmark2-drm-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 5011136
+MD5sum: 265355c6439ab9afde3eec6996c8b373
+SHA1: a443ef383f9ed4f8d3f41dfcbb6b99eac6b0a0cd
+SHA256: b93a053a06e2a5bc5f5e07f28d70921c2606e19e5fc71d1f0b53c722c5b72ec8
+Section: debug
+Priority: optional
+Description: debug symbols for glmark2-drm
+Build-Ids: a510f9b95a5fb41e884e648f50391456f3823569
+
+Package: glmark2-es2-drm
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1006
+Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-es2-drm_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 290252
+MD5sum: 394243432612da3dc1d099b56e21454b
+SHA1: 7646caabb0934586528a1465362660769fb4eb08
+SHA256: 5d0f34e64d227ce8fc1906c2e7c32bce8b5bc98a9825d7020e0ec03edfd1904e
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the DRM stand-alone back-end. GLESv2 version.
+
+Package: glmark2-es2-drm-dbgsym
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5164
+Depends: glmark2-es2-drm (= 2021.02+ds-1~bpo11+1)
+Filename: ./glmark2-es2-drm-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 4976768
+MD5sum: fd594bbeaf95923c4d61f3e96b8e1f0d
+SHA1: 51f7adb79d138e5a409209f1d6cdb7e00fca0254
+SHA256: b6559bb9c2ae41d5e4cda63060e927263b3432a74a236f1180d5597d1389df10
+Section: debug
+Priority: optional
+Description: debug symbols for glmark2-es2-drm
+Build-Ids: 484c4e476144674571f89b4d7a00ddf286ef228e
+
+Package: glmark2-es2-wayland
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1010
+Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-es2-wayland_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 290228
+MD5sum: 72f7f33281f8f66649761a460fba5bae
+SHA1: e503f21fea15ad6871f07d2a7fc94ec1c235c2db
+SHA256: 18fd9f2e438df17d927db41a0b8d0cb9e5d751275ef2adabf8293bc2674509c0
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package intended only for the wayland platform. GLESv2 version.
+
+Package: glmark2-es2-wayland-dbgsym
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5174
+Depends: glmark2-es2-wayland (= 2021.02+ds-1~bpo11+1)
+Filename: ./glmark2-es2-wayland-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 4987336
+MD5sum: c52dc7c27ebf54bf6da626c85cb021c9
+SHA1: f593c6abb481c04fa426299f188780582b03a3e0
+SHA256: a36e943a2b2d91ae5ab136e1c4917bebf2b4c9aaf386aa5986294b8dede1743c
+Section: debug
+Priority: optional
+Description: debug symbols for glmark2-es2-wayland
+Build-Ids: ec725236ceaf8a3b11ef3197294ef43cbeb284a9
+
+Package: glmark2-es2-x11
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 998
+Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Filename: ./glmark2-es2-x11_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 287556
+MD5sum: e024101de460079233dff66dc78cf130
+SHA1: 7179f1f786ae790938b52f04d054409411fcfad8
+SHA256: 8774a3277210827e043813dd4059f01ea2f34a0c515f8287fbb3321ce450639d
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the X11 platform. GLESv2 version.
+
+Package: glmark2-es2-x11-dbgsym
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5151
+Depends: glmark2-es2-x11 (= 2021.02+ds-1~bpo11+1)
+Filename: ./glmark2-es2-x11-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 4961812
+MD5sum: dec8a558ec4542bdbcc5a226583ea21e
+SHA1: d05f12f3f699ff2fde0ff3c4a79351761e3ede70
+SHA256: 387e4b0399366347a07a3ec0fb6db64a89735dbd9e96d9d5bf5901b36933ff0a
+Section: debug
+Priority: optional
+Description: debug symbols for glmark2-es2-x11
+Build-Ids: 5dbff496a66298e794e63dd1044044932df2437f
+
+Package: glmark2-wayland
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1030
+Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-wayland_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 293864
+MD5sum: 633ed63148947452724c54a55364575c
+SHA1: ea351284edc83f2fd55ebba4351c4577044f57f4
+SHA256: 970bfeb43743add137d0a86e4379d65b0df31e59fc16b0ced34d9919d73409b8
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package intended only for the wayland platform. GL version.
+
+Package: glmark2-wayland-dbgsym
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5223
+Depends: glmark2-wayland (= 2021.02+ds-1~bpo11+1)
+Filename: ./glmark2-wayland-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 5016688
+MD5sum: b3c67fa96fdfdd7c800ea19cd3de275c
+SHA1: 5a18cf8cdefbc6abe15cfa8b4ab8f98bfd007e04
+SHA256: 5574c4c360e1856006f27b4fab4904480dda117623329457c9f9d4477a550ed7
+Section: debug
+Priority: optional
+Description: debug symbols for glmark2-wayland
+Build-Ids: 2c74f3c5ababcf3745fb783e7b250ae26071283f
+
+Package: glmark2-x11
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1010
+Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Filename: ./glmark2-x11_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 287832
+MD5sum: 6bf447e6d85ee0974a7bb745b826bd31
+SHA1: f37258a27c060d1bccd56e9d1bc1a616ddf4bb11
+SHA256: 5a2479816ec53f616bf1e48a1a8eca3f3c6bbb21cf1a43837af9716304e2bb7f
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the X11 platform. GL version.
+
+Package: glmark2-x11-dbgsym
+Source: glmark2
+Version: 2021.02+ds-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5136
+Depends: glmark2-x11 (= 2021.02+ds-1~bpo11+1)
+Filename: ./glmark2-x11-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
+Size: 4943480
+MD5sum: 54c88ede4e8abe19335c92a26c1ac832
+SHA1: 2917a263e12831a797949011ece79014c09e9ddf
+SHA256: 4a306218702bbead3724fd38fde9c5a94d5c2cb91c05922c28aa387c89d1430f
+Section: debug
+Priority: optional
+Description: debug symbols for glmark2-x11
+Build-Ids: ff92ca74167ad4d5eb26639e829245d21fbdc28b
 
 Package: gprename
 Version: 20201214-0.2
