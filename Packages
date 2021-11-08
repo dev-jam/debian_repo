@@ -1920,6 +1920,80 @@ Description: Graphical hard drive backup and restore
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
 
+Package: smplayer
+Version: 21.8.0-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 4401
+Depends: mpv | mplayer, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
+Recommends: smplayer-themes, smplayer-l10n
+Filename: /home/bob/git/debian_repo/smplayer_21.8.0-1~bpo11+1_amd64.deb
+Size: 1962060
+MD5sum: 6d96e8a981f94beef0228bc47fb965b4
+SHA1: 3898c6c1b24df530f41448ef9859ddde18c2a009
+SHA256: 094933b256076e72acc2cea1f92e1824c071ec7efeb78ce106b3a715e0ddf646
+Section: video
+Priority: optional
+Homepage: http://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+
+Package: smplayer-l10n
+Source: smplayer
+Version: 21.8.0-1~bpo11+1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 10693
+Depends: smplayer (>= 21.8.0-1~bpo11+1)
+Breaks: smplayer-translations (<< 14.3.0)
+Replaces: smplayer-translations (<< 14.3.0)
+Filename: /home/bob/git/debian_repo/smplayer-l10n_21.8.0-1~bpo11+1_all.deb
+Size: 1311396
+MD5sum: 680096928113a36851011ced0be438dc
+SHA1: 413e48da83e9f6ffad42b20ec4a04b7f8a279293
+SHA256: e532c2a6fbad766fe76c77c0596b1fc1d4f9b8450f6d8835d87eb3d81c2fe490
+Section: localization
+Priority: optional
+Homepage: http://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv - translation files
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+ .
+ This package contains translation files.
+
+Package: smtube
+Version: 21.7.0-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 835
+Depends: smplayer | mpv | mplayer | vlc | totem | dragonplayer, libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: /home/bob/git/debian_repo/smtube_21.7.0-1~bpo11+1_amd64.deb
+Size: 264996
+MD5sum: 70c470729f5d31b53d8a21bb2e2f5877
+SHA1: b90e2e744fabcbea504b6100fb3ea30b319b27ab
+SHA256: 5a49f05d0e907d433f51947586196da683386fe2a0826bbe9a7b4df94f514196
+Section: video
+Priority: optional
+Homepage: https://www.smtube.org/
+Description: YouTube videos browser
+ SMTube is a stand-alone graphical application which allows one
+ to search and download Youtube videos. Although it is part of
+ the SMPlayer project, it can be used with any multimedia player
+ such as mpv, MPlayer, VLC, Totem or Dragon Player.
+
 Package: strawberry
 Version: 1.0-bullseye
 Architecture: amd64
