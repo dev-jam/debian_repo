@@ -2,7 +2,7 @@ Package: android-tools
 Version: 31.0.3-7562133
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: /home/bob/git/debian_repo/android-tools_31.0.3-7562133_amd64.deb
+Filename: ./android-tools_31.0.3-7562133_amd64.deb
 Size: 8010332
 MD5sum: 64d3f0ea929c82407599654b0ca758ab
 SHA1: 19d77112e46a520c12810da8ed3c999ba3419039
@@ -16,7 +16,7 @@ Version: 3.8.7
 Architecture: all
 Maintainer: Kolja Hildebrand <kolja.hildebrand@gmail.com>
 Depends: dkms (>= 1.95)
-Filename: /home/bob/git/debian_repo/e1000e-dkms_3.8.7_all.deb
+Filename: ./e1000e-dkms_3.8.7_all.deb
 Size: 241548
 MD5sum: 9eed0400f409bf0ed262edbd31084703
 SHA1: 672b51755d57914f466f4ade75eee79eb6757596
@@ -32,7 +32,7 @@ Architecture: all
 Maintainer: Marvin Stark <marv@der-marv.de>
 Installed-Size: 218
 Depends: perl:any, libglib-perl, libpango-perl, libgtk3-perl, liblocale-gettext-perl, libintl-perl
-Filename: /home/bob/git/debian_repo/gprename_20201214-0.2_all.deb
+Filename: ./gprename_20201214-0.2_all.deb
 Size: 46376
 MD5sum: 16db6ba621dec8dfc8e67371a3ea4ce6
 SHA1: d9524a6d1bcea8adb2324a6159ce21cf500f6735
@@ -49,7 +49,7 @@ Package: gprename-menu-item
 Version: 1.0-4
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: /home/bob/git/debian_repo/gprename-menu-item_1.0-4_all.deb
+Filename: ./gprename-menu-item_1.0-4_all.deb
 Size: 964
 MD5sum: 3698c608c5f05006458b3ee34eaa6afe
 SHA1: d2068136481d2eff28f0da2f4cafc34038e903c7
@@ -62,7 +62,7 @@ Package: hypno-keyring
 Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: /home/bob/git/debian_repo/hypno-keyring_1.3-1_all.deb
+Filename: ./hypno-keyring_1.3-1_all.deb
 Size: 29764
 MD5sum: 49ebfa7a73aac0171a95a41d3e753372
 SHA1: a9e609bb78681f9ad6d4a59b354409fdb8630dc5
@@ -75,7 +75,7 @@ Package: hypno-tools
 Version: 1.9-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: /home/bob/git/debian_repo/hypno-tools_1.9-1_amd64.deb
+Filename: ./hypno-tools_1.9-1_amd64.deb
 Size: 9505516
 MD5sum: 28d028daa598bcb1bc413e0ffc935644
 SHA1: e0dc2580a8ee800717491cc35918d7507a9c5d95
@@ -89,7 +89,7 @@ Version: 1.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
-Filename: /home/bob/git/debian_repo/kde-service-menu-hypno-collection_1.5-1_all.deb
+Filename: ./kde-service-menu-hypno-collection_1.5-1_all.deb
 Size: 3608
 MD5sum: 77a035d48578fb74457ca1747d13915a
 SHA1: eef64c6215b88d2060529d467318aa610b426607
@@ -104,7 +104,7 @@ Architecture: all
 Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
 Installed-Size: 250
 Depends: dolphin (>= 18) | konqueror (>= 18), ghostscript, pdf2djvu, poppler-utils, texlive-extra-utils
-Filename: /home/bob/git/debian_repo/kde-service-menu-pdf_2.3_all.deb
+Filename: ./kde-service-menu-pdf_2.3_all.deb
 Size: 43064
 MD5sum: 2a404a654c35d44c03d6b554e2726a9e
 SHA1: ee40544804acf041e7860c14b1cc2fbbc932bdd1
@@ -130,7 +130,7 @@ Architecture: all
 Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
 Installed-Size: 78
 Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
-Filename: /home/bob/git/debian_repo/kde-service-menu-reimage_2.5_all.deb
+Filename: ./kde-service-menu-reimage_2.5_all.deb
 Size: 16640
 MD5sum: f6fbeb70681628a306a3207376c58e26
 SHA1: 6fcd6a652828c177569b3cb7e8164097d0a8390c
@@ -193,7 +193,7 @@ Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 102
 Depends: libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libindicator7 (>= 0.4.90)
-Filename: /home/bob/git/debian_repo/libappindicator1_0.4.92-8_amd64.deb
+Filename: ./libappindicator1_0.4.92-8_amd64.deb
 Size: 53184
 MD5sum: 13bafbbb4abbce65090c3d7878197673
 SHA1: 403d2001878808aac1a269445b7292a9abdffee3
@@ -218,7 +218,7 @@ Installed-Size: 26
 Depends: libdvd-pkg, libdvdcss2 (= 1.4.2-1~local)
 Conflicts: libdvdcss2-dev
 Replaces: libdvdcss2-dev
-Filename: /home/bob/git/debian_repo/libdvdcss-dev_1.4.2-1~local_amd64.deb
+Filename: ./libdvdcss-dev_1.4.2-1~local_amd64.deb
 Size: 6744
 MD5sum: f559d824c890f1404f77c3eb6610b183
 SHA1: f1d7ef9d53904f4f117c6a75c479f6a42cf6cc6c
@@ -243,7 +243,7 @@ Installed-Size: 58
 Depends: libdvd-pkg, libc6 (>= 2.7)
 Replaces: libdvdcss-dev (<= 0.0.3-3), libdvdcss0 (<= 1.0.0-0.0), libdvdcss2-dev (<= 1.2.10-0.0)
 Provides: libdvdcss
-Filename: /home/bob/git/debian_repo/libdvdcss2_1.4.2-1~local_amd64.deb
+Filename: ./libdvdcss2_1.4.2-1~local_amd64.deb
 Size: 22332
 MD5sum: d05d3f6d9fdcf2ad932a84121472b710
 SHA1: 483afcbda9d586cac3626037a78a947f0b91079c
@@ -267,7 +267,7 @@ Architecture: amd64
 Maintainer: Dmitry Smirnov <onlyjob@debian.org>
 Installed-Size: 54
 Depends: libdvdcss2 (= 1.4.2-1~local)
-Filename: /home/bob/git/debian_repo/libdvdcss2-dbgsym_1.4.2-1~local_amd64.deb
+Filename: ./libdvdcss2-dbgsym_1.4.2-1~local_amd64.deb
 Size: 39328
 MD5sum: 36c4e77f9871709bb1ae090d83b4ebb2
 SHA1: 036f7b1828a47723653c2bba48d2e5e052d37e88
@@ -285,7 +285,7 @@ Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 106
 Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
-Filename: /home/bob/git/debian_repo/libindicator7_0.5.0-4_amd64.deb
+Filename: ./libindicator7_0.5.0-4_amd64.deb
 Size: 53028
 MD5sum: eeff52103a841397f50594257b49f085
 SHA1: 495c53c3c9ee0f5ce9105efa9d7ad901cb495d96
@@ -308,7 +308,7 @@ Installed-Size: 1187
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: /home/bob/git/debian_repo/live-build_20210903_all.deb
+Filename: ./live-build_20210903_all.deb
 Size: 397640
 MD5sum: 96c2783aaa6a9c040dbd16d1be87762e
 SHA1: e4c541475f1f133910bacb3ef5e1af572d8d46f9
@@ -330,7 +330,7 @@ Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1263
 Depends: python3 (>= 3.2), python3-pyqt5, python3-pyqt5.qtwebkit, python3-numpy, python3-configobj
 Recommends: opensesame
-Filename: /home/bob/git/debian_repo/opensesame-toolbox_2.7-1_all.deb
+Filename: ./opensesame-toolbox_2.7-1_all.deb
 Size: 369480
 MD5sum: b601de17adc834f0a34a4814eaf53b4a
 SHA1: 0c6798ebc09e66f9e50f614f6d60547c9a76df8c
@@ -352,7 +352,7 @@ Depends: binutils, gcc, libc6, libgtk2.0-0, sed (>= 1.0.0)
 Suggests: libsdl1.2debian-oss | libsdl1.2debian-all, libesd0, libwine-oss, libsox-fmt-oss, mpg123, gstreamer0.10-plugins-bad (>= 0.10.7), libasound2-plugins
 Conflicts: libflashsupport
 Provides: oss
-Filename: /home/bob/git/debian_repo/oss-linux_4.2-2020_amd64.deb
+Filename: ./oss-linux_4.2-2020_amd64.deb
 Size: 2633446
 MD5sum: 5bff42067d7e40acbc6f0fe555e2a5a8
 SHA1: e559ec3009fa6192fcb20dd192342802975b2f4b
@@ -374,7 +374,7 @@ Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
 Installed-Size: 31656
 Depends: php-cli|php5-cli,php5-cli|php-xml
 Recommends: build-essential, php-gd|php5-gd
-Filename: /home/bob/git/debian_repo/phoronix-test-suite_10.4.0_all.deb
+Filename: ./phoronix-test-suite_10.4.0_all.deb
 Size: 1164944
 MD5sum: c6b33fcfb27dfc18caf93b7204ef71e7
 SHA1: 16ae749aa5edf32f59e24aa945b834f7832a349c
@@ -392,7 +392,7 @@ Maintainer: Alexis Lopez Zubieta <contact@azubieta.net>
 Installed-Size: 301
 Pre-Depends: bash, libqt5widgets5 (>= 5.2.1), libqt5gui5 (>= 5.2.1), libqt5core5a (>= 5.2.1), dbus-user-session
 Provides: appimage-services
-Filename: /home/bob/git/debian_repo/plasma-appimage-integration_0.1.0-neon-user-lts_amd64.deb
+Filename: ./plasma-appimage-integration_0.1.0-neon-user-lts_amd64.deb
 Size: 51816
 MD5sum: deab94e0ba6ea8a4cf5d33a9b1260cba
 SHA1: dbc126d2805f64cd1ec8637f6a6fce98f2d6f6ff
@@ -407,7 +407,7 @@ Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
 Installed-Size: 71900
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), libx11-6, oss-compat, python3:any
-Filename: /home/bob/git/debian_repo/praat_6.1.56-1~bpo11+1_amd64.deb
+Filename: ./praat_6.1.56-1~bpo11+1_amd64.deb
 Size: 14494392
 MD5sum: 7531c716dbebe2b144060cd697e3fc20
 SHA1: 4bf53294cd375764e947df8a230111931235373f
@@ -432,7 +432,7 @@ Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.
 Installed-Size: 24291
 Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-esprima, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-opengl, python3-openpyxl, python3-packaging, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyo, python3-python-bidi, python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-tables, python3-ujson, python3-websocket, python3-xlrd, python3-yaml, python3-zmq, python3:any, python3-lxml, python3-configobj
 Recommends: python3-wxgtk4.0, python3-pyglet, python3-opencv, python3-xlib, python3-questplus, python3-distro, libxxf86vm1, ipython3, python3-pyxid
-Filename: /home/bob/git/debian_repo/psychopy_2021.2.3+dfsg-1~bpo11+1_all.deb
+Filename: ./psychopy_2021.2.3+dfsg-1~bpo11+1_all.deb
 Size: 7845928
 MD5sum: cead408b3213d632920ad03d718267fe
 SHA1: 13184fb8aedaf720ca6a0c1761a04c2c5d04c69d
@@ -467,7 +467,7 @@ Architecture: all
 Maintainer: Abdullah Diab <mpcabd@gmail.com>
 Installed-Size: 117
 Depends: python3-future, python3-pkg-resources, python3:any
-Filename: /home/bob/git/debian_repo/python3-arabic-reshaper_2.1.3-1_all.deb
+Filename: ./python3-arabic-reshaper_2.1.3-1_all.deb
 Size: 16096
 MD5sum: 7af5a6c44e5e93956aedf0fa67b3f440
 SHA1: f560e9fbcd76a9830374a1e9609383bf3f2d0014
@@ -503,7 +503,7 @@ Architecture: all
 Maintainer: Andrey Kislyuk <kislyuk@gmail.com>
 Installed-Size: 136
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-argcomplete_1.12.3-1_all.deb
+Filename: ./python3-argcomplete_1.12.3-1_all.deb
 Size: 31192
 MD5sum: ca72286558942fc47fb9d981b219b552
 SHA1: a6337de2d55e85b6d23c96e03ed5382820613a9a
@@ -540,7 +540,7 @@ Architecture: all
 Maintainer: Simon Percivall <percivall@gmail.com>
 Installed-Size: 56
 Depends: python3-six (<< 2.0), python3-six (>= 1.6.1), python3-wheel, python3:any
-Filename: /home/bob/git/debian_repo/python3-astunparse_1.6.3-1_all.deb
+Filename: ./python3-astunparse_1.6.3-1_all.deb
 Size: 10840
 MD5sum: 6b376c6a2f2c511c47e66bde9867372b
 SHA1: f79530a294b7204f542746b107827f5048a79d26
@@ -577,7 +577,7 @@ Architecture: all
 Maintainer: Thomas Khyn <thomas@ksytek.com>
 Installed-Size: 57
 Depends: python3-six, python3:any
-Filename: /home/bob/git/debian_repo/python3-dirsync_2.2.5-1_all.deb
+Filename: ./python3-dirsync_2.2.5-1_all.deb
 Size: 11504
 MD5sum: 0e644b260f52a4ebeb42841ddf51378a
 SHA1: 08672f144fd2a34d0dc354f48b0987ca9c6fdd9f
@@ -614,7 +614,7 @@ Architecture: all
 Maintainer: Simone Riva <simone.rva [at] gmail.com>
 Installed-Size: 209
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-dr14-tmeter_2.0.0-2_all.deb
+Filename: ./python3-dr14-tmeter_2.0.0-2_all.deb
 Size: 32096
 MD5sum: ca39442f279ab509ff8ec82a0dd08da4
 SHA1: 2d8a385fd7b33ce37663100de0d7328999a96457
@@ -632,7 +632,7 @@ Architecture: amd64
 Maintainer: Alessandro Molina <alessandro.molina@axant.it>
 Installed-Size: 5727
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14)
-Filename: /home/bob/git/debian_repo/python3-dukpy_0.2.3-1_amd64.deb
+Filename: ./python3-dukpy_0.2.3-1_amd64.deb
 Size: 933784
 MD5sum: de2bdc063415695785630de4c143fdb9
 SHA1: 8664daf3897bec7af059f30f94847dc9f58a87cc
@@ -668,7 +668,7 @@ Architecture: all
 Maintainer: German M. Bravo (Kronuz) <german.mb@gmail.com>
 Installed-Size: 294
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-esprima_4.0.1-1_all.deb
+Filename: ./python3-esprima_4.0.1-1_all.deb
 Size: 37048
 MD5sum: d8205994e61ccd1564e1d15c11c23f93
 SHA1: 43d3598577aae3ca148b7bd2c475f9240653c9da
@@ -685,7 +685,7 @@ Architecture: all
 Maintainer: Florian Krause, Oliver Lindemann <florian@expyriment.org, oliver@expyriment.org>
 Installed-Size: 12062
 Depends: python3-future, python3-opengl, python3-pygame, python3:any
-Filename: /home/bob/git/debian_repo/python3-expyriment_0.10.0-1_all.deb
+Filename: ./python3-expyriment_0.10.0-1_all.deb
 Size: 4550556
 MD5sum: 4560d2055672426c11002cb91addd602
 SHA1: fba99e8be369e0bb7dcda3f3a7f69dc04fa93f7a
@@ -702,7 +702,7 @@ Architecture: amd64
 Maintainer: Seth M. Morton <drtuba78@gmail.com>
 Installed-Size: 126
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14)
-Filename: /home/bob/git/debian_repo/python3-fastnumbers_3.2.1-1_amd64.deb
+Filename: ./python3-fastnumbers_3.2.1-1_amd64.deb
 Size: 28564
 MD5sum: 20760fadf4c52eab9b852335ece460f1
 SHA1: 35c449567b05187ca7d1e994cb77211caeddff67
@@ -738,7 +738,7 @@ Architecture: all
 Maintainer: Florian Rhiem <florian.rhiem@gmail.com>
 Installed-Size: 163
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-glfw_2.4.0-1_all.deb
+Filename: ./python3-glfw_2.4.0-1_all.deb
 Size: 24980
 MD5sum: 4dce889fe0ac10e6c9ab8ba8633b7a2c
 SHA1: beb9ae2af1b4b27be25ec192fca262d01a68816a
@@ -775,7 +775,7 @@ Architecture: all
 Maintainer: imageio contributors <almar.klein@gmail.com>
 Installed-Size: 4373
 Depends: python3-numpy, python3-pil, python3:any
-Filename: /home/bob/git/debian_repo/python3-imageio_2.10.3-1_all.deb
+Filename: ./python3-imageio_2.10.3-1_all.deb
 Size: 3148008
 MD5sum: 5824eb2f72fb69f2608a05684841717f
 SHA1: 54280f22a2a1578c8e482bd4d6f84cf16f1e91c1
@@ -812,7 +812,7 @@ Architecture: all
 Maintainer: imageio contributors <almar.klein@gmail.com>
 Installed-Size: 55
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-imageio-ffmpeg_0.4.5-1_all.deb
+Filename: ./python3-imageio-ffmpeg_0.4.5-1_all.deb
 Size: 12512
 MD5sum: 64542647a2b2031d9414fd4258005166
 SHA1: ffc8da016fe6fb97e7dd3824a39950cfee62b31a
@@ -838,7 +838,7 @@ Architecture: all
 Maintainer: Alberto Berti <alberto@arstecnica.it>
 Installed-Size: 1751
 Depends: python3-pkg-resources, python3:any
-Filename: /home/bob/git/debian_repo/python3-javascripthon_0.11-1_all.deb
+Filename: ./python3-javascripthon_0.11-1_all.deb
 Size: 323272
 MD5sum: e93f5142094835458c8bc77eec97bf77
 SHA1: f09c443f12fe80165e37a4caff8d47c0f2a08874
@@ -875,7 +875,7 @@ Architecture: all
 Maintainer: Piotr Dabkowski <piodrus@gmail.com>
 Installed-Size: 7784
 Depends: python3-pyjsparser, python3-six (>= 1.10), python3-tzlocal, python3:any
-Filename: /home/bob/git/debian_repo/python3-js2py_0.71-1_all.deb
+Filename: ./python3-js2py_0.71-1_all.deb
 Size: 575576
 MD5sum: 70d3fcbb75161b08ba52fc6d786854b7
 SHA1: cdb0547d67c9d8296b6362459f2f3194be4baf46
@@ -908,7 +908,7 @@ Architecture: all
 Maintainer: Mark V <markv.nl.dev@gmail.com>
 Installed-Size: 92
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-json-tricks_3.15.5-1_all.deb
+Filename: ./python3-json-tricks_3.15.5-1_all.deb
 Size: 21368
 MD5sum: 696642201ea1969dfb190bd4fd50e4fa
 SHA1: 8f7106c65b824d74108977859d1e1f76b6f33905
@@ -944,7 +944,7 @@ Architecture: all
 Maintainer: wheel2deb <wheel2deb@parkoview.com>
 Installed-Size: 96
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-konfsave_0.3.1-1~w2d0_all.deb
+Filename: ./python3-konfsave_0.3.1-1~w2d0_all.deb
 Size: 20924
 MD5sum: 35abd4eda7fdfefe0920ec3386a63360
 SHA1: 207019ace47b8f212602eb075f0bfa9146a0e1ae
@@ -962,7 +962,7 @@ Architecture: all
 Maintainer: Alberto Berti <alberto@metapensiero.it>
 Installed-Size: 182
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-macropy3_1.1.0b2-1_all.deb
+Filename: ./python3-macropy3_1.1.0b2-1_all.deb
 Size: 38708
 MD5sum: 2692ae4071425cdab94e66d674b0341d
 SHA1: 2ceab3dc904ca2070ceba6251ae40d7453acf807
@@ -999,7 +999,7 @@ Architecture: all
 Maintainer: Daniel Schreij <dschreij@gmail.com>
 Installed-Size: 53
 Depends: python3-numpy, python3:any
-Filename: /home/bob/git/debian_repo/python3-mediadecoder_0.1.5-1_all.deb
+Filename: ./python3-mediadecoder_0.1.5-1_all.deb
 Size: 10244
 MD5sum: 87f1ee465e30a9e3ab51dd149b88ffe3
 SHA1: e16435ee4f8994a3e773c8a729f6f9404391487b
@@ -1016,7 +1016,7 @@ Architecture: all
 Maintainer: unknown <unknown@unknown>
 Installed-Size: 337
 Depends: python3-decorator, python3-requests, python3-tqdm, python3:any
-Filename: /home/bob/git/debian_repo/python3-moviepy_1.0.3-1_all.deb
+Filename: ./python3-moviepy_1.0.3-1_all.deb
 Size: 69988
 MD5sum: f681563c354b2fc37a84d61c96676ec8
 SHA1: 705a0359be292918b43b1bec4fa9391f739401e9
@@ -1052,7 +1052,7 @@ Version: 6.0.1-1
 Architecture: all
 Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
 Installed-Size: 343
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-audio-low-latency_6.0.1-1_all.deb
+Filename: ./python3-opensesame-plugin-audio-low-latency_6.0.1-1_all.deb
 Size: 69128
 MD5sum: 70f58f5ddf8c5ab6c9fb5635ae88d942
 SHA1: ee4162313b6ea67867e64243f491641c2c0a724b
@@ -1068,7 +1068,7 @@ Version: 0.2.1-1
 Architecture: all
 Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
 Installed-Size: 33
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-broadcast-screen_0.2.1-1_all.deb
+Filename: ./python3-opensesame-plugin-broadcast-screen_0.2.1-1_all.deb
 Size: 8760
 MD5sum: 10f9858016dc111538f56c618d063861
 SHA1: c73ae6a62eb2141fa99a2edd99b5c3d828f5af5b
@@ -1084,7 +1084,7 @@ Version: 2.0.0-1
 Architecture: all
 Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
 Installed-Size: 26
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-experiment-manager_2.0.0-1_all.deb
+Filename: ./python3-opensesame-plugin-experiment-manager_2.0.0-1_all.deb
 Size: 7132
 MD5sum: b7b2429623c00677dbdac4a4d5e7b8ca
 SHA1: b560da1c16d1e7b482209c51ebb06b3bcca50115
@@ -1100,7 +1100,7 @@ Version: 0.1.11-1
 Architecture: all
 Maintainer: Daniel Schreij <dschreij@gmail.com>
 Installed-Size: 58
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-media-player-mpy_0.1.11-1_all.deb
+Filename: ./python3-opensesame-plugin-media-player-mpy_0.1.11-1_all.deb
 Size: 12208
 MD5sum: c9983c6a523df1799043c9e4eca27e4d
 SHA1: 86c00689c58824e4dd2cdd630afccbc60fe72c54
@@ -1116,7 +1116,7 @@ Version: 2.0.0-1
 Architecture: all
 Maintainer: Pascal Kieslich & Felix Henninger <pascal.kieslich@gmail.com>
 Installed-Size: 114
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-mousetrap_2.0.0-1_all.deb
+Filename: ./python3-opensesame-plugin-mousetrap_2.0.0-1_all.deb
 Size: 23664
 MD5sum: b4aefc797d706bb639e68aacff68e28c
 SHA1: 1cd351daa598022fd9c2f31c07c0a41ae5d6bb3e
@@ -1152,7 +1152,7 @@ Version: 2.0.0-1
 Architecture: all
 Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
 Installed-Size: 161
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-parallel-port-trigger_2.0.0-1_all.deb
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_2.0.0-1_all.deb
 Size: 52576
 MD5sum: 1da638a136a67f6c8a43ae79dfa1a8c3
 SHA1: 37d41ad3b5a402ad8acd0610cea578cbd157d326
@@ -1168,7 +1168,7 @@ Version: 0.1.0-1
 Architecture: all
 Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
 Installed-Size: 24
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-pygaze-roi_0.1.0-1_all.deb
+Filename: ./python3-opensesame-plugin-pygaze-roi_0.1.0-1_all.deb
 Size: 5588
 MD5sum: 549fa2dabd5dab39c5a8237b08b75747
 SHA1: b031e1fe78e763547610eb29c7fa5fd968cad273
@@ -1184,7 +1184,7 @@ Version: 2.0.0-1
 Architecture: all
 Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
 Installed-Size: 93
-Filename: /home/bob/git/debian_repo/python3-opensesame-plugin-radboudbox_2.0.0-1_all.deb
+Filename: ./python3-opensesame-plugin-radboudbox_2.0.0-1_all.deb
 Size: 22652
 MD5sum: 5f61417d44d50a21d81e11afed6908c8
 SHA1: 56e3a14e99cb54731bffe2240a5a7d53e9330418
@@ -1201,7 +1201,7 @@ Architecture: all
 Maintainer: The pip developers <distutils-sig@python.org>
 Installed-Size: 5902
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-pip_21.3.1-1_all.deb
+Filename: ./python3-pip_21.3.1-1_all.deb
 Size: 1058824
 MD5sum: f58139d6252e290e9f5606fbb59fd915
 SHA1: e9c421c49605a095b9d36444ec03e3dc95c7f789
@@ -1238,7 +1238,7 @@ Architecture: all
 Maintainer: Chad Smith <Chad Smith <grassfedcode@gmail.com>>
 Installed-Size: 190
 Depends: python3-argcomplete, python3-packaging, python3-userpath, python3:any
-Filename: /home/bob/git/debian_repo/python3-pipx_0.16.4-1_all.deb
+Filename: ./python3-pipx_0.16.4-1_all.deb
 Size: 37612
 MD5sum: 1abedc42cdc6f32a7521d06f62dbdc7d
 SHA1: 1d171a70480be5081363b415ad21c06ae45a4c24
@@ -1274,7 +1274,7 @@ Architecture: all
 Maintainer: wheel2deb <wheel2deb@parkoview.com>
 Installed-Size: 29
 Depends: python3 (>= 3.1~), python3:any
-Filename: /home/bob/git/debian_repo/python3-playsound_1.2.2-1~w2d0_all.deb
+Filename: ./python3-playsound_1.2.2-1~w2d0_all.deb
 Size: 5584
 MD5sum: b90285a9e6d8642d78f1df4f10db98a4
 SHA1: 42590c61501feb98e280515c99bfea01dc3b756b
@@ -1292,7 +1292,7 @@ Architecture: all
 Maintainer: unknown <unknown@unknown>
 Installed-Size: 32
 Depends: python3-tqdm, python3:any
-Filename: /home/bob/git/debian_repo/python3-proglog_0.1.9-1_all.deb
+Filename: ./python3-proglog_0.1.9-1_all.deb
 Size: 5872
 MD5sum: ebae077eaf87addf1a3954f603d468b9
 SHA1: f1aadfc13fb9fa303d7cd5c5c9b2d75384994524
@@ -1328,7 +1328,7 @@ Architecture: all
 Maintainer: Pádraig Brady <P@draigBrady.com>
 Installed-Size: 44
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-ps-mem_3.12-1_all.deb
+Filename: ./python3-ps-mem_3.12-1_all.deb
 Size: 10024
 MD5sum: b3bb2fc5987c44b26dd3bf52bc058423
 SHA1: c5287eb22cef848a191fabf34a9954123c613954
@@ -1365,7 +1365,7 @@ Architecture: all
 Maintainer: Jonathan Peirce <jon.peirce@gmail.com>
 Installed-Size: 24411
 Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-esprima, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-opengl, python3-openpyxl, python3-packaging, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyo, python3-python-bidi, python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-tables, python3-ujson, python3-websocket, python3-xlrd, python3-yaml, python3-zmq, python3:any
-Filename: /home/bob/git/debian_repo/python3-psychopy_2021.2.3-1_all.deb
+Filename: ./python3-psychopy_2021.2.3-1_all.deb
 Size: 7833132
 MD5sum: 1c6e7e0612c9125e107b6effd4360493
 SHA1: acb6ec733d5a0d7c3eb9cdc45843cb88d3d27cd9
@@ -1401,7 +1401,7 @@ Architecture: amd64
 Maintainer: Mario Kleiner <mario.kleiner.de@gmail.com>
 Installed-Size: 922
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3-numpy, python3:any, libasound2 (>= 1.0.16), libc6 (>= 2.28), libportaudio2 (>= 19+svn20101113), libusb-1.0-0 (>= 2:1.0.9), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
-Filename: /home/bob/git/debian_repo/python3-psychtoolbox_3.0.18.0-1_amd64.deb
+Filename: ./python3-psychtoolbox_3.0.18.0-1_amd64.deb
 Size: 195308
 MD5sum: 8b0892e687a3570223b6ce4397ca5e15
 SHA1: cf7f79a36ab83e5f3b69e6305751c2d990b6c668
@@ -1418,7 +1418,7 @@ Architecture: amd64
 Maintainer: Lars Immisch <lars@ibp.de>
 Installed-Size: 82
 Depends: python3 (<< 3.10), python3 (>= 3.9~), libasound2 (>= 1.0.16), libc6 (>= 2.4)
-Filename: /home/bob/git/debian_repo/python3-pyalsaaudio_0.9.0-1_amd64.deb
+Filename: ./python3-pyalsaaudio_0.9.0-1_amd64.deb
 Size: 20832
 MD5sum: 5ac481e7d2454026dec253b3ce61b61a
 SHA1: 07d8fa5be94834e84e0303d4b420554cf3e463bc
@@ -1437,7 +1437,7 @@ Architecture: amd64
 Maintainer: Helder Eijs <helderijs@gmail.com>
 Installed-Size: 3500
 Depends: python3 (>= 3~), python3:any, libc6 (>= 2.14)
-Filename: /home/bob/git/debian_repo/python3-pycryptodome_3.11.0-1_amd64.deb
+Filename: ./python3-pycryptodome_3.11.0-1_amd64.deb
 Size: 1005392
 MD5sum: 8708a630a44b0ff7464330eb1ad17687
 SHA1: d8721744c224845ddfa73a5cc81efd1b52d665e5
@@ -1474,7 +1474,7 @@ Architecture: amd64
 Maintainer: Helder Eijs <helderijs@gmail.com>
 Installed-Size: 3504
 Depends: python3 (>= 3~), python3:any, libc6 (>= 2.14)
-Filename: /home/bob/git/debian_repo/python3-pycryptodomex_3.11.0-1_amd64.deb
+Filename: ./python3-pycryptodomex_3.11.0-1_amd64.deb
 Size: 1005844
 MD5sum: 961ad8f51bee30801ff151e6daaecb57
 SHA1: 1e847e094f8c424104a147386b17e8582841938a
@@ -1511,7 +1511,7 @@ Architecture: all
 Maintainer: Piotr Dabkowski <piodrus@gmail.com>
 Installed-Size: 148
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-pyjsparser_2.7.1-1_all.deb
+Filename: ./python3-pyjsparser_2.7.1-1_all.deb
 Size: 22296
 MD5sum: 25cee34062b5cbb5a898b65bb7d7615a
 SHA1: e141a3666070e410badbf77573f2d8e253453baa
@@ -1527,7 +1527,7 @@ Architecture: all
 Maintainer: wheel2deb <wheel2deb@parkoview.com>
 Installed-Size: 106
 Depends: python3 (>= 3.3~), python3:any
-Filename: /home/bob/git/debian_repo/python3-pyosf_1.0.5-1~w2d0_all.deb
+Filename: ./python3-pyosf_1.0.5-1~w2d0_all.deb
 Size: 20548
 MD5sum: e6ceb1281f2f1decf7f760618e6d87e0
 SHA1: 5e705ccf5ed2e0202a13cf9b0112c3079c300a27
@@ -1545,7 +1545,7 @@ Architecture: all
 Maintainer: Tyler Barrus <barrust@gmail.com>
 Installed-Size: 2721
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-pyspellchecker_0.6.2-1_all.deb
+Filename: ./python3-pyspellchecker_0.6.2-1_all.deb
 Size: 2742576
 MD5sum: 3b2c50d08a3697f25eb3c656b0568fea
 SHA1: 25fe94fbfa67ce5c54e4b79de50586fcaa798b1e
@@ -1582,7 +1582,7 @@ Architecture: all
 Maintainer: Meir Kriheli <mkriheli@gmail.com>
 Installed-Size: 74
 Depends: python3-six, python3:any
-Filename: /home/bob/git/debian_repo/python3-python-bidi_0.4.2-1_all.deb
+Filename: ./python3-python-bidi_0.4.2-1_all.deb
 Size: 14272
 MD5sum: 2b256f26e5f6aee2daa2a420e6f1f880
 SHA1: 6685093a6f60515b4b3630ce5d6b5f525be68a14
@@ -1618,7 +1618,7 @@ Architecture: all
 Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
 Installed-Size: 53
 Depends: python3-datamatrix, python3-fastnumbers, python3:any
-Filename: /home/bob/git/debian_repo/python3-python-eyelinkparser_0.10.1-1_all.deb
+Filename: ./python3-python-eyelinkparser_0.10.1-1_all.deb
 Size: 9536
 MD5sum: eeb780c372dce7a0bf493d8e204069cd
 SHA1: 4bafb8b81e96a6612186eb57a87f5f3b3ca77b86
@@ -1636,7 +1636,7 @@ Architecture: all
 Maintainer: Olivier Aubert <contact@olivieraubert.net>
 Installed-Size: 375
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-python-vlc_3.0.12118-1_all.deb
+Filename: ./python3-python-vlc_3.0.12118-1_all.deb
 Size: 50884
 MD5sum: 0744f173af0585a8fa10d74739584aac
 SHA1: 8c4deb7f2958360c6f44e6d822b37055e91ac513
@@ -1660,7 +1660,7 @@ Architecture: all
 Maintainer: Wilbert van Ham <w.vanham@socsci.ru.nl>
 Installed-Size: 44
 Depends: python3-serial, python3:any
-Filename: /home/bob/git/debian_repo/python3-rusocsci_0.8.7-1_all.deb
+Filename: ./python3-rusocsci_0.8.7-1_all.deb
 Size: 9716
 MD5sum: 21d0795155edc1f575f67e37afa63da0
 SHA1: 3e8a52a1d2c1d4e2d0d91b5e3ac98e8e872c8dc7
@@ -1685,7 +1685,7 @@ Architecture: all
 Maintainer: Matthias Geier <Matthias.Geier@gmail.com>
 Installed-Size: 139
 Depends: python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any
-Filename: /home/bob/git/debian_repo/python3-sounddevice_0.4.3-1_all.deb
+Filename: ./python3-sounddevice_0.4.3-1_all.deb
 Size: 28324
 MD5sum: bd0ca7c537a9db7a8d13cd5f331739d3
 SHA1: edb6ffc0d1fec067c0869bef710347829eb6c97d
@@ -1721,7 +1721,7 @@ Architecture: amd64
 Maintainer: wheel2deb <wheel2deb@upciti.com>
 Installed-Size: 313
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any
-Filename: /home/bob/git/debian_repo/python3-sr-research-pylink_2.1.1.0-1~w2d0_amd64.deb
+Filename: ./python3-sr-research-pylink_2.1.1.0-1~w2d0_amd64.deb
 Size: 64924
 MD5sum: 0a196ba4d473cf2e8778cbf63b31f053
 SHA1: c1570a3de6878aad74fa15d275fe7cceb6881075
@@ -1739,7 +1739,7 @@ Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
 Installed-Size: 5863
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: /home/bob/git/debian_repo/python3-tartube_2.3.332-STRICT.deb
+Filename: ./python3-tartube_2.3.332-STRICT.deb
 Size: 2272940
 MD5sum: ca5c84e3c002c2a84d256e8302028c54
 SHA1: 35baf8a48e5a36b0aee90eaae6d3b24eafe031c3
@@ -1758,7 +1758,7 @@ Architecture: amd64
 Maintainer: wheel2deb <wheel2deb@upciti.com>
 Installed-Size: 4611
 Depends: python3 (>= 3.8~), python3:any
-Filename: /home/bob/git/debian_repo/python3-tobii-research_1.9.0-1~w2d0_amd64.deb
+Filename: ./python3-tobii-research_1.9.0-1~w2d0_amd64.deb
 Size: 1459848
 MD5sum: 370db2cb5511b974ac2263275c76f5ca
 SHA1: 758f0ccc3ed787d34eca18ea70994f75c65a109d
@@ -1776,7 +1776,7 @@ Architecture: all
 Maintainer: Ofek Lev <ofekmeister@gmail.com>
 Installed-Size: 52
 Depends: python3-click, python3:any
-Filename: /home/bob/git/debian_repo/python3-userpath_1.6.0-1_all.deb
+Filename: ./python3-userpath_1.6.0-1_all.deb
 Size: 12012
 MD5sum: 3aa208259324ff52e49f46a2789e375b
 SHA1: 06ad6dbc72d9a4af38adde2c7f8346f538361e4b
@@ -1813,7 +1813,7 @@ Architecture: all
 Maintainer: Olivier Aubert <contact@olivieraubert.net>
 Installed-Size: 375
 Depends: python3:any
-Filename: /home/bob/git/debian_repo/python3-vlc_3.0.12118-1_all.deb
+Filename: ./python3-vlc_3.0.12118-1_all.deb
 Size: 50880
 MD5sum: 746cc6471809c249d22268e15c3096f7
 SHA1: ca8f85eea7d46703df1d169d9ded24b8887ad6d4
@@ -1837,7 +1837,7 @@ Architecture: amd64
 Maintainer: Aymeric Augustin <aymeric.augustin@m4x.org>
 Installed-Size: 339
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4)
-Filename: /home/bob/git/debian_repo/python3-websockets_9.1-1_amd64.deb
+Filename: ./python3-websockets_9.1-1_amd64.deb
 Size: 56332
 MD5sum: 6f97f7c2d33c363d883436e8d511882a
 SHA1: 6472c2c727168fae2d94c235bcf8ed9bd06551e8
@@ -1873,7 +1873,7 @@ Architecture: all
 Maintainer: wheel2deb <wheel2deb@parkoview.com>
 Installed-Size: 91
 Depends: python3 (>= 3.4~), python3-attr (>= 17), python3-colorama, python3-dirsync, python3-jinja2, python3-packaging, python3-pkginfo, python3-setuptools, python3-wheel, python3-yaml, python3:any
-Filename: /home/bob/git/debian_repo/python3-wheel2deb_0.5.8-1~w2d0_all.deb
+Filename: ./python3-wheel2deb_0.5.8-1~w2d0_all.deb
 Size: 19760
 MD5sum: ef3d52b655d0793f4a88feb7682d00df
 SHA1: 8c04ab93d63fe47379d695b4a8ba02387ce3c771
@@ -1888,7 +1888,7 @@ Package: realtimeconfigquickscan
 Version: 1.1-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: /home/bob/git/debian_repo/realtimeconfigquickscan_1.1-1_amd64.deb
+Filename: ./realtimeconfigquickscan_1.1-1_amd64.deb
 Size: 12956
 MD5sum: cba39a2be3f934ba9514d82a5e74ed04
 SHA1: 67fabbbaf2936e430a7e1c1e9e46aa44268527c9
@@ -1904,7 +1904,7 @@ Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
 Installed-Size: 2179
 Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
 Recommends: partimage, ecryptfs-utils
-Filename: /home/bob/git/debian_repo/rescuezilla_2.2-1_all.deb
+Filename: ./rescuezilla_2.2-1_all.deb
 Size: 408936
 MD5sum: e674bda34bea2e59f4260167c6e9ca6d
 SHA1: 969bbff980191736e4a727f82905986baaa26ab3
@@ -1927,7 +1927,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 4401
 Depends: mpv | mplayer, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
 Recommends: smplayer-themes, smplayer-l10n
-Filename: /home/bob/git/debian_repo/smplayer_21.8.0-1~bpo11+1_amd64.deb
+Filename: ./smplayer_21.8.0-1~bpo11+1_amd64.deb
 Size: 1962060
 MD5sum: 6d96e8a981f94beef0228bc47fb965b4
 SHA1: 3898c6c1b24df530f41448ef9859ddde18c2a009
@@ -1954,7 +1954,7 @@ Installed-Size: 10693
 Depends: smplayer (>= 21.8.0-1~bpo11+1)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: /home/bob/git/debian_repo/smplayer-l10n_21.8.0-1~bpo11+1_all.deb
+Filename: ./smplayer-l10n_21.8.0-1~bpo11+1_all.deb
 Size: 1311396
 MD5sum: 680096928113a36851011ced0be438dc
 SHA1: 413e48da83e9f6ffad42b20ec4a04b7f8a279293
@@ -1980,7 +1980,7 @@ Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 835
 Depends: smplayer | mpv | mplayer | vlc | totem | dragonplayer, libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
-Filename: /home/bob/git/debian_repo/smtube_21.7.0-1~bpo11+1_amd64.deb
+Filename: ./smtube_21.7.0-1~bpo11+1_amd64.deb
 Size: 264996
 MD5sum: 70c470729f5d31b53d8a21bb2e2f5877
 SHA1: b90e2e744fabcbea504b6100fb3ea30b319b27ab
@@ -2000,7 +2000,7 @@ Architecture: amd64
 Maintainer: Jonas Kvinge <jonas@jkvinge.net>
 Installed-Size: 13520
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.7.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libmtp9 (>= 1.1.0), libprotobuf23 (>= 3.12.4), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-alsa, gstreamer1.0-pulseaudio
-Filename: /home/bob/git/debian_repo/strawberry_1.0-bullseye_amd64.deb
+Filename: ./strawberry_1.0-bullseye_amd64.deb
 Size: 5418408
 MD5sum: 6f69dd42b0b4f9bf9bb8b120d8123b97
 SHA1: ec92c811711ebbc4656de7e1f42daf6894ad7b69
@@ -2039,7 +2039,7 @@ Architecture: amd64
 Maintainer: Tobii Pro - Team Bromine
 Installed-Size: 252570
 Depends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, libxss1
-Filename: /home/bob/git/debian_repo/tobiiproeyetrackermanager_2.1.0-1_amd64.deb
+Filename: ./tobiiproeyetrackermanager_2.1.0-1_amd64.deb
 Size: 57050234
 MD5sum: 76e2633a3f0de1be4e40236be53441bf
 SHA1: 3c182ab1b3f977ee7f7bf0ace9b7e6d5a231b5ba
@@ -2059,7 +2059,7 @@ Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 60791
 Recommends: virtualbox (>= 6.1.28)
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
-Filename: /home/bob/git/debian_repo/virtualbox-guest-additions-iso_6.1.28-1~bpo11+1_all.deb
+Filename: ./virtualbox-guest-additions-iso_6.1.28-1~bpo11+1_all.deb
 Size: 45377820
 MD5sum: 9dc201e88e81ea4d6e0d96f68c21308c
 SHA1: a4d0c4dbe08d57c7d583c7a92b0f73230e69cd35
@@ -2082,7 +2082,7 @@ Architecture: all
 Maintainer: Jakub Szymański <waxy@waxy.one>
 Installed-Size: 342
 Depends: python3-termcolor, python3-wxgtk4.0, python3:any, p7zip-full
-Filename: /home/bob/git/debian_repo/woeusb-ng_0.2.7-1_all.deb
+Filename: ./woeusb-ng_0.2.7-1_all.deb
 Size: 170748
 MD5sum: 26427a44de56512a6c17507b285c4a00
 SHA1: abd2565e0beddfab6a146d879e1912b655ce623b
@@ -2099,7 +2099,7 @@ Architecture: all
 Maintainer: pukkandan <pukkandan.ytdlp@gmail.com>
 Installed-Size: 7483
 Depends: python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
-Filename: /home/bob/git/debian_repo/yt-dlp_2021.10.22-1_all.deb
+Filename: ./yt-dlp_2021.10.22-1_all.deb
 Size: 1320468
 MD5sum: 6bc5cd5295bc834b8ac8c62918ee8124
 SHA1: 3cce1cadffb1b741dc820453cc81886a42ae3e7e
