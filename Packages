@@ -2444,20 +2444,20 @@ Description: Creates USB stick with Windows installer.
  with windows installer from an iso image or a real DVD.
 
 Package: yt-dlp
-Version: 2021.10.22-1
+Version: 2021.11.10.1-1
 Architecture: all
 Maintainer: pukkandan <pukkandan.ytdlp@gmail.com>
-Installed-Size: 7483
+Installed-Size: 7606
 Depends: python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
-Filename: ./yt-dlp_2021.10.22-1_all.deb
-Size: 1320468
-MD5sum: 6bc5cd5295bc834b8ac8c62918ee8124
-SHA1: 3cce1cadffb1b741dc820453cc81886a42ae3e7e
-SHA256: e2d49d275ddcd768c5b9397846f9df37a765ae4cfe6cacf8d6d56ce3106fc87b
+Filename: ./yt-dlp_2021.11.10.1-1_all.deb
+Size: 1342628
+MD5sum: ed0212d163bbc890fb68d488d9900ed1
+SHA1: bc979fff5ccc6b36ad89e3e51ec94bb37d7926dc
+SHA256: 9365d750635e348e5bc2e712e651cb9c093cbfa9c4d63b715c269634e3afee08
 Section: python
 Priority: optional
 Homepage: https://github.com/yt-dlp/yt-dlp
-Description: Command-line program to download videos from YouTube.com and
+Description: A youtube-dl fork with additional features and patches
  Official repository: <https://github.com/yt-dlp/yt-dlp>
  .
  **PS**: Some links in this document will not work since this is a copy of the README.md from Github
