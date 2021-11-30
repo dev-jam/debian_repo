@@ -1120,16 +1120,16 @@ Description: A ctypes-based wrapper for GLFW3.
 
 Package: python3-imageio
 Source: imageio
-Version: 2.10.4-1
+Version: 2.13.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4374
+Installed-Size: 4389
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.10.4-1_all.deb
-Size: 3148176
-MD5sum: 24fa8216c1a38354607426ddd2389c2a
-SHA1: 637dae279fe16525b47a3dc37721548b01cd5989
-SHA256: 5e1866b462642d8fd58b63b86d120b5d680a42c1b34a8f798a4c3ea5b968de6c
+Filename: ./python3-imageio_2.13.0-1_all.deb
+Size: 3150360
+MD5sum: 0216880686bbf11633f28ea730529cf0
+SHA1: 1dc10980e7bf9c28daee790e540814d47255e11b
+SHA256: cf97ff855fc56ee656dc8ecfa4223a820d91d2edea097419a289803cc7203955
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
