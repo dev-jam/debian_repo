@@ -1708,42 +1708,6 @@ Description: A utility to report core memory usage per program
         [-d|--discriminate-by-pid] [-S|--swap]
  ```
 
-Package: python3-psychopy
-Source: psychopy
-Version: 2021.2.3-1
-Architecture: all
-Maintainer: Jonathan Peirce <jon.peirce@gmail.com>
-Installed-Size: 24411
-Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-esprima, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-opengl, python3-openpyxl, python3-packaging, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyo, python3-python-bidi, python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-tables, python3-ujson, python3-websocket, python3-xlrd, python3-yaml, python3-zmq, python3:any
-Filename: ./python3-psychopy_2021.2.3-1_all.deb
-Size: 7833132
-MD5sum: 1c6e7e0612c9125e107b6effd4360493
-SHA1: acb6ec733d5a0d7c3eb9cdc45843cb88d3d27cd9
-SHA256: 9c871fb2907ac57d6d84858325f1fa36e62bd42e7d2ad981f5b8f85be966f51a
-Section: python
-Priority: optional
-Homepage: https://www.psychopy.org/
-Description: Psychology experiment software in Python
- # PsychoPy
- .
- [![GH tests](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml/badge.svg)](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml)
- [![PyPI version](https://img.shields.io/pypi/v/psychopy.svg)](https://pypi.python.org/pypi/PsychoPy)
- [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
- .
- PsychoPy is an open-source package for creating experiments in behavioral science. It aims to provide a single package that is:
- .
- * precise enough for psychophysics
- * easy enough for teaching
- * flexible enough for everything else
- * able to run experiments in a local Python script or online in JavaScript
- .
- To meet these goals PsychoPy provides a choice of interface - you can use a
- simple graphical user interface called Builder, or write your experiments in
- Python code. The entire application and library are written in Python and is
- platform independent.
- .
- There is a range of documentation at:
-
 Package: python3-psychtoolbox
 Source: psychtoolbox
 Version: 3.0.18.0-1
