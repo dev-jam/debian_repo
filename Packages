@@ -95,16 +95,16 @@ Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
 Package: glmark2-data
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Architecture: all
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 9311
-Recommends: glmark2-drm (>= 2021.02+ds-1~bpo11+1) | glmark2-wayland (>= 2021.02+ds-1~bpo11+1) | glmark2-x11 (>= 2021.02+ds-1~bpo11+1) | glmark2-es2-wayland (>= 2021.02+ds-1~bpo11+1) | glmark2-es2-drm (>= 2021.02+ds-1~bpo11+1) | glmark2-es2-x11 (>= 2021.02+ds-1~bpo11+1)
-Filename: ./glmark2-data_2021.02+ds-1~bpo11+1_all.deb
-Size: 6600312
-MD5sum: e2e81ec24c97b9d52b35a6c29a8eb012
-SHA1: 5ba1b7ea4a55df2885bcf854a0f3b07391cd0931
-SHA256: ffa44abe873fbd386b7d3a5c4e144a6f5fe7c9426cc07742bac68d0cb4ca6f83
+Installed-Size: 9310
+Recommends: glmark2-drm (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-wayland (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-x11 (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-es2-wayland (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-es2-drm (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-es2-x11 (>= 2021.10~git.e359bb0-2~bpo11+1)
+Filename: ./glmark2-data_2021.10~git.e359bb0-2~bpo11+1_all.deb
+Size: 6593368
+MD5sum: c7ad78e7043639e0cc67d78504eb4e90
+SHA1: 20d784a1a04e2221ad74f89e6a13334c5f62461f
+SHA256: addc2a0ea34547b54b64cdd92055b31a88e021a2c5208abb8bf40d9c9fcaabd3
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -120,16 +120,16 @@ Description: OpenGL (ES) 2.0 benchmark suite -- data files
 
 Package: glmark2-drm
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Installed-Size: 1026
-Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
-Filename: ./glmark2-drm_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 293940
-MD5sum: 3ce6ae7d90c27b0db2d027eab77c8d52
-SHA1: e0d219562fb31e5abe268078dac868dddb820bb4
-SHA256: 46f1d1a018219f71a4f7030cca76846c8161c37a98cec03af6e0959c444197c8
+Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-drm_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 293884
+MD5sum: d9515dec3f01c95b7599b18454c1bc5b
+SHA1: d6bd0d6e4c4ff78988f091bdd4d5f33025e68c04
+SHA256: e485f455e09284d584da4b86204c67aa4e9c442a61bbaabe9e2045d79ac42a30
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -145,34 +145,34 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-drm-dbgsym
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5213
-Depends: glmark2-drm (= 2021.02+ds-1~bpo11+1)
-Filename: ./glmark2-drm-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 5011136
-MD5sum: 265355c6439ab9afde3eec6996c8b373
-SHA1: a443ef383f9ed4f8d3f41dfcbb6b99eac6b0a0cd
-SHA256: b93a053a06e2a5bc5f5e07f28d70921c2606e19e5fc71d1f0b53c722c5b72ec8
+Installed-Size: 5208
+Depends: glmark2-drm (= 2021.10~git.e359bb0-2~bpo11+1)
+Filename: ./glmark2-drm-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 5006264
+MD5sum: 89e6e3856ea54e63eb3e23f1e4756048
+SHA1: 86a74679471c71c5ad3cd8e2716750f80b434b20
+SHA256: 85bf318b1dd38389fd9ff3df5511840a261a66b115a994bdc79d6244d3cbf914
 Section: debug
 Priority: optional
 Description: debug symbols for glmark2-drm
-Build-Ids: a510f9b95a5fb41e884e648f50391456f3823569
+Build-Ids: a9af5a2618a4ad6e6640200da7d70d7e4f6cfef6
 
 Package: glmark2-es2-drm
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 1006
-Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
-Filename: ./glmark2-es2-drm_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 290252
-MD5sum: 394243432612da3dc1d099b56e21454b
-SHA1: 7646caabb0934586528a1465362660769fb4eb08
-SHA256: 5d0f34e64d227ce8fc1906c2e7c32bce8b5bc98a9825d7020e0ec03edfd1904e
+Installed-Size: 1010
+Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-es2-drm_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 292216
+MD5sum: d0ec96228196110ff75ad59a53e4e250
+SHA1: fe0e638b3bf82e7485a40ed9b1ecb190e1c86141
+SHA256: aef0b9719fbc69321834d696809f36acc809945c2ee5d880ab0f61d482fa72b6
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -188,34 +188,34 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-es2-drm-dbgsym
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5164
-Depends: glmark2-es2-drm (= 2021.02+ds-1~bpo11+1)
-Filename: ./glmark2-es2-drm-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 4976768
-MD5sum: fd594bbeaf95923c4d61f3e96b8e1f0d
-SHA1: 51f7adb79d138e5a409209f1d6cdb7e00fca0254
-SHA256: b6559bb9c2ae41d5e4cda63060e927263b3432a74a236f1180d5597d1389df10
+Installed-Size: 5178
+Depends: glmark2-es2-drm (= 2021.10~git.e359bb0-2~bpo11+1)
+Filename: ./glmark2-es2-drm-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 4991660
+MD5sum: f6df0fbaa96c09a126eccf7d8e4da63a
+SHA1: 01e31c02f392ee25c27169452288a2ea50210c3d
+SHA256: 04b10111ed0260d2a9a783fbe697e6e006d4882f66c12f9830483a9bd3a9be1f
 Section: debug
 Priority: optional
 Description: debug symbols for glmark2-es2-drm
-Build-Ids: 484c4e476144674571f89b4d7a00ddf286ef228e
+Build-Ids: 35051704b382e3db7e8c012de9219605727293c9
 
 Package: glmark2-es2-wayland
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 1010
-Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
-Filename: ./glmark2-es2-wayland_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 290228
-MD5sum: 72f7f33281f8f66649761a460fba5bae
-SHA1: e503f21fea15ad6871f07d2a7fc94ec1c235c2db
-SHA256: 18fd9f2e438df17d927db41a0b8d0cb9e5d751275ef2adabf8293bc2674509c0
+Installed-Size: 1014
+Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-es2-wayland_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 291688
+MD5sum: 20ce85a9a529f414e6bc6736d0f1bd03
+SHA1: 638b9d784fdb663618ba682d1d43462e86176569
+SHA256: 1aa4e94d7cf7d7257086820423c21061cc545be623d22d6c4b1ca407e3c0ec30
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -231,34 +231,36 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-es2-wayland-dbgsym
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5174
-Depends: glmark2-es2-wayland (= 2021.02+ds-1~bpo11+1)
-Filename: ./glmark2-es2-wayland-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 4987336
-MD5sum: c52dc7c27ebf54bf6da626c85cb021c9
-SHA1: f593c6abb481c04fa426299f188780582b03a3e0
-SHA256: a36e943a2b2d91ae5ab136e1c4917bebf2b4c9aaf386aa5986294b8dede1743c
+Installed-Size: 5186
+Depends: glmark2-es2-wayland (= 2021.10~git.e359bb0-2~bpo11+1)
+Filename: ./glmark2-es2-wayland-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 5000024
+MD5sum: c6ebdab8d47cb362aa1c556fe96a602c
+SHA1: 5dd481766c858b62e7283be6e658cd11feee81d7
+SHA256: 106f30428610d7f6215976df4b3e751d71a20d13ea87abf282512d8796516d97
 Section: debug
 Priority: optional
 Description: debug symbols for glmark2-es2-wayland
-Build-Ids: ec725236ceaf8a3b11ef3197294ef43cbeb284a9
+Build-Ids: f79051d49032d5b56d2eafa51e08b7750b9f4071
 
 Package: glmark2-es2-x11
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 998
-Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
-Filename: ./glmark2-es2-x11_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 287556
-MD5sum: e024101de460079233dff66dc78cf130
-SHA1: 7179f1f786ae790938b52f04d054409411fcfad8
-SHA256: 8774a3277210827e043813dd4059f01ea2f34a0c515f8287fbb3321ce450639d
+Installed-Size: 1002
+Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Replaces: glmark2-es2 (<< 2021.02+ds)
+Provides: glmark2-es2
+Filename: ./glmark2-es2-x11_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 289104
+MD5sum: 89108505d19a1d30fe9685b8ad7cc593
+SHA1: a88d959d5bb47d16fd989e04847850f8250e1c66
+SHA256: 4dbb24e407f0bb2d143e76bd009b8f79ca10a4d2de8b0b2fc3bf8ea4103db5e0
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -274,34 +276,34 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-es2-x11-dbgsym
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5151
-Depends: glmark2-es2-x11 (= 2021.02+ds-1~bpo11+1)
-Filename: ./glmark2-es2-x11-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 4961812
-MD5sum: dec8a558ec4542bdbcc5a226583ea21e
-SHA1: d05f12f3f699ff2fde0ff3c4a79351761e3ede70
-SHA256: 387e4b0399366347a07a3ec0fb6db64a89735dbd9e96d9d5bf5901b36933ff0a
+Installed-Size: 5163
+Depends: glmark2-es2-x11 (= 2021.10~git.e359bb0-2~bpo11+1)
+Filename: ./glmark2-es2-x11-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 4978660
+MD5sum: 47354208b18121028458ecd264eb003d
+SHA1: 297019a02b23a6bda240ffb652eba162f9552fd8
+SHA256: 4f50e1d972983413519f212186fd0e8cd7ea279014d201af3cee1935406ca50f
 Section: debug
 Priority: optional
 Description: debug symbols for glmark2-es2-x11
-Build-Ids: 5dbff496a66298e794e63dd1044044932df2437f
+Build-Ids: e6ca3ea9a5e8ea7f18ca2300a0312752374e2837
 
 Package: glmark2-wayland
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 1030
-Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
-Filename: ./glmark2-wayland_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 293864
-MD5sum: 633ed63148947452724c54a55364575c
-SHA1: ea351284edc83f2fd55ebba4351c4577044f57f4
-SHA256: 970bfeb43743add137d0a86e4379d65b0df31e59fc16b0ced34d9919d73409b8
+Installed-Size: 1026
+Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-wayland_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 294016
+MD5sum: 087e91ca76c7fc7c61b6c79b24137dbc
+SHA1: 44d5e0e9f1a5b751851231d8a89a98ba3f9a177b
+SHA256: 37d5dbebe589f5561d20d1639f42f787ff9c0eebfb651af060bf1cff1481bd45
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -317,34 +319,36 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-wayland-dbgsym
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5223
-Depends: glmark2-wayland (= 2021.02+ds-1~bpo11+1)
-Filename: ./glmark2-wayland-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 5016688
-MD5sum: b3c67fa96fdfdd7c800ea19cd3de275c
-SHA1: 5a18cf8cdefbc6abe15cfa8b4ab8f98bfd007e04
-SHA256: 5574c4c360e1856006f27b4fab4904480dda117623329457c9f9d4477a550ed7
+Installed-Size: 5221
+Depends: glmark2-wayland (= 2021.10~git.e359bb0-2~bpo11+1)
+Filename: ./glmark2-wayland-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 5018720
+MD5sum: 8c501c8107fd0182ca943e74660a99f5
+SHA1: 504bff4fe2e76bd97a82a4effd762370eaded34a
+SHA256: 4dd7f5c67aee60fd0e61960d661e60bf46d19ebcbb466ed7bc4f0bf950815e8a
 Section: debug
 Priority: optional
 Description: debug symbols for glmark2-wayland
-Build-Ids: 2c74f3c5ababcf3745fb783e7b250ae26071283f
+Build-Ids: f388be8bf8f09ace96cdea788ca54b6187e80f3e
 
 Package: glmark2-x11
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 1010
-Depends: glmark2-data (= 2021.02+ds-1~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
-Filename: ./glmark2-x11_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 287832
-MD5sum: 6bf447e6d85ee0974a7bb745b826bd31
-SHA1: f37258a27c060d1bccd56e9d1bc1a616ddf4bb11
-SHA256: 5a2479816ec53f616bf1e48a1a8eca3f3c6bbb21cf1a43837af9716304e2bb7f
+Installed-Size: 1006
+Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Replaces: glmark2 (<< 2021.02+ds)
+Provides: glmark2
+Filename: ./glmark2-x11_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 287728
+MD5sum: a66d798bca609b73aec00bd67836c3a2
+SHA1: 241726f9964f36f3e2d39c2eb4681a2de6469710
+SHA256: 188d43ac9f6d3f91c09abde8d6f3d8c557233182eb8eb4cde2cac8e8dcaa4737
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -360,21 +364,21 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-x11-dbgsym
 Source: glmark2
-Version: 2021.02+ds-1~bpo11+1
+Version: 2021.10~git.e359bb0-2~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5136
-Depends: glmark2-x11 (= 2021.02+ds-1~bpo11+1)
-Filename: ./glmark2-x11-dbgsym_2021.02+ds-1~bpo11+1_amd64.deb
-Size: 4943480
-MD5sum: 54c88ede4e8abe19335c92a26c1ac832
-SHA1: 2917a263e12831a797949011ece79014c09e9ddf
-SHA256: 4a306218702bbead3724fd38fde9c5a94d5c2cb91c05922c28aa387c89d1430f
+Installed-Size: 5133
+Depends: glmark2-x11 (= 2021.10~git.e359bb0-2~bpo11+1)
+Filename: ./glmark2-x11-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
+Size: 4945216
+MD5sum: 19234ea65fb7a0d29513334218602d9b
+SHA1: 60dab05641300462d9c7c7df87ecf7198e82981a
+SHA256: 4ae0facb5f9a53de10ca23293df6eb1d8bd5e39f8e02cdc42fcb17afd102b34b
 Section: debug
 Priority: optional
 Description: debug symbols for glmark2-x11
-Build-Ids: ff92ca74167ad4d5eb26639e829245d21fbdc28b
+Build-Ids: 5a47e294a51f4c21d4ec88845a629e7a8417a20e
 
 Package: gprename
 Version: 20201214-0.2
@@ -752,16 +756,17 @@ Priority: optional
 Description: plasma-appimage-integration built using CMake
 
 Package: praat
-Version: 6.1.56-1~bpo11+1
+Version: 6.2.01-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 71900
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), libx11-6, oss-compat, python3:any
-Filename: ./praat_6.1.56-1~bpo11+1_amd64.deb
-Size: 14494392
-MD5sum: 7531c716dbebe2b144060cd697e3fc20
-SHA1: 4bf53294cd375764e947df8a230111931235373f
-SHA256: 5fc09f209046fd5823f0e0e2df28a24117df28695b7e39918a9da970f4ac4065
+Installed-Size: 72038
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), oss-compat, python3:any
+Suggests: libasound2-plugins
+Filename: ./praat_6.2.01-1~bpo11+1_amd64.deb
+Size: 14481100
+MD5sum: ce2593cc84c30a1a1893d58396726152
+SHA1: 7d6a14ff823bfd53cf2729d7399753bafda2743a
+SHA256: 8fe5463ac3c82bace2f9c55170912bb0e6a2bfb17d2ec0f4fe888169bd7976b6
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -1120,16 +1125,16 @@ Description: A ctypes-based wrapper for GLFW3.
 
 Package: python3-imageio
 Source: imageio
-Version: 2.13.0-1
+Version: 2.13.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4389
+Installed-Size: 4390
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.13.0-1_all.deb
-Size: 3150360
-MD5sum: 0216880686bbf11633f28ea730529cf0
-SHA1: 1dc10980e7bf9c28daee790e540814d47255e11b
-SHA256: cf97ff855fc56ee656dc8ecfa4223a820d91d2edea097419a289803cc7203955
+Filename: ./python3-imageio_2.13.1-1_all.deb
+Size: 3150516
+MD5sum: 0209695f7f03d4b86abbe560dff10d98
+SHA1: ed9e305f179dab407c84b54147bf2cf4da81938a
+SHA256: 0016c5176dd66abca1d98dfc7ebd4944660c1d5c2fcf82663b4ac7c6c050d15e
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -1710,16 +1715,16 @@ Description: A utility to report core memory usage per program
 
 Package: python3-psychtoolbox
 Source: psychtoolbox
-Version: 3.0.18.0-1
+Version: 3.0.18.2-1
 Architecture: amd64
-Maintainer: Mario Kleiner <mario.kleiner.de@gmail.com>
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 922
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3-numpy, python3:any, libasound2 (>= 1.0.16), libc6 (>= 2.28), libportaudio2 (>= 19+svn20101113), libusb-1.0-0 (>= 2:1.0.9), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
-Filename: ./python3-psychtoolbox_3.0.18.0-1_amd64.deb
-Size: 195308
-MD5sum: 8b0892e687a3570223b6ce4397ca5e15
-SHA1: cf7f79a36ab83e5f3b69e6305751c2d990b6c668
-SHA256: 0b92fb2f41a10bded8e23a475de5684e09791b685d10ef4cf5154f23ff081971
+Filename: ./python3-psychtoolbox_3.0.18.2-1_amd64.deb
+Size: 195244
+MD5sum: dd4e547e6ac78150309bb6c34b9b6120
+SHA1: 0bbef12f06696730bfbbc055d3c7cfb2ffaacbe9
+SHA256: bcdb82fcda8be49f100397ac549c4305918cc8a2f5a422518e5427ce4136bde3
 Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
@@ -2367,17 +2372,17 @@ License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
 
 Package: virtualbox-guest-additions-iso
-Version: 6.1.28-1~bpo11+1
+Version: 6.1.30-1~bpo11+1
 Architecture: all
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 60791
-Recommends: virtualbox (>= 6.1.28)
+Installed-Size: 60803
+Recommends: virtualbox (>= 6.1.30)
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
-Filename: ./virtualbox-guest-additions-iso_6.1.28-1~bpo11+1_all.deb
-Size: 45377820
-MD5sum: 9dc201e88e81ea4d6e0d96f68c21308c
-SHA1: a4d0c4dbe08d57c7d583c7a92b0f73230e69cd35
-SHA256: 9d2e629b013c185f1886773ea70bc14e1a95c37fa71614332adb1ad8222d94fd
+Filename: ./virtualbox-guest-additions-iso_6.1.30-1~bpo11+1_all.deb
+Size: 45401080
+MD5sum: ae17681dfe2d95551daf3c53b651ddfe
+SHA1: 964dff30102b469bbe6b5debfadc54951caf4103
+SHA256: bfbbbb2717212544808a1ab34cdf2ca1330df09e5e9383218849743e5e428eb1
 Section: non-free/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -2408,16 +2413,16 @@ Description: Creates USB stick with Windows installer.
  with windows installer from an iso image or a real DVD.
 
 Package: yt-dlp
-Version: 2021.11.10.1-1
+Version: 2021.12.1-1
 Architecture: all
-Maintainer: pukkandan <pukkandan.ytdlp@gmail.com>
-Installed-Size: 7606
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 7691
 Depends: python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
-Filename: ./yt-dlp_2021.11.10.1-1_all.deb
-Size: 1342628
-MD5sum: ed0212d163bbc890fb68d488d9900ed1
-SHA1: bc979fff5ccc6b36ad89e3e51ec94bb37d7926dc
-SHA256: 9365d750635e348e5bc2e712e651cb9c093cbfa9c4d63b715c269634e3afee08
+Filename: ./yt-dlp_2021.12.1-1_all.deb
+Size: 1359736
+MD5sum: ae441ddb9c92e10629f8d3b42913e62a
+SHA1: a791cc50754f8571542c35c98b856d055092caf7
+SHA256: ec91d22b129b964da1f7d7f1bec34ed1f8fbd0927d0cadc09d0c8610a8270301
 Section: python
 Priority: optional
 Homepage: https://github.com/yt-dlp/yt-dlp
