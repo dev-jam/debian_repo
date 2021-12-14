@@ -412,6 +412,53 @@ Section: base
 Priority: optional
 Description: luckybackup admin correction for Debian
 
+Package: gstreamer1.0-pipewire
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 153
+Depends: pipewire (= 0.3.41-1~bpo11+1), libc6 (>= 2.28), libglib2.0-0 (>= 2.39.4), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.6.0), libpipewire-0.3-0 (= 0.3.41-1~bpo11+1)
+Filename: ./gstreamer1.0-pipewire_0.3.41-1~bpo11+1_amd64.deb
+Size: 51712
+MD5sum: e354ad4e0ae664352a6ae6cb4e1bc658
+SHA1: 4fc68b3ec0baa5a34fc79df6fe6f198e284add6b
+SHA256: 4f2c73bbef456868f35f316475219987ce7f61d6271bfd5c5b31f27a517c9b91
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: GStreamer 1.0 plugin for the PipeWire multimedia server
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains a plugin to make devices managed by the PipeWire
+ server available as GStreamer sources and sinks.
+
+Package: gstreamer1.0-pipewire-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 206
+Depends: gstreamer1.0-pipewire (= 0.3.41-1~bpo11+1)
+Filename: ./gstreamer1.0-pipewire-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 181128
+MD5sum: 246e9a9a57f4923a77fdedefdd2960ea
+SHA1: 902d7558a19a53a4b8245ac43d0cfe2dca340aa5
+SHA256: bab02dddd3d0141d31dc2e301f4eba2fc2f20fb9af9e17003ac0f890858b229b
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for gstreamer1.0-pipewire
+Build-Ids: 81144b2e9251efc896ab0994791377df335cde48
+
 Package: hypno-keyring
 Version: 1.3-1
 Architecture: all
@@ -654,6 +701,331 @@ Description: panel indicator applet - shared library
  .
  This package contains the library itself.
 
+Package: libpipewire-0.3-0
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 967
+Depends: libspa-0.2-modules (= 0.3.41-1~bpo11+1), libc6 (>= 2.28)
+Recommends: pipewire (= 0.3.41-1~bpo11+1), libpipewire-0.3-common
+Filename: ./libpipewire-0.3-0_0.3.41-1~bpo11+1_amd64.deb
+Size: 254016
+MD5sum: 37ee11919f3f4b6dd02b723d257cab1b
+SHA1: f53572e53d7b6ddaf0e10aceb065f9483ebf41bb
+SHA256: cfb9b923902079a84ff92518d40ab8bce647d010496028bb125b34e7266db91a
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+
+Package: libpipewire-0.3-0-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 870
+Depends: libpipewire-0.3-0 (= 0.3.41-1~bpo11+1)
+Filename: ./libpipewire-0.3-0-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 825708
+MD5sum: 0a5475ce486a09e41f448cd693fcaf17
+SHA1: dff81273b52b9a2e7612d488bf1c5ec93c2563f7
+SHA256: 80a93fadcc5e567d8115a72f21db42b25006507c73d40ca845e6ceb2fc4f9530
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libpipewire-0.3-0
+Build-Ids: 93c43d3badcf49d97a0d5b4b95702a9cb8ab3dd1
+
+Package: libpipewire-0.3-common
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: all
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 522
+Filename: ./libpipewire-0.3-common_0.3.41-1~bpo11+1_all.deb
+Size: 60724
+MD5sum: ad083c93f78f882f40d87ee520d9c679
+SHA1: 1d6d128aac041d8d03787a78f2979633753b904f
+SHA256: 7303fbdec7cc87ffe580a7ffe0bad97c8c2e437b4eb486e98ef59397dc879fe4
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - common files
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package is needed for the runtime libraries to display messages in
+ languages other than English.
+
+Package: libpipewire-0.3-dev
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 358
+Depends: libpipewire-0.3-0 (= 0.3.41-1~bpo11+1), libspa-0.2-dev (= 0.3.41-1~bpo11+1)
+Suggests: pipewire-doc
+Filename: ./libpipewire-0.3-dev_0.3.41-1~bpo11+1_amd64.deb
+Size: 54948
+MD5sum: 7de3174ef615290a2a874576e6583262
+SHA1: 2c33870d6e886d0df6049baec86e12d96d709851
+SHA256: d161c28f0c04aa6a959e49cd65e6f051f05b01176e96164242a2ec9bcdb784b5
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - development
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains the development files.
+
+Package: libpipewire-0.3-modules
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 2562
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.30), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), liblilv-0-0 (>= 0.4.2), libpipewire-0.3-0 (= 0.3.41-1~bpo11+1), libpulse0 (>= 11.1), libsndfile1 (>= 1.0.20), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5), libsystemd0, libwebrtc-audio-processing1
+Breaks: pipewire (<< 0.3.5)
+Replaces: pipewire (<< 0.3.5)
+Filename: ./libpipewire-0.3-modules_0.3.41-1~bpo11+1_amd64.deb
+Size: 471860
+MD5sum: 2a1037df0cc89a6f190d4fa2be9f5f5c
+SHA1: fac7c3a4c9c480de559443507e5232de3b6b6928
+SHA256: ddbdbb4f9b24890793aefcdecd5163b542c9cb76114dcd785556304cf611947c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - modules
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains modules used by the PipeWire server and by clients,
+ and should not normally be depended on directly. PipeWire clients should
+ depend on the pipewire package instead.
+
+Package: libpipewire-0.3-modules-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 2876
+Depends: libpipewire-0.3-modules (= 0.3.41-1~bpo11+1)
+Filename: ./libpipewire-0.3-modules-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 2582964
+MD5sum: f4e97374cf7b5e6d297e2efe11e42964
+SHA1: fb761e49d96130ee248635fae14bde3a667831ff
+SHA256: b01abedce8b3c4e35b5d4d4a892320df47850d623026a1b016dbf33df0daf6a4
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libpipewire-0.3-modules
+Build-Ids: 056a411b02ff6a7019458f7361361d4dabb1733c 167d31aebda58e616a301e35f91a37cf3c3b7674 2d98a9b547c05aee599187b8e21448cb1cf01685 2e1c5965639beb721db2a05eaaff8595ca780495 37c42e263d7b94264fc43d36f1926464042b3cc5 3e795e02df165ed89f5a9b24457d487c001b867c 3f6e717e96d558d828bb192da3d4e9f5c73e7590 46775f1d9d9411cbfd39f349771fe705be454372 52befde3483c4ee607b8f1ddb04956012abfacf2 53edbf25f4accf9508fe429cf8c4da4a9c4ba9d6 59388f0d193e9ca14a65fa7e208da1737ae75580 6cc3d02dff71530ca4f270baff8f87b5d91fa9d7 7050f8af2c18e1229e22c51bc11cb618e359137a 749c36dfdc97c1d8f40421b744c00f02be9aad80 80dbb50c7f64513dfb46d73ad7d9d2635c854ca1 932b78042634c1287f4289aa80220a91b04e9be7 ad75517cb916f4699e1b630b44fa0b07d8bc31ce ba5bb4414eb3f05845f06464afea6f84636c1191 bac426fd47110508bf7daa016045b0614f431c9d c32bf795d8b0db9bf728e122dc324679b98cef94 c82c196718df05425d05ca8f6a22c02b6669893b d8c06ff5a0294dd7e014e179f84e9e18d6cfaba4 ec54a7c72bc9361bcdc0f45b56b383e59f6881f6 edc28a9ae4ae6c773b038a0bcd1b72269ec5a01e f9a2c127820b7912fd849e8a9b853cbc9c635e9a fdb3984d3045e81147a725350dcab68913bb6c0a
+
+Package: libspa-0.2-bluetooth
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 739
+Depends: libspa-0.2-modules (= 0.3.41-1~bpo11+1), libbluetooth3 (>= 4.91), libc6 (>= 2.28), libdbus-1-3 (>= 1.9.14), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libsbc1 (>= 1.5), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libspa-0.2-bluetooth_0.3.41-1~bpo11+1_amd64.deb
+Size: 204936
+MD5sum: 072555c9bfe0b3c56bc818234ef89610
+SHA1: 17d52139e566fa3ee8be551c927433312caf56d3
+SHA256: 368f354424b9c23638d5bb441f4870aa704d83c50e7d83aa71a5e18856af62d0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - bluetooth plugins
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains a plugin to make Bluetooth audio devices such as
+ speakers and headsets available to the PipeWire server. It is considered
+ to be experimental, and is disabled by default (even if installed) to
+ avoid conflicts with equivalent functionality in PulseAudio.
+
+Package: libspa-0.2-bluetooth-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1013
+Depends: libspa-0.2-bluetooth (= 0.3.41-1~bpo11+1)
+Filename: ./libspa-0.2-bluetooth-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 966104
+MD5sum: 99e346f4f2eec6767f6044a8821f43ea
+SHA1: 1cacdc97f61dc404372e56257580f12fbc4cfdff
+SHA256: d0ae8f5d3a40a9c5552b8f0601a43a18ce0fe7e2f56636da43cedf2f01b841be
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libspa-0.2-bluetooth
+Build-Ids: 12398c65ae0ec0315d5e2fb560382ed38b09a6ec 669be95c0736c77d81a55dd2a8e7862a304be91d ae6e8191245b688732ca3a9a2eea0dba372b7673 fd05d0239f5a0a25e435ddb4863793ea4b8a0049
+
+Package: libspa-0.2-dev
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 593
+Suggests: pipewire-doc
+Filename: ./libspa-0.2-dev_0.3.41-1~bpo11+1_amd64.deb
+Size: 84384
+MD5sum: ae9c238b8548807de15a35b9f7c60c73
+SHA1: 118552a05d7641deb81c38ff3f796cbf2fecbe51
+SHA256: 97967b478dc7bdf0e2457672f77d39dd8e188167e2ae2fe795945d9608662b85
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server Simple Plugin API - development
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains the development files for the Simple Plugin API.
+
+Package: libspa-0.2-jack
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 213
+Depends: libspa-0.2-modules (= 0.3.41-1~bpo11+1), libc6 (>= 2.14), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125
+Filename: ./libspa-0.2-jack_0.3.41-1~bpo11+1_amd64.deb
+Size: 50460
+MD5sum: 79b6048e5af8d292e14bd382a5fd51db
+SHA1: 9ab62102a6df3bb9e1f7b9d618d2491be1fe4892
+SHA256: 011b6c84e7c7e4cdb77c0481162f3a79eac814c73ebf336f908d717b5a35f7c4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - JACK client
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains a plugin to make PipeWire able to connect to a
+ JACK server, which will be used for audio playback and recording.
+ Using PipeWire for audio is considered to be experimental.
+
+Package: libspa-0.2-jack-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 242
+Depends: libspa-0.2-jack (= 0.3.41-1~bpo11+1)
+Filename: ./libspa-0.2-jack-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 227584
+MD5sum: 6a38f0665913c6b3b8aae46258f44432
+SHA1: 3cbb261d69df00edc8017949ac5f159db3e3752b
+SHA256: 0ddafa7d6f6ce9edb4bf93ae0d258d8554b8066e368170b69cb7e1d5457c40af
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libspa-0.2-jack
+Build-Ids: edf2d090804b5d8b8cbc5188042933de74204d14
+
+Package: libspa-0.2-modules
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 2357
+Depends: libasound2 (>= 1.2.1.1), libc6 (>= 2.29), libdbus-1-3 (>= 1.9.14), libsystemd0, libudev1 (>= 183)
+Breaks: pipewire (<< 0.3.5)
+Replaces: pipewire (<< 0.3.5)
+Filename: ./libspa-0.2-modules_0.3.41-1~bpo11+1_amd64.deb
+Size: 487812
+MD5sum: 8453ba53fd095ddeb27254d3c10be12e
+SHA1: a3eefd9f61e6cefee5bc29f7127a51af40b4ce5c
+SHA256: 22b38334d6fd25316bfa6e7c5b8e4202a35aa9f939ebe5d72cba5a794a2b6364
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server Simple Plugin API - modules
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains core support modules used in the Simple Plugin API,
+ together with test and utility modules that do not introduce additional
+ dependencies. It should not normally be depended on directly: PipeWire
+ clients should depend on the pipewire package instead.
+
+Package: libspa-0.2-modules-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 2991
+Depends: libspa-0.2-modules (= 0.3.41-1~bpo11+1)
+Filename: ./libspa-0.2-modules-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 2846124
+MD5sum: b50c85c18f4d2a237f14cfdd2aad761f
+SHA1: 37bc0e56d7fba0380be43bb8bfe1f5936ca499c1
+SHA256: c6f5fbbfc9f322466cc491fe64faeb8d9ab75f8ad5645f5cd0517b3cc141dacd
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libspa-0.2-modules
+Build-Ids: 09ab9eba4bfb8e146097cee24f9de47fe9ec4a30 22307c0850d30caeb95b3c82e03e627c4d4f8bcb 601f75693542c760a0cee902c1b16bf0010803dd 693a3210326ae916d58ff1460b519f905bb369fb 6e1bb099ae21c71dd82063918a3ff6f1528a5e65 6fc3478853f54ef894e463162a452d0d81dd3abb 738448aaf4300ccac8ea646c5b9a08b9d8d6da09 9635ebea16f5ceec5bd87a21e2c275532c3f714d 9a57d3a450a7de37f84eb666282659fa6afe2c10 bd938cbc59d51b8cf0003061ea144e570a9f7fba e0b3486607d7b30895c1ea1abf84ca5c3107f4bb fc441a43a2b15cb84384db6ae4cf6958959eecdb fe3cda6890618e6cd2f0062ebc0d3f745dc54d5f
+
 Package: live-build
 Version: 1:20210903
 Architecture: all
@@ -738,6 +1110,236 @@ Priority: optional
 Homepage: http://www.phoronix-test-suite.com/
 Description: An Automated, Open-Source Testing Framework
  The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
+
+Package: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 27
+Depends: libpipewire-0.3-modules (= 0.3.41-1~bpo11+1), pipewire-bin (= 0.3.41-1~bpo11+1), init-system-helpers (>= 1.52)
+Filename: ./pipewire_0.3.41-1~bpo11+1_amd64.deb
+Size: 11884
+MD5sum: 63acfaffbc02b57b37789affebfd6e3b
+SHA1: eb8683ea3d9db6760713d9f039987c8b8a586ad2
+SHA256: a03a3660e78f8ce8f7c8a2f996178a05185c0aaa10cc71563a3443b8249a3f19
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: audio and video processing engine multimedia server
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This metapackage makes PipeWire available for programs of the same
+ architecture, and provides the systemd user service necessary to run
+ pipewire on-demand.
+
+Package: pipewire-audio-client-libraries
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 700
+Depends: pipewire (= 0.3.41-1~bpo11+1), libasound2 (>= 1.1.7), libc6 (>= 2.17), libpipewire-0.3-0 (= 0.3.41-1~bpo11+1)
+Breaks: pipewire (<< 0.3.5)
+Replaces: pipewire (<< 0.3.5)
+Filename: ./pipewire-audio-client-libraries_0.3.41-1~bpo11+1_amd64.deb
+Size: 136372
+MD5sum: ba98c6c83a3d50439df349f7fd961ee6
+SHA1: 5e923d197ce14cf4d738b670282bf50c9591b278
+SHA256: 78fa21fdf62ed0f322df26097e2a28f7ca9ea07149a0b4488bb60ed73e7afbd0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: PipeWire multimedia server - audio client libraries
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains client libraries allowing programs designed for
+ the ALSA, JACK and PulseAudio APIs to use a PipeWire server for audio
+ playback and recording. They are not used by default, and are currently
+ considered to be experimental.
+
+Package: pipewire-audio-client-libraries-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 611
+Depends: pipewire-audio-client-libraries (= 0.3.41-1~bpo11+1)
+Filename: ./pipewire-audio-client-libraries-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 528056
+MD5sum: 9814e186b37cba93781bc2584b9668aa
+SHA1: c532a6a81834671e3e1f7c8b15e2143f45d4e138
+SHA256: 7bc267d09815ce353f72e99758c878ce0873d7cecbaa513503178813fec8f9b7
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for pipewire-audio-client-libraries
+Build-Ids: 13a18ae0a9dd828bb642122a98352184cbc16325 15d97f3b7eedd72d25a316afdb227b621b2ddfdc 4f614fff08209ecffbc4a7cc11cf65eee58254b6 70a7230039a7fd7c785ac3f6ba0d6cfeaa3b7c66 a82e9b763459d4d2739570af87195a86521e5fec
+
+Package: pipewire-bin
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1414
+Depends: libpipewire-0.3-modules (= 0.3.41-1~bpo11+1), libasound2 (>= 1.2.1.1), libc6 (>= 2.29), libdbus-1-3 (>= 1.9.14), libncursesw6 (>= 6), libpipewire-0.3-0 (= 0.3.41-1~bpo11+1), libreadline8 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
+Recommends: dbus-user-session, pipewire-media-session | wireplumber, rtkit
+Breaks: pipewire (<< 0.3.5)
+Replaces: pipewire (<< 0.3.5)
+Filename: ./pipewire-bin_0.3.41-1~bpo11+1_amd64.deb
+Size: 293164
+MD5sum: 95d79b69f347e9378c08dfdbe979feea
+SHA1: 4b54d0264794504ba8975e2fdb1d89440d0e53d1
+SHA256: 6e4db827f511907aec26329775e438d4cc87520a235e6861ab770a6f087104bf
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pipewire.org/
+Description: PipeWire multimedia server - programs
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains the server and command-line utilities, and should
+ not normally be depended on directly. PipeWire clients should depend on
+ the pipewire package instead.
+
+Package: pipewire-bin-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1060
+Depends: pipewire-bin (= 0.3.41-1~bpo11+1)
+Filename: ./pipewire-bin-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 874024
+MD5sum: 3edd8456924bf5705f206af5dc198d3b
+SHA1: 4395c5ae6b4fcdde0ed2e33be4ab6ebcf8d38190
+SHA256: bcfc9770b11be37a646891b54f0fb46b4c23ec163d42f90a3fa36c480ff9f4be
+Section: debug
+Priority: optional
+Description: debug symbols for pipewire-bin
+Build-Ids: 0289cce0b5ab572839c08d572a45857947f3a61b 222b440bd2e19f668d0b013ad754c334548a7b0d 24062b4e760fe77ad388a41372c12fafb2fbfff7 26e3d77a67f31a203a1b9b936e0b8b89ed28c919 2b60b9cb76c520b755cbfc8e555d2326167882c1 3657f6460b33bfaec33f8ad78069a2e6f2096953 38b8d67d9c396bdc4dc7e5e6bbcbf869c49e5a42 509e90a78536547efa6019019ef46e01cf92815b 51664fa278bb829bc800d45b9dc0788c3bde11aa 63b3f47bcd50965e1a8762c78648b6cd53b875b9 6fe0ec7778f0bd80933e1722aa7920f4ce7676e6 880e9a9c84a92d7aaeff58a03e150209c56a03b6 8b492cb1b0472f96469c0216b5cb70be16f5c3ec b5fb9fcb3d1fe654da0eb798132709f107e7c036 e2ea13adaac62d5888d8119d9ee2d2f5f933cda1 f0127bb93f7ed0f37bb10cdfde6f413a576ca19b f2b509a7c13c79b07a230bd6fd8a9b7417030180 fcf48617ddd2ee3b40859b9f6a27991d29f9c016
+
+Package: pipewire-doc
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: all
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 21791
+Breaks: libpipewire-0.2-doc (<< 0.3.1)
+Replaces: libpipewire-0.2-doc (<< 0.3.1)
+Filename: ./pipewire-doc_0.3.41-1~bpo11+1_all.deb
+Size: 1194800
+MD5sum: 57ddbf055dea1604a209f7f2389df3bd
+SHA1: 61e63b9a53f5904c6c711e67f31397578771e659
+SHA256: 4827370153c0b2e72eaabad015693adeba6cf93bc24279d7dcb22d70179599d7
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - documentation
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains the API reference.
+
+Package: pipewire-pulse
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 37
+Depends: pipewire (= 0.3.41-1~bpo11+1), init-system-helpers (>= 1.52)
+Breaks: pipewire-bin (<< 0.3.27-2)
+Replaces: pipewire-bin (<< 0.3.27-2)
+Filename: ./pipewire-pulse_0.3.41-1~bpo11+1_amd64.deb
+Size: 13704
+MD5sum: 90e8db3e3ccb14246528a6cbbb175940
+SHA1: 10366ab76c6d0d666eb0b51825b15460c29869e3
+SHA256: b44507c3918c5afdaf85f67df6b6047c91561ad118b99b97298ece20cb2efd9d
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pipewire.org/
+Description: PipeWire PulseAudio daemon
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains the PulseAudio replacement daemon.
+
+Package: pipewire-tests
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1986
+Depends: pipewire (= 0.3.41-1~bpo11+1), libc6 (>= 2.28), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpipewire-0.3-0 (= 0.3.41-1~bpo11+1), libsdl2-2.0-0 (>= 2.0.12)
+Filename: ./pipewire-tests_0.3.41-1~bpo11+1_amd64.deb
+Size: 262264
+MD5sum: 7ae42de60db8e2310165554e3c29f879
+SHA1: 4d0e66b802a0875dc65ef36d8a01b30523320011
+SHA256: 18f6b6a7995723f0702372a8292f2bd571a9e92816fafdae4f9e56c9fe9c1da8
+Section: misc
+Priority: optional
+Homepage: https://pipewire.org/
+Description: PipeWire multimedia server - tests and examples
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains automated and manual tests and example programs.
+
+Package: pipewire-tests-dbgsym
+Source: pipewire
+Version: 0.3.41-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1852
+Depends: pipewire-tests (= 0.3.41-1~bpo11+1)
+Filename: ./pipewire-tests-dbgsym_0.3.41-1~bpo11+1_amd64.deb
+Size: 1533400
+MD5sum: 30834b7d45f1cd412b7a9ac7a4473a6e
+SHA1: cf0a45fb532c8d562fca337775d85818367e5dc5
+SHA256: ae223fe4171e4df68779152f26fc402ef90a8931748e251dde28950aa8001ab7
+Section: debug
+Priority: optional
+Description: debug symbols for pipewire-tests
+Build-Ids: 0130035167accf0d956d85d49c6cc49a663332d2 02363ee4a2c6237920b374c7b1496bb4fe196d95 0cd914d3f9f5fc722919844ce8184fa0336c03be 10a8abfdd84624fceb1c23cc522489ebb5fadc0f 1b61cb984d6183d844d39c984f989dff053ded92 1c52cf2f1fcd8b2c56b7623df600fec8d08553b1 1e3541ee758c63e1491d8ee2e8afa63695d04444 1fbef25050358e2182e19d48c81dfeff9b6e037b 216b04ae117dcfc46854282e892084450cbb7e87 2cfd377b8a31b43917e67a8fdf5fcfa9fde1c55f 32ef8825785d01ac46010cda238486b8c8f6a64c 332358079f56a7455ffacd0fb6b9a8b0a7f87fb3 33e51bff74772390c4a716a787a17f1bb149aacf 3c21a8deb3d526960b96f2c9958cb59290592714 3cfda83df78914d0f3bb937772d8d5c151ddc590 419d99906afe395ce31548bdbf43411e097cdb1c 4589319e96c59224027f4338b1e22c850afa4a9f 500749c80bbddd0c1230969ad4b07e2cf109d869 50f1ddc30c20b0216e2ba8196c15c8cd9247836b 55fe76026bfae3498b45668799ce548ffbf7f8d7 5a46913cfdceab5c8cbfd17b8454fb2fa476a370 66ba4038d23bf39ea14d885121d902f68b218819 6b792c6d6157cc64bc72608923fdbf1f0e4960f0 70bffaca1a301936e4e781e56da86a16d6ee4865 72e71612eb681c4d092c0abb5c9ca7649c13e1ad 73d9f9ddb3615a7437226bcd9b944741402909ca a0a83b4a6a7a6acb0cb1b422ede0a194a67538b9 a7a5c435641ee7fc382a19d7b616da9eabbbda7a ac2f9ca1bdc39a118e603d5ba4579f1013868b1a c30bc5a3ebb0d16689f51d992ee97839093c3236 c7f34aaa26a3dc27ae2a87c09e0e3c2ca2415502 cf648d217b1e75daea6f45bbb433694f5ca488e4 cfeac8af7f33923a8ddde91ebad1143a0c48ad3c d5748e0abd7e576f27eb51c34673605a600a2c7a dd11b25c37ee7d960ac93c5216365db9d5e0065e e071d5935058060739706d3ff43f4f1b6d3a5e1e f08f4726735b13ddf3a52128e9f4d78ca9924591
 
 Package: plasma-appimage-integration
 Version: 0.1.0-neon-user-lts
