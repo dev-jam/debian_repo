@@ -1049,6 +1049,23 @@ Description: Live System Build Components
  live-build contains the components to build a live system from a configuration
  directory.
 
+Package: nordvpn-release
+Version: 1.0.0
+Architecture: all
+Maintainer: https://nordvpn.com/
+Installed-Size: 36
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Filename: ./nordvpn-release_1.0.0_all.deb
+Size: 5056
+MD5sum: e229fa715be1684e6bd9a0427bbd5b65
+SHA1: 37f93b511eaa918e4ae434c864ee617041b57ac0
+SHA256: 16a05919b7259e679e4483aa39f61ef9bc9c07cbe040276e04884b5f9d7f933d
+Section: misc
+Priority: optional
+Homepage: https://nordvpn.com/
+Description: Package to install NordVPN GPG key and APT repo
+
 Package: opensesame-toolbox
 Version: 2.7-1
 Architecture: all
@@ -1094,17 +1111,17 @@ Description: Open Sound System (http://www.opensound.com)
 Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
 
 Package: phoronix-test-suite
-Version: 10.4.0
+Version: 10.6.1
 Architecture: all
 Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
-Installed-Size: 31656
+Installed-Size: 33192
 Depends: php-cli|php5-cli,php5-cli|php-xml
 Recommends: build-essential, php-gd|php5-gd
-Filename: ./phoronix-test-suite_10.4.0_all.deb
-Size: 1164944
-MD5sum: c6b33fcfb27dfc18caf93b7204ef71e7
-SHA1: 16ae749aa5edf32f59e24aa945b834f7832a349c
-SHA256: f608a9d2cba5e38b0cc428fed4b2a1a52152cb27e0fa552e5241b2e9028f1ad7
+Filename: ./phoronix-test-suite_10.6.1_all.deb
+Size: 1146704
+MD5sum: 5a635f4a99d9d76706bf23cbf3d493ee
+SHA1: e72833edc9be9e8e8e3cbbc73ea3fb18011c35b2
+SHA256: d6e3586d5131350399f2f774732692938b7270293278023a2cfe463b4fc211b1
 Section: Utilities
 Priority: optional
 Homepage: http://www.phoronix-test-suite.com/
@@ -1358,17 +1375,17 @@ Priority: optional
 Description: plasma-appimage-integration built using CMake
 
 Package: praat
-Version: 6.2.01-1~bpo11+1
+Version: 6.2.03-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 72038
+Installed-Size: 72104
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), oss-compat, python3:any
 Suggests: libasound2-plugins
-Filename: ./praat_6.2.01-1~bpo11+1_amd64.deb
-Size: 14481100
-MD5sum: ce2593cc84c30a1a1893d58396726152
-SHA1: 7d6a14ff823bfd53cf2729d7399753bafda2743a
-SHA256: 8fe5463ac3c82bace2f9c55170912bb0e6a2bfb17d2ec0f4fe888169bd7976b6
+Filename: ./praat_6.2.03-1~bpo11+1_amd64.deb
+Size: 14501068
+MD5sum: 2e715f88a3115349f8115061ca7f9a4f
+SHA1: 26cd54cb5c60872dbefea746870038977945a703
+SHA256: b06c0daa75692db16317b91aa48b69842433d1e0babd7f054d2a439f7cc16381
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -1381,6 +1398,24 @@ Description: program for speech analysis and synthesis
  segmentation, labelling using the phonetic alphabet, and computation of
  statistics.  Praat is configurable and extensible through its own scripting
  language and has provisions for communicating with other programs.
+
+Package: praat-dbgsym
+Source: praat
+Version: 6.2.03-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 47962
+Depends: praat (= 6.2.03-1~bpo11+1)
+Filename: ./praat-dbgsym_6.2.03-1~bpo11+1_amd64.deb
+Size: 42915436
+MD5sum: bba9f69511c9ed17cd920ac323705d0b
+SHA1: 1dba84d8e0bea1d49741b5d758ecb6a4303c2618
+SHA256: a8b66408d6ad4c9fbde9669ca4b900ea025bb91b62f0a68a67251638f749a7f0
+Section: debug
+Priority: optional
+Description: debug symbols for praat
+Build-Ids: 49937de5893eda1ebc3d7552feae9390bd51f5d7 4f415f1f115fdbeac1f782c6186f02ba907b8197 a9bbdddc5a88a1c0c7460e219930d4a81bf8828d
 
 Package: psychopy
 Version: 2021.2.3+dfsg-1~bpo11+1
