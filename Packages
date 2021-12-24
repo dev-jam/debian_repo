@@ -2854,17 +2854,17 @@ Priority: optional
 Description: realtimeconfigquickscan for Debian
 
 Package: rescuezilla
-Version: 2.2-1
+Version: 2.3-1
 Architecture: all
 Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
-Installed-Size: 2179
-Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Installed-Size: 2579
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
 Recommends: partimage, ecryptfs-utils
-Filename: ./rescuezilla_2.2-1_all.deb
-Size: 408936
-MD5sum: e674bda34bea2e59f4260167c6e9ca6d
-SHA1: 969bbff980191736e4a727f82905986baaa26ab3
-SHA256: 2e50a4c396f38bcac1c3e5b324031eb36798342cbd60279ee2f3fd83efd94233
+Filename: ./rescuezilla_2.3-1_all.deb
+Size: 477680
+MD5sum: 311425797f51c61a4795ce0e9698af32
+SHA1: b80f7f784dc43bf9f72db19b9f13c5d9b79906e9
+SHA256: 1e1043c897f1b6ff47d7412f09f82219e3991dc08eefbc4017c883eab31e1314
 Section: admin
 Priority: optional
 Homepage: https://rescuezilla.com
