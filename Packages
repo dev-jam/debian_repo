@@ -2225,16 +2225,16 @@ Description: The PyPA recommended tool for installing Python packages.
 
 Package: python3-pipx
 Source: pipx
-Version: 0.16.5-1
+Version: 0.17.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 193
 Depends: python3-argcomplete, python3-packaging, python3-userpath, python3:any
-Filename: ./python3-pipx_0.16.5-1_all.deb
-Size: 38336
-MD5sum: 64e2c4ce01b5ca50912147bef511357c
-SHA1: c376bf5ce1bd527fc7d1610925b5b1238dc83b46
-SHA256: 387f0cdb0b14ee881bdd86565a0b78e502984b13f6698139114ae20b40ae5591
+Filename: ./python3-pipx_0.17.0-1_all.deb
+Size: 38432
+MD5sum: 2ca7d880d6f2b42ef27b241b69e2ca5c
+SHA1: 957e90837745b6ae3b51510915cf94926adb7763
+SHA256: 9ce22850af992f1968f1dc1ee8f67781d88901d8cc359a47f069dfa50025d1ce
 Section: python
 Priority: optional
 Homepage: https://github.com/pypa/pipx
@@ -3050,16 +3050,16 @@ Description: Creates USB stick with Windows installer.
  with windows installer from an iso image or a real DVD.
 
 Package: yt-dlp
-Version: 2021.12.25-1
+Version: 2021.12.27-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 7782
+Installed-Size: 7807
 Depends: python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
-Filename: ./yt-dlp_2021.12.25-1_all.deb
-Size: 1381000
-MD5sum: 8c1dac2e6dd265d2cfa7165e34504bfc
-SHA1: 13883dc47ffc091a34dce7c82974b1babddb5d83
-SHA256: 9be0479d1baf6108e4ad1418725831b8ec92984f14077a47536296692f3c34a5
+Filename: ./yt-dlp_2021.12.27-1_all.deb
+Size: 1385740
+MD5sum: a65192171ae93c4fb9f6a05c48df401d
+SHA1: 823ab21669ee24f7c15291a3868be6692b828d22
+SHA256: f674de5b50cbc100540d21716568728e069c10fdba2b2e14394492edf8e222e0
 Section: python
 Priority: optional
 Homepage: https://github.com/yt-dlp/yt-dlp
