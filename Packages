@@ -93,6 +93,29 @@ Priority: optional
 Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
+Package: gir1.2-wp-0.4
+Source: wireplumber
+Version: 0.4.5-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 65
+Depends: libwireplumber-0.4-0 (= 0.4.5-1~bpo11+1)
+Filename: ./gir1.2-wp-0.4_0.4.5-1~bpo11+1_amd64.deb
+Size: 15912
+MD5sum: 3b74aad71e61747c92086eab95392c18
+SHA1: 12738deefb7b5b409e4a8bcc9287816a652c7dbb
+SHA256: 878b279389070f08c47d37ea374c275f44b8869fe53efab4b2dd7c1a86fe9eed
+Section: introspection
+Priority: optional
+Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
+Description: GObject introspection files for WirePlumber
+ WirePlumber is a modular session / policy manager for PipeWire and a
+ GObject-based high-level library that wraps PipeWire's API, providing
+ convenience for writing the daemon's modules as well as external tools for
+ managing PipeWire.
+ .
+ This package contains the GObject-introspection data in binary typelib format.
+
 Package: glmark2-data
 Source: glmark2
 Version: 2021.10~git.e359bb0-2~bpo11+1
@@ -1026,6 +1049,73 @@ Multi-Arch: same
 Description: debug symbols for libspa-0.2-modules
 Build-Ids: 09ab9eba4bfb8e146097cee24f9de47fe9ec4a30 22307c0850d30caeb95b3c82e03e627c4d4f8bcb 601f75693542c760a0cee902c1b16bf0010803dd 693a3210326ae916d58ff1460b519f905bb369fb 6e1bb099ae21c71dd82063918a3ff6f1528a5e65 6fc3478853f54ef894e463162a452d0d81dd3abb 738448aaf4300ccac8ea646c5b9a08b9d8d6da09 9635ebea16f5ceec5bd87a21e2c275532c3f714d 9a57d3a450a7de37f84eb666282659fa6afe2c10 bd938cbc59d51b8cf0003061ea144e570a9f7fba e0b3486607d7b30895c1ea1abf84ca5c3107f4bb fc441a43a2b15cb84384db6ae4cf6958959eecdb fe3cda6890618e6cd2f0062ebc0d3f745dc54d5f
 
+Package: libwireplumber-0.4-0
+Source: wireplumber
+Version: 0.4.5-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 992
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.62), liblua5.3-0, libpipewire-0.3-0 (>= 0.3.32), libsystemd0
+Filename: ./libwireplumber-0.4-0_0.4.5-1~bpo11+1_amd64.deb
+Size: 217484
+MD5sum: 1e2e97d608cd1cf6d64d6db07e85fe15
+SHA1: 21874b401d26c0124805eb5f626d8b1b48cfe255
+SHA256: a83f2b63fcfe4e26f216fc96dab0840e60d8a531df5cd2ffeb716dc1fed1db7f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
+Description: Shared libraries for WirePlumber
+ WirePlumber is a modular session / policy manager for PipeWire and a
+ GObject-based high-level library that wraps PipeWire's API, providing
+ convenience for writing the daemon's modules as well as external tools for
+ managing PipeWire.
+ .
+ This package contains the shared library and plugins.
+
+Package: libwireplumber-0.4-0-dbgsym
+Source: wireplumber
+Version: 0.4.5-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1001
+Depends: libwireplumber-0.4-0 (= 0.4.5-1~bpo11+1)
+Filename: ./libwireplumber-0.4-0-dbgsym_0.4.5-1~bpo11+1_amd64.deb
+Size: 758532
+MD5sum: 240d53c3568c2033bfd1273afbbba6bd
+SHA1: 2870fb2d0053c8166021d2c77427d7e73cb847e4
+SHA256: e418d706204d2716f856ae37912f30628200e86b657e7f08f0e24221416846df
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libwireplumber-0.4-0
+Build-Ids: 2ddad569c9d062da364aa7f7b5abbf8ab07721b6 32f74121cc41a501943c42dd8476401d4e218734 3664c43603b96ff6a869e8d48b0d42ec6c032f00 38091c6a21baf82e72ee398668c1bd898cc27896 50d5d50ab2b14f9e8b44c48d3751b94ce59bfd70 562f8c1b9b04981fa3d8a633e5a48b4a875c7fe2 5a2d6bd5a48b3e3621d7852bd6dd40687cf9b986 676b8dd4e1f8c547e25e298df0432778330558c5 9b5b98f5d969f324a5aee91f4216b730b5a67321 aca203747622f746773377026a33012f85abff3f ba90711287441dec54bc91523e2f258019baec02 cda83c515762778f7fc1ea32b72641de0b81cfa0 ce23af2724cbb1e5c5d1548b03b6713591fd8dc0 ce2595871fedfe1a945e52b009708e8f202dcaf6 dee7134bd602e06621055495beacdbc1a9de9ffa e07a7712e17eeb59e63c099120dfe1a056ddd25d f6d9cc9f4c5bd9ddfe7740b61c56a9e3763ef72b
+
+Package: libwireplumber-0.4-dev
+Source: wireplumber
+Version: 0.4.5-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 742
+Depends: libwireplumber-0.4-0 (= 0.4.5-1~bpo11+1), gir1.2-wp-0.4 (= 0.4.5-1~bpo11+1)
+Filename: ./libwireplumber-0.4-dev_0.4.5-1~bpo11+1_amd64.deb
+Size: 57168
+MD5sum: 6f87c977b2c5f6a5e407919c16875cb0
+SHA1: cf96d4c7397f57a96aa569204f838003e53f9a28
+SHA256: fca39ce543a48f154d38d6bb550cfcf72676eae3f657195dec9ff42a7fb6de92
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
+Description: Development files for WirePlumber
+ WirePlumber is a modular session / policy manager for PipeWire and a
+ GObject-based high-level library that wraps PipeWire's API, providing
+ convenience for writing the daemon's modules as well as external tools for
+ managing PipeWire.
+ .
+ This package contains the development files.
+
 Package: live-build
 Version: 1:20210903
 Architecture: all
@@ -1284,6 +1374,47 @@ Description: libraries for the PipeWire multimedia server - documentation
   - Generating graphs for audio and video processing.
  .
  This package contains the API reference.
+
+Package: pipewire-media-session
+Version: 0.4.1-2.1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 930
+Depends: pipewire (>= 0.3.39), init-system-helpers (>= 1.52), libasound2 (>= 1.0.24.1), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libpipewire-0.3-0 (>= 0.3.39), libsystemd0
+Conflicts: wireplumber
+Breaks: pipewire-bin (<< 0.3.27-2), pipewire-pulse (<< 0.3.39-1)
+Replaces: pipewire-bin (<< 0.3.27-2), pipewire-pulse (<< 0.3.39-1)
+Filename: ./pipewire-media-session_0.4.1-2.1~bpo11+1_amd64.deb
+Size: 158216
+MD5sum: d1f966b5e9105dd761a479e3c1de5ccd
+SHA1: 82c4027e3b3c51ee520ecd6f53c7b3291e043c13
+SHA256: b6e5c6bf36f4e61e0b7c2453fb6fc3a435d4d303da645cffbe71c1498dace466
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gitlab.freedesktop.org/pipewire/media-session/
+Description: example session manager for PipeWire
+ PipeWire Media Session is an example session manager for PipeWire.
+ .
+ Note that it is recommended the use of WirePlumber instead.
+
+Package: pipewire-media-session-dbgsym
+Source: pipewire-media-session
+Version: 0.4.1-2.1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 728
+Depends: pipewire-media-session (= 0.4.1-2.1~bpo11+1)
+Filename: ./pipewire-media-session-dbgsym_0.4.1-2.1~bpo11+1_amd64.deb
+Size: 693620
+MD5sum: 128e628efb5c3d75c0161c83c8d786a9
+SHA1: ef76b6e8c531ed3a3d39e891819eee23c0b7d868
+SHA256: 3167df7a96439a97c26bacb72fb3e382fd3b4a3e51d7fcdab55c35387789546d
+Section: debug
+Priority: optional
+Description: debug symbols for pipewire-media-session
+Build-Ids: 0128182e7197d38efbe0eb2e3393ef8d955a031c
 
 Package: pipewire-pulse
 Source: pipewire
@@ -3031,6 +3162,47 @@ Description: guest additions iso image for VirtualBox
  This package provides an iso image which contains the guest additions
  for Linux, Solaris and Windows to be installed on the host system. The guest
  systems then can mount the iso and install the guest additions from there.
+
+Package: wireplumber
+Version: 0.4.5-1~bpo11+1
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 265
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.62), libpipewire-0.3-0 (>= 0.3.32), libwireplumber-0.4-0 (>= 0.4.2), init-system-helpers (>= 1.52), pipewire (>= 0.3.32)
+Recommends: pipewire-pulse
+Filename: ./wireplumber_0.4.5-1~bpo11+1_amd64.deb
+Size: 47128
+MD5sum: 9f00e26683105e502ba30b8d5d627d89
+SHA1: 9f4b6187febd55b43477d54ee17e53835bb5263b
+SHA256: b3ee5a0ed4441e8c667c3d75241d4f2936c8c7e0db024d5982bc4f6e5f8e58a5
+Section: video
+Priority: optional
+Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
+Description: modular session / policy manager for PipeWire
+ WirePlumber is a modular session / policy manager for PipeWire and a
+ GObject-based high-level library that wraps PipeWire's API, providing
+ convenience for writing the daemon's modules as well as external tools for
+ managing PipeWire.
+ .
+ This package contains the WirePlumber daemon and command-line utilities.
+
+Package: wireplumber-dbgsym
+Source: wireplumber
+Version: 0.4.5-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 99
+Depends: wireplumber (= 0.4.5-1~bpo11+1)
+Filename: ./wireplumber-dbgsym_0.4.5-1~bpo11+1_amd64.deb
+Size: 60184
+MD5sum: 3d510b0b0cda762b917380728d81b6b5
+SHA1: 9534a5d536f2b91029c049c9dffa7c6a33a455ea
+SHA256: 6b538d856ff1104695f91ad54b10f604d53f1c19de20b937279e8f625954e369
+Section: debug
+Priority: optional
+Description: debug symbols for wireplumber
+Build-Ids: 378d41569040b2d8bcf6c214c622f115453359b2 3bde688285011d94d7039d5e58da1abd8b7711ad 8f5f3106d75f74e34d5cbe180881570394eacba4
 
 Package: woeusb-ng
 Version: 0.2.7-1
