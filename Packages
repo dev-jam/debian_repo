@@ -78,6 +78,59 @@ Description: DeaDBeeF plugins development files
  for the DeaDBeeF audio player.
 Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
 
+Package: devjam-kde-service-menu-collection
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
+Filename: ./devjam-kde-service-menu-collection_1.0-1_all.deb
+Size: 3612
+MD5sum: 0a62c3a9eb4f3a7635f57f8d6fb3691a
+SHA1: 910f05125d3d125684d82dd521334b3dfb218a2a
+SHA256: c7c91a4753a0570c9e06e4d6c5e081dbeee9836da205f25f1d013efb8343b0a9
+Section: base
+Priority: optional
+Description: KDE Service Menu items collection by Hypno
+
+Package: devjam-keyring
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-keyring_1.0-1_all.deb
+Size: 29760
+MD5sum: e3d4dd89dfb4b6e00fd35a153010adca
+SHA1: fba4e88d46c6714a8878f693adbd483ba1b343b2
+SHA256: 1f55622a5a22adabc9cbd09d28516c5dcc9e0393370d08fad60bcd4e20e79927
+Section: base
+Priority: optional
+Description: custom keyring for Debian Bullseye
+
+Package: devjam-science
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-science_1.0-1_amd64.deb
+Size: 7408
+MD5sum: e270025c87ccc1dafb830d367fae3a44
+SHA1: a58a1d63ddda1b1bb6e37ce2ab1d24fefc225a71
+SHA256: 0dd5e458a21a3c01024d55c69c5a09af40408233b65ea14971ca472e805919e4
+Section: base
+Priority: optional
+Description: personal tools for Debian Bullseye
+
+Package: devjam-tools
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-tools_1.0-1_amd64.deb
+Size: 9500048
+MD5sum: d17e6f42549039485cdf295789abb1dd
+SHA1: 92e79096e45028f02378550e8bf4ad63a2f65419
+SHA256: fb9c666835997c5884a5a7bfaf39769426d68a5441bebbd8f0c67efbd795e288
+Section: base
+Priority: optional
+Description: personal tools for Debian Bullseye
+
 Package: e1000e-dkms
 Version: 3.8.7
 Architecture: all
@@ -481,46 +534,6 @@ Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-pipewire
 Build-Ids: a6b35c75a02573d79ec8225dda2440d99da8bb70
-
-Package: hypno-keyring
-Version: 1.3-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./hypno-keyring_1.3-1_all.deb
-Size: 29764
-MD5sum: 49ebfa7a73aac0171a95a41d3e753372
-SHA1: a9e609bb78681f9ad6d4a59b354409fdb8630dc5
-SHA256: 96481ad6cf0bc8137b668d53f58c8ab111aace7f558289bad8498ece903f2c1d
-Section: base
-Priority: optional
-Description: custom keyring for Debian Bullseye
-
-Package: hypno-tools
-Version: 1.9-1
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./hypno-tools_1.9-1_amd64.deb
-Size: 9505516
-MD5sum: 28d028daa598bcb1bc413e0ffc935644
-SHA1: e0dc2580a8ee800717491cc35918d7507a9c5d95
-SHA256: a9f8f0a7d4cefacd0dd6d08eeb73444dc5f0fc79357b0699ef28b4b434b46c46
-Section: base
-Priority: optional
-Description: personal tools for Debian Bullseye
-
-Package: kde-service-menu-hypno-collection
-Version: 1.5-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
-Filename: ./kde-service-menu-hypno-collection_1.5-1_all.deb
-Size: 3608
-MD5sum: 77a035d48578fb74457ca1747d13915a
-SHA1: eef64c6215b88d2060529d467318aa610b426607
-SHA256: d0cad1c1e47c97145fed24141ece6bd63c9bf7b95dda6566449127ec2ee94e86
-Section: base
-Priority: optional
-Description: KDE Service Menu items collection by Hypno
 
 Package: kde-service-menu-pdf
 Version: 2.3
