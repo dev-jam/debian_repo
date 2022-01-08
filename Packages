@@ -11,6 +11,52 @@ Section: base
 Priority: optional
 Description: android tools for Debian
 
+Package: birdtray
+Version: 1.9.0+ds-2~bpo11+1
+Architecture: amd64
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Installed-Size: 1038
+Depends: thunderbird, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6
+Filename: ./birdtray_1.9.0+ds-2~bpo11+1_amd64.deb
+Size: 341004
+MD5sum: 9ae18ac76063d6b3e1817b0a5557d9b5
+SHA1: d991b5cc099bc7c4b039f0283c8bf4507b85db09
+SHA256: cdd1b10d0bb66e4b539557705a45408b9f6e83630bb6e9aa381651a60d54f2ab
+Section: mail
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/gyunaev/birdtray
+Description: system tray notifications for Thunderbird
+ Birdtray provides systray notifications for Thunderbird.  It displays the
+ count of unread mail, hides the Thunderbird window when not in use, and
+ restores it on clicking the tray icon.  It also provides a context menu
+ with commands such as starting composing a new mail.
+ .
+ It is a nasty hack -- an external process looking at Thunderbird's
+ insides, it suffers from problems like noticing new mails only after a
+ delay, having to restart Thunderbird just to hide its window, etc --
+ you'd want to use an extension like firetray instead -- but, it is
+ likely that support for Thunderbird XUL extensions will be dropped soon,
+ possibly by the time you read these words.
+
+Package: birdtray-dbgsym
+Source: birdtray
+Version: 1.9.0+ds-2~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Installed-Size: 3114
+Depends: birdtray (= 1.9.0+ds-2~bpo11+1)
+Filename: ./birdtray-dbgsym_1.9.0+ds-2~bpo11+1_amd64.deb
+Size: 3071976
+MD5sum: a69d99d84ddb3ae80d2e3ed61b90b266
+SHA1: 092552604117c23bf0dcdeb4dad47bf8044f104f
+SHA256: 0c0a4c1f9475940c323e8391fcf530f759ee22954d553c60c61982330b2d4b02
+Section: debug
+Priority: optional
+Description: debug symbols for birdtray
+Build-Ids: b6d5097cd152f95e92b0a9d262de46a40776e6e0
+
 Package: deadbeef
 Version: 1.8.4-1~obs~bpo11+1
 Architecture: amd64
