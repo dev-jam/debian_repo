@@ -1259,6 +1259,68 @@ Description: Open Sound System (http://www.opensound.com)
   programs.
 Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
 
+Package: pavucontrol-qt
+Version: 0.16.0-2~bpo11+1
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 236
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 4.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), pulseaudio | pipewire-pulse
+Recommends: pavucontrol-qt-l10n
+Filename: ./pavucontrol-qt_0.16.0-2~bpo11+1_amd64.deb
+Size: 66416
+MD5sum: fbc9a3f4342b66bfe3d645610e95a2aa
+SHA1: c65884c75a894eed618a8377419ea58148582141
+SHA256: 172d2f0a5a671c5bf8ac241bf43ea45afd1c19a1e1b18060478a9b40115a5bce
+Section: utils
+Priority: optional
+Homepage: https://github.com/lxqt/pavucontrol-qt
+Description: Qt port of volume control pavucontrol
+ Qt port of volume control pavucontrol of sound server PulseAudio. As such it
+ can be used to adjust all controls provided by PulseAudio as well as some
+ additional settings.
+ .
+ The software belongs to the LXQt project but its usage isn't limited to this
+ desktop environment.
+ .
+ This package contain the application files.
+
+Package: pavucontrol-qt-dbgsym
+Source: pavucontrol-qt
+Version: 0.16.0-2~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1504
+Depends: pavucontrol-qt (= 0.16.0-2~bpo11+1)
+Filename: ./pavucontrol-qt-dbgsym_0.16.0-2~bpo11+1_amd64.deb
+Size: 1473928
+MD5sum: 85b930880fee85d3a94b7a636ab43212
+SHA1: 7df5f4c3b104a074706d10e3bd0e3e0c3af13edc
+SHA256: 07e3959381063646b1d75ad336749dd933e6eb0530c2e48584366abdb5af9630
+Section: debug
+Priority: optional
+Description: debug symbols for pavucontrol-qt
+Build-Ids: bf30e79eb221c51094d79430b495771e801feeb4
+
+Package: pavucontrol-qt-l10n
+Source: pavucontrol-qt
+Version: 0.16.0-2~bpo11+1
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 661
+Depends: qttranslations5-l10n
+Filename: ./pavucontrol-qt-l10n_0.16.0-2~bpo11+1_all.deb
+Size: 80536
+MD5sum: 8629675de19bf79ef327c82bdfb68eed
+SHA1: f1f66d264790ad3837d1f12a862c0d4ea8f7d9cf
+SHA256: 0d0d8efe07f6a904f292aed98ac75dc0fcb7fabdabe3df40226e1294679bace4
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/pavucontrol-qt
+Description: Language package for pavucontrol-qt
+ This package contains the l10n files needed by the pavucontrol-qt.
+
 Package: phoronix-test-suite
 Version: 10.8.0
 Architecture: all
@@ -2415,16 +2477,16 @@ Description: The PyPA recommended tool for installing Python packages.
 
 Package: python3-pipx
 Source: pipx
-Version: 0.17.0-1
+Version: 1.0.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 193
+Installed-Size: 194
 Depends: python3-argcomplete, python3-packaging, python3-userpath, python3:any
-Filename: ./python3-pipx_0.17.0-1_all.deb
-Size: 38432
-MD5sum: 2ca7d880d6f2b42ef27b241b69e2ca5c
-SHA1: 957e90837745b6ae3b51510915cf94926adb7763
-SHA256: 9ce22850af992f1968f1dc1ee8f67781d88901d8cc359a47f069dfa50025d1ce
+Filename: ./python3-pipx_1.0.0-1_all.deb
+Size: 38648
+MD5sum: b9c3f629f7dc0967846049a6de8d967b
+SHA1: f0452b15ed1aaa07f27762107eb26bc114420404
+SHA256: 359e056251e410e720edeb77ccd01295258e20149d8c14ee3b66ae143681962b
 Section: python
 Priority: optional
 Homepage: https://github.com/pypa/pipx
@@ -2650,6 +2712,23 @@ Description: Cryptographic library for Python
  PyCryptodome is a fork of PyCrypto. It brings several enhancements
  with respect to the last official version of PyCrypto (2.6.1),
 
+Package: python3-pygaze
+Source: pygaze
+Version: 0.7.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1173
+Depends: python3:any
+Filename: ./python3-pygaze_0.7.4-1_all.deb
+Size: 154160
+MD5sum: 317677d5e60817e9693fa720ec5b3664
+SHA1: dfe0efc8cf0b6c3c1f1c3c002e1485aa2fa742d8
+SHA256: 79115139b33298f763ea66d7a1c5c1a2668c306543dbfbfde08b1f9fc9800f5d
+Section: python
+Priority: optional
+Homepage: http://www.pygaze.org/
+Description: A Python library for eye tracking
+
 Package: python3-pyjsparser
 Source: pyjsparser
 Version: 2.7.1-1
@@ -2826,16 +2905,16 @@ Description: Support package for Radboud University Nijmegen, Faculty of
 
 Package: python3-sounddevice
 Source: sounddevice
-Version: 0.4.3-1
+Version: 0.4.4-1
 Architecture: all
-Maintainer: Matthias Geier <Matthias.Geier@gmail.com>
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 139
 Depends: python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any
-Filename: ./python3-sounddevice_0.4.3-1_all.deb
+Filename: ./python3-sounddevice_0.4.4-1_all.deb
 Size: 28324
-MD5sum: bd0ca7c537a9db7a8d13cd5f331739d3
-SHA1: edb6ffc0d1fec067c0869bef710347829eb6c97d
-SHA256: fdb03514047df987c7f36ba6144831537ede2f8e84a1bd62fb060e3659e8a58b
+MD5sum: 8e232ec6e9d3b49a882860b29de49e07
+SHA1: cd8261921412a5c91b37f028c67b966cc8571eb2
+SHA256: 49687e510a4046ad5962bbf0ff2484d794f167615b2e745fe47ab361bd5082a2
 Section: python
 Priority: optional
 Homepage: http://python-sounddevice.readthedocs.io/
