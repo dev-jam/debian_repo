@@ -1215,6 +1215,44 @@ Priority: optional
 Homepage: https://nordvpn.com/
 Description: Package to install NordVPN GPG key and APT repo
 
+Package: nvidia-modprobe
+Version: 470.94-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 66
+Depends: libc6 (>= 2.14)
+Filename: ./nvidia-modprobe_470.94-1~bpo11+1_amd64.deb
+Size: 20532
+MD5sum: 67db000c60c3082b1dd046242bda4295
+SHA1: 59b7980a95987ec271d4724dde2a63af0ea91d46
+SHA256: eb51219ee40c57b3410f18da8a731cbe2d44d9ec78569ec17bf8cbf2fb50a021
+Section: contrib/utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/NVIDIA/nvidia-modprobe
+Description: utility to load NVIDIA kernel modules and create device nodes
+ This setuid program is used to create NVIDIA Linux device files and load the
+ NVIDIA kernel module, on behalf of NVIDIA Linux driver components which may
+ not have sufficient privileges to perform these actions on their own.
+
+Package: nvidia-modprobe-dbgsym
+Source: nvidia-modprobe
+Version: 470.94-1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 61
+Depends: nvidia-modprobe (= 470.94-1~bpo11+1)
+Filename: ./nvidia-modprobe-dbgsym_470.94-1~bpo11+1_amd64.deb
+Size: 44300
+MD5sum: eea496a562832a2337f278c617a665a2
+SHA1: c7c763b77b8afa6c57187b2c3599962799d7673f
+SHA256: d63a71a35b78bb403247b258b8a81744ec5300d86b4e675dc7270b7e938239b8
+Section: contrib/debug
+Priority: optional
+Description: debug symbols for nvidia-modprobe
+Build-Ids: f9f326f01f89fe97ff45c611ba1fe349680c733e
+
 Package: opensesame-toolbox
 Version: 2.7-1
 Architecture: all
