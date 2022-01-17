@@ -57,24 +57,23 @@ Priority: optional
 Description: debug symbols for birdtray
 Build-Ids: b6d5097cd152f95e92b0a9d262de46a40776e6e0
 
-Package: deadbeef
-Version: 1.8.4-1~obs~bpo11+1
+Package: deadbeef-static
+Version: 1.8.8-1
 Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 12149
-Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.29), libcairo2 (>= 1.4.10), libcddb2, libcdio19 (>= 2.1.0), libcdparanoia0 (>= 3.10.2+debian), libcurl3-gnutls (>= 7.16.2), libdbus-1-3 (>= 1.9.14), libfaad2 (>= 2.7), libflac8 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libgtk2.0-0 (>= 2.24.0), libimlib2 (>= 1.4.5), libjansson4 (>= 2.0.1), libmad0 (>= 0.15.1b-3), libmpg123-0 (>= 1.6.2), libogg0 (>= 1.3.0), libopusfile0 (>= 0.5), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libsamplerate0 (>= 0.1.7), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5.2), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 4.40.0), libx11-6, libzip4 (>= 0.10), zlib1g (>= 1:1.1.4)
-Conflicts: deadbeef-gtk2, deadbeef-gtk3
-Replaces: deadbeef-gtk2, deadbeef-gtk3
-Filename: ./deadbeef_1.8.4-1~obs~bpo11+1_amd64.deb
-Size: 3363336
-MD5sum: 2d50899fedc0d0f414f7a7c29cca55aa
-SHA1: 5cb99b7b6d7ae107425ae5519cd98d1d5737d119
-SHA256: b9560d11adb4007b8aec968682d516f7af51ab8fc8e876ecb2c597303bf5676b
+Maintainer: Alexey Yakovenko <waker@users.sf.net>
+Installed-Size: 19352
+Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libx11-6
+Recommends: libpulse0, libdbus-1-3
+Filename: ./deadbeef-static_1.8.8-1_amd64.deb
+Size: 8759578
+MD5sum: 1cd429a0fd55ae9e2274704902cb60c7
+SHA1: 30537bb4d32de38a4e45b1afdaed427d5b2be99d
+SHA256: 1f545d5737e96439d682b09e9768264c303e2f9561b8a458259b660f562209cf
 Section: sound
 Priority: optional
 Homepage: http://deadbeef.sourceforge.net/
-Description: ultimate music player for GNU/Linux systems
- DeaDBeeF (as in 0xDEADBEEF) is an audio player for GNU/Linux systems with X11.
+Description: The Ultimate Music Player
+ DeaDBeeF (as in 0xDEADBEEF) is a cross-platform audio player
  .
  Features:
  .
@@ -89,7 +88,7 @@ Description: ultimate music player for GNU/Linux systems
   * tracker modules like mod, s3m, it, xm, etc
   * HVSC song length database support for sid
   * gtk2 interface with custom highly speed/memory optimized widgets
-  * no GNOME or KDE dependencies - just gtk2 or 3 and several small libraries
+  * no GNOME or KDE dependencies - just gtk2 and several small libraries
   * minimize to tray, with scrollwheel volume control
   * drag and drop, both inside of playlist, and from filemanagers and such
   * control playback from command line (allows global hotkeys using xbindkeys)
@@ -98,31 +97,6 @@ Description: ultimate music player for GNU/Linux systems
     and last.fm scrobbler; sdk is included
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
-Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
-
-Package: deadbeef-dev
-Source: deadbeef
-Version: 1.8.4-1~obs~bpo11+1
-Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 123
-Depends: deadbeef (>= 1.8.4-1~obs~bpo11+1)
-Conflicts: deadbeef-plugins-dev
-Replaces: deadbeef-plugins-dev
-Filename: ./deadbeef-dev_1.8.4-1~obs~bpo11+1_all.deb
-Size: 46376
-MD5sum: 21d50ace27f8a04a32bdc5e895ee8903
-SHA1: ef9fa525e211d60eb2fc38526e2c831852991d7d
-SHA256: b4322595f1e57f634a54567ac5365ffb3577aff06c1135b1e588a1d6a4d0a267
-Section: libdevel
-Priority: optional
-Homepage: http://deadbeef.sourceforge.net/
-Description: DeaDBeeF plugins development files
- DeaDBeeF (as in 0xDEADBEEF) is an audio player for GNU/Linux systems with X11.
- .
- This package contains all supplementary files you need to develop your plugins
- for the DeaDBeeF audio player.
-Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
 
 Package: devjam-kde-service-menu-collection
 Version: 1.0-1
@@ -1214,44 +1188,6 @@ Section: misc
 Priority: optional
 Homepage: https://nordvpn.com/
 Description: Package to install NordVPN GPG key and APT repo
-
-Package: nvidia-modprobe
-Version: 470.94-1~bpo11+1
-Architecture: amd64
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 66
-Depends: libc6 (>= 2.14)
-Filename: ./nvidia-modprobe_470.94-1~bpo11+1_amd64.deb
-Size: 20532
-MD5sum: 67db000c60c3082b1dd046242bda4295
-SHA1: 59b7980a95987ec271d4724dde2a63af0ea91d46
-SHA256: eb51219ee40c57b3410f18da8a731cbe2d44d9ec78569ec17bf8cbf2fb50a021
-Section: contrib/utils
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://github.com/NVIDIA/nvidia-modprobe
-Description: utility to load NVIDIA kernel modules and create device nodes
- This setuid program is used to create NVIDIA Linux device files and load the
- NVIDIA kernel module, on behalf of NVIDIA Linux driver components which may
- not have sufficient privileges to perform these actions on their own.
-
-Package: nvidia-modprobe-dbgsym
-Source: nvidia-modprobe
-Version: 470.94-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 61
-Depends: nvidia-modprobe (= 470.94-1~bpo11+1)
-Filename: ./nvidia-modprobe-dbgsym_470.94-1~bpo11+1_amd64.deb
-Size: 44300
-MD5sum: eea496a562832a2337f278c617a665a2
-SHA1: c7c763b77b8afa6c57187b2c3599962799d7673f
-SHA256: d63a71a35b78bb403247b258b8a81744ec5300d86b4e675dc7270b7e938239b8
-Section: contrib/debug
-Priority: optional
-Description: debug symbols for nvidia-modprobe
-Build-Ids: f9f326f01f89fe97ff45c611ba1fe349680c733e
 
 Package: opensesame-toolbox
 Version: 2.7-1
@@ -3258,16 +3194,16 @@ Description: YouTube videos browser
  such as mpv, MPlayer, VLC, Totem or Dragon Player.
 
 Package: strawberry
-Version: 1.0-bullseye
+Version: 1.0.1-bullseye
 Architecture: amd64
 Maintainer: Jonas Kvinge <jonas@jkvinge.net>
-Installed-Size: 13520
+Installed-Size: 14170
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.7.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libmtp9 (>= 1.1.0), libprotobuf23 (>= 3.12.4), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-alsa, gstreamer1.0-pulseaudio
-Filename: ./strawberry_1.0-bullseye_amd64.deb
-Size: 5418408
-MD5sum: 6f69dd42b0b4f9bf9bb8b120d8123b97
-SHA1: ec92c811711ebbc4656de7e1f42daf6894ad7b69
-SHA256: e528b8e64f88bb5107fab1aec2a8b9d5b49381b36a256092e8216bb9aa446d17
+Filename: ./strawberry_1.0.1-bullseye_amd64.deb
+Size: 5484828
+MD5sum: ba95b45a6fbfea5781feffd6cc418589
+SHA1: e4d74b3dea775e9342ecb3797687c482ced5ea8c
+SHA256: 1013fcece11a45fc9031c6f5fb40654b181589bc36e795731e29eb30b8e9b697
 Section: sound
 Priority: optional
 Homepage: http://www.strawberrymusicplayer.org/
