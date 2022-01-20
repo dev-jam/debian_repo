@@ -2739,16 +2739,16 @@ Description: Python lib for synching with OpenScienceFramework projects
 
 Package: python3-pyspellchecker
 Source: pyspellchecker
-Version: 0.6.2-1
+Version: 0.6.3-1
 Architecture: all
-Maintainer: Tyler Barrus <barrust@gmail.com>
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 2721
 Depends: python3:any
-Filename: ./python3-pyspellchecker_0.6.2-1_all.deb
-Size: 2742576
-MD5sum: 3b2c50d08a3697f25eb3c656b0568fea
-SHA1: 25fe94fbfa67ce5c54e4b79de50586fcaa798b1e
-SHA256: 5a9bc3c5e5b4f55759f1d1cc8fbd0c51f8a5c862c11d0f7021334713c8c74391
+Filename: ./python3-pyspellchecker_0.6.3-1_all.deb
+Size: 2742512
+MD5sum: e3e3a440a449957a995ea203da34b590
+SHA1: 2bf30de39f4bde0c3496ca141f2cb0c9d68310e9
+SHA256: 6c339c05014821980e9c2f07f8d616e7a24c334cc2ac30396cd430f7c30fff57
 Section: python
 Priority: optional
 Homepage: https://github.com/barrust/pyspellchecker
@@ -2772,7 +2772,7 @@ Description: Pure python spell checker based on work by Peter Norvig
      :target: https://badge.fury.io/py/pyspellchecker
      :alt: PyPi Package
  .. image:: http://pepy.tech/badge/pyspellchecker
-     :target: http://pepy.tech/count/pyspellchecker
+     :target: https://pepy.tech/project/pyspellchecker
 
 Package: python3-python-bidi
 Source: python-bidi
