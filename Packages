@@ -1988,16 +1988,16 @@ Description: A ctypes-based wrapper for GLFW3.
 
 Package: python3-imageio
 Source: imageio
-Version: 2.13.5-1
+Version: 2.14.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4390
+Installed-Size: 4393
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.13.5-1_all.deb
-Size: 3150768
-MD5sum: 792170dc681f992fca97980dc7c856b8
-SHA1: 33946bc74b6882f2f178cd5b520ecb0189e1f6fa
-SHA256: c540490fed31e060836e06cf775ca83f2a900395c4eba4fcd90638d359270746
+Filename: ./python3-imageio_2.14.1-1_all.deb
+Size: 3150920
+MD5sum: 95a954b1b1c2a6c276a2cfad9a38c052
+SHA1: 859ecfb53eee96c7e2850a5217204edeabbef63c
+SHA256: 14b51a140c4fcba04219016b4385f6948cb154d6ee56755a148a8daf7be7e6aa
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -2411,6 +2411,61 @@ Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
 Description: An OpenSesame Plug-in for collecting button responses, audio
+
+Package: python3-pillow
+Source: pillow
+Version: 9.0.0-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1530
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2.1), libxcb1, zlib1g (>= 1:1.1.4)
+Filename: ./python3-pillow_9.0.0-1_amd64.deb
+Size: 423604
+MD5sum: d29b662c164209eae4e668b49b4432a0
+SHA1: fca029c96fca4f82bd7c9550e10c1530a093d429
+SHA256: 8c41526abc4b396c95a7be70bcca0900a9df4e96c26e5ac3dbf6e784cf11d71f
+Section: python
+Priority: optional
+Homepage: https://python-pillow.org
+Description: Python Imaging Library (Fork)
+ <p align="center">
+     <img width="248" height="250" src="https://raw.githubusercontent.com/python-pillow/pillow-logo/main/pillow-logo-248x250.png" alt="Pillow logo">
+ </p>
+ .
+ # Pillow
+ .
+ ## Python Imaging Library (Fork)
+ .
+ Pillow is the friendly PIL fork by [Alex Clark and
+ Contributors](https://github.com/python-pillow/Pillow/graphs/contributors).
+ PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
+ As of 2019, Pillow development is
+ [supported by Tidelift](https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=readme&utm_campaign=enterprise).
+ .
+ <table>
+     <tr>
+         <th>docs</th>
+         <td>
+             <a href="https://pillow.readthedocs.io/?badge=latest"><img
+                 alt="Documentation Status"
+
+Package: python3-pillow-dbgsym
+Source: pillow
+Version: 9.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 645
+Depends: python3-pillow (= 9.0.0-1)
+Filename: ./python3-pillow-dbgsym_9.0.0-1_amd64.deb
+Size: 579800
+MD5sum: f476b2b4c062022fffd2bd4fd1ece8a0
+SHA1: da8cc9307d4e06ca8d5b095aa91f138eb4e98ec0
+SHA256: 58644326484b4afe656aa298e8f947ac62b787e4bb0158d3a7f7f20851c0d5cf
+Section: debug
+Priority: optional
+Description: debug symbols for python3-pillow
+Build-Ids: 18c349b638002f9a411ddaed2ef6d90c9aada4eb 4139929a70af23063d17f6274f1dc9a67cc1d899 58ddb54d412b6ee50c1f71e969ee7d75144d68de c0c7d4842e4fe0a0e8a4a8c6b9bd608e85fe2f8d f8f661ed222f4adf3b219196a6c3cfec4796d068
 
 Package: python3-pip
 Source: pip
@@ -3332,40 +3387,4 @@ Priority: optional
 Description: Creates USB stick with Windows installer.
  WoeUSB-ng is a simple tool that enable you to create your own usb stick
  with windows installer from an iso image or a real DVD.
-
-Package: yt-dlp
-Version: 2021.12.27-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 7807
-Depends: python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
-Filename: ./yt-dlp_2021.12.27-1_all.deb
-Size: 1385740
-MD5sum: a65192171ae93c4fb9f6a05c48df401d
-SHA1: 823ab21669ee24f7c15291a3868be6692b828d22
-SHA256: f674de5b50cbc100540d21716568728e069c10fdba2b2e14394492edf8e222e0
-Section: python
-Priority: optional
-Homepage: https://github.com/yt-dlp/yt-dlp
-Description: A youtube-dl fork with additional features and patches
- Official repository: <https://github.com/yt-dlp/yt-dlp>
- .
- **PS**: Some links in this document will not work since this is a copy of the README.md from Github
- .
- <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
- <div align="center">
- .
- [![YT-DLP](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)](#readme)
- .
- [![Release version](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?color=blue&label=&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/releases/latest)
- [![CI Status](https://img.shields.io/github/workflow/status/yt-dlp/yt-dlp/Core%20Tests/master?label=&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/actions)
- [![License: Unlicense](https://img.shields.io/badge/-Unlicense-blue.svg?style=for-the-badge)](LICENSE)
- [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](Collaborators.md#collaborators)
- [![Supported Sites](https://img.shields.io/badge/-Supported_Sites-brightgreen.svg?style=for-the-badge)](supportedsites.md)
- [![Discord](https://img.shields.io/discord/807245652072857610?color=blue&label=​&logo=discord&style=for-the-badge)](https://discord.gg/H5MNcFW63r)
- [![Doc Status](https://readthedocs.org/projects/yt-dlp/badge/?version=latest&style=for-the-badge)](https://yt-dlp.readthedocs.io)
- [![Commits](https://img.shields.io/github/commit-activity/m/yt-dlp/yt-dlp?label=commits&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/commits)
- [![Last Commit](https://img.shields.io/github/last-commit/yt-dlp/yt-dlp/master?label=&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/commits)
- [![Downloads](https://img.shields.io/github/downloads/yt-dlp/yt-dlp/total?style=for-the-badge&color=blue)](https://github.com/yt-dlp/yt-dlp/releases/latest)
- [![PyPi Downloads](https://img.shields.io/pypi/dm/yt-dlp?label=PyPi&style=for-the-badge)](https://pypi.org/project/yt-dlp)
 
