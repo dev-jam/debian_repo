@@ -1622,17 +1622,17 @@ Priority: optional
 Description: plasma-appimage-integration built using CMake
 
 Package: praat
-Version: 6.2.05-1~bpo11+1
+Version: 6.2.06-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 73523
+Installed-Size: 73579
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), oss-compat, python3:any
 Suggests: libasound2-plugins
-Filename: ./praat_6.2.05-1~bpo11+1_amd64.deb
-Size: 15715072
-MD5sum: f3b030848c9f81873b66d978a04481c0
-SHA1: 8442d35269dd64654db29fb1b87542d3270d57ee
-SHA256: 0d5a5050ccde095c1b935ef647b9cf15078df9fbc891624b852e9e5798e646a2
+Filename: ./praat_6.2.06-1~bpo11+1_amd64.deb
+Size: 15830580
+MD5sum: 6f082ce02cf866abfe22baae423ecc4c
+SHA1: 7b79730aaf4eb7a34163908cb1835bf1a5e72d0f
+SHA256: 5680099b20962bf095ff5f0336e8b77c3c48245491a6b1ff46fabfb27092f35c
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -1648,21 +1648,21 @@ Description: program for speech analysis and synthesis
 
 Package: praat-dbgsym
 Source: praat
-Version: 6.2.05-1~bpo11+1
+Version: 6.2.06-1~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 48431
-Depends: praat (= 6.2.05-1~bpo11+1)
-Filename: ./praat-dbgsym_6.2.05-1~bpo11+1_amd64.deb
-Size: 43347112
-MD5sum: 7b100205fafc8ba69de7196765397a31
-SHA1: 5bb8600446092c88c50c80e95bc2c32c084fa405
-SHA256: e2c29a766e246660f12ed416b4d6e5d88cdb2df95ea3e1863a5fd279eba27f8d
+Installed-Size: 48447
+Depends: praat (= 6.2.06-1~bpo11+1)
+Filename: ./praat-dbgsym_6.2.06-1~bpo11+1_amd64.deb
+Size: 43365632
+MD5sum: b1e79cd16de8cc322f3459312eadc931
+SHA1: a7c326878e0dd814daf83d09b03f5a25ad3c936f
+SHA256: 301304665c4dca824a3768820e4892fa386a917ff4f7fa06b29f54c4e2023c0a
 Section: debug
 Priority: optional
 Description: debug symbols for praat
-Build-Ids: 1971be95294cd73a1b095aebfbe7ecaacc34b175 4b4cbdf61e7350adcd84e2d249f81a719cdd4828 5cbe87b6fc354b527e289dea83a386273bef792d
+Build-Ids: 5cbe87b6fc354b527e289dea83a386273bef792d 708b49dff54687845703441e65869bcd7019d147 96d75da0be46054778abd945dce923fd4591c9e9
 
 Package: psychopy
 Version: 2021.2.3+dfsg-1~bpo11+1
