@@ -39,24 +39,6 @@ Description: system tray notifications for Thunderbird
  likely that support for Thunderbird XUL extensions will be dropped soon,
  possibly by the time you read these words.
 
-Package: birdtray-dbgsym
-Source: birdtray
-Version: 1.9.0+ds-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Adam Borowski <kilobyte@angband.pl>
-Installed-Size: 3114
-Depends: birdtray (= 1.9.0+ds-2~bpo11+1)
-Filename: ./birdtray-dbgsym_1.9.0+ds-2~bpo11+1_amd64.deb
-Size: 3071976
-MD5sum: a69d99d84ddb3ae80d2e3ed61b90b266
-SHA1: 092552604117c23bf0dcdeb4dad47bf8044f104f
-SHA256: 0c0a4c1f9475940c323e8391fcf530f759ee22954d553c60c61982330b2d4b02
-Section: debug
-Priority: optional
-Description: debug symbols for birdtray
-Build-Ids: b6d5097cd152f95e92b0a9d262de46a40776e6e0
-
 Package: deadbeef-static
 Version: 1.8.8-1
 Architecture: amd64
@@ -139,14 +121,14 @@ Priority: optional
 Description: personal tools for Debian Bullseye
 
 Package: devjam-tools
-Version: 1.0-1
+Version: 1.1-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.0-1_amd64.deb
-Size: 9500048
-MD5sum: d17e6f42549039485cdf295789abb1dd
-SHA1: 92e79096e45028f02378550e8bf4ad63a2f65419
-SHA256: fb9c666835997c5884a5a7bfaf39769426d68a5441bebbd8f0c67efbd795e288
+Filename: ./devjam-tools_1.1-1_amd64.deb
+Size: 9500004
+MD5sum: 3f430a17b3771c6487d8e14c13356056
+SHA1: 5ee7074490994f8741ab0596060de7b9b8b367bb
+SHA256: a337faed637a8ead110c776417840e2f72110c9e59f379b195933b93479c2406
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
@@ -239,24 +221,6 @@ Description: OpenGL 2.0 benchmark suite
  .
  This package is intended only for the DRM stand-alone back-end. GL version.
 
-Package: glmark2-drm-dbgsym
-Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5208
-Depends: glmark2-drm (= 2021.10~git.e359bb0-2~bpo11+1)
-Filename: ./glmark2-drm-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 5006264
-MD5sum: 89e6e3856ea54e63eb3e23f1e4756048
-SHA1: 86a74679471c71c5ad3cd8e2716750f80b434b20
-SHA256: 85bf318b1dd38389fd9ff3df5511840a261a66b115a994bdc79d6244d3cbf914
-Section: debug
-Priority: optional
-Description: debug symbols for glmark2-drm
-Build-Ids: a9af5a2618a4ad6e6640200da7d70d7e4f6cfef6
-
 Package: glmark2-es2-drm
 Source: glmark2
 Version: 2021.10~git.e359bb0-2~bpo11+1
@@ -282,24 +246,6 @@ Description: OpenGL 2.0 benchmark suite
  .
  This package is intended only for the DRM stand-alone back-end. GLESv2 version.
 
-Package: glmark2-es2-drm-dbgsym
-Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5178
-Depends: glmark2-es2-drm (= 2021.10~git.e359bb0-2~bpo11+1)
-Filename: ./glmark2-es2-drm-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 4991660
-MD5sum: f6df0fbaa96c09a126eccf7d8e4da63a
-SHA1: 01e31c02f392ee25c27169452288a2ea50210c3d
-SHA256: 04b10111ed0260d2a9a783fbe697e6e006d4882f66c12f9830483a9bd3a9be1f
-Section: debug
-Priority: optional
-Description: debug symbols for glmark2-es2-drm
-Build-Ids: 35051704b382e3db7e8c012de9219605727293c9
-
 Package: glmark2-es2-wayland
 Source: glmark2
 Version: 2021.10~git.e359bb0-2~bpo11+1
@@ -324,24 +270,6 @@ Description: OpenGL 2.0 benchmark suite
  of options.
  .
  This package intended only for the wayland platform. GLESv2 version.
-
-Package: glmark2-es2-wayland-dbgsym
-Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5186
-Depends: glmark2-es2-wayland (= 2021.10~git.e359bb0-2~bpo11+1)
-Filename: ./glmark2-es2-wayland-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 5000024
-MD5sum: c6ebdab8d47cb362aa1c556fe96a602c
-SHA1: 5dd481766c858b62e7283be6e658cd11feee81d7
-SHA256: 106f30428610d7f6215976df4b3e751d71a20d13ea87abf282512d8796516d97
-Section: debug
-Priority: optional
-Description: debug symbols for glmark2-es2-wayland
-Build-Ids: f79051d49032d5b56d2eafa51e08b7750b9f4071
 
 Package: glmark2-es2-x11
 Source: glmark2
@@ -370,24 +298,6 @@ Description: OpenGL 2.0 benchmark suite
  .
  This package is intended only for the X11 platform. GLESv2 version.
 
-Package: glmark2-es2-x11-dbgsym
-Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5163
-Depends: glmark2-es2-x11 (= 2021.10~git.e359bb0-2~bpo11+1)
-Filename: ./glmark2-es2-x11-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 4978660
-MD5sum: 47354208b18121028458ecd264eb003d
-SHA1: 297019a02b23a6bda240ffb652eba162f9552fd8
-SHA256: 4f50e1d972983413519f212186fd0e8cd7ea279014d201af3cee1935406ca50f
-Section: debug
-Priority: optional
-Description: debug symbols for glmark2-es2-x11
-Build-Ids: e6ca3ea9a5e8ea7f18ca2300a0312752374e2837
-
 Package: glmark2-wayland
 Source: glmark2
 Version: 2021.10~git.e359bb0-2~bpo11+1
@@ -412,24 +322,6 @@ Description: OpenGL 2.0 benchmark suite
  of options.
  .
  This package intended only for the wayland platform. GL version.
-
-Package: glmark2-wayland-dbgsym
-Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5221
-Depends: glmark2-wayland (= 2021.10~git.e359bb0-2~bpo11+1)
-Filename: ./glmark2-wayland-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 5018720
-MD5sum: 8c501c8107fd0182ca943e74660a99f5
-SHA1: 504bff4fe2e76bd97a82a4effd762370eaded34a
-SHA256: 4dd7f5c67aee60fd0e61960d661e60bf46d19ebcbb466ed7bc4f0bf950815e8a
-Section: debug
-Priority: optional
-Description: debug symbols for glmark2-wayland
-Build-Ids: f388be8bf8f09ace96cdea788ca54b6187e80f3e
 
 Package: glmark2-x11
 Source: glmark2
@@ -457,24 +349,6 @@ Description: OpenGL 2.0 benchmark suite
  of options.
  .
  This package is intended only for the X11 platform. GL version.
-
-Package: glmark2-x11-dbgsym
-Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 5133
-Depends: glmark2-x11 (= 2021.10~git.e359bb0-2~bpo11+1)
-Filename: ./glmark2-x11-dbgsym_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 4945216
-MD5sum: 19234ea65fb7a0d29513334218602d9b
-SHA1: 60dab05641300462d9c7c7df87ecf7198e82981a
-SHA256: 4ae0facb5f9a53de10ca23293df6eb1d8bd5e39f8e02cdc42fcb17afd102b34b
-Section: debug
-Priority: optional
-Description: debug symbols for glmark2-x11
-Build-Ids: 5a47e294a51f4c21d4ec88845a629e7a8417a20e
 
 Package: gprename
 Version: 20201214-0.2
@@ -535,25 +409,6 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
  .
  This package contains a plugin to make devices managed by the PipeWire
  server available as GStreamer sources and sinks.
-
-Package: gstreamer1.0-pipewire-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 207
-Depends: gstreamer1.0-pipewire (= 0.3.44-1~bpo11+1)
-Filename: ./gstreamer1.0-pipewire-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 181188
-MD5sum: 85ab05756a0e66f4475b5da334844d47
-SHA1: b33d4812e633ef89f1aac9e14c9a2059f9ab70df
-SHA256: 5f9a351f1651630dd098775d3b78ea9f4aec455020e31a5b9f15b958f843ed82
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for gstreamer1.0-pipewire
-Build-Ids: d492a646083eb8a0e3fca58eff07207b92e565ba
 
 Package: kde-service-menu-pdf
 Version: 2.3
@@ -716,25 +571,6 @@ Description: library for accessing encrypted DVDs
  .
  This package provides runtime libraries.
 
-Package: libdvdcss2-dbgsym
-Source: libdvdcss
-Version: 1.4.2-1~local
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Dmitry Smirnov <onlyjob@debian.org>
-Installed-Size: 54
-Depends: libdvdcss2 (= 1.4.2-1~local)
-Filename: ./libdvdcss2-dbgsym_1.4.2-1~local_amd64.deb
-Size: 39328
-MD5sum: 36c4e77f9871709bb1ae090d83b4ebb2
-SHA1: 036f7b1828a47723653c2bba48d2e5e052d37e88
-SHA256: afd8a3b7a68000acfed565298d33662a4457bb168b0bf54729419347db3287a7
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for libdvdcss2
-Build-Ids: 3cb616dfbcbe768e5b7ce46541b01c3c11bec048
-
 Package: libindicator7
 Source: libindicator
 Version: 0.5.0-4
@@ -782,25 +618,6 @@ Description: libraries for the PipeWire multimedia server
     application provided streams) and multiplexing this with clients.
   - Accessing sources of video for consumption.
   - Generating graphs for audio and video processing.
-
-Package: libpipewire-0.3-0-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 875
-Depends: libpipewire-0.3-0 (= 0.3.44-1~bpo11+1)
-Filename: ./libpipewire-0.3-0-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 830128
-MD5sum: 11ecee4fd8a656e32d0dad59684fd0db
-SHA1: 65b85289acdccbc9307cc9ef17cc449e96cef1b1
-SHA256: f3250fd0d5cfba93f23a7848bf5fe6702c28c8c44a170ece0196a1578ade437a
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for libpipewire-0.3-0
-Build-Ids: d3e6e78cc74d32a21d2e7099038e188359391fad
 
 Package: libpipewire-0.3-common
 Source: pipewire
@@ -888,25 +705,6 @@ Description: libraries for the PipeWire multimedia server - modules
  and should not normally be depended on directly. PipeWire clients should
  depend on the pipewire package instead.
 
-Package: libpipewire-0.3-modules-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 2994
-Depends: libpipewire-0.3-modules (= 0.3.44-1~bpo11+1)
-Filename: ./libpipewire-0.3-modules-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 2678232
-MD5sum: 1b950aa4453ddea973e8e5a23e17f3b1
-SHA1: 701e662ebddd59147d513fee48bb52efe03e4f40
-SHA256: a11ee15234b95a1f1581511e1c2067687a317d73b4269cda09b847c2826547cc
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for libpipewire-0.3-modules
-Build-Ids: 0888da425c8efdc3a16b68ef13e6f3b734aa43b2 0fb729796c85f58f8bc235f8ca8453fab95d553e 1c478b8f197c9ad57836cb273515f2c02b2ea40b 502c765ab8f6f4ae171df11bc5782dd4190e9e3c 50410a4b30909cae0092a05be111b7c2bf5d614f 50c05bea5e6da01b9174044e8122680b655b8bc1 5184a2dc2cac94cfd599e37e9718b408c8c1626a 54002b637e2b17464e9b9e8aeb5ba4713ee6a57e 577ac734404033a7c5ce210683d1071d38fff383 62562b0875de92be1b012bc69143ba5968ed4826 64e324195a7ae772445869ea175cd29658be026e 65f1f06420743e4e53decb5c35a73e20cc74aadc 66ef3eaaad0ba23b4df97e5444528b900a8a6ecc 6ad3d14ae5bef8b8a7b84557c5042010e8eda1c8 6b9bb831b49af452d2cb8edf0bc2760b40d60be1 70ee321ebc8be7b616b994001e7b4cdd3fa47abd 7a670ca3a9dd6acaa2891f9f32c0033df1876f5a 9edac5edf29a10fb0d26c1dc8fa591ea0f67d577 a9d9023205ad529c9aba1f105e7e051cba70534c bbc82e9df06498dc999e4a6bd8764c0677f97aab c464d13482bd069f37351232fdfd0b7e98013eca df8429a3a7678f6812a583803ee804ef9ff974cb eb2c633714c8669f050e437bdcd1178cd160f0b9 eedfb5452b3f86fc87f34171fb6798f4e35050e2 f3d82a73c4a0a40daad4b9f56e403c0d1dd6b955 f58c187d671628283491699653fefb113bc2667e fa56183a11c130173b118a3a75a56dba7056a3dd
-
 Package: libspa-0.2-bluetooth
 Source: pipewire
 Version: 0.3.44-1~bpo11+1
@@ -936,25 +734,6 @@ Description: libraries for the PipeWire multimedia server - bluetooth plugins
  speakers and headsets available to the PipeWire server. It is considered
  to be experimental, and is disabled by default (even if installed) to
  avoid conflicts with equivalent functionality in PulseAudio.
-
-Package: libspa-0.2-bluetooth-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1018
-Depends: libspa-0.2-bluetooth (= 0.3.44-1~bpo11+1)
-Filename: ./libspa-0.2-bluetooth-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 970260
-MD5sum: 7f3dc31623e5c2e5afcf5f89e2b188fb
-SHA1: 16654cbb3ad49a4d9140b8026ad4bba23040da56
-SHA256: c1f474df9328de640bd4197c3d8fcbce661f0f27ba5caae0e75bb48c933f99a9
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for libspa-0.2-bluetooth
-Build-Ids: 2db0816fe0c773cc3ae0e58d8d95c6cb206ee630 52a4b54c511c55869b14a68f700d916650b3fe26 9058f81b502296b2af2a11649980f34ef4cb81ca b016c2e42952ea2931d63390d13cffe4bcf8fdec
 
 Package: libspa-0.2-dev
 Source: pipewire
@@ -1012,25 +791,6 @@ Description: libraries for the PipeWire multimedia server - JACK client
  JACK server, which will be used for audio playback and recording.
  Using PipeWire for audio is considered to be experimental.
 
-Package: libspa-0.2-jack-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 241
-Depends: libspa-0.2-jack (= 0.3.44-1~bpo11+1)
-Filename: ./libspa-0.2-jack-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 226324
-MD5sum: a182a58adea16720fb6e10b62ef49af1
-SHA1: 9b46e4823c21d2091501091d35ab8c62ce2d694c
-SHA256: a01deee50e8300c96095f8a4ab8a60abc4068b1551bbcfac24b0df63ccab224f
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for libspa-0.2-jack
-Build-Ids: 14b8dca6f6d84883ac30188782dee6457d6c8f1f
-
 Package: libspa-0.2-modules
 Source: pipewire
 Version: 0.3.44-1~bpo11+1
@@ -1063,25 +823,6 @@ Description: libraries for the PipeWire multimedia server Simple Plugin API - mo
  dependencies. It should not normally be depended on directly: PipeWire
  clients should depend on the pipewire package instead.
 
-Package: libspa-0.2-modules-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 3028
-Depends: libspa-0.2-modules (= 0.3.44-1~bpo11+1)
-Filename: ./libspa-0.2-modules-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 2881664
-MD5sum: b3a1f9f0d09dff9d2db4256e3ca7afe7
-SHA1: 9f9afdbe36e19a9975f351dd5f764a985d7d334a
-SHA256: 1b0767e5ee03fb6f834e7ca099306ecbcbb23a5038023d40c9a5e50638788c10
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for libspa-0.2-modules
-Build-Ids: 01858f6757af670968da358ba167362aa93f8736 06b4383557c20fa86cdb903181ce106f2dfc2fe6 0780fb2dfb2bfc6bf23db787c33aae911da0bcf7 1760c0c405594bd94354b7ace1ae493680d533aa 2036dabf662da96f77a0c53c8313a156fba068c5 213ed5d967e508eb19a3b3d95c25aa2d56225390 5c4e8cd43e657b6d7fcc15f0ae357b7d8576af98 8a80b6c2c49c69531ca012eb4cca42284955f734 922660a6fe99425b1a445d1754eb3cc192ea9b42 ac1d1fa755cea0d8e8edf893d88037880c66db4c bd938cbc59d51b8cf0003061ea144e570a9f7fba d51ac615599148b061e4440c12ff7662beeaafa1 ff3bae8ffc864f41c65ccea394408047ac27e216
-
 Package: libwireplumber-0.4-0
 Source: wireplumber
 Version: 0.4.7-1~bpo11+1
@@ -1105,25 +846,6 @@ Description: Shared libraries for WirePlumber
  managing PipeWire.
  .
  This package contains the shared library and plugins.
-
-Package: libwireplumber-0.4-0-dbgsym
-Source: wireplumber
-Version: 0.4.7-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1017
-Depends: libwireplumber-0.4-0 (= 0.4.7-1~bpo11+1)
-Filename: ./libwireplumber-0.4-0-dbgsym_0.4.7-1~bpo11+1_amd64.deb
-Size: 774644
-MD5sum: d0f3dcd652ae49f319974e2e6666b37d
-SHA1: 61367f00e2cb741aa1e23308ebfb1c35da16fbc6
-SHA256: d275c74d6b5a6dffcfeb71ecc60ff0255b28b3a5a9b3b25a02df7749764a00aa
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for libwireplumber-0.4-0
-Build-Ids: 04666ab7dd8ce613a51b3ee8f0bacaf389631fd0 203231ba57e682c9386eec853102beea427ae257 2a11b6d27bbbc0f21f6541eada59c983c6a27617 41f18c91b224bffc94dca5d33702b302b3667ae6 4a9338c83159cc5aa76307f1326c53d6aef457eb 5be951dead043e619ea81c8ab6946a9ab35e9cce 6116bd891d936ea2fdd755a9591b4d1f0d2b3ff0 6ba42c3d7e154c449fa80d322390784ad5c76ff9 8ca8e546b5ee868434402e3e034521536f7be95b 8e3c5879ac994937171bdb67839713953283af85 91421873d0a288ea440f5af4ba8479df0af092f4 9c65e1ecef634dee3e974b613a083025c85f22c2 d5bfb668fa7f6c65c62d661f1c9a083e59299ba9 e41fab0954bd3d1c38e7fdfbc8389429c0c20160 f3c309d73d3bfe7986c1624b4dd2486ee4b12888 fa05e6842a15028e61ee4b423a4f6f9cdb4b7d61 fb1197c8cbef6cb499ec80d41210ddda8e1787b8
 
 Package: libwireplumber-0.4-dev
 Source: wireplumber
@@ -1279,24 +1001,6 @@ Description: Qt port of volume control pavucontrol
  .
  This package contain the application files.
 
-Package: pavucontrol-qt-dbgsym
-Source: pavucontrol-qt
-Version: 0.16.0-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
-Installed-Size: 1504
-Depends: pavucontrol-qt (= 0.16.0-2~bpo11+1)
-Filename: ./pavucontrol-qt-dbgsym_0.16.0-2~bpo11+1_amd64.deb
-Size: 1473928
-MD5sum: 85b930880fee85d3a94b7a636ab43212
-SHA1: 7df5f4c3b104a074706d10e3bd0e3e0c3af13edc
-SHA256: 07e3959381063646b1d75ad336749dd933e6eb0530c2e48584366abdb5af9630
-Section: debug
-Priority: optional
-Description: debug symbols for pavucontrol-qt
-Build-Ids: bf30e79eb221c51094d79430b495771e801feeb4
-
 Package: pavucontrol-qt-l10n
 Source: pavucontrol-qt
 Version: 0.16.0-2~bpo11+1
@@ -1394,25 +1098,6 @@ Description: PipeWire multimedia server - audio client libraries
  playback and recording. They are not used by default, and are currently
  considered to be experimental.
 
-Package: pipewire-audio-client-libraries-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 619
-Depends: pipewire-audio-client-libraries (= 0.3.44-1~bpo11+1)
-Filename: ./pipewire-audio-client-libraries-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 534020
-MD5sum: 7173356ce6431dc54ab4057cf39d2925
-SHA1: 39d6d3958cc41aea0f7fadd2dd5af0101d1332b5
-SHA256: 7f0def77df4d8da1ddadbfe6d74c6e185c0bf4f392c0e70776a24d579477a4f0
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for pipewire-audio-client-libraries
-Build-Ids: 26b2f4aecc508016a66bb8a99ce197e29348bf29 5c540b24ebb8a0ce10fde3e5daaa97fb6d8ef5cd 6c5842fe098457fc1f0d5bb5a550f4d33d2d46e7 ad28a2ca338fbba93b70c3f5d443cb8857a5724d c55b86e23227dfd1820e07f3a83338b242158d32
-
 Package: pipewire-bin
 Source: pipewire
 Version: 0.3.44-1~bpo11+1
@@ -1444,24 +1129,6 @@ Description: PipeWire multimedia server - programs
  This package contains the server and command-line utilities, and should
  not normally be depended on directly. PipeWire clients should depend on
  the pipewire package instead.
-
-Package: pipewire-bin-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1068
-Depends: pipewire-bin (= 0.3.44-1~bpo11+1)
-Filename: ./pipewire-bin-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 879920
-MD5sum: 72efbb75a38d6481f61eaa64913bbccb
-SHA1: f209d334591f091ec5b80941963ab0a7ae524863
-SHA256: ee72524a882054e55ce6dfabc2f4b3f740d30acc654377704eb515b92eb25798
-Section: debug
-Priority: optional
-Description: debug symbols for pipewire-bin
-Build-Ids: 196046dffe0aca88ace5f772891de8defb32b27c 1fde5b91b184d7201ad09308e5fd04cd58ef5e8f 3f2ba464f0ba49315f8708fbc1c5ba51eb4dcc86 5228f1dcf64ca896fc9740a0d6f2105e79929cb4 551e9f8ec758e3eaac64efde9b77041b34a3ff0f 57d53d90812308183e5b65025e1c725609cb6e8e 5c7b3c4c9e811f65d6b2f2daf9f457cad1f05ea5 6b5dd9cf448d17a7ec229c6c1bc7f5e228456ad4 86b66c2250ebad4aab4c0d79451ef3f7f02c232a 880e9a9c84a92d7aaeff58a03e150209c56a03b6 8f1480fe0f7655756cd8954d304512ed8ffbcf9f 94c8311b5e7a2c852e94151aadd69e585584da3c a4ccafb600325a83978fde403c1447a4984b04e6 aeca6e60e6746a317e6aaed2917180a51a91a73b bc7d5a282f099a9b4fe86e446c2b2ff72e2997de ccfa7dc9f159d18a919f35a941094f4a5e50ed9f d1c71948cf51fd739f115243dbf68f775bf91e22 f9594512e1b41813147e5d674aa5ec3de1de73d3
 
 Package: pipewire-doc
 Source: pipewire
@@ -1513,24 +1180,6 @@ Description: example session manager for PipeWire
  PipeWire Media Session is an example session manager for PipeWire.
  .
  Note that it is recommended the use of WirePlumber instead.
-
-Package: pipewire-media-session-dbgsym
-Source: pipewire-media-session
-Version: 0.4.1-2~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 728
-Depends: pipewire-media-session (= 0.4.1-2~bpo11+1)
-Filename: ./pipewire-media-session-dbgsym_0.4.1-2~bpo11+1_amd64.deb
-Size: 694292
-MD5sum: 6e827dfb8221df9e6dc8db3243e80ea8
-SHA1: c8389b5f7ba463b6a2df25f288b8e86526d8fb36
-SHA256: ad505f936098caa11c6683f6072a788e4b9679f3b348b71f785e5916c78e1675
-Section: debug
-Priority: optional
-Description: debug symbols for pipewire-media-session
-Build-Ids: 100e2e52bcb51873e4f127f6b5957046dc6f66b5
 
 Package: pipewire-pulse
 Source: pipewire
@@ -1587,24 +1236,6 @@ Description: PipeWire multimedia server - tests and examples
  .
  This package contains automated and manual tests and example programs.
 
-Package: pipewire-tests-dbgsym
-Source: pipewire
-Version: 0.3.44-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1758
-Depends: pipewire-tests (= 0.3.44-1~bpo11+1)
-Filename: ./pipewire-tests-dbgsym_0.3.44-1~bpo11+1_amd64.deb
-Size: 1451596
-MD5sum: badfe3fa67f0c01760f14bd649807b65
-SHA1: 80ae2540521710ce89c9027411ff7b786a62a8e6
-SHA256: c5f735a908ba11a1241b2ed232e00e4c82322939e1e1f9eb3d4e44f380e241a5
-Section: debug
-Priority: optional
-Description: debug symbols for pipewire-tests
-Build-Ids: 02363ee4a2c6237920b374c7b1496bb4fe196d95 1af9d038eb70c43698d3df87b771144429c49425 1c52cf2f1fcd8b2c56b7623df600fec8d08553b1 1e82c1e3881d8d6e5a3f54fab8760d7fba6345c4 1fbcb3c106a9ef2ff975bf4117392483bee564ba 216b04ae117dcfc46854282e892084450cbb7e87 22b084a9344f9be6113837f67a08052c6f975caa 28470dc781d29dd8ea807760df5ee79826291cc1 2ab3ced27dfe1806cbd997e6f39d8a13e79ea0e8 2cfd377b8a31b43917e67a8fdf5fcfa9fde1c55f 2e458b5a55c04d0fc8c9b8befbb4b60d07dc7981 3bf9f0873b49e353c1d8b557386a127cc618caad 3c21a8deb3d526960b96f2c9958cb59290592714 3f7ba671919c886f8b3d40164029a0738927ed4e 46ddfff52647e1bf5c23e23ad438d4dd51acf344 4b76c6c7499ef97a86823c1f0d42ca36b7b068ff 5a6bf82b9cfb736e1f4f3e41a456de9f559a8e5b 5c523cfb41471125717350a29551da05882ad2eb 610160eb38f688eb0d7a9703f9758389a052356b 6217b4438f76b59feb1a6462cbe9670d17c20996 62f83e37546120d1a48838a75eb73fe27657fa37 66ba4038d23bf39ea14d885121d902f68b218819 70bffaca1a301936e4e781e56da86a16d6ee4865 733e93e0d26e47081c671f87d1f5bc29b29498ba 73d9f9ddb3615a7437226bcd9b944741402909ca 7ef4908c5a2f0b712ba6351643904cdab354519a 8a891831186a67b48f4d1a09bc0c3d6dda693953 9412f4d905bdcaa277c5fc66ffaff375dfe4e8b5 9b1edcebca31ad3ec225159492d4292180667746 a7a5c435641ee7fc382a19d7b616da9eabbbda7a a8ca395d1b49790f9b6ea125eca5578b9c669ffa b3a4f50ac5a073d4ecc0d4f1f1b30486c93c74f7 c7f34aaa26a3dc27ae2a87c09e0e3c2ca2415502 cfeac8af7f33923a8ddde91ebad1143a0c48ad3c d5748e0abd7e576f27eb51c34673605a600a2c7a ed6b4e1d09fb15584f2b6254c170053faa6e8d5e
-
 Package: plasma-appimage-integration
 Version: 0.1.0-neon-user-lts
 Architecture: amd64
@@ -1645,24 +1276,6 @@ Description: program for speech analysis and synthesis
  segmentation, labelling using the phonetic alphabet, and computation of
  statistics.  Praat is configurable and extensible through its own scripting
  language and has provisions for communicating with other programs.
-
-Package: praat-dbgsym
-Source: praat
-Version: 6.2.06-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 48447
-Depends: praat (= 6.2.06-1~bpo11+1)
-Filename: ./praat-dbgsym_6.2.06-1~bpo11+1_amd64.deb
-Size: 43365632
-MD5sum: b1e79cd16de8cc322f3459312eadc931
-SHA1: a7c326878e0dd814daf83d09b03f5a25ad3c936f
-SHA256: 301304665c4dca824a3768820e4892fa386a917ff4f7fa06b29f54c4e2023c0a
-Section: debug
-Priority: optional
-Description: debug symbols for praat
-Build-Ids: 5cbe87b6fc354b527e289dea83a386273bef792d 708b49dff54687845703441e65869bcd7019d147 96d75da0be46054778abd945dce923fd4591c9e9
 
 Package: psychopy
 Version: 2021.2.3+dfsg-1~bpo11+1
@@ -2469,24 +2082,6 @@ Description: Python Imaging Library (Fork)
          <td>
              <a href="https://pillow.readthedocs.io/?badge=latest"><img
                  alt="Documentation Status"
-
-Package: python3-pillow-dbgsym
-Source: pillow
-Version: 9.0.0-1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 645
-Depends: python3-pillow (= 9.0.0-1)
-Filename: ./python3-pillow-dbgsym_9.0.0-1_amd64.deb
-Size: 579800
-MD5sum: f476b2b4c062022fffd2bd4fd1ece8a0
-SHA1: da8cc9307d4e06ca8d5b095aa91f138eb4e98ec0
-SHA256: 58644326484b4afe656aa298e8f947ac62b787e4bb0158d3a7f7f20851c0d5cf
-Section: debug
-Priority: optional
-Description: debug symbols for python3-pillow
-Build-Ids: 18c349b638002f9a411ddaed2ef6d90c9aada4eb 4139929a70af23063d17f6274f1dc9a67cc1d899 58ddb54d412b6ee50c1f71e969ee7d75144d68de c0c7d4842e4fe0a0e8a4a8c6b9bd608e85fe2f8d f8f661ed222f4adf3b219196a6c3cfec4796d068
 
 Package: python3-pip
 Source: pip
@@ -3328,19 +2923,19 @@ License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
 
 Package: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 107082
-Depends: adduser, iproute2, procps, virtualbox-dkms (>= 6.1.32-dfsg-1~bpo11+1) | virtualbox-source (>= 6.1.32-dfsg-1~bpo11+1) | virtualbox-modules, python3 (<< 3.10), python3 (>= 3.9~), python3.9, python3:any, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.104, liblzf1 (>= 1.5), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpython3.9 (>= 3.9.1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx6 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), libxt6, zlib1g (>= 1:1.1.4)
-Recommends: virtualbox-qt (= 6.1.32-dfsg-1~bpo11+1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libxcb1, libxext6
+Depends: adduser, iproute2, procps, virtualbox-dkms (>= 6.1.32-dfsg-1+b1~bpo11+1) | virtualbox-source (>= 6.1.32-dfsg-1+b1~bpo11+1) | virtualbox-modules, python3 (<< 3.10), python3 (>= 3.9~), python3.9, python3:any, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.104, liblzf1 (>= 1.5), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpython3.9 (>= 3.9.1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx6 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), libxt6, zlib1g (>= 1:1.1.4)
+Recommends: virtualbox-qt (= 6.1.32-dfsg-1+b1~bpo11+1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libxcb1, libxext6
 Suggests: vde2, virtualbox-guest-additions-iso
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0, virtualbox-6.1
-Filename: ./virtualbox_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 21440236
-MD5sum: 5fd99335e549967672b01ab6eea82eff
-SHA1: 1ad6d9620b87045733fee02c311dca55762bebca
-SHA256: 40ea078a6dd7bd8d97febe99cc463e2ea69c1b39d08b4f28e5d4b1271b1767b5
+Filename: ./virtualbox_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 21430472
+MD5sum: b9ad85b99ab1fc6ed14e3cafe1e762b5
+SHA1: 9a62884ca061ed0ee0b733214b7cd8e2950b21be
+SHA256: 51cf2a05e8e2d48e2126502b2f5308ca9845d796b165388fe9d0af74bdce64f2
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3354,40 +2949,20 @@ Description: x86 virtualization solution - base binaries
  kernel modules needed for virtualbox. A graphical user interface for
  VirtualBox is provided by the package virtualbox-qt.
 
-Package: virtualbox-dbgsym
-Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 94094
-Depends: virtualbox (= 6.1.32-dfsg-1~bpo11+1)
-Breaks: virtualbox-dbg
-Replaces: virtualbox-dbg
-Filename: ./virtualbox-dbgsym_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 64224096
-MD5sum: 1bb4042a1caaf5f6932e9bec1dcb5eb2
-SHA1: 47a856171aeb1895c6f3dd968103d6d6917e2a8c
-SHA256: c2b0a52096fdbdab82df191b1bb0da25daac151a19e38b88aade95fc9aa6ced7
-Section: contrib/debug
-Priority: optional
-Description: debug symbols for virtualbox
-Build-Ids: 0424694104c2a107583db971b68ada25cef3125b 06e25af66f9bf3ab09523f4d967b9788484adcf0 199538ff2cfc60e517f57d29900f10e1f8f78b67 1e144216f3d669681020eea857bf7b9fb8432165 20e71508b849f012361ea0a71475675859f117c3 244d711fde2fec77384225a4ee89450504bc9701 24cf0c37576efaee018fb0ad70776bf6ee25d7a3 24dcdb4fbc35405a9bd8805035710b05247a319a 277aab9763da3df4e923dbea29b7d5926b9ee718 27ab6ff156c3ff05859d51fd5bf4cf8b090a3a98 361dda053899a87204d543a34e1f1eb32e08e768 40c0b525c9cd2de3c5cd0fcc4d6952006920a57c 40ee1837bc4dd07a6236cfe0b3ea93b991bcf259 41e3d5ea50fb62b9a0e8f3af2003b4d63ab53404 480e12eccedb8022ff676cb8f3fce112161cd1f2 48a5d25c1671699820bbbfad7cc6802276a4fa86 5948879fa05d40ace04adf2bf7e8ffd2cec24622 5b354d971992a2dcfeed2421e733749d2c6d8ab6 5c9efaa821fd3ca5ba218d262bf6d004e35c095e 5da7052ad1b10b0c0b9e6a259af409e1b98ff686 66d02bd3cb64a4db5f5aca6bac845db9eac05761 6bf01552b07af73a229dd59e51233e1707f5b304 71fbb91106f0175c256e58965ba72bd7f5df6ff4 7991252a46e9caa1227ba663bf108bec901df608 7ad5c9f9e1a2cdae9ab7d0514c97a82635998c9f 7dbf3e1b7ed7ab9397be0165253f5ec6f94e1366 7debe2c1d7632c728dc7a4aaef6fe2b9c29a30f5 8d385fff30c36ebd5b07cfe300cf5ab9f88e4e05 8eb7940498cad2376f90e0e57c974ff2310f63ed 8f9edc120e3c86f18c940cb0067aa2a5b131442b 91e31df4fa3e931c64bf841b0b05c42943270eef a17f0ee00fef0ef61afa78b1a92a8c16c4319fd3 a17f86b66403301f3354ebb6c28162ad75786e99 aaf3f6d833c29a203fef304a3ab6fc7aa6ca8ec4 b25002f59acc922d52fdd57ef67ed638f74f86ad b3eb60b3902b7cc69d3f5c824f4c231b3e31bbcd bd74cd14c3ecb193492571c75d31b4c0a2c69882 bda58e9681cceb8aa6b095713088d8a3fbc6d802 c2f3a8a446cbe849ba30d69b10a98cc4dcf78e3f c6fecd37f47c6c409c1464790f4b95792804a2cf ca172cf0d93b67da6d29c8695d3924c36260facf cece7b49b7a1b5551d0c184de46d88c2e16fb0d8 d26ef32ee66cb0ba7ea136ec1258cadbfbba7a1d d411267f5ee83f741bd7a63069ea74fb85332991 d4a5b8e2e25d72ff698b05a6c0a784484ecd660e d5330d625db1cc94870be2ae862f371ec0386953 ddeaae2ac646eb8e0fca22c0d93c75dcd39c7f9a e0da25fdf82a364517646009dcaa1f58c7f2bf88 e4deaee66eca05f1eb3f827cce026ce52f8856d2 e75ba7975b4cbd4d1fd4e389aae481e19c45e382 ef1b224bb629847c3da6e91c04644d91ba7429b4 ef28f6ce03bec14390478ab94f450b8969ca84f1 f7b6d93587d96b6902dc3daaa1ad0bc801cc5874 fbb6d35db61723d8062231c0804244f948f17650 fbd78d31bb46e6194ac8186529c6a44bd18363ca
-
 Package: virtualbox-dkms
 Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 5570
 Depends: dkms (>= 2.1.0.0)
-Recommends: virtualbox (>= 6.1.32-dfsg-1~bpo11+1)
+Recommends: virtualbox (>= 6.1.32-dfsg-1+b1~bpo11+1)
 Provides: virtualbox-modules
-Filename: ./virtualbox-dkms_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 727632
-MD5sum: f16270420dde4d3ea4fa78e160dc91d2
-SHA1: 64938614033a2365c3903c4cdde0a63f67ee9270
-SHA256: 36fca66571e3cb366a8829c7e7bafbea7696fc0e310fd7b4cab6090989aa58bb
+Filename: ./virtualbox-dkms_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 727944
+MD5sum: f55ad8d103d5bd83eb43a1f3c32f325b
+SHA1: e39f996a120aea3bca351c932451f1f11d6934d8
+SHA256: 0d03067bc5745db3cf2bc5812ab731926626e7db63747561b9b3ded6c77aa85a
 Section: contrib/kernel
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3448,17 +3023,17 @@ Description: guest additions iso image for VirtualBox
 
 Package: virtualbox-guest-utils
 Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 5846
 Depends: adduser, pciutils, libc6 (>= 2.17), libpam0g (>= 0.99.7.1), zlib1g (>= 1:1.1.4)
-Suggests: virtualbox-guest-x11 (= 6.1.32-dfsg-1~bpo11+1)
-Filename: ./virtualbox-guest-utils_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 924640
-MD5sum: d87b7c494ba8111095a8692aa418226d
-SHA1: 9732e4a910007c405e3a8dd3ede93dc4764bd53f
-SHA256: ba44110e79f006114db9601c6bce76b9f77c001b62d626b1f179be7b955d5834
+Suggests: virtualbox-guest-x11 (= 6.1.32-dfsg-1+b1~bpo11+1)
+Filename: ./virtualbox-guest-utils_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 924092
+MD5sum: 79f0256584c98fe811b116173b435ec1
+SHA1: 43afc2a83fba5c7317cc73ce4cde5c8a0cfbf5d5
+SHA256: f86d5c1ceac5e7edde9bcd1cd2886a60d484b2bfef10aa7d68dae6e2a06c81ef
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3478,37 +3053,37 @@ Description: x86 virtualization solution - non-X11 guest utilities
 
 Package: virtualbox-guest-utils-dbgsym
 Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 5771
-Depends: virtualbox-guest-utils (= 6.1.32-dfsg-1~bpo11+1)
+Depends: virtualbox-guest-utils (= 6.1.32-dfsg-1+b1~bpo11+1)
 Breaks: virtualbox-dbg
 Replaces: virtualbox-dbg
-Filename: ./virtualbox-guest-utils-dbgsym_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 5241300
-MD5sum: 8cbe12081c75dcd7af8d9c93c1cc1163
-SHA1: 0a068b54a5ed69ababfc90beee6ed071718059a2
-SHA256: 580c7c7d9d0a5b660e8a3cacd2523de6c02b158cd63011495d1c83b49baf3631
+Filename: ./virtualbox-guest-utils-dbgsym_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 5239584
+MD5sum: 9afa1b25d0c81571b0daa1a81f51f4de
+SHA1: 14c5c77213b22dc7ac44b441df7aa0d1f6027432
+SHA256: bbb6f89e8278f6e6394039210901ce21b8d0ada0ba94d0eddd3d487c8d5333e4
 Section: contrib/debug
 Priority: optional
 Description: debug symbols for virtualbox-guest-utils
-Build-Ids: 61ac1c126d0e4b3daf390ef502adbdb5bab12ed5 8166310b6cfd463bc134617b651fa8caa772898a c962c20322e691d49046557ffa45fd9b30e1043f d14c64d8dbdbbddf4b63355a27262aed05a9477b
+Build-Ids: 23be8b5884d940cfba47ffad3cfb151db84c0ddf cb1836824ffb1efe1c791ea62d9befe7ff9c6bdb d2f928a01f03091b4e34e444072dde5ef0c21964 e44b0a35b7226ea365444988bd6a8ac4377ed266
 
 Package: virtualbox-guest-x11
 Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 2049
-Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 6.1.32-dfsg-1~bpo11+1), libc6 (>= 2.17), libx11-6 (>= 2:1.4.99.1), libxext6, libxmu6, libxt6, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
+Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 6.1.32-dfsg-1+b1~bpo11+1), libc6 (>= 2.17), libx11-6 (>= 2:1.4.99.1), libxext6, libxmu6, libxt6, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
 Provides: xorg-driver-video
-Filename: ./virtualbox-guest-x11_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 594880
-MD5sum: 78451c549fb2b5df5b9a3edcf003ed29
-SHA1: 365f04aff4192d4d8b59065f1bf36c2ae6db9957
-SHA256: 113574c596858265c3a9464fd714281c9d730bfc80a41514b9abb92da0931524
+Filename: ./virtualbox-guest-x11_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 595248
+MD5sum: a006545e4d1fe5e3b42c532533dd080e
+SHA1: 9e4a5f8b5596570f227d4190a83f93e74761478f
+SHA256: 5965f35da060645d91044a8b02a20424555f1036d0facc1a94ed45c1ee8c01ed
 Section: contrib/x11
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3523,38 +3098,38 @@ Description: x86 virtualization solution - X11 guest utilities
 
 Package: virtualbox-guest-x11-dbgsym
 Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 2243
-Depends: virtualbox-guest-x11 (= 6.1.32-dfsg-1~bpo11+1)
+Depends: virtualbox-guest-x11 (= 6.1.32-dfsg-1+b1~bpo11+1)
 Breaks: virtualbox-dbg
 Replaces: virtualbox-dbg
-Filename: ./virtualbox-guest-x11-dbgsym_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 2077276
-MD5sum: cc359596c62c43a0de173e113716c00b
-SHA1: 47153b7df163b7a711ea459a85c5e2620d57bd8b
-SHA256: 3d39fe5663f1dc36e964c1b3471a9cc03c429190b854ab3a9fb9f8ff8ef7f453
+Filename: ./virtualbox-guest-x11-dbgsym_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 2076984
+MD5sum: db12b37a89150322ee4c6e00b81be5c8
+SHA1: b3447b21728178ef5afdfe64fc2b9621584f0824
+SHA256: 69c0b46203e2c940b7219e1fb8cb29b7feea17887e2c1e0e3fe0ecea8847bd33
 Section: contrib/debug
 Priority: optional
 Description: debug symbols for virtualbox-guest-x11
-Build-Ids: 2484668b8dce7cd2b1cc7d03e4ccb4eb5b668368
+Build-Ids: 63431a94def98a52a32d02887227423c029ada5a
 
 Package: virtualbox-qt
 Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 57084
-Depends: virtualbox (= 6.1.32-dfsg-1~bpo11+1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6
+Depends: virtualbox (= 6.1.32-dfsg-1+b1~bpo11+1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6
 Breaks: virtualbox (<< 4.1.6-dfsg-2~)
 Replaces: virtualbox (<< 4.1.6-dfsg-2~)
-Filename: ./virtualbox-qt_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 21525664
-MD5sum: 10ac8f3c712a69f0694ad322fba7b062
-SHA1: 2e3b6127a4ace6d2ac3c0ec8f81d925b60cffec4
-SHA256: 273100d579f47d1a5d485142c549556d6447ca7495673ffb21d4e6dd374b5f9f
+Filename: ./virtualbox-qt_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 21521464
+MD5sum: 6ab32ca767e8a4faa34105e335fcf6e5
+SHA1: f87a6592b1b87b95799dd5a4b55ddb6850701173
+SHA256: 22d7eb1a78b569adaf8b2baa13ab90602b42fd52c4228be20d1e400135c693c1
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3565,39 +3140,19 @@ Description: x86 virtualization solution - Qt based user interface
  .
  This package provides the Qt based graphical user interface for VirtualBox.
 
-Package: virtualbox-qt-dbgsym
-Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 50214
-Depends: virtualbox-qt (= 6.1.32-dfsg-1~bpo11+1)
-Breaks: virtualbox-dbg
-Replaces: virtualbox-dbg
-Filename: ./virtualbox-qt-dbgsym_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 48212996
-MD5sum: 8795e20dae22d138b59f4348c9dab7aa
-SHA1: 93ad1bd5d346b6d7ac97ccf2c50f76ab3b1cbc91
-SHA256: 5fcbc1454f82b8e5ccea05c36da93fff041ccb475a1ffdbb9ae28be02fda1742
-Section: contrib/debug
-Priority: optional
-Description: debug symbols for virtualbox-qt
-Build-Ids: 40e73bb6bc18a8fe448cb80350313f660fe2f8cd 6bdc92c6bd7e7b5724441d85f1fc00ee76b5c388 8a03e5fcff278ca858ae322a24c22aac2cc9747c c7d7a9d58f27c26d2beab4c1257f7cbcbc2bbb40 d41332702bf61b56c05e8156a0f8f7cf6f485854
-
 Package: virtualbox-source
 Source: virtualbox
-Version: 6.1.32-dfsg-1~bpo11+1
+Version: 6.1.32-dfsg-1+b1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 907
+Installed-Size: 908
 Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
-Recommends: virtualbox (>= 6.1.32-dfsg-1~bpo11+1)
-Filename: ./virtualbox-source_6.1.32-dfsg-1~bpo11+1_amd64.deb
-Size: 860172
-MD5sum: 26f8a2700468a4beb612ae1b64976540
-SHA1: af567553ecf83cd6cacaa3d13e27ad80c6ac6de4
-SHA256: a9226f7f4b118cc9d2d15723f3b99c1f3cbf261fb8ad61fbc65d4c4be8ada2d7
+Recommends: virtualbox (>= 6.1.32-dfsg-1+b1~bpo11+1)
+Filename: ./virtualbox-source_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
+Size: 860784
+MD5sum: d7b6b17e94c852c38bc91135f6227ddd
+SHA1: 3bfa5a1cc57a9de30cb2649a7b69cae1d2fafe6c
+SHA256: dc954b7435e572e0112a59e09d5ab65ae286631cab3fca80f345c2fd9040ed0e
 Section: contrib/kernel
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3636,24 +3191,6 @@ Description: modular session / policy manager for PipeWire
  managing PipeWire.
  .
  This package contains the WirePlumber daemon and command-line utilities.
-
-Package: wireplumber-dbgsym
-Source: wireplumber
-Version: 0.4.7-1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 100
-Depends: wireplumber (= 0.4.7-1~bpo11+1)
-Filename: ./wireplumber-dbgsym_0.4.7-1~bpo11+1_amd64.deb
-Size: 60636
-MD5sum: db93434d3b04718892e8b13cf9cb8e88
-SHA1: f106c7c298ee0f35b0cbb18432e0c464714213a1
-SHA256: efdad0ee3e2a55673deeb4b2b79c739f74663df53009e28babf8ba7b0c6e241b
-Section: debug
-Priority: optional
-Description: debug symbols for wireplumber
-Build-Ids: 378d41569040b2d8bcf6c214c622f115453359b2 d9405bf94092ff23b01d99550495783f632638c2 e1d5c9e42791938dde83f74fa5bb6d000c4e9caf
 
 Package: woeusb-ng
 Version: 0.2.7-1
