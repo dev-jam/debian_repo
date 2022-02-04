@@ -378,36 +378,23 @@ Description: OpenGL 2.0 benchmark suite
  This package is intended only for the X11 platform. GL version.
 
 Package: gprename
-Version: 20201214-0.2
+Version: 20210415-1~bpo11+1
 Architecture: all
-Maintainer: Marvin Stark <marv@der-marv.de>
-Installed-Size: 218
-Depends: perl:any, libglib-perl, libpango-perl, libgtk3-perl, liblocale-gettext-perl, libintl-perl
-Filename: ./gprename_20201214-0.2_all.deb
-Size: 46376
-MD5sum: 16db6ba621dec8dfc8e67371a3ea4ce6
-SHA1: d9524a6d1bcea8adb2324a6159ce21cf500f6735
-SHA256: 2ca5c4c9723df59a733416c19a61958ab7dac4bdf81cb313c3427f12e1c33014
+Maintainer: Thiago Pezzo <pezzo@protonmail.com>
+Installed-Size: 212
+Depends: libglib-perl, libgtk3-perl, libintl-perl, liblocale-gettext-perl, libpango-perl, perl:any
+Filename: ./gprename_20210415-1~bpo11+1_all.deb
+Size: 47664
+MD5sum: cb9d3de0e3251cc79ec96decf8d96d7c
+SHA1: 3e26ad1f7139104315dd0a4b72c6b1e921735011
+SHA256: 26bfa00857c9f8122edb4fc833d58ed7b0911e90f6408d8a324854344e444ca4
 Section: utils
 Priority: optional
 Homepage: http://gprename.sourceforge.net
-Description: Complete batch renamer for Linux
- GPRename is a complete batch renamer for files and directorys.
- GPRename easily can replace, remove, insert, delete and number
- consecutively files and directorys.
-
-Package: gprename-menu-item
-Version: 1.0-4
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./gprename-menu-item_1.0-4_all.deb
-Size: 964
-MD5sum: 3698c608c5f05006458b3ee34eaa6afe
-SHA1: d2068136481d2eff28f0da2f4cafc34038e903c7
-SHA256: c93f3f822b3bcbe3f27ae97bf313a6a6bd98c9f3f0dafe7706d5ff1770953918
-Section: base
-Priority: optional
-Description: luckybackup admin correction for Debian
+Description: complete batch renamer for Linux
+ GPRename is a complete batch renamer for files and directories.
+ It can easily replace, remove, insert, delete, and number
+ consecutively files and directories using a graphical interface (GUI).
 
 Package: gstreamer1.0-pipewire
 Source: pipewire
@@ -1281,17 +1268,17 @@ Priority: optional
 Description: plasma-appimage-integration built using CMake
 
 Package: praat
-Version: 6.2.06-1~bpo11+1
+Version: 6.2.07-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 73579
+Installed-Size: 73596
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), oss-compat, python3:any
 Suggests: libasound2-plugins
-Filename: ./praat_6.2.06-1~bpo11+1_amd64.deb
-Size: 15830580
-MD5sum: 6f082ce02cf866abfe22baae423ecc4c
-SHA1: 7b79730aaf4eb7a34163908cb1835bf1a5e72d0f
-SHA256: 5680099b20962bf095ff5f0336e8b77c3c48245491a6b1ff46fabfb27092f35c
+Filename: ./praat_6.2.07-1~bpo11+1_amd64.deb
+Size: 15758408
+MD5sum: 1586624cc2ad61db2482b3e29df8bd3a
+SHA1: abf5e793eed994c652e41d79423492e56bf44f98
+SHA256: c144a7ac64f319c772cc87318b87bbc12a2f9073ef136d0d410d0bb8c86f7a85
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -2113,16 +2100,16 @@ Description: Python Imaging Library (Fork)
 
 Package: python3-pip
 Source: pip
-Version: 21.3.1-1
+Version: 22.0.3-1
 Architecture: all
-Maintainer: The pip developers <distutils-sig@python.org>
-Installed-Size: 5902
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 7272
 Depends: python3:any
-Filename: ./python3-pip_21.3.1-1_all.deb
-Size: 1058824
-MD5sum: f58139d6252e290e9f5606fbb59fd915
-SHA1: e9c421c49605a095b9d36444ec03e3dc95c7f789
-SHA256: ca49d6e6403f757ab104f7345a63b4d5828e78d71321a0e12f93b0114b250f3a
+Filename: ./python3-pip_22.0.3-1_all.deb
+Size: 1287196
+MD5sum: 41a72c1a6ed66f7f359dc70f8f764ed5
+SHA1: 6ef9a5daf707571261e143468223589c19ebb6cb
+SHA256: c4d3fa68a6daed262eee1c79888b6e2ae794daa080a62d3de6d519ad290a7d07
 Section: python
 Priority: optional
 Homepage: https://pip.pypa.io/
@@ -2147,43 +2134,6 @@ Description: The PyPA recommended tool for installing Python packages.
  .
  * `Release notes`_
  * `Release process`_
-
-Package: python3-pipx
-Source: pipx
-Version: 1.0.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 194
-Depends: python3-argcomplete, python3-packaging, python3-userpath, python3:any
-Filename: ./python3-pipx_1.0.0-1_all.deb
-Size: 38648
-MD5sum: b9c3f629f7dc0967846049a6de8d967b
-SHA1: f0452b15ed1aaa07f27762107eb26bc114420404
-SHA256: 359e056251e410e720edeb77ccd01295258e20149d8c14ee3b66ae143681962b
-Section: python
-Priority: optional
-Homepage: https://github.com/pypa/pipx
-Description: Install and Run Python Applications in Isolated Environments
- <p align="center">
- <a href="https://pypa.github.io/pipx/">
- <img align="center" src="https://github.com/pypa/pipx/raw/main/logo.png"/>
- </a>
- </p>
- .
- # pipx — Install and Run Python Applications in Isolated Environments
- .
- <p align="center">
- <a href="https://github.com/pypa/pipx/raw/main/pipx_demo.gif">
- <img src="https://github.com/pypa/pipx/raw/main/pipx_demo.gif"/>
- </a>
- </p>
- .
- <p align="center">
- <a href="https://github.com/pypa/pipx/actions?query=workflow%3ATest"><img src="https://github.com/pypa/pipx/workflows/Test/badge.svg?branch=main" alt="Test CI" ></a>
- <a href="https://badge.fury.io/py/pipx"><img src="https://badge.fury.io/py/pipx.svg" alt="PyPI version"></a>
- </p>
- .
- **Documentation**: https://pypa.github.io/pipx/
 
 Package: python3-playsound
 Version: 0:1.2.2-1~w2d0
@@ -2386,17 +2336,17 @@ Description: Cryptographic library for Python
  with respect to the last official version of PyCrypto (2.6.1),
 
 Package: python3-pygaze
-Source: pygaze
-Version: 0.7.4-1
+Source: python-pygaze
+Version: 1:0.7.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1173
 Depends: python3:any
 Filename: ./python3-pygaze_0.7.4-1_all.deb
-Size: 154160
-MD5sum: 317677d5e60817e9693fa720ec5b3664
-SHA1: dfe0efc8cf0b6c3c1f1c3c002e1485aa2fa742d8
-SHA256: 79115139b33298f763ea66d7a1c5c1a2668c306543dbfbfde08b1f9fc9800f5d
+Size: 154212
+MD5sum: 41568c92c1ea0c610ca229973d805629
+SHA1: 2a8e218c75c2db32204a172cf478a2697359b6a5
+SHA256: 1d7971199865720e32cb8d5726f6527ae1edb7cf808a6bedf86b2db262d4ca99
 Section: python
 Priority: optional
 Homepage: http://www.pygaze.org/
@@ -2819,17 +2769,17 @@ Description: Graphical hard drive backup and restore
  Acronis True Image and Macrium Reflect.
 
 Package: smplayer
-Version: 21.8.0-1~bpo11+1
+Version: 21.10.0~ds0-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 4401
+Installed-Size: 4410
 Depends: mpv | mplayer, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
 Recommends: smplayer-themes, smplayer-l10n
-Filename: ./smplayer_21.8.0-1~bpo11+1_amd64.deb
-Size: 1962060
-MD5sum: 6d96e8a981f94beef0228bc47fb965b4
-SHA1: 3898c6c1b24df530f41448ef9859ddde18c2a009
-SHA256: 094933b256076e72acc2cea1f92e1824c071ec7efeb78ce106b3a715e0ddf646
+Filename: ./smplayer_21.10.0~ds0-1~bpo11+1_amd64.deb
+Size: 1965564
+MD5sum: 889d8d1898746b4de04f22f31f01843b
+SHA1: fa2595734f10da40f39e23b32503acee269cf5a1
+SHA256: a6d526e4b1d809055d84c0aae230c062b229e781f4215e49c87ffb5b3419006c
 Section: video
 Priority: optional
 Homepage: http://smplayer.sourceforge.net/
@@ -2845,18 +2795,18 @@ Description: Complete front-end for MPlayer and mpv
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 21.8.0-1~bpo11+1
+Version: 21.10.0~ds0-1~bpo11+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10693
-Depends: smplayer (>= 21.8.0-1~bpo11+1)
+Installed-Size: 10730
+Depends: smplayer (>= 21.10.0~ds0-1~bpo11+1)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_21.8.0-1~bpo11+1_all.deb
-Size: 1311396
-MD5sum: 680096928113a36851011ced0be438dc
-SHA1: 413e48da83e9f6ffad42b20ec4a04b7f8a279293
-SHA256: e532c2a6fbad766fe76c77c0596b1fc1d4f9b8450f6d8835d87eb3d81c2fe490
+Filename: ./smplayer-l10n_21.10.0~ds0-1~bpo11+1_all.deb
+Size: 1316852
+MD5sum: 6f4fdec10bda6d07feef93dd5fb5c7d4
+SHA1: 70139b936700bc0d564b9121bfd1f827ee0b5200
+SHA256: 8d02a2197e16710870f74b1d0181a6423d28d287a72b3cf8546fc6aeb794557e
 Section: localization
 Priority: optional
 Homepage: http://smplayer.sourceforge.net/
@@ -3079,26 +3029,6 @@ Description: x86 virtualization solution - non-X11 guest utilities
  also required in order to compile the kernel modules needed for
  virtualbox-guest-utils.
 
-Package: virtualbox-guest-utils-dbgsym
-Source: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 5771
-Depends: virtualbox-guest-utils (= 6.1.32-dfsg-1+b1~bpo11+1)
-Breaks: virtualbox-dbg
-Replaces: virtualbox-dbg
-Filename: ./virtualbox-guest-utils-dbgsym_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 5239584
-MD5sum: 9afa1b25d0c81571b0daa1a81f51f4de
-SHA1: 14c5c77213b22dc7ac44b441df7aa0d1f6027432
-SHA256: bbb6f89e8278f6e6394039210901ce21b8d0ada0ba94d0eddd3d487c8d5333e4
-Section: contrib/debug
-Priority: optional
-Description: debug symbols for virtualbox-guest-utils
-Build-Ids: 23be8b5884d940cfba47ffad3cfb151db84c0ddf cb1836824ffb1efe1c791ea62d9befe7ff9c6bdb d2f928a01f03091b4e34e444072dde5ef0c21964 e44b0a35b7226ea365444988bd6a8ac4377ed266
-
 Package: virtualbox-guest-x11
 Source: virtualbox
 Version: 6.1.32-dfsg-1+b1~bpo11+1
@@ -3123,26 +3053,6 @@ Description: x86 virtualization solution - X11 guest utilities
  This package provides the X11 guest utilities for VirtualBox. These utilities
  are meant to be run inside the virtual machine.
  They provide closer integration and improve the interactive performance.
-
-Package: virtualbox-guest-x11-dbgsym
-Source: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 2243
-Depends: virtualbox-guest-x11 (= 6.1.32-dfsg-1+b1~bpo11+1)
-Breaks: virtualbox-dbg
-Replaces: virtualbox-dbg
-Filename: ./virtualbox-guest-x11-dbgsym_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 2076984
-MD5sum: db12b37a89150322ee4c6e00b81be5c8
-SHA1: b3447b21728178ef5afdfe64fc2b9621584f0824
-SHA256: 69c0b46203e2c940b7219e1fb8cb29b7feea17887e2c1e0e3fe0ecea8847bd33
-Section: contrib/debug
-Priority: optional
-Description: debug symbols for virtualbox-guest-x11
-Build-Ids: 63431a94def98a52a32d02887227423c029ada5a
 
 Package: virtualbox-qt
 Source: virtualbox
@@ -3236,4 +3146,226 @@ Priority: optional
 Description: Creates USB stick with Windows installer.
  WoeUSB-ng is a simple tool that enable you to create your own usb stick
  with windows installer from an iso image or a real DVD.
+
+Package: yt-dlp
+Version: 2022.02.04-1~bpo11+1
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 8106
+Depends: python3-mutagen, python3-pycryptodome, python3-websockets, python3:any, python3-pkg-resources
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg, mpv | mplayer, python3-pyxattr, rtmpdump
+Suggests: libfribidi-bin | bidiv, phantomjs
+Filename: ./yt-dlp_2022.02.04-1~bpo11+1_all.deb
+Size: 1442868
+MD5sum: 9d0da7a0cfa3cbacf3ff9ad309e068c9
+SHA1: 31cd926f949c0bb6ef2428a51cc439dd3219b98f
+SHA256: 1f791b1495c521763d829d32bc47f7509503402e6e143535b6691d29b91398a9
+Section: web
+Priority: optional
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: downloader of videos from YouTube and other sites
+ yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
+ The main focus of this project is adding new features and patches
+ while also keeping up to date with the original project.
+ .
+ yt-dlp is a small command-line program to download videos from
+ YouTube.com and other sites that don't provide direct links to the
+ videos served.
+ .
+ yt-dlp allows the user, among other things, to choose a specific video
+ quality to download (if available) or let the program automatically
+ determine the best (or worst) quality video to grab. It supports
+ downloading entire playlists and all videos from a given user.
+ .
+ Currently supported sites (or features of sites) are:
+ .
+ 17live, 1tv, 20min, 220.ro, 23video, 247sports, 24video,
+ 3qsdn, 3sat, 4tube, 56.com, 5min, 6play, 7plus, 8tracks, 91porn,
+ 9c9media, 9gag, 9now.com.au, abc.net.au, abcnews, abcotvs, acast,
+ ADN, AdobeConnect, adobetv, AdultSwim, aenetworks, afreecatv,
+ AirMozilla, AliExpressLive, AlJazeera, Allocine, AlphaPorno, Alura,
+ AluraCourse, Amara, AmazonStore, AMCNetworks, AmericasTestKitchen,
+ AmericasTestKitchenSeason, AmHistoryChannel, anderetijden, AnimalPlanet,
+ AnimeLab, AnimeLabShows, AnimeOnDemand, Anvato, aol.com, APA, Aparat,
+ AppleConnect, AppleDaily, ApplePodcasts, appletrailers, archive.org,
+ ArcPublishing, ARD, ARDBetaMediathek, Arkena, arte.sky.it, ArteTV,
+ ArteTVEmbed, ArteTVPlaylist, AsianCrush, AsianCrushPlaylist,
+ AtresPlayer, ATTTechChannel, ATVAt, AudiMedia, AudioBoom,
+ audiomack, Audius, AWAAN, AZMedien, BaiduVideo, bandaichannel,
+ Bandcamp, BandcampMusic, bangumi.bilibili.com, BannedVideo, bbc,
+ bbc.co.uk, BBVTV, Beatport, Beeg, BehindKink, Bellator, BellMedia,
+ Bet, bfmtv, BibelTV, Bigflix, Bild, BiliBili, Bilibili category
+ extractor, BilibiliAudio, BilibiliAudioAlbum, BilibiliChannel,
+ BiliBiliPlayer, BiliBiliSearch, BiliIntl, BiliIntlSeries, BioBioChileTV,
+ Biography, BIQLE, BitChute, BitChuteChannel, BlackboardCollaborate,
+ BleacherReport, BleacherReportCMS, blogger.com, Bloomberg, BokeCC,
+ BongaCams, BostonGlobe, Box, Bpb, BR, BravoTV, Break, BreitBart,
+ BRMediathek, BusinessInsider, BuzzFeed, BYUtv, CableAV, Callin, CAM4,
+ Camdemy, CamdemyFolder, CamModels, CamWithHer, CanalAlpha, canalc2.tv,
+ Canalplus, Canvas, CanvasEen, CarambaTV, CarambaTVPage, CartoonNetwork,
+ cbc.ca, CBS, CBSInteractive, CBSLocal, CBSLocalArticle, cbsnews,
+ cbssports, CCMA, CCTV, CDA, CeskaTelevize, CGTN, channel9, CharlieRose,
+ Chaturbate, Chilloutzone, Chingari, ChingariUser, chirbit, cielotv.it,
+ Cinchcast, Cinemax, CiscoLiveSearch, CiscoLiveSession, ciscowebex,
+ CJSW, cliphunter, Clippit, ClipRs, Clipsyndicate, CloserToTruth,
+ CloudflareStream, Cloudy, Clubic, Clyp, cmt.com, CNBC, CNBCVideo,
+ CNN, CNNArticle, CNNBlogs, ComedyCentral, ComedyCentralTV, CondeNast,
+ CONtv, CookingChannel, Corus, Coub, CozyTV, cp24, Cracked, Crackle,
+ CrooksAndLiars, CrowdBunker, CrowdBunkerChannel, crunchyroll, CSpan,
+ CtsNews, CTV, CTVNews, cu.ntv.co.jp, CultureUnplugged, curiositystream,
+ CWTV, Daftsex, DagelijkseKost, DailyMail, dailymotion, daum.net, DBTV,
+ DctpTv, DeezerAlbum, DeezerPlaylist, defense.gouv.fr, democracynow,
+ DestinationAmerica, DHM, Digg, DigitalConcertHall, DigitallySpeaking,
+ Digiteka, Discovery, DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus,
+ DiscoveryPlusIndia, DiscoveryPlusIndiaShow, DiscoveryPlusItaly,
+ DiscoveryPlusItalyShow, Disney, DIYNetwork, DoodStream, Dotsub,
+ Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza, Drooble, Dropbox,
+ Dropout, DropoutSeason, DrTuber, drtv, DTube, duboku, Dumpert, dvtv,
+ dw, EaglePlatform, EbaumsWorld, EchoMsk, ehftv, eHow, EinsUndEinsTV,
+ Einthusan, eitb.tv, EllenTube, EllenTubePlaylist, EllenTubeVideo,
+ Elonet, ElPais, Embedly, EMPFlix, Engadget, Epicon, EpiconSeries,
+ Eporner, EroProfile, ertflix, Escapist, ESPN, ESPNArticle, ESPNCricInfo,
+ EsriVideo, Europa, EuropeanTour, EUScreen, EWETV, ExpoTV, Expressen,
+ ExtremeTube, EyedoTV, facebook, FacebookPluginsVideo, faz.net, fc2,
+ Fczenit, Filmmodu, filmon, Filmweb, FiveThirtyEight, FiveTV, Flickr,
+ Folketinget, FoodNetwork, FootyRoom, Formula1, FOX, FOX9, FOX9News,
+ Foxgay, foxnews, FoxSports, FranceCulture, FranceInter, FranceTV,
+ francetvinfo.fr, FranceTVSite, Freesound, freespeech.org, FreshLive,
+ FrontendMasters, FrontendMastersCourse, FrontendMastersLesson,
+ FujiTVFODPlus7, Funimation, Funk, Fusion, Fux, Gab, GabTV,
+ Gaia, GameInformer, GameJolt, GameJoltCommunity, GameJoltGame,
+ GameJoltGameSoundtrack, GameJoltSearch, GameJoltUser, GameSpot, GameStar,
+ Gaskrank, Gazeta, GDCVault, GediDigital, gem.cbc.ca, generic, Gettr,
+ Gfycat, GiantBomb, Giga, GlattvisionTV, Glide, Globo, GloboArticle,
+ glomex, Go, GoDiscovery, GodTube, Gofile, Golem, GoogleDrive, GoPro,
+ Goshgay, GoToStage, GPUTechConf, Gronkh, Groupon, hbo, HearThisAt, Heise,
+ HellPorno, Helsinki, HentaiStigma, hetklokhuis, HGTVDe, HGTVUsa, HiDive,
+ HistoricFilms, hitbox, HitRecord, hketv, HornBunny, HotNewHipHop,
+ hotstar, Howcast, HowStuffWorks, hrfernsehen, HRTi, HRTiPlaylist,
+ HSEProduct, HSEShow, Huajiao, HuffPost, Hungama, HungamaAlbumPlaylist,
+ HungamaSong, Hypem, ign.com, IGNArticle, IGNVideo, IHeartRadio, imdb,
+ Imgur, Ina, Inc, IndavideoEmbed, InfoQ, Instagram, InstagramIOS,
+ Internazionale, InternetVideoArchive, InvestigationDiscovery,
+ IPrima, IPrimaCNN, iq.com, iqiyi, Ir90Tv, ITTF, ITV, ITVBTCC, ivi,
+ ivideon, Iwara, Izlesene, Jamendo, JamendoAlbum, JeuxVideo, Joj, Jove,
+ JWPlatform, Kakao, Kaltura, Kankan, Karaoketv, KarriereVideos, Katsomo,
+ KeezMovies, KelbyOne, Ketnet, khanacademy, KickStarter, KinjaEmbed,
+ KinoPoisk, KonserthusetPlay, Koo, KrasView, Ku6, KUSI, la7.it, laola1tv,
+ lbry, LCI, Lcp, LcpPlay, Le, Lecture2Go, Lecturio, LecturioCourse,
+ LecturioDeCourse, LEGO, Lemonde, Lenta, LePlaylist, LetvCloud, Libsyn,
+ life, limelight, LineLive, LineLiveChannel, LinkedIn, LinuxAcademy, LiTV,
+ LiveJournal, livestream, Lnk, LnkGo, loc, LocalNews8, LoveHomePorn,
+ lrt.lt, lynda, m6, MagentaMusik360, mailru, MainStreaming, MallTV,
+ ManotoTV, ManotoTVLive, ManotoTVShow, ManyVids, MaoriTV, Markiza,
+ MarkizaPage, massengeschmack.tv, MatchTV, MDR, MedalTV, media.ccc.de,
+ Mediaite, MediaKlikk, Medialaan, Mediaset, MediasetShow, Mediasite,
+ MediasiteCatalog, MediasiteNamedCatalog, Medici, megaphone.fm, megatvcom,
+ Meipai, MelonVOD, META, metacafe, Metacritic, mewatch, Mgoon, MGTV,
+ MiaoPai, microsoftstream, mildom, minds, MinistryGrid, Minoto, miomio.tv,
+ mirrativ, MiTele, mixch, mixcloud, MLB, MLBVideo, MLSSoccer, Mnet,
+ MNetTV, MoeVideo, Mofosex, MofosexEmbed, Mojvideo, Morningstar,
+ Motherless, MotherlessGroup, Motorsport, MovieClips, MovieFap,
+ Moviezine, MovingImage, MSN, mtg, mtv, mtv.de, mtv.it, mtvjapan,
+ MTVUutisetArticle, MuenchenTV, MuseScore, MusicdexAlbum, MusicdexArtist,
+ MusicdexPlaylist, MusicdexSong, mva, Mwave, MwaveMeetGreet, Mxplayer,
+ MxplayerShow, MyChannels, MySpace, MySpass, Myvi, MyVideoGe,
+ MyVidster, MyviEmbed, MyVisionTV, n-tv.de, N1InfoAsset, Nate,
+ NateProgram, NationalGeographicTV, Naver, NBA, NBAChannel, NBAEmbed,
+ NBAWatchEmbed, NBC, NBCNews, nbcolympics, NBCSports, NBCSportsStream,
+ NBCSportsVPlayer, ndr, NDTV, Nebula, NerdCubedFeed, NetPlus, Netzkino,
+ Newgrounds, Newstube, Newsy, NextMedia, NextMediaActionNews, NextTV,
+ Nexx, NexxEmbed, NFHSNetwork, nfl.com, NhkVod, NhkVodProgram, nhl.com,
+ nick.com, nick.de, nickelodeonru, nicknight, niconico, NiconicoPlaylist,
+ NiconicoUser, Nintendo, Nitter, njoy, NJPWWorld, NobelPrize, NonkTube,
+ NoodleMagazine, Noovo, Normalboots, NosVideo, Nova, NovaEmbed, NovaPlay,
+ nowness, Noz, npo, Npr, NRK, NRKPlaylist, NRKRadioPodkast, NRKSkole,
+ NRKTV, NRKTVDirekte, NRKTVEpisode, NRKTVEpisodes, NRKTVSeason,
+ NRKTVSeries, NRLTV, ntv.ru, Nuvid, NYTimes, NYTimesArticle,
+ NYTimesCooking, nzherald, NZZ, ocw.mit.edu, OdaTV, Odnoklassniki,
+ OktoberfestTV, OlympicsReplay, on24, OnDemandKorea, OneFootball,
+ onet.pl, onet.tv, OnetMVP, OnionStudios, Ooyala, OoyalaExternal,
+ Opencast, OpencastPlaylist, openrec, OraTV, OsnatelTV, OutsideTV,
+ PacktPub, PacktPubCourse, pandora.tv, ParamountNetwork, ParamountPlus,
+ ParamountPlusSeries, parliamentlive.tv, Parlview, Patreon, PatreonUser,
+ pbs, PearVideo, peer.tv, PeerTube, peloton, People, PerformGroup,
+ periscope, PhilharmonieDeParis, phoenix.de, Photobucket, Picarto,
+ PicartoVod, Piksel, Pinkbike, Pinterest, PinterestCollection, Pladform,
+ PlanetMarathi, Platzi, PlatziCourse, play.fm, player.sky.it, PlayPlusTV,
+ PlayStuff, PlaysTV, Playtvak, Playvid, Playwire, pluralsight, PlutoTV,
+ podomatic, Pokemon, PokemonWatch, PokerGo, PokerGoCollection, PolsatGo,
+ PolskieRadio, PolskieRadioCategory, Popcorntimes, PopcornTV, PornCom,
+ PornerBros, Pornez, PornFlip, PornHd, PornHub, PornHubPagedVideoList,
+ PornHubPlaylist, PornHubUser, PornHubUserVideosUpload, Pornotube,
+ PornoVoisines, PornoXO, PornTube, PressTV, ProjectVeritas,
+ prosiebensat1, PRXAccount, PRXSeries, PRXStory, puhutv, Puls4,
+ Pyvideo, qqmusic, QuantumTV, Qub, Quickline, QuicklineLive, R7,
+ R7Article, Radiko, RadikoRadio, radio.de, radiobremen, radiocanada,
+ radiofrance, RadioJavan, radiokapital, RadioZetPodcast, radlive, Rai,
+ RaiPlay, RaiPlayLive, RaiPlayPlaylist, RaiPlaySound, RaiPlaySoundLive,
+ RaiPlaySoundPlaylist, RayWenderlich, RayWenderlichCourse, RBMARadio,
+ RCS, RCSEmbeds, RCSVarious, RCTIPlus, RCTIPlusSeries, RCTIPlusTV, RDS,
+ RedBull, RedBullEmbed, RedBullTV, RedBullTVRrnContent, Reddit, RedGifs,
+ RedGifsSearch, RedGifsUser, RedTube, RegioTV, RENTV, RENTVArticle,
+ Restudy, Reuters, ReverbNation, RICE, RMCDecouverte, RockstarGames,
+ RoosterTeeth, RoosterTeethSeries, RottenTomatoes, Roxwel, Rozhlas,
+ RTBF, RTDocumentry, RTDocumentryPlaylist, rte, rtl.nl, rtl2, RTNews,
+ RTP, RTRFM, RTS, RTVNH, RTVS, RUHD, Rule34Video, RumbleChannel,
+ RumbleEmbed, Ruptly, rutube, RUTV, Ruutu, Ruv, safari, Saitosan,
+ SAKTV, SaltTV, SampleFocus, Sapo, savefrom.net, SBS, schooltv,
+ ScienceChannel, Screencast, ScreencastOMatic, ScrippsNetworks,
+ SCTE, SCTECourse, Seeker, SenateGov, SenateISVP, SendtoNews, Servus,
+ Sexu, SeznamZpravy, SeznamZpravyArticle, Shahid, ShahidShow, Shared,
+ ShemarooMe, ShowRoomLive, simplecast, Sina, Skeb, sky.it, skyacademy.it,
+ SkylineWebcams, SkyNewsAU, Slideshare, SlidesLive, Slutload, Snotr,
+ Sohu, SonyLIV, SonyLIVSeries, soundcloud, SoundcloudEmbed, soundgasm,
+ southpark.cc.com, southpark.de, southpark.nl, southparkstudios.dk,
+ SovietsCloset, SovietsClosetPlaylist, SpankBang, SpankBangPlaylist,
+ Spankwire, Spiegel, Sport5, SportBox, SportDeutschland,
+ spotify, Spreaker, SpreakerPage, SpreakerShow, SpreakerShowPage,
+ SpringboardPlatform, Sprout, SRGSSR, SRGSSRPlay, stanfordoc,
+ startv, Steam, Stitcher, StitcherShow, StoryFire, StoryFireSeries,
+ StoryFireUser, Streamable, Streamanity, streamcloud.eu, StreamCZ,
+ StreamFF, StreetVoice, StretchInternet, Stripchat, SunPorno, SVT,
+ SVTPage, SVTPlay, SVTSeries, SWRMediathek, Syfy, SztvHu, t-online.de,
+ Tagesschau, Tass, TBS, TDSLifeway, Teachable, TeachableCourse,
+ teachertube, TeachingChannel, Teamcoco, TeamTreeHouse, TechTalks,
+ techtv.mit.edu, TedEmbed, TedPlaylist, TedSeries, TedTalk, Tele13,
+ Tele5, TeleBruxelles, Telecinco, Telegraaf, TeleMB, Telemundo,
+ TeleQuebec, TeleQuebecEmission, TeleQuebecLive, TeleQuebecSquat,
+ TeleQuebecVideo, TeleTask, Telewebion, TennisTV, TenPlay, TF1, TFO,
+ TheIntercept, ThePlatform, ThePlatformFeed, TheScene, TheStar, TheSun,
+ ThetaStream, ThetaVideo, TheWeatherChannel, ThisAmericanLife, ThisAV,
+ ThisOldHouse, ThreeSpeak, ThreeSpeakUser, TikTok, tinypic, TLC, TMZ,
+ TNAFlix, TNAFlixNetworkEmbed, toggle, toggo, Tokentube, ToonGoggles,
+ tou.tv, Toypics, ToypicsUser, TrailerAddict, TravelChannel, Trilulilu,
+ Trovo, TrovoChannelClip, TrovoChannelVod, TrovoVod, TrueID, TruNews,
+ TruTV, Tube8, TubiTv, TubiTvShow, Tumblr, TunePk, Turbo, tv.dfb.de, TV2,
+ TV2Article, TV2DK, TV2DKBornholmPlay, tv2play.hu, tv2playseries.hu, TV4,
+ TV5MondePlus, tv5unis, tv8.it, TVA, TVANouvelles, TVANouvellesArticle,
+ TVC, TVCArticle, TVer, tvigle, tvland.com, TVN24, TVNet, TVNoe,
+ TVNow, TVNowAnnual, TVNowFilm, TVNowNew, TVNowSeason, TVNowShow,
+ tvp, TVPlayer, TVPlayHome, Tweakers, TwitCasting, TwitCastingLive,
+ TwitCastingUser, TwitchCollection, TwitchVideos, TwitchVideosClips,
+ TwitchVideosCollections, twitter, udemy, UDNEmbed, UFCArabia, UFCTV,
+ ukcolumn, UKTVPlay, Unistra, Unity, uol.com.br, uplynk, Urort, URPlay,
+ USANetwork, USAToday, ustream, ustudio, Utreon, Varzesh3, Vbox7, VeeHD,
+ Veo, Veoh, Vesti, Vevo, VevoPlaylist, VGTV, vh1.com, Viafree, vice,
+ Vidbit, Viddler, Videa, video.arnes.si, video.sky.it, VideoDetective,
+ videofy.me, videomore, VideoPress, Vidio, VidioLive, VidioPremier,
+ VidLii, vier, viewlift, Viidea, viki, vimeo, Vimple, Vine, Viqeo, Viu,
+ Vivo, vk, vlive, Vodlocker, VODPl, VODPlatform, VoiceRepublic, voicy,
+ Voot, VootSeries, VoxMedia, VoxMediaVolume, vpro, Vrak, VRT, VrtNU,
+ vrv, VShare, VTM, VTXTV, vube, VuClip, Vupload, VVVVID, VVVVIDShow,
+ VyboryMos, Vzaar, Wakanim, Walla, WalyTV, washingtonpost, wat.tv,
+ WatchBox, WatchIndianPorn, WDR, WDRElefant, WDRPage, Webcaster,
+ WebcasterFeed, WebOfStories, WebOfStoriesPlaylist, Weibo, WeiboMobile,
+ WeiqiTV, whowatch, Willow, WimTV, Wistia, WistiaPlaylist, wnl,
+ WorldStarHipHop, wppilot, WSJ, WSJArticle, WWE, XBef, XboxClips,
+ XFileShare, XHamster, XHamsterEmbed, XHamsterUser, ximalaya, XMinus,
+ XNXX, Xstream, XTube, XTubeUser, Xuite, XVideos, XXXYMovies, Yahoo,
+ YandexDisk, YandexVideo, YandexVideoPreview, YapFiles, YesJapan, Ynet,
+ YouJizz, youku, YouNowChannel, YouNowLive, YouNowMoment, YouPorn,
+ YourPorn, YourUpload, youtube, YoutubeLivestreamEmbed, YoutubeYtBe,
+ Zapiks, Zattoo, ZattooLive, ZDF, ZDFChannel, Zee5, ZenYandex,
+ ZenYandexChannel, Zhihu, zingmp3, zoom, Zype,
 
