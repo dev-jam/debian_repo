@@ -1877,40 +1877,25 @@ Description: Moviepy based media decoding library
 
 Package: python3-moviepy
 Source: moviepy
-Version: 1.0.3-1
+Version: 1.0.3-2~bpo11+1
 Architecture: all
-Maintainer: unknown <unknown@unknown>
-Installed-Size: 337
-Depends: python3-decorator, python3-requests, python3-tqdm, python3:any
-Filename: ./python3-moviepy_1.0.3-1_all.deb
-Size: 69988
-MD5sum: f681563c354b2fc37a84d61c96676ec8
-SHA1: 705a0359be292918b43b1bec4fa9391f739401e9
-SHA256: 9aff2d7ded494f94763c00f650cc18dca458f9db0f15d36fbf88c4c2eb404f3a
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 357
+Depends: python3-decorator, python3-imageio, python3-imageio-ffmpeg | python3 (<< 3.4), python3-numpy, python3-proglog, python3-requests, python3-tqdm, python3:any, ffmpeg
+Suggests: python3-opencv, python3-skimage, python3-sklearn, python3-scipy, python3-matplotlib, youtube-dl, python3-pil, graphicsmagick-imagemagick-compat, fonts-liberation, gsfonts
+Filename: ./python3-moviepy_1.0.3-2~bpo11+1_all.deb
+Size: 88608
+MD5sum: 3a8592de851f1b5590035b20e010a388
+SHA1: 0129ce966fc62e8f67b6b4599c866eb011a4e1b2
+SHA256: a540fbd1474c01bc892970ccc335d49719c79e6e5f54a6dea6199892995da842
 Section: python
 Priority: optional
 Homepage: https://zulko.github.io/moviepy/
 Description: Video editing with Python
- MoviePy
- =======
- .
- .. image:: https://badge.fury.io/py/moviepy.svg
-     :target: PyPI_
-     :alt: MoviePy page on the Python Package Index
- .. image:: https://badges.gitter.im/movie-py/gitter.png
-     :target: Gitter_
-     :alt: Discuss MoviePy on Gitter
- .. image:: https://travis-ci.org/Zulko/moviepy.svg?branch=master
-     :target: https://travis-ci.org/Zulko/moviepy
-     :alt: Build status on travis-ci
- .. image:: https://ci.appveyor.com/api/projects/status/github/zulko/moviepy?svg=true
-     :target: https://ci.appveyor.com/project/Zulko/moviepy
-     :alt: Build status on appveyor
- .. image:: https://coveralls.io/repos/github/Zulko/moviepy/badge.svg?branch=master
-     :target: https://coveralls.io/github/Zulko/moviepy?branch=master
-     :alt: Code coverage from coveralls.io
- .
- MoviePy (full documentation_) is a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects. See the gallery_ for some examples of use.
+ MoviePy is a Python library for video editing: cutting,
+ concatenations, title insertions, video compositing
+ (a.k.a. non-linear editing), video processing, and creation of custom
+ effects.
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
@@ -2153,39 +2138,23 @@ Description: Pure Python, cross platform, single function module with no depende
 
 Package: python3-proglog
 Source: proglog
-Version: 0.1.9-1
+Version: 0.1.9-2~bpo11+1
 Architecture: all
-Maintainer: unknown <unknown@unknown>
-Installed-Size: 32
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 34
 Depends: python3-tqdm, python3:any
-Filename: ./python3-proglog_0.1.9-1_all.deb
-Size: 5872
-MD5sum: ebae077eaf87addf1a3954f603d468b9
-SHA1: f1aadfc13fb9fa303d7cd5c5c9b2d75384994524
-SHA256: 042bb527ffacdcdbac75474a6a1477eaa1fda22aec69df7c2a5060a9eb210ce0
+Filename: ./python3-proglog_0.1.9-2~bpo11+1_all.deb
+Size: 6748
+MD5sum: f76626fd586888562c470b24c48b220a
+SHA1: 1b9f9ef3a61d1e96370d5a012cce79f0f4e552d6
+SHA256: 340b9dc284d23d61f40b97bb88e282e3944b6450744bc4918dcf7d13383a5533
 Section: python
 Priority: optional
+Homepage: https://github.com/Edinburgh-Genome-Foundry/Proglog
 Description: Log and progress bar manager for console, notebooks, web...
- Proglog
- ===================
- Proglog is a progress logging system for Python. It allows to build complex
- libraries while giving the user control on the management of logs, callbacks and progress bars.
- .
- .
- Infos
- -----
- .
- **PIP installation:**
- .
- .. code:: bash
- .
-   pip install proglog
- .
- **Github Page**
- .
- `<https://github.com/Edinburgh-Genome-Foundry/Proglog>`_
- .
- **License:** MIT, Copyright Edinburgh Genome Foundry
+ Proglog is a progress logging system for Python. It allows to build
+ complex libraries while giving the user control on the management of
+ logs, callbacks and progress bars.
 
 Package: python3-ps-mem
 Source: ps-mem
@@ -2654,28 +2623,26 @@ Description: Cross-platform tool for adding locations to the user PATH, n
      :alt: PyPI - Supported Python versions
 
 Package: python3-vlc
-Source: vlc
-Version: 3.0.12118-1
+Source: python-vlc
+Version: 3.0.12118-2~bpo11+1
 Architecture: all
-Maintainer: Olivier Aubert <contact@olivieraubert.net>
-Installed-Size: 375
-Depends: python3:any
-Filename: ./python3-vlc_3.0.12118-1_all.deb
-Size: 50880
-MD5sum: 746cc6471809c249d22268e15c3096f7
-SHA1: ca8f85eea7d46703df1d169d9ded24b8887ad6d4
-SHA256: 83d69891e0a6649569a6f1cc88c266d26aca3aca17ae973ef1708d9263e0b0f4
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 555
+Depends: python3:any, libvlc5
+Recommends: vlc
+Filename: ./python3-vlc_3.0.12118-2~bpo11+1_all.deb
+Size: 105064
+MD5sum: cccd030310b03e5f79f19aca5b5bc65a
+SHA1: 37a85881ba42872333f08f535ecd8c1c3d4f2f8f
+SHA256: c45c5a605117ac826e914ee27417ab0b14d59818bde8bc967fc51c61e15ef2f0
 Section: python
 Priority: optional
 Homepage: http://wiki.videolan.org/PythonBinding
-Description: VLC bindings for python.
- This module provides ctypes-based bindings (see
-       http://wiki.videolan.org/PythonBinding) for the native libvlc
-       API (see http://wiki.videolan.org/LibVLC) of the VLC video
-       player. Note that it relies on an already present install of VLC.
- .
-       It has been automatically generated from the include files of
-       vlc 3.0.12, using generator 1.18.
+Description: VLC Python bindings
+ This package provides a module with ctypes-based bindings (see
+ http://wiki.videolan.org/PythonBinding) for the native libvlc
+ API (see http://wiki.videolan.org/LibVLC) of the VLC video
+ player.
 
 Package: python3-websockets
 Source: websockets
