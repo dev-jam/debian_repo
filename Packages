@@ -39,6 +39,33 @@ Description: system tray notifications for Thunderbird
  likely that support for Thunderbird XUL extensions will be dropped soon,
  possibly by the time you read these words.
 
+Package: calamares
+Version: 3.2.50-1~bpo11+1
+Architecture: amd64
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 9937
+Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.90.0-1~np1), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore11 (>= 20.12.2), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
+Recommends: btrfs-progs, squashfs-tools
+Filename: ./calamares_3.2.50-1~bpo11+1_amd64.deb
+Size: 3945172
+MD5sum: 99e8745ddaa9b710b2c6e17c20a2456b
+SHA1: d039e565a35d4e842dbfb0cc01a441d5db7f98a8
+SHA256: e1940c44d2184d17df9c8b86b40d0497a3045ce8f31c809fa2e096950be89e46
+Section: utils
+Priority: optional
+Homepage: https://github.com/calamares/calamares
+Description: distribution-independent installer framework
+ Calamares is a distribution-independent installer framework.
+ .
+ It provides a graphical installer that can be used with nearly
+ any distribution. This package is suitable for live media on
+ Debian-based systems, and won't be of any particular use on
+ an already installed system.
+ .
+ You will likely want to provide your own config files to match
+ your distribution, reading the Calamares documentation will guide
+ you through that process.
+
 Package: deadbeef-static
 Version: 1.8.8-1
 Architecture: amd64
