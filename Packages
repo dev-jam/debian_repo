@@ -2445,30 +2445,6 @@ Homepage: https://github.com/smathot/python-eyelinkparser
 Description: An extensible parser for EyeLink data files (EDF)
  No readme information
 
-Package: python3-python-vlc
-Source: python-vlc
-Version: 3.0.12118-1
-Architecture: all
-Maintainer: Olivier Aubert <contact@olivieraubert.net>
-Installed-Size: 375
-Depends: python3:any
-Filename: ./python3-python-vlc_3.0.12118-1_all.deb
-Size: 50884
-MD5sum: 0744f173af0585a8fa10d74739584aac
-SHA1: 8c4deb7f2958360c6f44e6d822b37055e91ac513
-SHA256: 740b7894cda40eb2f7c77a1d0f1dd65dee1b8020036f0cf8f936fb5e69785851
-Section: python
-Priority: optional
-Homepage: http://wiki.videolan.org/PythonBinding
-Description: VLC bindings for python.
- This module provides ctypes-based bindings (see
-       http://wiki.videolan.org/PythonBinding) for the native libvlc
-       API (see http://wiki.videolan.org/LibVLC) of the VLC video
-       player. Note that it relies on an already present install of VLC.
- .
-       It has been automatically generated from the include files of
-       vlc 3.0.12, using generator 1.18.
-
 Package: python3-rusocsci
 Source: rusocsci
 Version: 0.8.7-1
