@@ -886,18 +886,18 @@ Description: Development files for WirePlumber
  This package contains the development files.
 
 Package: live-build
-Version: 1:20220207
+Version: 1:20220208
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 1198
+Installed-Size: 1200
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20220207_all.deb
-Size: 399492
-MD5sum: b4b586a3f4889eeb8a03b2993e2067ff
-SHA1: 0861f32034c892ad4d59a361b76d93b7afce5b69
-SHA256: 998591990ff42fde1ec5c4c1b8c6d378e216141af2e17a5fb4f6dc15b1dc218d
+Filename: ./live-build_20220208_all.deb
+Size: 398992
+MD5sum: f9f660c385f91d60086bb1fb57a89936
+SHA1: cb6b710aaf6c55edf907c141599c8714786b2769
+SHA256: 70935f58875ca812764cca272d5d524c08a1f30c5867853a5c498a062c3b725a
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
