@@ -135,14 +135,14 @@ Priority: optional
 Description: custom keyring for Debian Bullseye
 
 Package: devjam-science
-Version: 1.0-1
+Version: 1.2-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science_1.0-1_amd64.deb
-Size: 7408
-MD5sum: e270025c87ccc1dafb830d367fae3a44
-SHA1: a58a1d63ddda1b1bb6e37ce2ab1d24fefc225a71
-SHA256: 0dd5e458a21a3c01024d55c69c5a09af40408233b65ea14971ca472e805919e4
+Filename: ./devjam-science_1.2-1_amd64.deb
+Size: 58412
+MD5sum: 18840f4c602a4d1a789c4dc4587e665f
+SHA1: 529fb53ba2448ff7e89327c2d8d25e9924ef9450
+SHA256: 975292535d394aacd0139d98b1be6f29b3986f126f9c64c0aee0729a78b0f331
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
