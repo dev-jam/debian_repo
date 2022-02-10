@@ -946,6 +946,27 @@ Priority: optional
 Homepage: https://nordvpn.com/
 Description: Package to install NordVPN GPG key and APT repo
 
+Package: nvidia-persistenced
+Version: 470.103.01-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 91
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libnvidia-cfg1 | libnvidia-tesla-470-cfg1 | libnvidia-tesla-460-cfg1 | libnvidia-tesla-450-cfg1 | libnvidia-tesla-418-cfg1 | libnvidia-legacy-390xx-cfg1 | libnvidia-legacy-340xx-cfg1 | libnvidia-cfg.so.1 | libnvidia-cfg1-any, adduser, libc6 (>= 2.14), libtirpc3 (>= 1.0.2)
+Filename: ./nvidia-persistenced_470.103.01-1~bpo11+1_amd64.deb
+Size: 27316
+MD5sum: aa2a05c36ef00b4cc19e1a74a2790bc6
+SHA1: b1f55a196263100588c3c43b0e664a47065d187b
+SHA256: 1bd84f8a6ffd33b372787fcaa8149ab954dc774fa31b5204b0618c821da5cad3
+Section: contrib/utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/NVIDIA/nvidia-persistenced
+Description: daemon to maintain persistent software state in the NVIDIA driver
+ When persistence mode is enabled, the daemon prevents the driver from
+ releasing device state when the device is not in use.
+ This can improve the startup time of new clients in this scenario.
+
 Package: opensesame-toolbox
 Version: 2.7-1
 Architecture: all
