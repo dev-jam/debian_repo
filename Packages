@@ -108,54 +108,54 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-kde-service-menu-collection
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
-Filename: ./devjam-kde-service-menu-collection_1.0-1_all.deb
-Size: 3612
-MD5sum: 0a62c3a9eb4f3a7635f57f8d6fb3691a
-SHA1: 910f05125d3d125684d82dd521334b3dfb218a2a
-SHA256: c7c91a4753a0570c9e06e4d6c5e081dbeee9836da205f25f1d013efb8343b0a9
+Filename: ./devjam-kde-service-menu-collection_1.1-1_all.deb
+Size: 3588
+MD5sum: 146030c2c309864dac63df08ef025140
+SHA1: 4037676814a15cf54f18e7644a60bc5ac75c8cb3
+SHA256: 86bd85ceace478a6aa68ea92d0477a88960b077ad549b69fa951761e23c4fd13
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by Hypno
 
 Package: devjam-keyring
-Version: 1.0-1
+Version: 1.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-keyring_1.0-1_all.deb
-Size: 29760
-MD5sum: e3d4dd89dfb4b6e00fd35a153010adca
-SHA1: fba4e88d46c6714a8878f693adbd483ba1b343b2
-SHA256: 1f55622a5a22adabc9cbd09d28516c5dcc9e0393370d08fad60bcd4e20e79927
+Filename: ./devjam-keyring_1.2-1_all.deb
+Size: 42508
+MD5sum: b97d414d998cbfc952f22a9d768f5366
+SHA1: 96119877fd2304fbc260503aadac1b3c71239d4d
+SHA256: ebf275117fcdaa580258660d642e6573f24b945df187e78659888c70ba54e85b
 Section: base
 Priority: optional
 Description: custom keyring for Debian Bullseye
 
 Package: devjam-science
-Version: 1.2-1
+Version: 1.3-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science_1.2-1_amd64.deb
-Size: 58412
-MD5sum: 18840f4c602a4d1a789c4dc4587e665f
-SHA1: 529fb53ba2448ff7e89327c2d8d25e9924ef9450
-SHA256: 975292535d394aacd0139d98b1be6f29b3986f126f9c64c0aee0729a78b0f331
+Filename: ./devjam-science_1.3-1_amd64.deb
+Size: 58416
+MD5sum: 388975bb9c561c42842cf7ef486f2a48
+SHA1: f4d863de61cde4e96c1e79b8779f847cff931197
+SHA256: 21e53a701e1f196c5c11f8f49486c94f4ec4f2a550ad931596961af6305987a2
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
 
 Package: devjam-tools
-Version: 1.1-1
+Version: 1.2-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.1-1_amd64.deb
-Size: 9500004
-MD5sum: 3f430a17b3771c6487d8e14c13356056
-SHA1: 5ee7074490994f8741ab0596060de7b9b8b367bb
-SHA256: a337faed637a8ead110c776417840e2f72110c9e59f379b195933b93479c2406
+Filename: ./devjam-tools_1.2-1_amd64.deb
+Size: 9499688
+MD5sum: fe19ac8d539624970006088dac97e82b
+SHA1: d8048d1d20efac4db9da1632e6b03153464b522d
+SHA256: 76afde741064e70e693b617a271bb3ec6e32132181149c37dec28df466d79e0c
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
