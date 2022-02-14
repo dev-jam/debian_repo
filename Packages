@@ -147,6 +147,20 @@ Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
 
+Package: devjam-thunar-custom-actions
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
+Filename: ./devjam-thunar-custom-actions_1.0-1_all.deb
+Size: 3072
+MD5sum: 90dba119eca69e743a6f2ccf22bdc921
+SHA1: b842f8239f4e5ce5d8b42ebff1346517ac08f39a
+SHA256: 64c8613c6dac75f359670b1cdcf06dd0867917318d9c332fb74e7ccc160e8aaa
+Section: base
+Priority: optional
+Description: Thunar custom actions collection
+
 Package: devjam-tools
 Version: 1.2-1
 Architecture: amd64
