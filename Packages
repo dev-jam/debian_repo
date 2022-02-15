@@ -108,18 +108,18 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-kde-service-menu-collection
-Version: 1.1-1
+Version: 1.1-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
-Filename: ./devjam-kde-service-menu-collection_1.1-1_all.deb
-Size: 3588
-MD5sum: 146030c2c309864dac63df08ef025140
-SHA1: 4037676814a15cf54f18e7644a60bc5ac75c8cb3
-SHA256: 86bd85ceace478a6aa68ea92d0477a88960b077ad549b69fa951761e23c4fd13
+Filename: ./devjam-kde-service-menu-collection_1.1-2_all.deb
+Size: 3584
+MD5sum: efdbe0bf6f46054b3921648ae79ca40c
+SHA1: 22cb13d9cf4404ed40618d276b46b124464365ce
+SHA256: aa90da46a174c42e9d230416dc84a0e45234349a3fa30519eda099ed21d0e7ca
 Section: base
 Priority: optional
-Description: KDE Service Menu items collection by Hypno
+Description: KDE Service Menu items collection by devjam
 
 Package: devjam-keyring
 Version: 1.3-1
@@ -148,14 +148,14 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.4-1
+Version: 1.5-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science_1.4-1_amd64.deb
-Size: 58408
-MD5sum: 05e8b1e06c1bc408d9339e6326cec041
-SHA1: a2e090ed272eec2cb6468e1a99a4f7721aeb835c
-SHA256: c571dcaf905c019e4c4c7202571db33e49e3bcd1246ee38ecdc360f2bdde6b92
+Filename: ./devjam-science_1.5-1_amd64.deb
+Size: 59364
+MD5sum: 915afc73247e000ac64420462638b42d
+SHA1: 840ed9f5abe177e9a8e13a4237fe8581174e43c3
+SHA256: f841f6caddff98455aa95ec01dbb8deb4ab4c5d201a1f18ec37079a90bf41f3f
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
