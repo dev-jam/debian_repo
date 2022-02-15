@@ -134,6 +134,19 @@ Section: base
 Priority: optional
 Description: custom keyring for Debian Bullseye
 
+Package: devjam-pipewire-scripts
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-pipewire-scripts_1.0-1_all.deb
+Size: 1676
+MD5sum: e165b1d3eadf7686187f6f91ae995c87
+SHA1: aeb7db291852b1bf4d4f2fb5bcc8ec2ee18d6a6b
+SHA256: 4d68c5470fcc923f59bde990f645fa726a286e55e4e8a549d501f75b677eba4e
+Section: base
+Priority: optional
+Description: Scripts to enable and disable Pulse, Pipewire and ALSA
+
 Package: devjam-science
 Version: 1.4-1
 Architecture: amd64
@@ -162,14 +175,14 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.2-1
+Version: 1.4-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.2-1_amd64.deb
-Size: 9499688
-MD5sum: fe19ac8d539624970006088dac97e82b
-SHA1: d8048d1d20efac4db9da1632e6b03153464b522d
-SHA256: 76afde741064e70e693b617a271bb3ec6e32132181149c37dec28df466d79e0c
+Filename: ./devjam-tools_1.4-1_amd64.deb
+Size: 34159128
+MD5sum: 4073af76e945f2b91d1fa7b40243399a
+SHA1: 34ca03937de6110fd4179d1e34dec81432119c19
+SHA256: a5ab44148c78289aa1c37c751e1bbdf91080e93de4cb4645d3d68e7b91b4a153
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
