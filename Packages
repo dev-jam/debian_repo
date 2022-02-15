@@ -562,56 +562,6 @@ Description: allow applications to export a menu into the panel
  .
  This package contains shared libraries to be used by applications.
 
-Package: libdvdcss-dev
-Source: libdvdcss
-Version: 1.4.2-1~local
-Architecture: amd64
-Maintainer: Dmitry Smirnov <onlyjob@debian.org>
-Installed-Size: 26
-Depends: libdvd-pkg, libdvdcss2 (= 1.4.2-1~local)
-Conflicts: libdvdcss2-dev
-Replaces: libdvdcss2-dev
-Filename: ./libdvdcss-dev_1.4.2-1~local_amd64.deb
-Size: 6744
-MD5sum: f559d824c890f1404f77c3eb6610b183
-SHA1: f1d7ef9d53904f4f117c6a75c479f6a42cf6cc6c
-SHA256: 7c30871be9cc72d2a3d310d24b6dea0b20ab61e424a2a0bc1a98e88d8a21e264
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.videolan.org/developers/libdvdcss.html
-Description: library for accessing encrypted DVDs - development files
- libdvdcss is a library for accessing and unscrambling DVDs encrypted
- with the Content Scramble System (CSS).
- libdvdcss is part of the VideoLAN project.
- .
- This package provides development files.
-
-Package: libdvdcss2
-Source: libdvdcss
-Version: 1.4.2-1~local
-Architecture: amd64
-Maintainer: Dmitry Smirnov <onlyjob@debian.org>
-Installed-Size: 58
-Depends: libdvd-pkg, libc6 (>= 2.7)
-Replaces: libdvdcss-dev (<= 0.0.3-3), libdvdcss0 (<= 1.0.0-0.0), libdvdcss2-dev (<= 1.2.10-0.0)
-Provides: libdvdcss
-Filename: ./libdvdcss2_1.4.2-1~local_amd64.deb
-Size: 22332
-MD5sum: d05d3f6d9fdcf2ad932a84121472b710
-SHA1: 483afcbda9d586cac3626037a78a947f0b91079c
-SHA256: 94b4f90d17361d83baaee87907a2ee6221a44b445c3e09539ed33b35539afa5d
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.videolan.org/developers/libdvdcss.html
-Description: library for accessing encrypted DVDs
- libdvdcss is a library for accessing and unscrambling DVDs encrypted
- with the Content Scramble System (CSS).
- libdvdcss is part of the VideoLAN project.
- .
- This package provides runtime libraries.
-
 Package: libindicator7
 Source: libindicator
 Version: 0.5.0-4
