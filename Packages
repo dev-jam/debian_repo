@@ -66,6 +66,21 @@ Description: distribution-independent installer framework
  your distribution, reading the Calamares documentation will guide
  you through that process.
 
+Package: ddrescue-gui
+Version: 13:2.1.1~bpo11+1
+Architecture: all
+Maintainer: Hamish McIntyre-Bhatty <hamishmb@live.co.uk>
+Installed-Size: 892
+Depends: python3, python3-wxgtk4.0, python3-getdevinfo, python3-requests, gddrescue, psmisc, coreutils, kpartx, parted, util-linux, libnotify-bin, cryptsetup-bin, mount, bash, policykit-1
+Filename: ./ddrescue-gui_2.1.1~bpo11+1_all.deb
+Size: 499212
+MD5sum: 005bf84a8b02bf2b6f98219efd12c9dc
+SHA1: 9d583c1f144f94c63848eca4785774ac0c2bf39a
+SHA256: 3cb872adf7e31cb9af1e178b76ccc9a53379011a6b60dae6163b048868240ea4
+Section: utils
+Priority: extra
+Description: A simple GUI frontend to make GNU ddrescue easier to use.
+
 Package: deadbeef-static
 Version: 1.8.8-1
 Architecture: amd64
@@ -450,6 +465,29 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
  .
  This package contains a plugin to make devices managed by the PipeWire
  server available as GStreamer sources and sinks.
+
+Package: hstr
+Version: 2.5+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Daniel Echeverri <epsilon@debian.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.29), libncursesw6 (>= 6), libreadline8 (>= 6.0), libtinfo6 (>= 6)
+Filename: ./hstr_2.5+ds-1~bpo11+1_amd64.deb
+Size: 28752
+MD5sum: 5cccc85d0470de0b14ab42e8d5e38a4c
+SHA1: 32eaf06b4d2b82def1d4586f11989084e96b341f
+SHA256: 942d52d88d29cfa0cce269be440e9a4ae5e9c38d8fc4f5ec5ae600e9ad786e84
+Section: utils
+Priority: optional
+Homepage: https://github.com/dvorka/hstr
+Description: Suggest box like shell history completion
+ Command line tool that brings improved bash/zsh command completion
+ from the history. It aims to make completion easier and more efficient
+ than Ctrl-r.
+ .
+ HSTR can also manage your command history (for instance you can remove
+ commands that are obsolete or contain a piece of sensitive information)
+ or bookmark your favorite commands.
 
 Package: kde-service-menu-pdf
 Version: 2.3
@@ -1594,6 +1632,21 @@ Description: Super-fast and clean conversions to numbers.
      :target: https://codecov.io/gh/SethMMorton/fastnumbers
  .
  Super-fast and clean conversions to numbers.
+
+Package: python3-getdevinfo
+Version: 5:1.1.1~bpo11+1
+Architecture: all
+Maintainer: Hamish McIntyre-Bhatty <hamishmb@live.co.uk>
+Installed-Size: 273
+Depends: python3, lshw, lvm2, util-linux, python3-bs4, python3-lxml, binutils, coreutils (>= 8.21)
+Filename: ./python3-getdevinfo_1.1.1~bpo11+1_all.deb
+Size: 37240
+MD5sum: da201bc3ed3c517137e68d2e9fab61ef
+SHA1: 4d8de26d0d4c713196ec7976f06c233d01b6b8d9
+SHA256: 1d1ed698db290368289cefd7e985035dd038639d48955df76731f78fd12f5d10
+Section: utils
+Priority: extra
+Description: A python library that can be used to gather all sorts of information about the storage devices connected to a system.
 
 Package: python3-glfw
 Source: glfw
@@ -3103,4 +3156,19 @@ Priority: optional
 Description: Creates USB stick with Windows installer.
  WoeUSB-ng is a simple tool that enable you to create your own usb stick
  with windows installer from an iso image or a real DVD.
+
+Package: wxfixboot
+Version: 9:3.1.0~bpo11+1
+Architecture: all
+Maintainer: Hamish McIntyre-Bhatty <hamishmb@live.co.uk>
+Installed-Size: 670
+Depends: python3, python3-wxgtk4.0, coreutils, libnotify-bin, policykit-1, util-linux, kmod, mount, iputils-ping, e2fsprogs, file, dash, lshw, lvm2, dmidecode, binutils, dmsetup, libgtk3-perl, python3-getdevinfo
+Filename: ./wxfixboot_3.1.0~bpo11+1_all.deb
+Size: 168232
+MD5sum: f0889ddb6b6072e0e58a8261ff6d9460
+SHA1: edb7ea3a7273dd40a5ad54903ccbb1aa6058fa71
+SHA256: 5c76d8076d0e30f476e0ed85b2a422015e6f0fd3684d8735b0f5323f634044ba
+Section: utils
+Priority: extra
+Description: Utility to assist with fixing the bootloader on a computer quickly. GetDevInfo is also required, see www.hamishmb.com/https://www.hamishmb.com/html/downloads.php?program_name=getdevinfo
 
