@@ -2911,19 +2911,19 @@ License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
 
 Package: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
+Version: 6.1.32-dfsg-1+b2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 107082
-Depends: adduser, iproute2, procps, virtualbox-dkms (>= 6.1.32-dfsg-1+b1~bpo11+1) | virtualbox-source (>= 6.1.32-dfsg-1+b1~bpo11+1) | virtualbox-modules, python3 (<< 3.10), python3 (>= 3.9~), python3.9, python3:any, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.104, liblzf1 (>= 1.5), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpython3.9 (>= 3.9.1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx6 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), libxt6, zlib1g (>= 1:1.1.4)
-Recommends: virtualbox-qt (= 6.1.32-dfsg-1+b1~bpo11+1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libxcb1, libxext6
+Depends: adduser, iproute2, procps, virtualbox-dkms (>= 6.1.32-dfsg-1+b2~bpo11+1) | virtualbox-source (>= 6.1.32-dfsg-1+b2~bpo11+1) | virtualbox-modules, python3 (<< 3.10), python3 (>= 3.9~), python3.9, python3:any, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.104, liblzf1 (>= 1.5), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpython3.9 (>= 3.9.1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx6 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), libxt6, zlib1g (>= 1:1.1.4)
+Recommends: virtualbox-qt (= 6.1.32-dfsg-1+b2~bpo11+1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libxcb1, libxext6
 Suggests: vde2, virtualbox-guest-additions-iso
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0, virtualbox-6.1
-Filename: ./virtualbox_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 21430472
-MD5sum: b9ad85b99ab1fc6ed14e3cafe1e762b5
-SHA1: 9a62884ca061ed0ee0b733214b7cd8e2950b21be
-SHA256: 51cf2a05e8e2d48e2126502b2f5308ca9845d796b165388fe9d0af74bdce64f2
+Filename: ./virtualbox_6.1.32-dfsg-1+b2~bpo11+1_amd64.deb
+Size: 21410296
+MD5sum: a698008fea598f10f2ef5c77ccb689fb
+SHA1: 5892d2408541305168fbdbe557b16a3f823e61b7
+SHA256: bf31077169870ca6a151148455d1100696b26dc018babc2adde46a3a8deb75fc
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -2939,18 +2939,18 @@ Description: x86 virtualization solution - base binaries
 
 Package: virtualbox-dkms
 Source: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
+Version: 6.1.32-dfsg-1+b2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 5570
 Depends: dkms (>= 2.1.0.0)
-Recommends: virtualbox (>= 6.1.32-dfsg-1+b1~bpo11+1)
+Recommends: virtualbox (>= 6.1.32-dfsg-1+b2~bpo11+1)
 Provides: virtualbox-modules
-Filename: ./virtualbox-dkms_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 727944
-MD5sum: f55ad8d103d5bd83eb43a1f3c32f325b
-SHA1: e39f996a120aea3bca351c932451f1f11d6934d8
-SHA256: 0d03067bc5745db3cf2bc5812ab731926626e7db63747561b9b3ded6c77aa85a
+Filename: ./virtualbox-dkms_6.1.32-dfsg-1+b2~bpo11+1_amd64.deb
+Size: 727828
+MD5sum: fa5372ce7e40b449f6ba4b0bb2f583eb
+SHA1: 767b8448ed0a52b95adfff8379df4f7acef32deb
+SHA256: 965c31287130b089a5372b21abd39130d1c122e4a5b241bacac7a4d1d953b939
 Section: contrib/kernel
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3011,17 +3011,17 @@ Description: guest additions iso image for VirtualBox
 
 Package: virtualbox-guest-utils
 Source: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
+Version: 6.1.32-dfsg-1+b2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 5846
 Depends: adduser, pciutils, libc6 (>= 2.17), libpam0g (>= 0.99.7.1), zlib1g (>= 1:1.1.4)
-Suggests: virtualbox-guest-x11 (= 6.1.32-dfsg-1+b1~bpo11+1)
-Filename: ./virtualbox-guest-utils_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 924092
-MD5sum: 79f0256584c98fe811b116173b435ec1
-SHA1: 43afc2a83fba5c7317cc73ce4cde5c8a0cfbf5d5
-SHA256: f86d5c1ceac5e7edde9bcd1cd2886a60d484b2bfef10aa7d68dae6e2a06c81ef
+Suggests: virtualbox-guest-x11 (= 6.1.32-dfsg-1+b2~bpo11+1)
+Filename: ./virtualbox-guest-utils_6.1.32-dfsg-1+b2~bpo11+1_amd64.deb
+Size: 924652
+MD5sum: 7a6c21ac8b67e3834597ba6e69cf6d11
+SHA1: de406d7b158a25ea90e9f242e4182bfe058c79eb
+SHA256: 3c080effdeb008b8cbc9ba92c33c89271c0f71c688c942067b49051cf4e733c6
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3041,17 +3041,17 @@ Description: x86 virtualization solution - non-X11 guest utilities
 
 Package: virtualbox-guest-x11
 Source: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
+Version: 6.1.32-dfsg-1+b2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 2049
-Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 6.1.32-dfsg-1+b1~bpo11+1), libc6 (>= 2.17), libx11-6 (>= 2:1.4.99.1), libxext6, libxmu6, libxt6, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
+Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 6.1.32-dfsg-1+b2~bpo11+1), libc6 (>= 2.17), libx11-6 (>= 2:1.4.99.1), libxext6, libxmu6, libxt6, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
 Provides: xorg-driver-video
-Filename: ./virtualbox-guest-x11_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 595248
-MD5sum: a006545e4d1fe5e3b42c532533dd080e
-SHA1: 9e4a5f8b5596570f227d4190a83f93e74761478f
-SHA256: 5965f35da060645d91044a8b02a20424555f1036d0facc1a94ed45c1ee8c01ed
+Filename: ./virtualbox-guest-x11_6.1.32-dfsg-1+b2~bpo11+1_amd64.deb
+Size: 595100
+MD5sum: 020326eee9f25610a75ecaa183adea24
+SHA1: 8cd26309ff3cbe886efd0189c8b166b36511ffd4
+SHA256: 19af4479da1a4dc4b4631ea21bc23b7a3f358a948eea535deb6648ce6a365535
 Section: contrib/x11
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3066,18 +3066,18 @@ Description: x86 virtualization solution - X11 guest utilities
 
 Package: virtualbox-qt
 Source: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
+Version: 6.1.32-dfsg-1+b2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 57084
-Depends: virtualbox (= 6.1.32-dfsg-1+b1~bpo11+1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6
+Depends: virtualbox (= 6.1.32-dfsg-1+b2~bpo11+1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6
 Breaks: virtualbox (<< 4.1.6-dfsg-2~)
 Replaces: virtualbox (<< 4.1.6-dfsg-2~)
-Filename: ./virtualbox-qt_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 21521464
-MD5sum: 6ab32ca767e8a4faa34105e335fcf6e5
-SHA1: f87a6592b1b87b95799dd5a4b55ddb6850701173
-SHA256: 22d7eb1a78b569adaf8b2baa13ab90602b42fd52c4228be20d1e400135c693c1
+Filename: ./virtualbox-qt_6.1.32-dfsg-1+b2~bpo11+1_amd64.deb
+Size: 21526604
+MD5sum: 6e307825d543e01e958ea01ad5934fa7
+SHA1: 74501fcc90ef31ceb6411baf0e6402f6dcc99373
+SHA256: f153c9df3d60b77052f13d70caa8f74e1f5fbc38450ac4d4ecc119ac9b78e4f3
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3090,17 +3090,17 @@ Description: x86 virtualization solution - Qt based user interface
 
 Package: virtualbox-source
 Source: virtualbox
-Version: 6.1.32-dfsg-1+b1~bpo11+1
+Version: 6.1.32-dfsg-1+b2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 908
+Installed-Size: 907
 Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
-Recommends: virtualbox (>= 6.1.32-dfsg-1+b1~bpo11+1)
-Filename: ./virtualbox-source_6.1.32-dfsg-1+b1~bpo11+1_amd64.deb
-Size: 860784
-MD5sum: d7b6b17e94c852c38bc91135f6227ddd
-SHA1: 3bfa5a1cc57a9de30cb2649a7b69cae1d2fafe6c
-SHA256: dc954b7435e572e0112a59e09d5ab65ae286631cab3fca80f345c2fd9040ed0e
+Recommends: virtualbox (>= 6.1.32-dfsg-1+b2~bpo11+1)
+Filename: ./virtualbox-source_6.1.32-dfsg-1+b2~bpo11+1_amd64.deb
+Size: 860580
+MD5sum: ec1bd59bdaf82a20a6ede6a096898590
+SHA1: 2f1829416e247f5884f5470a07c98f269b40b3ec
+SHA256: dcb8acc562d0fedb81a9f6ae518a48cb113d194adae71652a8e9fc9c44b48e57
 Section: contrib/kernel
 Priority: optional
 Homepage: https://www.virtualbox.org
