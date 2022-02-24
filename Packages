@@ -123,15 +123,15 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-kde-service-menu-collection
-Version: 1.1-2
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl
-Filename: ./devjam-kde-service-menu-collection_1.1-2_all.deb
-Size: 3584
-MD5sum: efdbe0bf6f46054b3921648ae79ca40c
-SHA1: 22cb13d9cf4404ed40618d276b46b124464365ce
-SHA256: aa90da46a174c42e9d230416dc84a0e45234349a3fa30519eda099ed21d0e7ca
+Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools
+Filename: ./devjam-kde-service-menu-collection_1.3-1_all.deb
+Size: 3696
+MD5sum: 680f33bd1fd71b1fa74cda0440f0ef9e
+SHA1: 562dc54f1515961909718b24231a9c6015936d90
+SHA256: 8621a6f5ff9a704fec76b8a985abe6d4886f4263307aee614c6cf7f20e9e3435
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -190,14 +190,14 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.4-1
+Version: 1.5-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.4-1_amd64.deb
-Size: 34159128
-MD5sum: 4073af76e945f2b91d1fa7b40243399a
-SHA1: 34ca03937de6110fd4179d1e34dec81432119c19
-SHA256: a5ab44148c78289aa1c37c751e1bbdf91080e93de4cb4645d3d68e7b91b4a153
+Filename: ./devjam-tools_1.5-1_amd64.deb
+Size: 24666832
+MD5sum: 45e1c3368cfc3c58c0d82efd12bd96ac
+SHA1: a59049e79d343365d9b72115021f5d82fad94976
+SHA256: 09d7b6a06167eee0ee28c5ec90f593ffaeddaccc1a842bbed4f92aac0dd970c2
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
