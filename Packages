@@ -1307,17 +1307,17 @@ Description: program for speech analysis and synthesis
  language and has provisions for communicating with other programs.
 
 Package: psychopy
-Version: 2021.2.3+dfsg-1~bpo11+1
+Version: 2022.1.1+dfsg-2~bpo11+1
 Architecture: all
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 24291
-Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-esprima, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-opengl, python3-openpyxl, python3-packaging, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyo, python3-python-bidi, python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-tables, python3-ujson, python3-websocket, python3-xlrd, python3-yaml, python3-zmq, python3:any, python3-lxml, python3-configobj
-Recommends: python3-wxgtk4.0, python3-pyglet, python3-opencv, python3-xlib, python3-questplus, python3-distro, libxxf86vm1, ipython3, python3-pyxid
-Filename: ./psychopy_2021.2.3+dfsg-1~bpo11+1_all.deb
-Size: 7845928
-MD5sum: cead408b3213d632920ad03d718267fe
-SHA1: 13184fb8aedaf720ca6a0c1761a04c2c5d04c69d
-SHA256: 08e9512d21ae4481135da72407a7e3e1e49f008ec8e19b560af00e42313cffbb
+Installed-Size: 26720
+Depends: python3-cryptography, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-google-auth, python3-jedi, python3-json-tricks, python3-matplotlib, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-pil, python3-pocketsphinx, python3-psutil, python3-pygame, python3-pyo, python3-requests, python3-scipy, python3-serial, python3-soundfile, python3-tables, python3-ujson, python3-websocket, python3-xlrd, python3-yaml, python3-zmq, python3:any, python3-opengl, python3-lxml, python3-configobj
+Recommends: python3-wxgtk4.0, python3-pyglet, python3-opencv, python3-xlib, python3-questplus, python3-distro, libxxf86vm1, ipython3, python3-pyxid, python3-astunparse
+Filename: ./psychopy_2022.1.1+dfsg-2~bpo11+1_all.deb
+Size: 8942840
+MD5sum: a160553966b93871ea4ca466f978b69a
+SHA1: 24419b9d318a5c2e885ecbf1355089b5f59f94ef
+SHA256: 8e946b5aab5359bd3c64e39509ec26ae0d33714274a30a2b8b2b9803036a54c9
 Section: science
 Priority: optional
 Homepage: https://www.psychopy.org
@@ -1629,16 +1629,16 @@ Description: A python library that can be used to gather all sorts of informatio
 
 Package: python3-glfw
 Source: glfw
-Version: 2.5.0-1
+Version: 2.5.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 163
 Depends: python3:any
-Filename: ./python3-glfw_2.5.0-1_all.deb
-Size: 25000
-MD5sum: 3ddc10f24e289c614d1bda6ebceaf137
-SHA1: b9a9e7f2ccdb76e851de5936a7d4448b07820bb4
-SHA256: 397228280d06e4ac1f4d996d1b1993716ea94ebbb18c45e03cd1b966f8ee7594
+Filename: ./python3-glfw_2.5.1-1_all.deb
+Size: 25012
+MD5sum: 672b43ecf02ba94a3d46c2e3701421dc
+SHA1: 0a8a7d8878dd4b920e30093342fd481372aa71bc
+SHA256: e55d79e5a86966032c787b2d0889e763ec7745b0decefc0b146efbbc75afa580
 Section: python
 Priority: optional
 Homepage: https://github.com/FlorianRhiem/pyGLFW
@@ -1666,16 +1666,16 @@ Description: A ctypes-based wrapper for GLFW3.
 
 Package: python3-imageio
 Source: imageio
-Version: 2.15.0-1
+Version: 2.16.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4399
+Installed-Size: 4423
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.15.0-1_all.deb
-Size: 3151508
-MD5sum: c629a8773ed63969d42df2625ff098bd
-SHA1: bb6450f062d8454955888f95449fda2aa15c55f1
-SHA256: 35f8c84155ae302f3cee6e33bb80ecc6c6341a5b660b758f2fbc43c33e477aed
+Filename: ./python3-imageio_2.16.1-1_all.deb
+Size: 3156064
+MD5sum: 1d35e92d9e1527e2e8dcec9c9ca057cd
+SHA1: 08833346b3f6f94fa708d419cae08ea3a301f31e
+SHA256: d16555f25135c3f13738275bfcb4ba50fbad56eb0fc140487e4ce937caf7761a
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -2150,16 +2150,16 @@ Description: The PyPA recommended tool for installing Python packages.
  * `Release process`_
 
 Package: python3-pipewire
-Version: 0:0.0.96-1~w2d0
+Version: 0:0.1.0-1~w2d0
 Architecture: all
 Maintainer: wheel2deb <wheel2deb@upciti.com>
 Installed-Size: 59
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-pipewire_0.0.96-1~w2d0_all.deb
-Size: 12012
-MD5sum: e6b11fb8d4068856faaac5f11149ee89
-SHA1: b78875f993a76c1c99bd08081e2542c51baa946a
-SHA256: b5e97fac3e497295bdb2e8c8c35aba73a004a723c6fe41b18c0904cf5e295541
+Filename: ./python3-pipewire_0.1.0-1~w2d0_all.deb
+Size: 12008
+MD5sum: dd0eeda2ad2342b15b6ef5e2b84bbeac
+SHA1: bf42f4fa23eb12e056adc57b098590a9d067646e
+SHA256: 28ed95785d9061d14aca73d3282ec9e95b327cb44f211dc7d57b80d2b6abd3d2
 Section: python
 Priority: optional
 Homepage: https://github.com/pablodz/pipewire_python
