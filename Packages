@@ -3740,6 +3740,30 @@ Description: extra capabilities for VirtualBox, downloader.
  .
  This package downloads the extension pack from internet during install.
 
+Package: virtualbox-guest-additions-iso
+Version: 6.1.32-1~bpo11+1
+Architecture: all
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Installed-Size: 60949
+Recommends: virtualbox (>= 6.1.32)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
+Filename: ./virtualbox-guest-additions-iso_6.1.32-1~bpo11+1_all.deb
+Size: 45512736
+MD5sum: 33a3cdbc3347fbc1695004ae9c24d0e0
+SHA1: 515821a6c1cb8509f03b0c2be25ec8eb5bd52d84
+SHA256: ce306f42588351d66b757c56988ca5ba98c811a804639f5ee6e351e00e2e0c76
+Section: non-free/misc
+Priority: optional
+Homepage: https://www.virtualbox.org
+Description: guest additions iso image for VirtualBox
+ VirtualBox is a free x86 virtualization solution allowing a wide range of
+ x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides an iso image which contains the guest additions
+ for Linux, Solaris and Windows to be installed on the host system. The guest
+ systems then can mount the iso and install the guest additions from there.
+
 Package: virtualbox-guest-utils
 Source: virtualbox
 Version: 6.1.32-dfsg-1+b3~bpo11+1
