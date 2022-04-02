@@ -1374,41 +1374,41 @@ Description: Manipulate images e their metadata.
  .
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
-Package: libappindicator1
+Package: libappindicator3-1
 Source: libappindicator
-Version: 0.4.92-8
+Version: 0.4.92-7
 Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 102
-Depends: libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libindicator7 (>= 0.4.90)
-Filename: ./libappindicator1_0.4.92-8_amd64.deb
-Size: 53184
-MD5sum: 13bafbbb4abbce65090c3d7878197673
-SHA1: 403d2001878808aac1a269445b7292a9abdffee3
-SHA256: 6beb18c063fbcc4af6ea67c91c7520f992f50365a3c1dab12e26ce4ee34cf6ef
+Installed-Size: 106
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libindicator3-7, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: ./libappindicator3-1_0.4.92-7_amd64.deb
+Size: 53472
+MD5sum: 582eb4761939b3d76b218f77550ccada
+SHA1: 168da995924b537b33495f940efa1eb0a06cd119
+SHA256: 591f86e5d732c223911c9246c4384758565a801575ea466631f752a6a7b9c89c
 Section: oldlibs
 Priority: optional
 Multi-Arch: same
 Homepage: https://launchpad.net/libappindicator
-Description: allow applications to export a menu into the panel
+Description: allow applications to export a menu into the panel -- GTK3 version
  A library to allow applications to export a menu into the panel.
  Based on KSNI it also works in KDE and will fallback to generic Systray
  support if none of those are available.
  .
- This package contains shared libraries to be used by applications.
+ This package contains shared libraries to be used by GTK3 applications.
 
-Package: libindicator7
+Package: libindicator3-7
 Source: libindicator
 Version: 0.5.0-4
 Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 106
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
-Filename: ./libindicator7_0.5.0-4_amd64.deb
-Size: 53028
-MD5sum: eeff52103a841397f50594257b49f085
-SHA1: 495c53c3c9ee0f5ce9105efa9d7ad901cb495d96
-SHA256: 0a40b668f49dbd47c7aa859b648179448d44a52bb6e2f62597681330d65508d2
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: ./libindicator3-7_0.5.0-4_amd64.deb
+Size: 52940
+MD5sum: c39a121f8c3d91c5b070bdbfdcd625bf
+SHA1: b51fe4824783fa3b7525a452934534f78da1cac4
+SHA256: 82d90abe8d768d9c8c60cb38cb87a5843f4dcda537f41b80d571a774e09c11ff
 Section: libs
 Priority: optional
 Multi-Arch: same
