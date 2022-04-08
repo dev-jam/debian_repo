@@ -1430,23 +1430,6 @@ Description: An AST unparser for Python
  .
  Basic example::
 
-Package: python3-brotli
-Source: brotli
-Version: 1.0.9-1
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 771
-Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Filename: ./python3-brotli_1.0.9-1_amd64.deb
-Size: 291756
-MD5sum: 9d3df95683107966554bfd29386f81c2
-SHA1: 3c2de08159f555488bac8829051abd575d3a159f
-SHA256: 8997f3c24dcf252f39cf472cf1011205c2fb80ceb63b4719ac210cdb5483510b
-Section: python
-Priority: optional
-Homepage: https://github.com/google/brotli
-Description: Python bindings for the Brotli compression library
-
 Package: python3-dirsync
 Source: dirsync
 Version: 2.2.5-1
