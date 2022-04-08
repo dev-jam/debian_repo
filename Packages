@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 32.0.0-8006631
+Version: 33.0.1-8253317
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_32.0.0-8006631_amd64.deb
-Size: 8131412
-MD5sum: 6445d558060d495080593c98c1093238
-SHA1: b30685cf34b2f3469e22f5aba967aa66ef073f77
-SHA256: 5a0ab69f029fc3414409142e7898cd890216c16f2c4db4e00b8f6d6360395d36
+Filename: ./android-tools_33.0.1-8253317_amd64.deb
+Size: 4258604
+MD5sum: 5bb7832d4c395b43df3e042f4af207df
+SHA1: a95445460cfa778f50c306aee723474cfc748a2f
+SHA256: 6c874fc86b420f4cd68010f58b48d89d4a079d6ba9ca2f41fb7a9f09bee155e7
 Section: base
 Priority: optional
 Description: android tools for Debian
@@ -1430,6 +1430,23 @@ Description: An AST unparser for Python
  .
  Basic example::
 
+Package: python3-brotli
+Source: brotli
+Version: 1.0.9-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 771
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Filename: ./python3-brotli_1.0.9-1_amd64.deb
+Size: 291756
+MD5sum: 9d3df95683107966554bfd29386f81c2
+SHA1: 3c2de08159f555488bac8829051abd575d3a159f
+SHA256: 8997f3c24dcf252f39cf472cf1011205c2fb80ceb63b4719ac210cdb5483510b
+Section: python
+Priority: optional
+Homepage: https://github.com/google/brotli
+Description: Python bindings for the Brotli compression library
+
 Package: python3-dirsync
 Source: dirsync
 Version: 2.2.5-1
@@ -2129,16 +2146,16 @@ Description: The PyPA recommended tool for installing Python packages.
  * `Release process`_
 
 Package: python3-pipewire
-Version: 0:0.1.0-1~w2d0
+Version: 0:0.1.1-1~w2d0
 Architecture: all
 Maintainer: wheel2deb <wheel2deb@upciti.com>
 Installed-Size: 59
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-pipewire_0.1.0-1~w2d0_all.deb
-Size: 12008
-MD5sum: dd0eeda2ad2342b15b6ef5e2b84bbeac
-SHA1: bf42f4fa23eb12e056adc57b098590a9d067646e
-SHA256: 28ed95785d9061d14aca73d3282ec9e95b327cb44f211dc7d57b80d2b6abd3d2
+Filename: ./python3-pipewire_0.1.1-1~w2d0_all.deb
+Size: 12028
+MD5sum: f8b145b29c8bbb48448898e780b9967e
+SHA1: 784f4b002ad8287c3af509792b2ba6b2313ad2e9
+SHA256: 74185fa8c05abd26a9e79bf4a1cf718d3fae9465d5f27a869cd0051b96233626
 Section: python
 Priority: optional
 Homepage: https://github.com/pablodz/pipewire_python
@@ -3129,4 +3146,39 @@ SHA256: 5c76d8076d0e30f476e0ed85b2a422015e6f0fd3684d8735b0f5323f634044ba
 Section: utils
 Priority: extra
 Description: Utility to assist with fixing the bootloader on a computer quickly. GetDevInfo is also required, see www.hamishmb.com/https://www.hamishmb.com/html/downloads.php?program_name=getdevinfo
+
+Package: yt-dlp
+Version: 2022.4.8-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 8379
+Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
+Filename: ./yt-dlp_2022.4.8-1_all.deb
+Size: 1493716
+MD5sum: be81b2db228780817805571a3bffa58b
+SHA1: 251dbea086bc51fbafdc8078637e963129b4075e
+SHA256: ad7d7d0829f47c571dbd64f05d4a47fc098a80c29237af5f59dada8125565aca
+Section: python
+Priority: optional
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: A youtube-dl fork with additional features and patches
+ Official repository: <https://github.com/yt-dlp/yt-dlp>
+ .
+ **PS**: Some links in this document will not work since this is a copy of the README.md from Github
+ .
+ <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
+ <div align="center">
+ .
+ [![YT-DLP](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)](#readme)
+ .
+ [![Release version](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?color=brightgreen&label=Download&style=for-the-badge)](#release-files "Release")
+ [![PyPi](https://img.shields.io/badge/-PyPi-blue.svg?logo=pypi&labelColor=555555&style=for-the-badge)](https://pypi.org/project/yt-dlp "PyPi")
+ [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](Collaborators.md#collaborators "Donate")
+ [![Matrix](https://img.shields.io/matrix/yt-dlp:matrix.org?color=brightgreen&labelColor=555555&label=&logo=element&style=for-the-badge)](https://matrix.to/#/#yt-dlp:matrix.org "Matrix")
+ [![Discord](https://img.shields.io/discord/807245652072857610?color=blue&labelColor=555555&label=&logo=discord&style=for-the-badge)](https://discord.gg/H5MNcFW63r "Discord")
+ [![Supported Sites](https://img.shields.io/badge/-Supported_Sites-brightgreen.svg?style=for-the-badge)](supportedsites.md "Supported Sites")
+ [![License: Unlicense](https://img.shields.io/badge/-Unlicense-blue.svg?style=for-the-badge)](LICENSE "License")
+ [![CI Status](https://img.shields.io/github/workflow/status/yt-dlp/yt-dlp/Core%20Tests/master?label=Tests&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/actions "CI Status")
+ [![Commits](https://img.shields.io/github/commit-activity/m/yt-dlp/yt-dlp?label=commits&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/commits "Commit History")
+ [![Last Commit](https://img.shields.io/github/last-commit/yt-dlp/yt-dlp/master?label=&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/commits "Commit History")
 
