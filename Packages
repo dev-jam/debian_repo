@@ -1029,17 +1029,17 @@ Description: Language package for pavucontrol-qt
  This package contains the l10n files needed by the pavucontrol-qt.
 
 Package: phoronix-test-suite
-Version: 10.8.0
+Version: 10.8.2
 Architecture: all
 Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
-Installed-Size: 34372
+Installed-Size: 43388
 Depends: php-cli|php5-cli,php5-cli|php-xml
 Recommends: build-essential, php-gd|php5-gd
-Filename: ./phoronix-test-suite_10.8.0_all.deb
-Size: 1158424
-MD5sum: e112df73aa881ee4b11396a8d534486a
-SHA1: bcb572b266d6cb8971f401292ccff9a6082faf2d
-SHA256: 971960d635e0d1d257efed49ec57c97361842850f105d683a21b30acc3e39136
+Filename: ./phoronix-test-suite_10.8.2_all.deb
+Size: 2229804
+MD5sum: 679c4d640cd62662447942e31e50fb0e
+SHA1: f0c588a1a585559f9fc1161a871d0c909489d4a3
+SHA256: beb467405a7e2a1e198bd87358c31d4ac5d713036435ac4f25c718c7fd4e92a7
 Section: Utilities
 Priority: optional
 Homepage: http://www.phoronix-test-suite.com/
@@ -2552,23 +2552,22 @@ Description: Python module for interfacing SR Research EyeLink eye trackers
 
 Package: python3-tartube
 Source: tartube
-Version: 2.3.332-1
+Version: 2.3.549-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 5863
+Installed-Size: 6268
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.3.332-STRICT.deb
-Size: 2272940
-MD5sum: ca5c84e3c002c2a84d256e8302028c54
-SHA1: 35baf8a48e5a36b0aee90eaae6d3b24eafe031c3
-SHA256: 070d7f8425c8ad384b51f4faec8d1bb3ee33c008bb188e9dece857bf86566e71
+Filename: ./python3-tartube_2.3.549-STRICT.deb
+Size: 2347284
+MD5sum: 4c9be8590d812fba8cc6f8b6fb0837a6
+SHA1: c994e51e72f2609f3d75d32c0c02e2f03ba0fb89
+SHA256: b656a037f1afb15ab6f5ba08f350e001531a060b791c0dcd03fe29056ea7ed97
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
 Description: GUI front-end for youtube-dl
  .
- Tartube is a GUI front-end for youtube-dl, partly based on youtube-dl-gui
- and written in Python 3 / Gtk 3.
+ Tartube is a GUI front-end for youtube-dl, written in Python 3 / Gtk 3.
 
 Package: python3-tobii-research
 Version: 0:1.9.0-1~w2d0
