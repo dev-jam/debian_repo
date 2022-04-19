@@ -1608,16 +1608,16 @@ Description: A python library that can be used to gather all sorts of informatio
 
 Package: python3-glfw
 Source: glfw
-Version: 2.5.1-1
+Version: 2.5.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 163
 Depends: python3:any
-Filename: ./python3-glfw_2.5.1-1_all.deb
-Size: 25012
-MD5sum: 672b43ecf02ba94a3d46c2e3701421dc
-SHA1: 0a8a7d8878dd4b920e30093342fd481372aa71bc
-SHA256: e55d79e5a86966032c787b2d0889e763ec7745b0decefc0b146efbbc75afa580
+Filename: ./python3-glfw_2.5.3-1_all.deb
+Size: 25060
+MD5sum: c82d76e44b615368941cfbce9834dde7
+SHA1: 66f14d95db182696b249566b62fa3cb4fcfaf0dd
+SHA256: 71a8d93c62ae868769d5cbbf7d41263472e096726a9581ef114c0a6d43042692
 Section: python
 Priority: optional
 Homepage: https://github.com/FlorianRhiem/pyGLFW
@@ -1682,16 +1682,16 @@ Description: Library for reading and writing a wide range of image, video
 
 Package: python3-imageio-ffmpeg
 Source: imageio-ffmpeg
-Version: 0.4.5-1
+Version: 0.4.7-1
 Architecture: all
-Maintainer: imageio contributors <almar.klein@gmail.com>
-Installed-Size: 55
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 60
 Depends: python3:any
-Filename: ./python3-imageio-ffmpeg_0.4.5-1_all.deb
-Size: 12512
-MD5sum: 64542647a2b2031d9414fd4258005166
-SHA1: ffc8da016fe6fb97e7dd3824a39950cfee62b31a
-SHA256: b34fef208226a7bfdbdf9a8df61cffa77c768db5ed05eadade78e3fc248e66ee
+Filename: ./python3-imageio-ffmpeg_0.4.7-1_all.deb
+Size: 13768
+MD5sum: 0823cd020e2f17dac4d239b7ce06778c
+SHA1: dab92fe8a034e7d63216bb42ad6cb23774f24162
+SHA256: 30c9c457676fb8c2fdc276c411232cca042169b6d59ee41746762fb8e774684d
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio-ffmpeg
