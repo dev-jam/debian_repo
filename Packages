@@ -2329,23 +2329,6 @@ Description: Cryptographic library for Python
  PyCryptodome is a fork of PyCrypto. It brings several enhancements
  with respect to the last official version of PyCrypto (2.6.1),
 
-Package: python3-pygaze
-Source: python-pygaze
-Version: 1:0.7.4-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1173
-Depends: python3:any
-Filename: ./python3-pygaze_0.7.4-1_all.deb
-Size: 154212
-MD5sum: 41568c92c1ea0c610ca229973d805629
-SHA1: 2a8e218c75c2db32204a172cf478a2697359b6a5
-SHA256: 1d7971199865720e32cb8d5726f6527ae1edb7cf808a6bedf86b2db262d4ca99
-Section: python
-Priority: optional
-Homepage: http://www.pygaze.org/
-Description: A Python library for eye tracking
-
 Package: python3-pyjsparser
 Source: pyjsparser
 Version: 2.7.1-1
