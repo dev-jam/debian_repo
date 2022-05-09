@@ -2164,23 +2164,38 @@ Description: Pure Python, cross platform, single function module with no depende
 
 Package: python3-proglog
 Source: proglog
-Version: 0.1.9-2~bpo11+1
+Version: 0.1.10-1
 Architecture: all
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 34
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 32
 Depends: python3-tqdm, python3:any
-Filename: ./python3-proglog_0.1.9-2~bpo11+1_all.deb
-Size: 6748
-MD5sum: f76626fd586888562c470b24c48b220a
-SHA1: 1b9f9ef3a61d1e96370d5a012cce79f0f4e552d6
-SHA256: 340b9dc284d23d61f40b97bb88e282e3944b6450744bc4918dcf7d13383a5533
+Filename: ./python3-proglog_0.1.10-1_all.deb
+Size: 5852
+MD5sum: 40d1fdd0eb88eff86f3a32f820fc9237
+SHA1: f9898f160c9ab1eca7ec77caa988b1f3e0b62642
+SHA256: ec4b98f85902a8f42db5aabe8be64460bc98f06aa76c9ee6cdd06907422d020c
 Section: python
 Priority: optional
-Homepage: https://github.com/Edinburgh-Genome-Foundry/Proglog
 Description: Log and progress bar manager for console, notebooks, web...
- Proglog is a progress logging system for Python. It allows to build
- complex libraries while giving the user control on the management of
- logs, callbacks and progress bars.
+ Proglog
+ =======
+ .
+ Proglog is a progress logging system for Python. It allows to build complex
+ libraries while giving the user control on the management of logs, callbacks and progress bars.
+ .
+ .
+ Infos
+ -----
+ .
+ **PIP installation:**
+ .
+ .. code:: bash
+ .
+   pip install proglog
+ .
+ **Github Page**
+ .
+ `<https://github.com/Edinburgh-Genome-Foundry/Proglog>`_
 
 Package: python3-ps-mem
 Source: ps-mem
@@ -2238,16 +2253,16 @@ Description: Pieces of Psychtoolbox-3 ported to CPython.
 
 Package: python3-pyalsaaudio
 Source: pyalsaaudio
-Version: 0.9.0-1
+Version: 0.9.2-1
 Architecture: amd64
-Maintainer: Lars Immisch <lars@ibp.de>
-Installed-Size: 82
-Depends: python3 (<< 3.10), python3 (>= 3.9~), libasound2 (>= 1.0.16), libc6 (>= 2.4)
-Filename: ./python3-pyalsaaudio_0.9.0-1_amd64.deb
-Size: 20832
-MD5sum: 5ac481e7d2454026dec253b3ce61b61a
-SHA1: 07d8fa5be94834e84e0303d4b420554cf3e463bc
-SHA256: 4471cdf0b8331fa617a673b3f26dee8e9624b8303dbcbe224fa6f986dbb949c1
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 88
+Depends: python3 (<< 3.10), python3 (>= 3.9~), libasound2 (>= 1.0.29), libc6 (>= 2.4)
+Filename: ./python3-pyalsaaudio_0.9.2-1_amd64.deb
+Size: 21776
+MD5sum: 0aafdc521080d1e6b803ed680fa46248
+SHA1: 2e2f377a8ab36646ab32a67a30ba4424615cc9ea
+SHA256: df71b8431adbc3510e09e06f4b4c6b18490933ad424e907633081e59c05af66e
 Section: python
 Priority: optional
 Homepage: http://larsimmisch.github.io/pyalsaaudio/
