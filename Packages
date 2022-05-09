@@ -40,17 +40,17 @@ Description: system tray notifications for Thunderbird
  possibly by the time you read these words.
 
 Package: calamares
-Version: 3.2.54-1~bpo11+1
+Version: 3.2.56-1~bpo11+1
 Architecture: amd64
 Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 10079
-Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.92.0-1~np1), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore11 (>= 21.12.1), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
+Installed-Size: 10122
+Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.93.0-1~np1), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.0), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
 Recommends: btrfs-progs, squashfs-tools
-Filename: ./calamares_3.2.54-1~bpo11+1_amd64.deb
-Size: 3998016
-MD5sum: 9a7d31d4f9af1ebff9835bc6279effdc
-SHA1: 090c7a7d6f1859ccf09df1acd363ff202ffe4bd2
-SHA256: 420964ccbdcadb5df811d67afdef94d7146c769c3f86da26249b310d677409ee
+Filename: ./calamares_3.2.56-1~bpo11+1_amd64.deb
+Size: 4004484
+MD5sum: 8581aa1b4cdfafb8bef8ce369b7ddefd
+SHA1: cb84b35b97b1bccec0d17a65eed26403070d9e1a
+SHA256: c8fcc33134f8ff55a5c92be6810bda2b0a14721ee27dc62b52919d66be27ee3d
 Section: utils
 Priority: optional
 Homepage: https://github.com/calamares/calamares
@@ -901,18 +901,18 @@ Description: Development files for WirePlumber
  This package contains the development files.
 
 Package: live-build
-Version: 1:20220212
+Version: 1:20220508
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 1200
+Installed-Size: 1231
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20220212_all.deb
-Size: 401460
-MD5sum: dfe6ffca50fae98c1ccbd9ae8c0ded59
-SHA1: 38ee50c860554d2258aec561c7ac8fdc76170161
-SHA256: c71c248f1bad5dda8e5f6f7152ab431e4ac94f34171a32fd1b1ed73dd7a67247
+Filename: ./live-build_20220508_all.deb
+Size: 407408
+MD5sum: e25e173a736f8dfa3587565c50a18d41
+SHA1: 91ab02c5d78b7e591b40ac54c22e48c850e2171f
+SHA256: fe732c675e1ce0f3a5f54266fcd33dddfd20601708be23898ce21b13101ccf75
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
@@ -2535,16 +2535,16 @@ Description: Python module for interfacing SR Research EyeLink eye trackers
 
 Package: python3-tartube
 Source: tartube
-Version: 2.3.549-1
+Version: 2.4.0-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 6268
+Installed-Size: 6484
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.3.549-STRICT.deb
-Size: 2347284
-MD5sum: 4c9be8590d812fba8cc6f8b6fb0837a6
-SHA1: c994e51e72f2609f3d75d32c0c02e2f03ba0fb89
-SHA256: b656a037f1afb15ab6f5ba08f350e001531a060b791c0dcd03fe29056ea7ed97
+Filename: ./python3-tartube_2.4.0-STRICT.deb
+Size: 2457596
+MD5sum: cd498ebee9ad9f27f8997aa96a58e25e
+SHA1: a6a1f35a6d3394fac2005ad62811e6fc906582b2
+SHA256: 25eb083bdb695508b9b151540a13dbb3904261c4f74c78f23c2f18df2f50bb43
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
@@ -2793,16 +2793,16 @@ Description: YouTube videos browser
  such as mpv, MPlayer, VLC, Totem or Dragon Player.
 
 Package: strawberry
-Version: 1.0.3-bullseye
+Version: 1.0.4-bullseye
 Architecture: amd64
 Maintainer: Jonas Kvinge <jonas@jkvinge.net>
-Installed-Size: 14203
+Installed-Size: 14228
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgnutls30 (>= 3.7.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libmtp9 (>= 1.1.0), libprotobuf23 (>= 3.12.4), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-alsa, gstreamer1.0-pulseaudio
-Filename: ./strawberry_1.0.3-bullseye_amd64.deb
-Size: 5492240
-MD5sum: 7abf49cbff9b464155a1848483543cfc
-SHA1: 1cfce170dd0ec6e56e03ea0c311e30151e48080d
-SHA256: 823a45460cfdbc9f8221dc6d745461159eacf25d4c89902cfc72515676b7f3c1
+Filename: ./strawberry_1.0.4-bullseye_amd64.deb
+Size: 5500620
+MD5sum: 76e4c057fbeee60eb6e1d160a57065fa
+SHA1: 8796af2cb9506e0033e36e7bd5f64431713b752d
+SHA256: fb921a2128490d04bd51f6c4f8e282d11b72357ab7500ca9e8e0cc5253524c10
 Section: sound
 Priority: optional
 Homepage: http://www.strawberrymusicplayer.org/
