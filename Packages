@@ -2100,16 +2100,16 @@ Description: Python Imaging Library (Fork)
 
 Package: python3-pip
 Source: pip
-Version: 22.1-1
+Version: 22.1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 7486
+Installed-Size: 7487
 Depends: python3:any
-Filename: ./python3-pip_22.1-1_all.deb
-Size: 1327392
-MD5sum: ba3ca1d8ce33b9440cac90b12e43ecca
-SHA1: 66496e3c1d8a9af7be428630c4c382926379c48c
-SHA256: bd7e4a6d098cd22e0175a755be26cadf57037a33eb289ea40731fecacf83adb9
+Filename: ./python3-pip_22.1.1-1_all.deb
+Size: 1327660
+MD5sum: 0462c5ac2f8d986149ea7d938b27c4c4
+SHA1: 982387fda5294639720df4980b71d9703f918ac9
+SHA256: 6471ef19c9ad19b30e999537a32dd4996eea7fadad681efd80ffe77b9034f5a5
 Section: python
 Priority: optional
 Homepage: https://pip.pypa.io/
