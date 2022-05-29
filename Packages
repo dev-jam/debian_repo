@@ -2206,16 +2206,16 @@ Description: Log and progress bar manager for console, notebooks, web...
 
 Package: python3-ps-mem
 Source: ps-mem
-Version: 3.12-1
+Version: 3.14-1
 Architecture: all
-Maintainer: Pádraig Brady <P@draigBrady.com>
-Installed-Size: 44
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 46
 Depends: python3:any
-Filename: ./python3-ps-mem_3.12-1_all.deb
-Size: 10024
-MD5sum: b3bb2fc5987c44b26dd3bf52bc058423
-SHA1: c5287eb22cef848a191fabf34a9954123c613954
-SHA256: 79d2cd7659f1ae8ad0c0bf3cc5a4e7791854f347de6b95093ac4192bd26c54d3
+Filename: ./python3-ps-mem_3.14-1_all.deb
+Size: 10376
+MD5sum: 7a6bf967505d96c24d38f89ffe70805c
+SHA1: 7bc00990b2331260b251f2b33ed4842bcc6cd2c1
+SHA256: a08b7e9e541f7b65a9266a1aa1dab2ad1cdbd92fb037c8e0d8bab0caf36bb85d
 Section: python
 Priority: optional
 Homepage: http://github.com/pixelb/ps_mem
