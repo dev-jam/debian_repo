@@ -1915,15 +1915,15 @@ Description: Video editing with Python
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
-Version: 8.0.2-1
+Version: 8.2.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 347
-Filename: ./python3-opensesame-plugin-audio-low-latency_8.0.2-1_all.deb
-Size: 69376
-MD5sum: 3544495d01017624f2a82923c1a23724
-SHA1: 5581f8e397d689ddff2db1ceafb7ed32f169bba3
-SHA256: 9c6e6dfb8adef9c4974f5128180d086ce66096a6d2e0659dbac015f2c4b68b49
+Installed-Size: 345
+Filename: ./python3-opensesame-plugin-audio-low-latency_8.2.0-1_all.deb
+Size: 69292
+MD5sum: be72600b00f3eb7903dabd93fe0249d8
+SHA1: 5b47c220490ceb1a949a179b18e772534f52ab29
+SHA256: b5a795ff7ba31a7ea521c1801c888e04d46ab8abdf370dff99f0bb8209324393
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
