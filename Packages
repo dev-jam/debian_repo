@@ -982,6 +982,27 @@ Priority: optional
 Homepage: https://nordvpn.com/
 Description: Package to install NordVPN GPG key and APT repo
 
+Package: notepadqq
+Version: 2.0.0~beta1-3~bpo11+1
+Architecture: amd64
+Maintainer: Alessandro Grassi <alessandro@aggro.it>
+Installed-Size: 4767
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 7), libuchardet0 (>= 0.0.1), libjs-highlight.js (>= 9.12), libjs-modernizr, libjs-jquery (>= 2.1.1), libjs-requirejs (>= 2.3.5), libjs-mathjax (>= 2.7.0)
+Filename: ./notepadqq_2.0.0~beta1-3~bpo11+1_amd64.deb
+Size: 1012412
+MD5sum: 03642ac5a06b012e0b098c865d404873
+SHA1: e411ebb9ebe51379db8d59e8d54166cb716b5083
+SHA256: 82ff2c08347e3a27133d0799a950676309bc89508b87be9cce8498df74a01eec
+Section: editors
+Priority: optional
+Homepage: https://notepadqq.com/
+Description: Notepad++-like editor for Linux
+ Notepadqq is a text editor designed from developers,
+ for developers.
+ .
+ It support for multiple programming languages, multiple
+ encodings, plugins and unnamed buffers.
+
 Package: opensesame-toolbox
 Version: 2.7-1
 Architecture: all
