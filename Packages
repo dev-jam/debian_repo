@@ -1375,6 +1375,42 @@ Description: program for speech analysis and synthesis
  statistics.  Praat is configurable and extensible through its own scripting
  language and has provisions for communicating with other programs.
 
+Package: psychopy
+Version: 2022.1.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 27265
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-esprima, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon | python3 (<< 3.5), python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-pocketsphinx, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-python-bidi, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-tobii-research | python3 (>> 3.9), python3-ujson, python3-vlc, python3-websocket, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
+Filename: ./psychopy_2022.1.4-1_all.deb
+Size: 9216400
+MD5sum: 05532ed3271b6da6e306ab007333bac6
+SHA1: 7e5bfbe5fd996789dbeb10c6cf6545eade8f2ee4
+SHA256: 872f52511e11ac00a18f0281f1016041fe54bd926f95bc0ee69176cb90095883
+Section: python
+Priority: optional
+Homepage: https://www.psychopy.org/
+Description: Psychology experiment software in Python
+ # PsychoPy
+ .
+ [![PyPI version](https://img.shields.io/pypi/v/psychopy.svg)](https://pypi.python.org/pypi/PsychoPy)
+ [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+ .
+ PsychoPy is an open-source package for creating experiments in behavioral science. It aims to provide a single package that is:
+ .
+ * precise enough for psychophysics
+ * easy enough for teaching
+ * flexible enough for everything else
+ * able to run experiments in a local Python script or online in JavaScript
+ .
+ To meet these goals PsychoPy provides a choice of interface - you can use a
+ simple graphical user interface called Builder, or write your experiments in
+ Python code. The entire application and library are written in Python and is
+ platform independent.
+ .
+ There is a range of documentation at:
+ .
+ * [PsychoPy Homepage](https://www.psychopy.org)
+
 Package: python3-arabic-reshaper
 Source: arabic-reshaper
 Version: 2.1.3-1
@@ -1698,6 +1734,223 @@ Description: A ctypes-based wrapper for GLFW3.
     (use ``glfw.NORMALIZE_GAMMA_RAMPS=False`` to disable this)
  -  GLFW errors are reported as ``glfw.GLFWError`` warnings if no error
 
+Package: python3-google-api-core
+Source: google-api-core
+Version: 2.8.1-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 392
+Depends: python3-google-auth, python3-protobuf, python3-requests, python3:any
+Filename: ./python3-google-api-core_2.8.1-1_all.deb
+Size: 58488
+MD5sum: 2fc225299fc0dfcf0fa9d50a42e7f81e
+SHA1: 23484c4a05c5768d00f4f9cbd11b86e645eb144d
+SHA256: 816566d306d19acb56dd5251fe154e32770b6a4dba0b3ed6e591258b4699dfd1
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-api-core
+Description: Google API client core library
+ Core Library for Google Client Libraries
+ ========================================
+ .
+ |pypi| |versions|
+ .
+ This library is not meant to stand-alone. Instead it defines
+ common helpers used by all Google API clients. For more information, see the
+ `documentation`_.
+ .
+ .. |pypi| image:: https://img.shields.io/pypi/v/google-api_core.svg
+    :target: https://pypi.org/project/google-api_core/
+ .. |versions| image:: https://img.shields.io/pypi/pyversions/google-api_core.svg
+    :target: https://pypi.org/project/google-api_core/
+ .. _documentation: https://googleapis.dev/python/google-api-core/latest
+ .
+ .
+ Supported Python Versions
+ -------------------------
+ Python >= 3.6
+
+Package: python3-google-auth
+Source: google-auth
+Version: 2.7.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 557
+Depends: python3-cachetools, python3-pyasn1-modules, python3-rsa | python3 (<< 3.6), python3-rsa | python3 (>> 3.6), python3-six (>= 1.9.0), python3:any
+Filename: ./python3-google-auth_2.7.0-1_all.deb
+Size: 75960
+MD5sum: 1feece7de3e201fba8dc96611a39925a
+SHA1: 53d55b949adcb95c173f85d47dcc3fc8fb0a622f
+SHA256: 1ade18f94db67c3c3d2ce119b9e31dfbbe83926ada0367b01428baca78140eea
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/google-auth-library-python
+Description: Google Authentication Library
+ Google Auth Python Library
+ ==========================
+ .
+ |pypi|
+ .
+ This library simplifies using Google's various server-to-server authentication
+ mechanisms to access Google APIs.
+ .
+ .. |pypi| image:: https://img.shields.io/pypi/v/google-auth.svg
+    :target: https://pypi.python.org/pypi/google-auth
+ .
+ Installing
+ ----------
+ .
+ You can install using `pip`_::
+ .
+     $ pip install google-auth
+ .
+ .. _pip: https://pip.pypa.io/en/stable/
+
+Package: python3-google-cloud
+Source: google-cloud
+Version: 0.34.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 17
+Filename: ./python3-google-cloud_0.34.0-1_all.deb
+Size: 2668
+MD5sum: 89c84651e805112688b93e3c9c4e21c2
+SHA1: 1178c57f4d40015e27db244ccf235c48f90df643
+SHA256: 6e8b4259eb9e68cb1693f5b0b4c7e4ac6d21e6f0666b9835243be9537fca688d
+Section: python
+Priority: optional
+Homepage: https://github.com/GoogleCloudPlatform/google-cloud-python
+Description: API Client library for Google Cloud
+ Google Cloud Python Client
+ ==========================
+ .
+     Python idiomatic client for `Google Cloud Platform`_ services.
+ .
+     WARNING: The google-cloud Python package is deprecated. On June 18, 2018,
+     this package will no longer install any other packages. Please install the
+     `product-specific google-cloud-* packages`__ needed for your application.
+ .
+ .. __: https://github.com/GoogleCloudPlatform/google-cloud-python#google-cloud-python-client
+ .
+ .. _Google Cloud Platform: https://cloud.google.com/
+ .
+ |pypi| |circleci| |appveyor| |coverage| |versions|
+ .
+ -  `Homepage`_
+ -  `API Documentation`_
+ -  `Read The Docs Documentation`_
+ .
+ .. _Homepage: https://googlecloudplatform.github.io/google-cloud-python/
+
+Package: python3-google-cloud-speech
+Source: google-cloud-speech
+Version: 2.14.1-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 818
+Depends: python3-protobuf, python3:any
+Filename: ./python3-google-cloud-speech_2.14.1-1_all.deb
+Size: 40080
+MD5sum: d306526da6f5d486d341ff756d8ad972
+SHA1: fde9de5a6687fa6c2cd68cee8ce24976f5411734
+SHA256: c20b51e89cf7e764d3857c55788feba552ac3324f5f5b53223dc4dea1e0df640
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-speech
+Description: Google Cloud Speech API client library
+ Python Client for Cloud Speech API
+ ==================================
+ .
+ .
+ |GA| |pypi| |versions|
+ .
+ The `Cloud Speech API`_ enables developers to convert audio to text by applying
+ powerful neural network models.  The API recognizes over 80 languages and
+ variants, to support your global user base.
+ .
+ - `Client Library Documentation`_
+ - `Product Documentation`_
+ .
+ .. |GA| image:: https://img.shields.io/badge/support-GA-gold.svg
+    :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#general-availability
+ .. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-speech.svg
+    :target: https://pypi.org/project/google-cloud-speech/
+ .. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-speech.svg
+    :target: https://pypi.org/project/google-cloud-speech/
+ .. _Cloud Speech API: https://cloud.google.com/speech
+
+Package: python3-googleapis-common-protos
+Source: googleapis-common-protos
+Version: 1.56.2-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 609
+Depends: python3-protobuf, python3:any
+Filename: ./python3-googleapis-common-protos_1.56.2-1_all.deb
+Size: 86548
+MD5sum: 4d961d738d5e109701c367009c528ed3
+SHA1: 01fe5e878ef9ae67503b88242402e22f3bc914be
+SHA256: 77a97b2c9abad10b22cff97b828d91821b5b15d191a4686f191bcc33a989083c
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-api-common-protos
+Description: Common protobufs used in Google APIs
+ .
+ # Google APIs common protos
+ .
+ [![pypi](https://img.shields.io/pypi/v/googleapis-common-protos.svg)](https://pypi.org/project/googleapis-common-protos/)
+ .
+ .
+ googleapis-common-protos contains the python classes generated from the common
+ protos in the [googleapis/api-common-protos](https://github.com/googleapis/api-common-protos) repository.
+
+Package: python3-grpcio
+Version: 0:1.46.3-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 10428
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3-six (>= 1.5.2), python3:any
+Filename: ./python3-grpcio_1.46.3-1~w2d0_amd64.deb
+Size: 3382044
+MD5sum: f6c86c267c08e3d205cc799f24d4719d
+SHA1: 0922fd5b025843ee0f2c3b7ab7bc5242c1b9e47a
+SHA256: dd282ab60d86ea60f3ee4c090a6cded97118aa69e4c0006d8b7fb9a6a6be9091
+Section: python
+Priority: optional
+Homepage: https://grpc.io
+Description: HTTP/2-based RPC framework
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-grpcio-status
+Source: grpcio-status
+Version: 1.46.3-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 26
+Depends: python3-grpcio, python3-protobuf, python3:any
+Filename: ./python3-grpcio-status_1.46.3-1_all.deb
+Size: 3988
+MD5sum: 3d18cd9869066f1539cd61beba459781
+SHA1: 2c6df1f991579dcbd91c129106b4247352b2859f
+SHA256: 747095078a5a20c8be3c75aeebaceff4895f613bf7903d7e28e364de692ec94c
+Section: python
+Priority: optional
+Homepage: https://grpc.io
+Description: Status proto mapping for gRPC
+ gRPC Python Status Proto
+ ===========================
+ .
+ Reference package for GRPC Python status proto mapping.
+ .
+ Supported Python Versions
+ -------------------------
+ Python >= 3.6
+ .
+ Dependencies
+ ------------
+ .
+ Depends on the `grpcio` package, available from PyPI via `pip install grpcio`.
+
 Package: python3-imageio
 Source: imageio
 Version: 2.15.0-1
@@ -1921,6 +2174,47 @@ Description: Macros for Python: Quasiquotes, Case Classes, LINQ and more!
  .
  Python like you've never seen before
  ====================================
+
+Package: python3-markdown-it
+Source: markdown-it-py
+Version: 2.1.0-2~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 281
+Depends: python3-mdurl, python3-typing-extensions | python3 (>> 3.8), python3:any
+Filename: ./python3-markdown-it_2.1.0-2~bpo11+1_all.deb
+Size: 58544
+MD5sum: 22ba5d4c4ad317bea2980ac050565389
+SHA1: 0bb2757a23ab43adf4e54fb80859b43f654ba56d
+SHA256: f7f3001846dd53792c22dacd88b8b9301c578c4efa8f82245b020d453459421c
+Section: python
+Priority: optional
+Homepage: https://github.com/executablebooks/markdown-it-py
+Description: Python port of markdown-it and some its associated plugins
+ High speed Python markdown parser based in markdown-it. markdown-it-py
+ follows the CommonMark spec for baseline parsing. Also, new syntax
+ rules can be added and even replace existing ones. New syntax extensions
+ can be added to extend the parser.
+
+Package: python3-mdurl
+Source: mdurl
+Version: 0.1.1-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 43
+Depends: python3:any
+Filename: ./python3-mdurl_0.1.1-1~bpo11+1_all.deb
+Size: 9408
+MD5sum: b1a32749195cc660754a063d7ada16ed
+SHA1: 6d24c96474963277686ff8a95721e95f9164619d
+SHA256: 9457896d76febabf714ff49cae2f32aa34bac9550bc9f870cfdf36fdcf703646
+Section: python
+Priority: optional
+Homepage: https://github.com/executablebooks/mdurl
+Description: Python port of the JavaScript mdurl package
+ mdurl is a set of URL utilities for the markdown-it-py package. It
+ provides a pure-Python implementation of several functions from the
+ original JavaScript package, such as .decode(), .parse(), .encode().
 
 Package: python3-mediadecoder
 Source: mediadecoder
@@ -2251,6 +2545,42 @@ Description: Log and progress bar manager for console, notebooks, web...
  **Github Page**
  .
  `<https://github.com/Edinburgh-Genome-Foundry/Proglog>`_
+
+Package: python3-proto-plus
+Source: proto-plus
+Version: 1.20.5-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 139
+Depends: python3-protobuf, python3:any
+Filename: ./python3-proto-plus_1.20.5-1_all.deb
+Size: 25312
+MD5sum: e86ca1817a40ccb3c45712610ae2d3d0
+SHA1: 98441fb3ab7164449451c017bf506d2c0f122bb6
+SHA256: 8a63a221884b5d910337af9fe8fcf0894711e294f41129dd314e482574bfdd4e
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/proto-plus-python.git
+Description: Beautiful, Pythonic protocol buffers.
+ Proto Plus for Python
+ =====================
+ .
+ |pypi| |release level| |docs|
+ .
+     Beautiful, Pythonic protocol buffers.
+ .
+ This is a wrapper around `protocol buffers`_. Protocol buffers is a
+ specification format for APIs, such as those inside Google.
+ This library provides protocol buffer message classes and objects that
+ largely behave like native Python types.
+ .
+ .. _protocol buffers: https://developers.google.com/protocol-buffers/
+ .
+ .
+ Documentation
+ -------------
+ .
+ `Documentation`_ is available on Read the Docs.
 
 Package: python3-ps-mem
 Source: ps-mem
@@ -2585,6 +2915,23 @@ Description: Play and Record Sound with Python
  .. _Python: https://www.python.org/
  .. _PortAudio: http://www.portaudio.com/
  .. _NumPy: https://numpy.org/
+
+Package: python3-speechrecognition
+Version: 0:3.8.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 43677
+Depends: python3 (>= 3.3~), python3:any
+Filename: ./python3-speechrecognition_3.8.1-1~w2d0_all.deb
+Size: 27523556
+MD5sum: 5649185ea3be3a6fa2d7ddde3e3c7937
+SHA1: c6dfe792e486905efb157aa73e351553834213e7
+SHA256: 679d3ab3d540015830ee011892abd9b162b5e3f21c7853274bb787cde54a4925
+Section: python
+Priority: optional
+Homepage: https://github.com/Uberi/speech_recognition#readme
+Description: Library for performing speech recognition, with support for several engines and APIs, online and offline.
+ This package was generated by wheel2deb v0.5.8
 
 Package: python3-sr-research-pylink
 Version: 0:2.1.1.0-1~w2d0
