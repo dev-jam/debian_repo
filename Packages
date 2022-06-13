@@ -599,6 +599,77 @@ Description: Manipulate images e their metadata.
  .
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
+Package: libappimage-dev
+Source: libappimage
+Version: 0.1.9+dfsg-1~bpo11+1
+Architecture: amd64
+Maintainer: Scarlett Moore <sgmoore@kde.org>
+Installed-Size: 67
+Depends: libappimage0 (= 0.1.9+dfsg-1~bpo11+1)
+Filename: ./libappimage-dev_0.1.9+dfsg-1~bpo11+1_amd64.deb
+Size: 15856
+MD5sum: 8c9e202fe03ddbb5ab4e742740bb7aa4
+SHA1: eeba4f5838dc793cf7cc047f81aecea3e24aef3a
+SHA256: ac6344b5922d18fb61228b16e53204d298ef77bea5afb948abd827c4e62ce977
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/AppImage/libappimage
+Description: Development files for libappimage
+ Core library of the AppImage project. Reference implementation
+ of the AppImage specification. https://appimage.org
+ .
+ AppImage provides a way for upstream developers to provide
+ “native” binaries for Linux users just the same way they could
+ do for other operating systems. It allow packaging applications
+ for any common Linux based operating system, e.g., Ubuntu,
+ Debian, openSUSE, RHEL, CentOS, Fedora etc. AppImages
+ come with all dependencies that cannot be assumed to be part
+ of each target system in a recent enough version and will run
+ on most Linux distributions without further modifications.
+ .
+ AppImage is the format, and AppImageKit provides a
+ reference implementation.
+ .
+ This package contains the development files for libappimage.
+
+Package: libappimage0
+Source: libappimage
+Version: 0.1.9+dfsg-1~bpo11+1
+Architecture: amd64
+Maintainer: Scarlett Moore <sgmoore@kde.org>
+Installed-Size: 82
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.27), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.39.4), libsquashfuse0 (>= 0.0.0)
+Filename: ./libappimage0_0.1.9+dfsg-1~bpo11+1_amd64.deb
+Size: 24628
+MD5sum: 996fd6ca79c768e4617f23ec492830c3
+SHA1: 94bf14c9d7044bd86cb85482d65380fa393fb82e
+SHA256: c653c039f9c4831982d6b87d388248545d23b6018648ad996b4b88e86bcf99bb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/AppImage/libappimage
+Description: Core library for appimage
+ Core library of the AppImage project. Reference implementation
+ of the AppImage specification. https://appimage.org
+ .
+ AppImage provides a way for upstream developers to provide
+ “native” binaries for Linux users just the same way they could
+ do for other operating systems. It allow packaging applications
+ for any common Linux based operating system, e.g., Ubuntu,
+ Debian, openSUSE, RHEL, CentOS, Fedora etc. AppImages
+ come with all dependencies that cannot be assumed to be part
+ of each target system in a recent enough version and will run
+ on most Linux distributions without further modifications.
+ .
+ AppImage is the format, and AppImageKit provides a
+ reference implementation.
+ .
+ This library is used by some tools used to ease the installation
+ and usage of appimages.
+ .
+ This package contains the library for libappimage.
+
 Package: libappindicator3-1
 Source: libappindicator
 Version: 0.4.92-7
@@ -969,6 +1040,85 @@ Description: Development files for WirePlumber
  .
  This package contains the development files.
 
+Package: live-boot
+Version: 1:20220505~bpo11+1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 144
+Depends: live-boot-initramfs-tools | live-boot-backend
+Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
+Suggests: cryptsetup, curlftpfs, httpfs2, wget
+Filename: ./live-boot_20220505~bpo11+1_all.deb
+Size: 56724
+MD5sum: 68060a8407d12276ee8c355205e536d9
+SHA1: 818d1f175d088861594b39d80704fabfd6792792
+SHA256: 4ebc43ba712a063b57cf9f37f9bcbe534910b0ae278e5b96bac8d9f5fe460c98
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ In addition to live-boot, a backend for the initrd generation is required, such
+ as live-boot-initramfs-tools.
+
+Package: live-boot-doc
+Source: live-boot
+Version: 1:20220505~bpo11+1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 97
+Filename: ./live-boot-doc_20220505~bpo11+1_all.deb
+Size: 76216
+MD5sum: 8077c3687e343fcdd15f4de24d1daf22
+SHA1: d9378cd1fb920c2c17f2a71f91486904ff3e3778
+SHA256: b396cfbce9f679cae1f8a69fcf9f166017ebc898a6ceaf7cf1215d7bc7db0caf
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (documentation)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace).
+ .
+ This package contains the documentation.
+
+Package: live-boot-initramfs-tools
+Source: live-boot
+Version: 1:20220505~bpo11+1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 52
+Depends: busybox | busybox-initramfs, initramfs-tools, udev
+Conflicts: live-boot-backend
+Replaces: live-boot-backend
+Provides: live-boot-backend
+Filename: ./live-boot-initramfs-tools_20220505~bpo11+1_all.deb
+Size: 33724
+MD5sum: 1101180190767b8aef75d5524fe0e14b
+SHA1: 00559d58c8f155ecc83df7592dbeb05731cf44c3
+SHA256: 33ca3e6b6a9674a859d92f9974ff38267a8a023a12cc992d817c5573d82db965
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (initramfs-tools backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ This package contains the initramfs-tools backend.
+
 Package: live-build
 Version: 1:20220509
 Architecture: all
@@ -991,6 +1141,34 @@ Description: Live System Build Components
  .
  live-build contains the components to build a live system from a configuration
  directory.
+
+Package: live-clone
+Version: 2.6-1~bpo11+1
+Architecture: all
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Installed-Size: 1444
+Depends: python3:any, python3-pyqt5, python3-markdown, python3-mdx-math, gir1.2-udisks-2.0, fdisk, dosfstools, sg3-utils
+Recommends: qemu-kvm
+Filename: ./live-clone_2.6-1~bpo11+1_all.deb
+Size: 548348
+MD5sum: 3ad8c5d53894429522870a771683e509
+SHA1: 793dd694bc526da08466ab060c87a40fedc8ce8f
+SHA256: 071a3ef4ca2bf0e7924b7ca899ffc779c9af0bf6016253ed344183192dbe0713
+Section: python
+Priority: optional
+Description: GUI to clone and manage Live-Build USB sticks
+ This application allows one to make bootable USB sticks from an
+ iso-hybrid image issued by Live-Build. It adapts additionally a
+ persistence partition to use the free space on the USB stick.
+ .
+ It features also management tools for live USB sticks: when such
+ USB disks are used daily, they happen to have inconsistencies in their
+ persistence area which can render them unusable. Tools are provided to
+ save persistence data when necessary, and to blank the persistence area,
+ so the USB disk can be used again.
+ .
+ The application detects when it is run from a Debian-Live environment,
+ thus featuring seamless auto-cloning.
 
 Package: nordvpn-release
 Version: 1.0.0
