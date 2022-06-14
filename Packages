@@ -163,14 +163,14 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.6-1
+Version: 1.7-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science_1.6-1_amd64.deb
-Size: 59372
-MD5sum: da5776f06ff6774f120cde55ada783f4
-SHA1: 05e7256f4bf2dc427afdb3be4fe489fcc79b2b54
-SHA256: 5263b2143082fc8aa5e8f0864034b1df7267f5bdc2f806d1931ffe528f2bd179
+Filename: ./devjam-science_1.7-1_amd64.deb
+Size: 59656
+MD5sum: 020bc34c25c800798c60d259e9641e3a
+SHA1: fa0b9226bcc1f2bc977fa6818ef57b3a1444adde
+SHA256: cc148dcbe089bb47abcb44847295409437d92302b7679524191ae6bae4ed6ab0
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
