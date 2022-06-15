@@ -2655,6 +2655,43 @@ Description: The PyPA recommended tool for installing Python packages.
  * `Release notes`_
  * `Release process`_
 
+Package: python3-pipdeptree
+Source: pipdeptree
+Version: 2.2.1-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 74
+Depends: python3-pip, python3:any
+Filename: ./python3-pipdeptree_2.2.1-1_all.deb
+Size: 18640
+MD5sum: 4538aa769825f8009f664dac724c8eff
+SHA1: 667259c949933610221dfd5a149cb8209bace9f4
+SHA256: 0ac41bbd514045c945a64278503ec7b84fd199ac40d77b637db0ef37986e9472
+Section: python
+Priority: optional
+Homepage: https://github.com/naiquevin/pipdeptree
+Description: Command line utility to show dependency tree of packages
+ pipdeptree
+ ==========
+ .
+ .. image:: https://github.com/naiquevin/pipdeptree/workflows/check/badge.svg
+    :target: https://github.com/naiquevin/pipdeptree/actions
+ .
+ .
+ ``pipdeptree`` is a command line utility for displaying the installed
+ python packages in form of a dependency tree. It works for packages
+ installed globally on a machine as well as in a virtualenv. Since
+ ``pip freeze`` shows all dependencies as a flat list, finding out
+ which are the top level packages and which packages do they depend on
+ requires some effort. It's also tedious to resolve conflicting
+ dependencies that could have been installed because older version of
+ ``pip`` didn't have true dependency resolution [1]_. ``pipdeptree``
+ can help here by identifying conflicting dependencies installed in the
+ environment.
+ .
+ To some extent, ``pipdeptree`` is inspired by the ``lein deps :tree``
+ command of `Leiningen <http://leiningen.org/>`_.
+
 Package: python3-pipewire
 Version: 0:0.1.1-1~w2d0
 Architecture: all
