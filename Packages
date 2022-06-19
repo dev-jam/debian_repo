@@ -3167,16 +3167,16 @@ Description: Python module for interfacing SR Research EyeLink eye trackers
 
 Package: python3-tartube
 Source: tartube
-Version: 2.4.0-1
+Version: 2.4.77-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 6484
+Installed-Size: 6561
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.0-STRICT.deb
-Size: 2457596
-MD5sum: cd498ebee9ad9f27f8997aa96a58e25e
-SHA1: a6a1f35a6d3394fac2005ad62811e6fc906582b2
-SHA256: 25eb083bdb695508b9b151540a13dbb3904261c4f74c78f23c2f18df2f50bb43
+Filename: ./python3-tartube_2.4.77-STRICT.deb
+Size: 2465640
+MD5sum: efe7dd3e0467db0354a0264fa7f1f56b
+SHA1: ea1cc1c030e902b1bc472826a5a5b97cffb9587a
+SHA256: b5facfed9effbc5d63082ee9e5563a19e3879927125d75ff4a0262df4a52be9c
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
