@@ -3351,17 +3351,17 @@ Description: Graphical hard drive backup and restore
  Acronis True Image and Macrium Reflect.
 
 Package: smplayer
-Version: 21.10.0~ds0-1~bpo11+1
+Version: 22.2.0~ds0-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 4410
 Depends: mpv | mplayer, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
 Recommends: smplayer-themes, smplayer-l10n
-Filename: ./smplayer_21.10.0~ds0-1~bpo11+1_amd64.deb
-Size: 1965564
-MD5sum: 889d8d1898746b4de04f22f31f01843b
-SHA1: fa2595734f10da40f39e23b32503acee269cf5a1
-SHA256: a6d526e4b1d809055d84c0aae230c062b229e781f4215e49c87ffb5b3419006c
+Filename: ./smplayer_22.2.0~ds0-1~bpo11+1_amd64.deb
+Size: 1964500
+MD5sum: 929d99c0991bd2957b0f7cb29473aa77
+SHA1: 30974fe8f36e46088cf1c56bb8d44718eeba3419
+SHA256: a41a29cba3c4459de92c9321b0ed4b6a57e913485ba08b0c331727a23131b38e
 Section: video
 Priority: optional
 Homepage: http://smplayer.sourceforge.net/
@@ -3377,18 +3377,18 @@ Description: Complete front-end for MPlayer and mpv
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 21.10.0~ds0-1~bpo11+1
+Version: 22.2.0~ds0-1~bpo11+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10730
-Depends: smplayer (>= 21.10.0~ds0-1~bpo11+1)
+Installed-Size: 10890
+Depends: smplayer (>= 22.2.0~ds0-1~bpo11+1)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_21.10.0~ds0-1~bpo11+1_all.deb
-Size: 1316852
-MD5sum: 6f4fdec10bda6d07feef93dd5fb5c7d4
-SHA1: 70139b936700bc0d564b9121bfd1f827ee0b5200
-SHA256: 8d02a2197e16710870f74b1d0181a6423d28d287a72b3cf8546fc6aeb794557e
+Filename: ./smplayer-l10n_22.2.0~ds0-1~bpo11+1_all.deb
+Size: 1333196
+MD5sum: d3e009f5b5e6e1b4362554ec9eb87b08
+SHA1: 0d4155bba651a1bb790a641c749caa94aaf8ad37
+SHA256: ac826ed9114b00af8b3f13c2dca8c355b2b70717a7c81de1bc746ad0cafe141b
 Section: localization
 Priority: optional
 Homepage: http://smplayer.sourceforge.net/
@@ -3425,20 +3425,20 @@ Description: YouTube videos browser
  such as mpv, MPlayer, VLC, Totem or Dragon Player.
 
 Package: strawberry
-Version: 1.0.4-bullseye
+Version: 1.0.5-bullseye
 Architecture: amd64
 Maintainer: Jonas Kvinge <jonas@jkvinge.net>
-Installed-Size: 14228
+Installed-Size: 14204
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgnutls30 (>= 3.7.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libmtp9 (>= 1.1.0), libprotobuf23 (>= 3.12.4), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-alsa, gstreamer1.0-pulseaudio
-Filename: ./strawberry_1.0.4-bullseye_amd64.deb
-Size: 5500620
-MD5sum: 76e4c057fbeee60eb6e1d160a57065fa
-SHA1: 8796af2cb9506e0033e36e7bd5f64431713b752d
-SHA256: fb921a2128490d04bd51f6c4f8e282d11b72357ab7500ca9e8e0cc5253524c10
+Filename: ./strawberry_1.0.5-bullseye_amd64.deb
+Size: 5495248
+MD5sum: 2a252accaab53bf171abd8cc43e70ffd
+SHA1: e95c4e2f1d80b74fcbc9ef036c728b8f24273a36
+SHA256: da460ff4c549f8d3a7b4b7050f3312930f62549090487125ed00ddf84b974a2a
 Section: sound
 Priority: optional
 Homepage: http://www.strawberrymusicplayer.org/
-Description: Audio player and music collection organizer
+Description: music player and music collection organizer
  Strawberry is a music player aimed at music collectors and audiophiles.
  .
  Features:
@@ -3446,14 +3446,13 @@ Description: Audio player and music collection organizer
   - Supports WAV, FLAC, WavPack, Ogg Vorbis, Speex, MPC, TrueAudio, AIFF, MP4, MP3 and ASF
   - Audio CD playback
   - Native desktop notifications
-  - Playlist management
-  - Playlists in multiple formats
+  - Playlist management and playlists in multiple formats
+  - Smart and dynamic playlists
   - Advanced audio output and device configuration for bit-perfect playback on Linux
   - Edit tags on audio files
   - Automatically retrieve tags from MusicBrainz
   - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer, Tidal, Qobuz and Spotify
   - Song lyrics from AudD, Genius, Musixmatch, ChartLyrics, lyrics.ovh and lololyrics.com
-  - Support for multiple backends
   - Audio analyzer
   - Audio equalizer
   - Transfer music to mass-storage USB players, MTP compatible devices and iPod Nano/Classic
