@@ -40,17 +40,17 @@ Description: system tray notifications for Thunderbird
  possibly by the time you read these words.
 
 Package: calamares
-Version: 3.2.59-1~bpo11+1
+Version: 3.2.59-2~bpo11+1
 Architecture: amd64
 Maintainer: Jonathan Carter <jcc@debian.org>
 Installed-Size: 10129
-Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.90.0), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.1), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
+Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.95.0-1~np2), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.2), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
 Recommends: btrfs-progs, squashfs-tools
-Filename: ./calamares_3.2.59-1~bpo11+1_amd64.deb
-Size: 3976656
-MD5sum: eccdc966a761d343bacb0f58c4584e62
-SHA1: c2ec4015f8ce51731cacd5f6f55a8fb110ff4607
-SHA256: 24b5f992e3888e2f5d3109cdc02b912239799386bd7a4868c7658791086f18c6
+Filename: ./calamares_3.2.59-2~bpo11+1_amd64.deb
+Size: 3977248
+MD5sum: 26ce3f4a64cfb6022df727d22844ef23
+SHA1: c7f52368e4bcbede3651d75217d82e41a0bdccc7
+SHA256: 72a6c82933cd80261821ff26186c4856df4cab4205d00f782564fe65ff657e81
 Section: utils
 Priority: optional
 Homepage: https://github.com/calamares/calamares
