@@ -122,6 +122,19 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
+Package: devjam-grub-tools
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-grub-tools_1.0-1.deb
+Size: 2532
+MD5sum: 20b5d7def5af7f62b1d8fd66f54b9ccd
+SHA1: 866156aa77b962c9a2c11e392cf9e95722a8a5c3
+SHA256: 08fcb05cfa9d7c0bb7abb078d14324e773b8ae6b10b578154ae6053e70c4ea11
+Section: base
+Priority: optional
+Description: Grub boot items by devjam
+
 Package: devjam-kde-service-menu-collection
 Version: 1.3-1
 Architecture: all
@@ -1136,18 +1149,18 @@ Description: Live System Boot Components (initramfs-tools backend)
  This package contains the initramfs-tools backend.
 
 Package: live-build
-Version: 1:20220509
+Version: 1:20220623
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 1231
+Installed-Size: 1236
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20220509_all.deb
-Size: 407740
-MD5sum: 7f44afc1712505f66841c06fed598c53
-SHA1: fcf3d79c95c3b5a648fbf1653f73a9b27eae84f9
-SHA256: 54f36b658f3f994a49d10cd072081df9661125cafda3f920eac7345b52012392
+Filename: ./live-build_20220623_all.deb
+Size: 409712
+MD5sum: 4d77fdcc34c77af83d662b4a0598590c
+SHA1: 30eea05e36eb11d1a941d2a27f48ab6916611e7c
+SHA256: de19224c3b91f15a1fd8b3ebf290e6a3522b05c1170262f3846fddf453807a33
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
