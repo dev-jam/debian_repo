@@ -189,14 +189,14 @@ Priority: optional
 Description: custom keyring for Debian Bullseye
 
 Package: devjam-liquorix-config
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-liquorix-config_1.0-1_all.deb
-Size: 928
-MD5sum: e993324589f00fb77c8bebda0ed64b5f
-SHA1: 73fdd948561e57d0b7ff553c51cefff4baa94337
-SHA256: a88b2d555a64d6f50b50ef7bbcce6585ef4feda38da4c91017f87e6302895797
+Filename: ./devjam-liquorix-config_1.1-1_all.deb
+Size: 956
+MD5sum: c975187127159e06f009efb0c4b6e302
+SHA1: 1e7a2cbab5ed34c26a021343b4998d80464ebf15
+SHA256: 81b1c6367948ac27a9dbb32a6dcd89a10b2d583f5ecc1ea109e88ef701977b75
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
