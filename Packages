@@ -123,14 +123,14 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-grub-tools
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.0-1.deb
-Size: 2532
-MD5sum: 20b5d7def5af7f62b1d8fd66f54b9ccd
-SHA1: 866156aa77b962c9a2c11e392cf9e95722a8a5c3
-SHA256: 08fcb05cfa9d7c0bb7abb078d14324e773b8ae6b10b578154ae6053e70c4ea11
+Filename: ./devjam-grub-tools_1.1-1_all.deb
+Size: 7505288
+MD5sum: 6d8788c0ffb99733a6274846d2b6f845
+SHA1: c1eea069aa56bf338f7ab2e1a37596117249c4f0
+SHA256: fa2dc022d9462ab2592d4d4debf1ef3f14ca5f63a31a9774daed85fcbb62f103
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
@@ -203,14 +203,14 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.11-1
+Version: 1.12-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.11-1_amd64.deb
-Size: 24667708
-MD5sum: 6ce7a1989a177ac100d64af692afefd0
-SHA1: 3d02518cf375a48254ea95d0f3645f0710e6de35
-SHA256: c41c03f59eec0258c6df619e6ed4faca4c80e6897dfe1a0ff40da97f261511db
+Filename: ./devjam-tools_1.12-1_amd64.deb
+Size: 24667372
+MD5sum: 17a2f36df5a90aa242889de60cdbfe8c
+SHA1: d386f7dc1f01a96ca040aa4645dda3520b1682a7
+SHA256: b12e31322642758488a6868578df1d458f87e49f2eda46c8ddec2e990a77570c
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
