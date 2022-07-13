@@ -135,6 +135,19 @@ Section: base
 Priority: optional
 Description: Grub boot items by devjam
 
+Package: devjam-hooks
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-hooks_1.0-1_all.deb
+Size: 1448
+MD5sum: 701cdc12d30338e45a4b13ade111db8f
+SHA1: 2dfe5fc82a21d12899bc3df70f3ccb120c5815db
+SHA256: c97effe90b1d946d8e478149b0f0007c3ae9916cf73a8d6d4b2715f3759299e4
+Section: base
+Priority: optional
+Description: Grub boot items by devjam
+
 Package: devjam-kde-service-menu-collection
 Version: 1.3-1
 Architecture: all
@@ -161,6 +174,19 @@ SHA256: a1637712c06c4aca5e61660eebf7999c7493650250a4d1825ddd94a514f52b05
 Section: base
 Priority: optional
 Description: custom keyring for Debian Bullseye
+
+Package: devjam-liquorix-config
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-liquorix-config_1.0-1_all.deb
+Size: 928
+MD5sum: e993324589f00fb77c8bebda0ed64b5f
+SHA1: 73fdd948561e57d0b7ff553c51cefff4baa94337
+SHA256: a88b2d555a64d6f50b50ef7bbcce6585ef4feda38da4c91017f87e6302895797
+Section: base
+Priority: optional
+Description: Grub boot items by devjam
 
 Package: devjam-pipewire-scripts
 Version: 1.0-1
