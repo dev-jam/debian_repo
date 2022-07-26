@@ -40,17 +40,17 @@ Description: system tray notifications for Thunderbird
  possibly by the time you read these words.
 
 Package: calamares
-Version: 3.2.59-2~bpo11+1
+Version: 3.2.60-1~bpo11+1
 Architecture: amd64
 Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 10129
-Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.95.0-1~np2), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.2), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
+Installed-Size: 10133
+Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.96.0-1~np2), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.3), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
 Recommends: btrfs-progs, squashfs-tools
-Filename: ./calamares_3.2.59-2~bpo11+1_amd64.deb
-Size: 3977248
-MD5sum: 26ce3f4a64cfb6022df727d22844ef23
-SHA1: c7f52368e4bcbede3651d75217d82e41a0bdccc7
-SHA256: 72a6c82933cd80261821ff26186c4856df4cab4205d00f782564fe65ff657e81
+Filename: ./calamares_3.2.60-1~bpo11+1_amd64.deb
+Size: 4001424
+MD5sum: af71d7c5f2f115bd0078b6290e04f383
+SHA1: 5f652a8125e628df213786317b48c8f81c318892
+SHA256: 47520bd508777d29ffb3eb74842181ab0675288efe44ebb9bd0a2bf596e61d77
 Section: utils
 Priority: optional
 Homepage: https://github.com/calamares/calamares
@@ -316,16 +316,16 @@ Description: GObject introspection files for WirePlumber
 
 Package: glmark2-data
 Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
+Version: 2022.06~git.3f1104d-1~bpo11+1
 Architecture: all
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Installed-Size: 9310
-Recommends: glmark2-drm (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-wayland (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-x11 (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-es2-wayland (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-es2-drm (>= 2021.10~git.e359bb0-2~bpo11+1) | glmark2-es2-x11 (>= 2021.10~git.e359bb0-2~bpo11+1)
-Filename: ./glmark2-data_2021.10~git.e359bb0-2~bpo11+1_all.deb
-Size: 6593368
-MD5sum: c7ad78e7043639e0cc67d78504eb4e90
-SHA1: 20d784a1a04e2221ad74f89e6a13334c5f62461f
-SHA256: addc2a0ea34547b54b64cdd92055b31a88e021a2c5208abb8bf40d9c9fcaabd3
+Recommends: glmark2-drm (>= 2022.06~git.3f1104d-1~bpo11+1) | glmark2-wayland (>= 2022.06~git.3f1104d-1~bpo11+1) | glmark2-x11 (>= 2022.06~git.3f1104d-1~bpo11+1) | glmark2-es2-wayland (>= 2022.06~git.3f1104d-1~bpo11+1) | glmark2-es2-drm (>= 2022.06~git.3f1104d-1~bpo11+1) | glmark2-es2-x11 (>= 2022.06~git.3f1104d-1~bpo11+1)
+Filename: ./glmark2-data_2022.06~git.3f1104d-1~bpo11+1_all.deb
+Size: 6590800
+MD5sum: 7ae809cd0e189e6606b98ab276717d56
+SHA1: 3d57b07eabc41128b069a5cbe9ca9278fad90a5a
+SHA256: f230facaf519a8ceb577eafb9e2c64c66915df9302196a691d5fe11dd386fcfa
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -341,16 +341,16 @@ Description: OpenGL (ES) 2.0 benchmark suite -- data files
 
 Package: glmark2-drm
 Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
+Version: 2022.06~git.3f1104d-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 1026
-Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
-Filename: ./glmark2-drm_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 293884
-MD5sum: d9515dec3f01c95b7599b18454c1bc5b
-SHA1: d6bd0d6e4c4ff78988f091bdd4d5f33025e68c04
-SHA256: e485f455e09284d584da4b86204c67aa4e9c442a61bbaabe9e2045d79ac42a30
+Installed-Size: 1030
+Depends: glmark2-data (= 2022.06~git.3f1104d-1~bpo11+1), libdrm2 (>= 2.4.30), libc6 (>= 2.27), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-drm_2022.06~git.3f1104d-1~bpo11+1_amd64.deb
+Size: 295780
+MD5sum: 018b478806ec72bdd798783263bc4172
+SHA1: 411df45b92240baf78020d012bcc1fdea806e47f
+SHA256: 9c7f84d688b172c30a60c27651068ff07bf445bcef06fa749fb5f3b9defaf54d
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -366,16 +366,16 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-es2-drm
 Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
+Version: 2022.06~git.3f1104d-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Installed-Size: 1010
-Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libdrm2 (>= 2.4.17), libc6 (>= 2.27), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
-Filename: ./glmark2-es2-drm_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 292216
-MD5sum: d0ec96228196110ff75ad59a53e4e250
-SHA1: fe0e638b3bf82e7485a40ed9b1ecb190e1c86141
-SHA256: aef0b9719fbc69321834d696809f36acc809945c2ee5d880ab0f61d482fa72b6
+Installed-Size: 1014
+Depends: glmark2-data (= 2022.06~git.3f1104d-1~bpo11+1), libdrm2 (>= 2.4.30), libc6 (>= 2.27), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-es2-drm_2022.06~git.3f1104d-1~bpo11+1_amd64.deb
+Size: 292852
+MD5sum: cd384410572f69b84deb6e7290c4125c
+SHA1: 8ee9f4b624179e4ba06dab6f136eb29ed6734795
+SHA256: b8ef80e9e6f6abfba6d756bdf098199a8697183b2352948adb4808ce67a11345
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -391,16 +391,16 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-es2-wayland
 Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
+Version: 2022.06~git.3f1104d-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Installed-Size: 1014
-Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
-Filename: ./glmark2-es2-wayland_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 291688
-MD5sum: 20ce85a9a529f414e6bc6736d0f1bd03
-SHA1: 638b9d784fdb663618ba682d1d43462e86176569
-SHA256: 1aa4e94d7cf7d7257086820423c21061cc545be623d22d6c4b1ca407e3c0ec30
+Depends: glmark2-data (= 2022.06~git.3f1104d-1~bpo11+1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-es2-wayland_2022.06~git.3f1104d-1~bpo11+1_amd64.deb
+Size: 293184
+MD5sum: fdd926a8ef3e7ed9a84852dd72a0a0d5
+SHA1: af3cfe690ef2edff28177b452c7d621dc70b7d99
+SHA256: c762c89affe09e99c233e7c9db592182c2b5bdc1cf3ec2a38889a62906b8d085
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -416,18 +416,18 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-es2-x11
 Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
+Version: 2022.06~git.3f1104d-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Installed-Size: 1002
-Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Depends: glmark2-data (= 2022.06~git.3f1104d-1~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
 Replaces: glmark2-es2 (<< 2021.02+ds)
 Provides: glmark2-es2
-Filename: ./glmark2-es2-x11_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 289104
-MD5sum: 89108505d19a1d30fe9685b8ad7cc593
-SHA1: a88d959d5bb47d16fd989e04847850f8250e1c66
-SHA256: 4dbb24e407f0bb2d143e76bd009b8f79ca10a4d2de8b0b2fc3bf8ea4103db5e0
+Filename: ./glmark2-es2-x11_2022.06~git.3f1104d-1~bpo11+1_amd64.deb
+Size: 289804
+MD5sum: c4f613370fc76fdf4ac53955ccca118f
+SHA1: 790a21785b0f395662a8a1b7db1e51d3985e224c
+SHA256: 9b89279bc8ef3dbeba11437f38d147d0e6e9afb0a30d98912e6ebc2e07821840
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -443,16 +443,16 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-wayland
 Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
+Version: 2022.06~git.3f1104d-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Installed-Size: 1026
-Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
-Filename: ./glmark2-wayland_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 294016
-MD5sum: 087e91ca76c7fc7c61b6c79b24137dbc
-SHA1: 44d5e0e9f1a5b751851231d8a89a98ba3f9a177b
-SHA256: 37d5dbebe589f5561d20d1639f42f787ff9c0eebfb651af060bf1cff1481bd45
+Depends: glmark2-data (= 2022.06~git.3f1104d-1~bpo11+1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-wayland_2022.06~git.3f1104d-1~bpo11+1_amd64.deb
+Size: 295156
+MD5sum: ed52a28c52a71d6046604b9da1f9bbe9
+SHA1: 4feee89e984f79781d7e07ae53e151e3d034bb5f
+SHA256: da2a2fe14146dc975f091f8e95d462fa7b4d53e43bc27712e4f7ce8dabdeda8f
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -468,18 +468,18 @@ Description: OpenGL 2.0 benchmark suite
 
 Package: glmark2-x11
 Source: glmark2
-Version: 2021.10~git.e359bb0-2~bpo11+1
+Version: 2022.06~git.3f1104d-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Installed-Size: 1006
-Depends: glmark2-data (= 2021.10~git.e359bb0-2~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Depends: glmark2-data (= 2022.06~git.3f1104d-1~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
 Replaces: glmark2 (<< 2021.02+ds)
 Provides: glmark2
-Filename: ./glmark2-x11_2021.10~git.e359bb0-2~bpo11+1_amd64.deb
-Size: 287728
-MD5sum: a66d798bca609b73aec00bd67836c3a2
-SHA1: 241726f9964f36f3e2d39c2eb4681a2de6469710
-SHA256: 188d43ac9f6d3f91c09abde8d6f3d8c557233182eb8eb4cde2cac8e8dcaa4737
+Filename: ./glmark2-x11_2022.06~git.3f1104d-1~bpo11+1_amd64.deb
+Size: 288492
+MD5sum: 04a2ce89a01585c4d9ce30c20b1b8413
+SHA1: 7267fac04c4dedd66c35abab75ecaac7c230d1d9
+SHA256: 89cb36f3e5a3a6834341e2b25a0aa0ef8fede924132cf8d5c3bb2a27c3518b88
 Section: utils
 Priority: optional
 Homepage: https://github.com/glmark2/glmark2
@@ -1365,17 +1365,17 @@ Description: Language package for pavucontrol-qt
  This package contains the l10n files needed by the pavucontrol-qt.
 
 Package: phoronix-test-suite
-Version: 10.8.3
+Version: 10.8.4
 Architecture: all
 Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
-Installed-Size: 43388
+Installed-Size: 45332
 Depends: php-cli|php5-cli,php5-cli|php-xml
 Recommends: build-essential, php-gd|php5-gd
-Filename: ./phoronix-test-suite_10.8.3_all.deb
-Size: 2230032
-MD5sum: a784b6da4db7407366f60e137f2abfee
-SHA1: 6a23e60df464b65dbfddb278af5bc06de4a947a4
-SHA256: 382cb382314b604f841c49bbd1863d4de27845cb38f4c097ca9ff8ad85fc48ce
+Filename: ./phoronix-test-suite_10.8.4_all.deb
+Size: 2352160
+MD5sum: 9317ce5a8d40406a54d9e17a8df6d10b
+SHA1: ab4b51a2802619cebdf22ae0baec3fe69f52f861
+SHA256: be81f71fc0382a7725dc88f4a18f013d1c3f6939d440629231d392a11816feca
 Section: Utilities
 Priority: optional
 Homepage: http://www.phoronix-test-suite.com/
@@ -1945,16 +1945,16 @@ Description: A python library that can be used to gather all sorts of informatio
 
 Package: python3-glfw
 Source: glfw
-Version: 2.5.3-1
+Version: 2.5.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 163
 Depends: python3:any
-Filename: ./python3-glfw_2.5.3-1_all.deb
-Size: 25060
-MD5sum: c82d76e44b615368941cfbce9834dde7
-SHA1: 66f14d95db182696b249566b62fa3cb4fcfaf0dd
-SHA256: 71a8d93c62ae868769d5cbbf7d41263472e096726a9581ef114c0a6d43042692
+Filename: ./python3-glfw_2.5.4-1_all.deb
+Size: 25068
+MD5sum: 82bae1b1843ce9af1a81b8e999eadfb6
+SHA1: a06aef8e1f485a32aed8d4a21f506ef8106b6291
+SHA256: 4bd96e715afce17645d8dd145b95ece5173eb07865714ac40bc94d4d40c08da5
 Section: python
 Priority: optional
 Homepage: https://github.com/FlorianRhiem/pyGLFW
@@ -2199,16 +2199,16 @@ Description: Status proto mapping for gRPC
 
 Package: python3-imageio
 Source: imageio
-Version: 2.15.0-1
+Version: 2.20.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4399
+Installed-Size: 4519
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.15.0-1_all.deb
-Size: 3151640
-MD5sum: 6afe0d2ac832c4aafb3680a17cd0463a
-SHA1: a49a27c52351043c74d4b564f7b8ce6dd63fd373
-SHA256: 2cf77f32971557a7ee26a73f73543d6b9d3162eb6747d22d2e594b9c54e7dec6
+Filename: ./python3-imageio_2.20.0-1_all.deb
+Size: 3169332
+MD5sum: a61fa94f32ad4f32af3ee3ac200d4e6b
+SHA1: f8f1d17d8a68d835e9ab6652bb7d564e2d391347
+SHA256: e8a76db669a3d574043bea1f9ce118ff68001d9c237d63ab5bf33bd40995906f
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -2262,16 +2262,16 @@ Description: FFMPEG wrapper for Python
 
 Package: python3-javascripthon
 Source: javascripthon
-Version: 0.11-1
+Version: 0.12-1
 Architecture: all
-Maintainer: Alberto Berti <alberto@arstecnica.it>
-Installed-Size: 1751
-Depends: python3-pkg-resources, python3:any
-Filename: ./python3-javascripthon_0.11-1_all.deb
-Size: 323272
-MD5sum: e93f5142094835458c8bc77eec97bf77
-SHA1: f09c443f12fe80165e37a4caff8d47c0f2a08874
-SHA256: 6da0c5ddea211ed9260e6b02ee9491da47d4c30f9a42b3fb6eff9131b9f3b4ac
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1752
+Depends: python3-dukpy, python3-pkg-resources, python3:any
+Filename: ./python3-javascripthon_0.12-1_all.deb
+Size: 323676
+MD5sum: 8ad038f659fedaf9acec29adb9ff3fa0
+SHA1: c71d3d126fa6737465b1e13d3078aec213d5746f
+SHA256: a21072d9de145f271f182b132735d81e71fb5dd2922513e392bbdeb4b25daed2
 Section: python
 Priority: optional
 Homepage: https://github.com/azazel75/metapensiero.pj
@@ -3586,19 +3586,19 @@ License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
 
 Package: virtualbox
-Version: 6.1.34-dfsg-3~bpo11+1
+Version: 6.1.36-dfsg-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 107120
-Depends: adduser, iproute2, procps, virtualbox-dkms (>= 6.1.34-dfsg-3~bpo11+1) | virtualbox-source (>= 6.1.34-dfsg-3~bpo11+1) | virtualbox-modules, python3 (<< 3.10), python3 (>= 3.9~), python3.9, python3:any, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.104, liblzf1 (>= 1.5), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpython3.9 (>= 3.9.1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx6 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), libxt6, zlib1g (>= 1:1.1.4)
-Recommends: virtualbox-qt (= 6.1.34-dfsg-3~bpo11+1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libxcb1, libxext6
+Installed-Size: 107259
+Depends: adduser, iproute2, procps, virtualbox-dkms (>= 6.1.36-dfsg-1~bpo11+1) | virtualbox-source (>= 6.1.36-dfsg-1~bpo11+1) | virtualbox-modules, python3 (<< 3.10), python3 (>= 3.9~), python3.9, python3:any, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.104, liblzf1 (>= 1.5), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpython3.9 (>= 3.9.1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx6 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), libxt6, zlib1g (>= 1:1.1.4)
+Recommends: virtualbox-qt (= 6.1.36-dfsg-1~bpo11+1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libxcb1, libxext6
 Suggests: vde2, virtualbox-guest-additions-iso
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0, virtualbox-6.1
-Filename: ./virtualbox_6.1.34-dfsg-3~bpo11+1_amd64.deb
-Size: 21431748
-MD5sum: a0bffcefb4805537fb86bc85094007b6
-SHA1: e3498f6b2d1dcb3e6a3bc3edbc961a03da92a4f5
-SHA256: d521b1a0ae80cbfcfa88b0055e7b149fa66dad07eb0abb50c4e0d3fd60f49b56
+Filename: ./virtualbox_6.1.36-dfsg-1~bpo11+1_amd64.deb
+Size: 21417548
+MD5sum: affefde62a30d2b8ffe102c1f7d17ea8
+SHA1: 5fcf0141d7d496442ce1c20bf7727138f1e527aa
+SHA256: 18940034f6555169f35fd401c4381bff78ca1a2a60ef007674bd3188f19c5576
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3614,18 +3614,18 @@ Description: x86 virtualization solution - base binaries
 
 Package: virtualbox-dkms
 Source: virtualbox
-Version: 6.1.34-dfsg-3~bpo11+1
+Version: 6.1.36-dfsg-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 5571
+Installed-Size: 5591
 Depends: dkms (>= 2.1.0.0)
-Recommends: virtualbox (>= 6.1.34-dfsg-3~bpo11+1)
+Recommends: virtualbox (>= 6.1.36-dfsg-1~bpo11+1)
 Provides: virtualbox-modules
-Filename: ./virtualbox-dkms_6.1.34-dfsg-3~bpo11+1_amd64.deb
-Size: 728272
-MD5sum: bea10d1f6c5dd1d50579cd47ff34ad6e
-SHA1: 6a4efe4562621fc47fd1063a8d468c4a855dc257
-SHA256: 7d3d932726d106aa831c776af98ae4cd6c10fccf0820a598dce28e9b6472b3d9
+Filename: ./virtualbox-dkms_6.1.36-dfsg-1~bpo11+1_amd64.deb
+Size: 730404
+MD5sum: 04a79b0dd4464ef218bd68bd00ceb54e
+SHA1: 809852b3d614e112e08ad66a0075861fe878a454
+SHA256: 5a5abc4ed7c72071834973aa5ca642f9da8be1e7f4766580aec928034cb1ef02
 Section: contrib/kernel
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3639,17 +3639,17 @@ Description: x86 virtualization solution - kernel module sources for dkms
  module.
 
 Package: virtualbox-ext-pack
-Version: 6.1.34-1~bpo11+1
+Version: 6.1.36-1~bpo11+1
 Architecture: all
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 139
 Pre-Depends: debconf
-Depends: virtualbox (>= 6.1.34-dfsg-0~) | virtualbox-6.1, virtualbox (<< 6.1.34-dfsg-z) | virtualbox-6.1, wget, debconf (>= 0.5) | debconf-2.0
-Filename: ./virtualbox-ext-pack_6.1.34-1~bpo11+1_all.deb
-Size: 13996
-MD5sum: 1426812315306c05dc43626b572bc8df
-SHA1: 533d148e255e4af537c4d5ff89940e33b23bcf4d
-SHA256: 76355eefda8a2629e71b213b3a989f98089f5efcf04ce80e1d50e2927d703e3c
+Depends: virtualbox (>= 6.1.36-dfsg-0~) | virtualbox-6.1, virtualbox (<< 6.1.36-dfsg-z) | virtualbox-6.1, wget, debconf (>= 0.5) | debconf-2.0
+Filename: ./virtualbox-ext-pack_6.1.36-1~bpo11+1_all.deb
+Size: 14016
+MD5sum: 99dd9580fb5d578a07de7678a4e69322
+SHA1: 07636c1ebab32d968558a9e49ca934c6329bdb26
+SHA256: 7ae9f051d9cc70bf5a50c5da7de33f6dfc89cae1c724cc631d2d0616bd534397
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3661,17 +3661,17 @@ Description: extra capabilities for VirtualBox, downloader.
  This package downloads the extension pack from internet during install.
 
 Package: virtualbox-guest-additions-iso
-Version: 6.1.34-1~bpo11+1
+Version: 6.1.36-1~bpo11+1
 Architecture: all
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 60119
-Recommends: virtualbox (>= 6.1.34)
+Installed-Size: 62331
+Recommends: virtualbox (>= 6.1.36)
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
-Filename: ./virtualbox-guest-additions-iso_6.1.34-1~bpo11+1_all.deb
-Size: 45220736
-MD5sum: 3877782d6ca4f464d8fe5d7494da6061
-SHA1: 94d81a284d5daa06e02d559b6ab524faf5979444
-SHA256: 478db252a549d0b6aa66ee389d4e13c979e58e27def750c70fcbf3526149f3fb
+Filename: ./virtualbox-guest-additions-iso_6.1.36-1~bpo11+1_all.deb
+Size: 47272060
+MD5sum: ccc06db0f7ba793ab99f9f8b69db9004
+SHA1: 40b806c819c8bb52f53ec91f0e5296efc187eb53
+SHA256: c33772b857d48ffaed71b8d182379e997ce7726645d12e5813253331c0b9920d
 Section: non-free/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3686,17 +3686,17 @@ Description: guest additions iso image for VirtualBox
 
 Package: virtualbox-guest-utils
 Source: virtualbox
-Version: 6.1.34-dfsg-3~bpo11+1
+Version: 6.1.36-dfsg-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 5846
+Installed-Size: 5951
 Depends: adduser, pciutils, libc6 (>= 2.17), libpam0g (>= 0.99.7.1), zlib1g (>= 1:1.1.4)
-Suggests: virtualbox-guest-x11 (= 6.1.34-dfsg-3~bpo11+1)
-Filename: ./virtualbox-guest-utils_6.1.34-dfsg-3~bpo11+1_amd64.deb
-Size: 925756
-MD5sum: 30a6b6dde6937c849d54ef8ca2234bc3
-SHA1: 5f1a372d0f23a9aaa32e1bfab228402fa05218a3
-SHA256: c59e73ec98de3a0b9a878aa8371e72135cc9ee348a19d7604a5522aee452f2d5
+Suggests: virtualbox-guest-x11 (= 6.1.36-dfsg-1~bpo11+1)
+Filename: ./virtualbox-guest-utils_6.1.36-dfsg-1~bpo11+1_amd64.deb
+Size: 941424
+MD5sum: 6021c5b7b6f5a010ace0730562011205
+SHA1: 98d5da225a76402619503a01d5dae2517bdf0c71
+SHA256: cc46fff4d15cdebf7eba29ac5d11985410aa452b1713628c43a4f0f7b817d910
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3716,17 +3716,17 @@ Description: x86 virtualization solution - non-X11 guest utilities
 
 Package: virtualbox-guest-x11
 Source: virtualbox
-Version: 6.1.34-dfsg-3~bpo11+1
+Version: 6.1.36-dfsg-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 2057
-Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 6.1.34-dfsg-3~bpo11+1), libc6 (>= 2.17), libx11-6 (>= 2:1.4.99.1), libxext6, libxmu6, libxt6, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
+Installed-Size: 2093
+Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 6.1.36-dfsg-1~bpo11+1), libc6 (>= 2.17), libx11-6 (>= 2:1.4.99.1), libxext6, libxmu6, libxt6, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
 Provides: xorg-driver-video
-Filename: ./virtualbox-guest-x11_6.1.34-dfsg-3~bpo11+1_amd64.deb
-Size: 596740
-MD5sum: 63f34f2c961526f55687002f24b3633e
-SHA1: 6f85f5cbe7b62b3775039a8d9e6c035d0fb721f8
-SHA256: 4d8a8249c85b373803296e86dc2de51de81d440c072176045e8240fbb2f8d23e
+Filename: ./virtualbox-guest-x11_6.1.36-dfsg-1~bpo11+1_amd64.deb
+Size: 606340
+MD5sum: 649ce3c1fcf1593dcd2f76e583a0140c
+SHA1: 37ff04a1e1b910ac4b276c4f82669c21ebf8431c
+SHA256: 98753c079841a9ed43c10bfc606e2d2a9572c2dbeda9d13bd98cba44d85f1113
 Section: contrib/x11
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3741,18 +3741,18 @@ Description: x86 virtualization solution - X11 guest utilities
 
 Package: virtualbox-qt
 Source: virtualbox
-Version: 6.1.34-dfsg-3~bpo11+1
+Version: 6.1.36-dfsg-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Installed-Size: 57084
-Depends: virtualbox (= 6.1.34-dfsg-3~bpo11+1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6
+Depends: virtualbox (= 6.1.36-dfsg-1~bpo11+1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6
 Breaks: virtualbox (<< 4.1.6-dfsg-2~)
 Replaces: virtualbox (<< 4.1.6-dfsg-2~)
-Filename: ./virtualbox-qt_6.1.34-dfsg-3~bpo11+1_amd64.deb
-Size: 21523800
-MD5sum: 4de1f01e4629a1c47c08675871cfc4b8
-SHA1: 749e24ac9ce836d7f068e1fa7b15c3536bce56d4
-SHA256: 5d030456cfacbbff79bc277766a3c87d5a3c3cfa74333f486921489f7407a95b
+Filename: ./virtualbox-qt_6.1.36-dfsg-1~bpo11+1_amd64.deb
+Size: 21520992
+MD5sum: adc928b9646387cf64ac4ea884ac54d3
+SHA1: 1f50ea770bce200d276c4032dda273d73ba13abd
+SHA256: 0c157ad559d15b3354e5bd6c2ae1de828dd1943cacd58fa1566915c3f6dd4f92
 Section: contrib/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3765,17 +3765,17 @@ Description: x86 virtualization solution - Qt based user interface
 
 Package: virtualbox-source
 Source: virtualbox
-Version: 6.1.34-dfsg-3~bpo11+1
+Version: 6.1.36-dfsg-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 912
+Installed-Size: 916
 Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
-Recommends: virtualbox (>= 6.1.34-dfsg-3~bpo11+1)
-Filename: ./virtualbox-source_6.1.34-dfsg-3~bpo11+1_amd64.deb
-Size: 865568
-MD5sum: 93fd625e84f41b8f60414864443859ee
-SHA1: ed367848ff62f6c34a4d18fb590dca4448c2deae
-SHA256: 96a589919ee234e8b265a8434a8d6bb3c4d7680b538c89537dce98bfd813994a
+Recommends: virtualbox (>= 6.1.36-dfsg-1~bpo11+1)
+Filename: ./virtualbox-source_6.1.36-dfsg-1~bpo11+1_amd64.deb
+Size: 869344
+MD5sum: ffcafa3144559cb25ad16a60b977c418
+SHA1: 39736537ac9750326c4d3b81a1b2c275869a3a0c
+SHA256: b646ec9cfbab9ec0791f467a593e8933914552821fd4f1f56c47696471701f73
 Section: contrib/kernel
 Priority: optional
 Homepage: https://www.virtualbox.org
