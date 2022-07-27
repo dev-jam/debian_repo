@@ -2706,41 +2706,56 @@ Description: Python Imaging Library (Fork)
                  alt="Documentation Status"
 
 Package: python3-pip
-Source: pip
-Version: 22.1.1-1
+Source: python-pip
+Version: 22.2+dfsg-1~bpo11+1
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 7487
-Depends: python3:any
-Filename: ./python3-pip_22.1.1-1_all.deb
-Size: 1327660
-MD5sum: 0462c5ac2f8d986149ea7d938b27c4c4
-SHA1: 982387fda5294639720df4980b71d9703f918ac9
-SHA256: 6471ef19c9ad19b30e999537a32dd4996eea7fadad681efd80ffe77b9034f5a5
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 6588
+Depends: ca-certificates, python3-distutils, python3-setuptools, python3-wheel, python3:any
+Recommends: build-essential, python3-dev (>= 3.2)
+Breaks: python-pip
+Replaces: python-pip
+Provides: pip
+Filename: ./python3-pip_22.2+dfsg-1~bpo11+1_all.deb
+Size: 1290700
+MD5sum: b6a4bd728ad77e13294ed19252f1ef80
+SHA1: 7fe8322e737fdf7af259f6cce4f36b8484889639
+SHA256: f48a27ea1f728bc37f4e384e73f8c99a5d2d9e7091284000f406612cf60f69cc
 Section: python
 Priority: optional
-Homepage: https://pip.pypa.io/
-Description: The PyPA recommended tool for installing Python packages.
- pip - The Python Package Installer
- ==================================
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
  .
- .. image:: https://img.shields.io/pypi/v/pip.svg
-    :target: https://pypi.org/project/pip/
+ This is the Python 3 version of the package.
+
+Package: python3-pip-whl
+Source: python-pip
+Version: 22.2+dfsg-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1739
+Depends: ca-certificates
+Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
+Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
+Filename: ./python3-pip-whl_22.2+dfsg-1~bpo11+1_all.deb
+Size: 1709512
+MD5sum: 5f75a4478e387262216aa87d76af99c6
+SHA1: 92c0dfc0d78b3acc031ade4bf637779432c0147e
+SHA256: 6ee3ffbf946bc76715cab3186afd1465e5865981045875a412064c3cfd95baf1
+Section: python
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer (pip wheel)
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
  .
- .. image:: https://readthedocs.org/projects/pip/badge/?version=latest
-    :target: https://pip.pypa.io/en/latest
- .
- pip is the `package installer`_ for Python. You can use pip to install packages from the `Python Package Index`_ and other indexes.
- .
- Please take a look at our documentation for how to install and use pip:
- .
- * `Installation`_
- * `Usage`_
- .
- We release updates regularly, with a new version every 3 months. Find more details in our documentation:
- .
- * `Release notes`_
- * `Release process`_
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using pip inside a virtual environment.
 
 Package: python3-pipdeptree
 Source: pipdeptree
