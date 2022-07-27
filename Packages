@@ -1296,17 +1296,17 @@ Description: Notepad++-like editor for Linux
  encodings, plugins and unnamed buffers.
 
 Package: opensesame-toolbox
-Version: 2.7-1
+Version: 2.8-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1263
+Installed-Size: 1255
 Depends: python3 (>= 3.2), python3-pyqt5, python3-pyqt5.qtwebkit, python3-numpy, python3-configobj
 Recommends: opensesame
-Filename: ./opensesame-toolbox_2.7-1_all.deb
-Size: 369480
-MD5sum: b601de17adc834f0a34a4814eaf53b4a
-SHA1: 0c6798ebc09e66f9e50f614f6d60547c9a76df8c
-SHA256: 9d4fd1b0773eec6438a2eeeb01ecf95d85bc25005c8e11e81e9138522e0336e5
+Filename: ./opensesame-toolbox_2.8-1_all.deb
+Size: 358792
+MD5sum: d296f32c6e2c2a142417f36bb989276d
+SHA1: 666e7d19d1ce626755545ee5d774335b3ba45b77
+SHA256: 6b8d871100788044518fb4a2186d68cb56dd9312401de3c57c0ed18a9ff58440
 Section: science
 Priority: extra
 Homepage: https://github.com/dev-jam/opensesame-toolbox
