@@ -142,27 +142,27 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.3-1
+Version: 1.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.3-1_all.deb
-Size: 378640
-MD5sum: c28003555db1cfbf03c4237812d16518
-SHA1: 90d0e802ec58b042b809ee724dd5fb1348331685
-SHA256: a768af7cfad78366486058986ffa83900abed07cb076cb6ed1044347c13f51cb
+Filename: ./devjam-config-tools_1.4-1_all.deb
+Size: 378732
+MD5sum: 3c9217c8c68e60cd5476f8be7297712d
+SHA1: cf1d5afacf1a37555c9fe52a1705b6e2d35c8282
+SHA256: a4fe1719502533224cbac9774ed70b1acfacc363e20397823e21dbdfcb05bc32
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-grub-tools
-Version: 1.2-1
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.2-1_all.deb
-Size: 13958072
-MD5sum: c6f49f7b5af1505c8d99bf6d23843a02
-SHA1: dfd3fce59aed5040302464dea30f5aa53f49157a
-SHA256: 20ae71f8607ff12e1978268c0539dd87d9d3b91eff8251be6365a708fedf2c6f
+Filename: ./devjam-grub-tools_1.3-1_all.deb
+Size: 13957808
+MD5sum: 1c69996d1804cc565892dbc5d118b1a1
+SHA1: 1d241d884c182f57c22d27af33d97649ea1ea178
+SHA256: f83534e691b229f67e1259e88b00da72ae5fe4b025a2f698c20619341c4dc6ab
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
@@ -208,14 +208,14 @@ Priority: optional
 Description: custom keyring for Debian Bullseye
 
 Package: devjam-liquorix-config
-Version: 1.2-1
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-liquorix-config_1.2-1_all.deb
-Size: 948
-MD5sum: bf5fb7d367e848df00e1f470d99db4a8
-SHA1: 7a0c292517bdc3012c192d9e7a10979d06d81dc8
-SHA256: 76c208df0e43df2ea5d96522d3adb13f1408f73b572fd838d79f657439ef09c2
+Filename: ./devjam-liquorix-config_1.3-1_all.deb
+Size: 1044
+MD5sum: 3d354ed3219d9bc3d1c282212f5bf0ad
+SHA1: 8ea05a869f773fde8268c5fbf625e0fe30d52e44
+SHA256: 6f82ab43cec4237aa3c46b6eb8b02ff0799fb2602c6fbd349399150c5a563a60
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
@@ -234,14 +234,14 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.9-1
+Version: 1.10-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science_1.9-1_amd64.deb
-Size: 59996
-MD5sum: 094140c34909e65f1c0c1adcdc8c6438
-SHA1: 069a075f8238ac680c31b097d97015fa772239ab
-SHA256: 30796ba8601c1c20527594b5f72281de994da122792e82903ff5be6afb9f918c
+Filename: ./devjam-science_1.10-1_amd64.deb
+Size: 60084
+MD5sum: 57116d883b72ff4906ab7250825a2caa
+SHA1: 24aa9ba76a3f642afa1a97334ba01850efb1c4f3
+SHA256: 91b2e3a3f970f530915ec7a658b4e3b5817bae5e60d33a37f874a72855a8aba3
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
