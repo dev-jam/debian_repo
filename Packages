@@ -1641,16 +1641,16 @@ Description: program for speech analysis and synthesis
  language and has provisions for communicating with other programs.
 
 Package: psychopy
-Version: 2022.1.4-1
+Version: 2022.2.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 27265
-Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-esprima, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon | python3 (<< 3.5), python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-pocketsphinx, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-python-bidi, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-tobii-research | python3 (>> 3.9), python3-ujson, python3-vlc, python3-websocket, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
-Filename: ./psychopy_2022.1.4-1_all.deb
-Size: 9216400
-MD5sum: 05532ed3271b6da6e306ab007333bac6
-SHA1: 7e5bfbe5fd996789dbeb10c6cf6545eade8f2ee4
-SHA256: 872f52511e11ac00a18f0281f1016041fe54bd926f95bc0ee69176cb90095883
+Installed-Size: 29058
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-esprima, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-python-bidi, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-tobii-research | python3 (>> 3.9), python3-ujson, python3-vlc, python3-websocket, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
+Filename: ./psychopy_2022.2.3-1_all.deb
+Size: 10449528
+MD5sum: 01f28929a6e8f4765731c28a2651315f
+SHA1: ffb651043a8456077bbce34c237b00120c87c2b1
+SHA256: 97472374086e4fada626eff9353c36a33967563d94837c7731ec316213c00185
 Section: python
 Priority: optional
 Homepage: https://www.psychopy.org/
