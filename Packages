@@ -155,14 +155,14 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-grub-tools
-Version: 1.9-1
+Version: 1.11-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.9-1_all.deb
-Size: 13957864
-MD5sum: d4a9133ba27de647cac640ee5757c67f
-SHA1: e8c96c243d48c71f9e1ab64d7ef2d8a481817ba2
-SHA256: 24377aa3b4a92810848e3948b82b6299c4f0ea21ab9947e2edcca2a9ed367af2
+Filename: ./devjam-grub-tools_1.11-1_all.deb
+Size: 13957860
+MD5sum: 11fe64071ca7a859d956535f23d1de81
+SHA1: 5af30e6d1132167e5768100a4947ec6a8cf1ccc7
+SHA256: 977c4b46ea67775cce8ddaea80bc6bb6bf26b73b6858b01f81670dc2bef59f88
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
