@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 33.0.2-8557947
+Version: 33.0.3-8952118
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_33.0.2-8557947_amd64.deb
-Size: 4220376
-MD5sum: 407557a67bf197a1bc55ee82ffea35a1
-SHA1: 410e0ad2f2fa9e8823fbf5d30ca54a26527387bb
-SHA256: 8db16592ae246ac404a1647f2d1241f0417fc66e5ed06bdeb0af656d825b7ac6
+Filename: ./android-tools_33.0.3-8952118_amd64.deb
+Size: 4243624
+MD5sum: fbb2b415314b7d2e32dd8c47177c3c08
+SHA1: f53fee2a488771ef1948b327c6e1ad66d4c2a50a
+SHA256: 56b390c20db21348b11b78f8c46f395941202d5b01c1775ea583551d3546adfa
 Section: base
 Priority: optional
 Description: android tools for Debian
@@ -40,17 +40,17 @@ Description: system tray notifications for Thunderbird
  possibly by the time you read these words.
 
 Package: calamares
-Version: 3.2.60-1~bpo11+1
+Version: 3.2.60-2~bpo11+1
 Architecture: amd64
 Maintainer: Jonathan Carter <jcc@debian.org>
 Installed-Size: 10133
-Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.96.0-1~np2), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.3), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
+Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.96.0), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.08.0), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
 Recommends: btrfs-progs, squashfs-tools
-Filename: ./calamares_3.2.60-1~bpo11+1_amd64.deb
-Size: 4001424
-MD5sum: af71d7c5f2f115bd0078b6290e04f383
-SHA1: 5f652a8125e628df213786317b48c8f81c318892
-SHA256: 47520bd508777d29ffb3eb74842181ab0675288efe44ebb9bd0a2bf596e61d77
+Filename: ./calamares_3.2.60-2~bpo11+1_amd64.deb
+Size: 3999236
+MD5sum: 8e50b5265cfefb5b6a0275f6d192c0f2
+SHA1: a5607bca130ef71d512041ffa09fe7fa76d70d7c
+SHA256: 1397b60b426443c4c89a65ba7d891c43e4603dcd785a87a567eac8afd6013ac0
 Section: utils
 Priority: optional
 Homepage: https://github.com/calamares/calamares
@@ -1616,17 +1616,17 @@ Priority: optional
 Description: plasma-appimage-integration built using CMake
 
 Package: praat
-Version: 6.2.14-1~bpo11+1
+Version: 6.2.17-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 73732
+Installed-Size: 74111
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), oss-compat, python3:any
 Suggests: libasound2-plugins
-Filename: ./praat_6.2.14-1~bpo11+1_amd64.deb
-Size: 15736736
-MD5sum: 10a2d46a7f9bd712e2fde30f9aa0a756
-SHA1: ff3a2f108401de0a8e31958df65f7fd968625b2a
-SHA256: 65fa4a93e738df6e8c8fbcb098d0efd0cc30abed8fa88222b080f335298d917e
+Filename: ./praat_6.2.17-1~bpo11+1_amd64.deb
+Size: 15871544
+MD5sum: f240a751e7fa79244e6193eb924e9f34
+SHA1: a0217b766baec3a33132ec2995fbd7146c9778df
+SHA256: 35bd2cba7f8c4304fd8ae89f1eb088eb3f79d1881e513bd4a297729c1a641ee8
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -1641,16 +1641,16 @@ Description: program for speech analysis and synthesis
  language and has provisions for communicating with other programs.
 
 Package: psychopy
-Version: 2022.2.3-1
+Version: 2022.2.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 29058
-Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-esprima, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-python-bidi, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-tobii-research | python3 (>> 3.9), python3-ujson, python3-vlc, python3-websocket, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
-Filename: ./psychopy_2022.2.3-1_all.deb
-Size: 10449528
-MD5sum: 01f28929a6e8f4765731c28a2651315f
-SHA1: ffb651043a8456077bbce34c237b00120c87c2b1
-SHA256: 97472374086e4fada626eff9353c36a33967563d94837c7731ec316213c00185
+Installed-Size: 28791
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-esprima, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-python-bidi, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-tobii-research | python3 (>> 3.9), python3-ujson, python3-vlc, python3-websocket, python3-wxgtk4.0, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
+Filename: ./psychopy_2022.2.4-1_all.deb
+Size: 10410400
+MD5sum: 65a996c81e73b2febc618d233e658190
+SHA1: 579d046d7de918f6b176b1bf351f84a161ed69d4
+SHA256: db524aaea7b7636bf96dd4e46820023c0a49a72e1462b468d27573a56a470579
 Section: python
 Priority: optional
 Homepage: https://www.psychopy.org/
@@ -1877,6 +1877,23 @@ Description: Simple JavaScript interpreter for Python
  duktape engine **without any external dependency**.
  It comes with a bunch of common transpilers built-in for convenience:
 
+Package: python3-egi-pynetstation
+Source: egi-pynetstation
+Version: 0.0.0rc1-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 69
+Depends: python3-ntplib, python3:any
+Filename: ./python3-egi-pynetstation_0.0.0rc1-1_all.deb
+Size: 12768
+MD5sum: 91e129890fb2dd3b28119ed82aa159f7
+SHA1: 8924b6549f22e91f5c6ad3ae4f71296ae0c7a72a
+SHA256: 1c7c47bc70dd922b1dae389bd0d8a6b7b02b0e235dc71caade630e7efa7fb425
+Section: python
+Priority: optional
+Homepage: https://egi-pynetstation.readthedocs.io/en/latest/
+Description: Magstim-EGI EEG amplifier NetStation API
+
 Package: python3-esprima
 Source: esprima
 Version: 4.0.1-1
@@ -1946,6 +1963,43 @@ Description: Super-fast and clean conversions to numbers.
      :target: https://codecov.io/gh/SethMMorton/fastnumbers
  .
  Super-fast and clean conversions to numbers.
+
+Package: python3-ffpyplayer
+Source: ffpyplayer
+Version: 4.3.5-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1740
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libavcodec58 (>= 7:4.2), libavdevice58 (>= 7:4.0), libavfilter7 (>= 7:4.0), libavformat58 (>= 7:4.2), libavutil56 (>= 7:4.0), libc6 (>= 2.14), libpostproc55 (>= 7:4.0), libsdl2-2.0-0 (>= 2.0.12), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0)
+Filename: ./python3-ffpyplayer_4.3.5-1_amd64.deb
+Size: 401400
+MD5sum: 0a0499c2427a06fed4291710967555c6
+SHA1: 3218e3210ee32315c068bee8f43ce22b711a3ab2
+SHA256: a7ef88b91c6f5e94e2eff91d83292cfb60edc37221c0662e81bb7b397f87aa54
+Section: python
+Priority: optional
+Homepage: https://matham.github.io/ffpyplayer/
+Description: A cython implementation of an ffmpeg based player.
+ FFPyPlayer is a python binding for the FFmpeg library for playing and writing
+ media files.
+ .
+ For more information: https://matham.github.io/ffpyplayer/index.html
+ .
+ To install: https://matham.github.io/ffpyplayer/installation.html
+ .
+ .. image:: https://travis-ci.org/matham/ffpyplayer.svg?branch=master
+     :target: https://travis-ci.org/matham/ffpyplayer
+     :alt: TravisCI status
+ .
+ .. image:: https://ci.appveyor.com/api/projects/status/nfl6tyiwks26ngyu/branch/master?svg=true
+     :target: https://ci.appveyor.com/project/matham/ffpyplayer/branch/master
+     :alt: Appveyor status
+ .
+ .. image:: https://img.shields.io/pypi/pyversions/ffpyplayer.svg
+     :target: https://pypi.python.org/pypi/ffpyplayer/
+     :alt: Supported Python versions
+ .
+ .. image:: https://img.shields.io/pypi/v/ffpyplayer.svg
 
 Package: python3-getdevinfo
 Version: 5:1.1.1~bpo11+1
@@ -3524,44 +3578,6 @@ Description: YouTube videos browser
  to search and download Youtube videos. Although it is part of
  the SMPlayer project, it can be used with any multimedia player
  such as mpv, MPlayer, VLC, Totem or Dragon Player.
-
-Package: strawberry
-Version: 1.0.5-bullseye
-Architecture: amd64
-Maintainer: Jonas Kvinge <jonas@jkvinge.net>
-Installed-Size: 14204
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgnutls30 (>= 3.7.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libmtp9 (>= 1.1.0), libprotobuf23 (>= 3.12.4), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-alsa, gstreamer1.0-pulseaudio
-Filename: ./strawberry_1.0.5-bullseye_amd64.deb
-Size: 5495248
-MD5sum: 2a252accaab53bf171abd8cc43e70ffd
-SHA1: e95c4e2f1d80b74fcbc9ef036c728b8f24273a36
-SHA256: da460ff4c549f8d3a7b4b7050f3312930f62549090487125ed00ddf84b974a2a
-Section: sound
-Priority: optional
-Homepage: http://www.strawberrymusicplayer.org/
-Description: music player and music collection organizer
- Strawberry is a music player aimed at music collectors and audiophiles.
- .
- Features:
-  - Play and organize music
-  - Supports WAV, FLAC, WavPack, Ogg Vorbis, Speex, MPC, TrueAudio, AIFF, MP4, MP3 and ASF
-  - Audio CD playback
-  - Native desktop notifications
-  - Playlist management and playlists in multiple formats
-  - Smart and dynamic playlists
-  - Advanced audio output and device configuration for bit-perfect playback on Linux
-  - Edit tags on audio files
-  - Automatically retrieve tags from MusicBrainz
-  - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer, Tidal, Qobuz and Spotify
-  - Song lyrics from AudD, Genius, Musixmatch, ChartLyrics, lyrics.ovh and lololyrics.com
-  - Audio analyzer
-  - Audio equalizer
-  - Transfer music to mass-storage USB players, MTP compatible devices and iPod Nano/Classic
-  - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
-  - Streaming support for Subsonic-compatible servers
-  - Unofficial streaming support for Tidal and Qobuz
- .
- It is a fork of Clementine. The name is inspired by the band Strawbs.
 
 Package: tobiiproeyetrackermanager
 Version: 2.3.7-1664
