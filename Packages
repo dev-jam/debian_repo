@@ -1616,17 +1616,17 @@ Priority: optional
 Description: plasma-appimage-integration built using CMake
 
 Package: praat
-Version: 6.2.17-1~bpo11+1
+Version: 6.2.22-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 74111
+Installed-Size: 74144
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), oss-compat, python3:any
 Suggests: libasound2-plugins
-Filename: ./praat_6.2.17-1~bpo11+1_amd64.deb
-Size: 15871544
-MD5sum: f240a751e7fa79244e6193eb924e9f34
-SHA1: a0217b766baec3a33132ec2995fbd7146c9778df
-SHA256: 35bd2cba7f8c4304fd8ae89f1eb088eb3f79d1881e513bd4a297729c1a641ee8
+Filename: ./praat_6.2.22-1~bpo11+1_amd64.deb
+Size: 15961036
+MD5sum: 7315f6aad32dd28d11f81473b269f2aa
+SHA1: f0360265d403a57ad6cc3982bc2daf910179d214
+SHA256: 8ae6fb4e280f9e3c63226e105ccf275aba9c53ddb2db59a7f3cd03a6bdb7d496
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
