@@ -1745,16 +1745,16 @@ Description: Status proto mapping for gRPC
 
 Package: python3-imageio
 Source: imageio
-Version: 2.20.0-1
+Version: 2.22.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4519
+Installed-Size: 4525
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.20.0-1_all.deb
-Size: 3169332
-MD5sum: a61fa94f32ad4f32af3ee3ac200d4e6b
-SHA1: f8f1d17d8a68d835e9ab6652bb7d564e2d391347
-SHA256: e8a76db669a3d574043bea1f9ce118ff68001d9c237d63ab5bf33bd40995906f
+Filename: ./python3-imageio_2.22.0-1_all.deb
+Size: 3170704
+MD5sum: 1c8d4346547bea6446a41512f6329778
+SHA1: 13bf52af3545122100652a2fad7629cba0b86c08
+SHA256: 4521dfdeadd7c1d5907583af410b3bfff7bddc26ee57cb165552e75a7c88d18e
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -2197,16 +2197,16 @@ Description: An OpenSesame Plug-in for collecting button responses, audio
 
 Package: python3-pillow
 Source: pillow
-Version: 9.0.0-1
+Version: 9.2.0-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1530
+Installed-Size: 1568
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2.1), libxcb1, zlib1g (>= 1:1.1.4)
-Filename: ./python3-pillow_9.0.0-1_amd64.deb
-Size: 423604
-MD5sum: d29b662c164209eae4e668b49b4432a0
-SHA1: fca029c96fca4f82bd7c9550e10c1530a093d429
-SHA256: 8c41526abc4b396c95a7be70bcca0900a9df4e96c26e5ac3dbf6e784cf11d71f
+Filename: ./python3-pillow_9.2.0-1_amd64.deb
+Size: 431488
+MD5sum: 78f28d5a8c6e77b4650bc4b00d360f76
+SHA1: b4fbc99786409c86ef4771fd91380ba47fba9f9d
+SHA256: 80c517fbb962b5eb9a3294d4e71aadcca4eaed7d8c3868cecd6cfa89bc6a090f
 Section: python
 Priority: optional
 Homepage: https://python-pillow.org
@@ -2233,30 +2233,41 @@ Description: Python Imaging Library (Fork)
                  alt="Documentation Status"
 
 Package: python3-pip
-Source: python-pip
-Version: 22.2+dfsg-1~bpo11+1
+Source: pip
+Version: 22.2.2-1
 Architecture: all
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 6588
-Depends: ca-certificates, python3-distutils, python3-setuptools, python3-wheel, python3:any
-Recommends: build-essential, python3-dev (>= 3.2)
-Breaks: python-pip
-Replaces: python-pip
-Provides: pip
-Filename: ./python3-pip_22.2+dfsg-1~bpo11+1_all.deb
-Size: 1290700
-MD5sum: b6a4bd728ad77e13294ed19252f1ef80
-SHA1: 7fe8322e737fdf7af259f6cce4f36b8484889639
-SHA256: f48a27ea1f728bc37f4e384e73f8c99a5d2d9e7091284000f406612cf60f69cc
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 6983
+Depends: python3:any
+Filename: ./python3-pip_22.2.2-1_all.deb
+Size: 1257720
+MD5sum: a707fc0b122ba8ec6f267c0ca57d1433
+SHA1: e69943af9d4ca2e28349d83e1006c25ecfcd6b58
+SHA256: 822a90041670b4de4ae1eb3d23117df27e7a53da605c01d361766a09afa133f1
 Section: python
 Priority: optional
-Homepage: https://pip.pypa.io/en/stable/
-Description: Python package installer
- pip is the Python package installer.  It integrates with virtualenv, doesn't
- do partial installs, can save package state for replaying, can install from
- non-egg sources, and can install from version control repositories.
+Homepage: https://pip.pypa.io/
+Description: The PyPA recommended tool for installing Python packages.
+ pip - The Python Package Installer
+ ==================================
  .
- This is the Python 3 version of the package.
+ .. image:: https://img.shields.io/pypi/v/pip.svg
+    :target: https://pypi.org/project/pip/
+ .
+ .. image:: https://readthedocs.org/projects/pip/badge/?version=latest
+    :target: https://pip.pypa.io/en/latest
+ .
+ pip is the `package installer`_ for Python. You can use pip to install packages from the `Python Package Index`_ and other indexes.
+ .
+ Please take a look at our documentation for how to install and use pip:
+ .
+ * `Installation`_
+ * `Usage`_
+ .
+ We release updates regularly, with a new version every 3 months. Find more details in our documentation:
+ .
+ * `Release notes`_
+ * `Release process`_
 
 Package: python3-pip-whl
 Source: python-pip
@@ -2761,16 +2772,16 @@ Description: Support package for Radboud University Nijmegen, Faculty of
 
 Package: python3-sounddevice
 Source: sounddevice
-Version: 0.4.4-1
+Version: 0.4.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 139
 Depends: python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any
-Filename: ./python3-sounddevice_0.4.4-1_all.deb
-Size: 28324
-MD5sum: 8e232ec6e9d3b49a882860b29de49e07
-SHA1: cd8261921412a5c91b37f028c67b966cc8571eb2
-SHA256: 49687e510a4046ad5962bbf0ff2484d794f167615b2e745fe47ab361bd5082a2
+Filename: ./python3-sounddevice_0.4.5-1_all.deb
+Size: 28396
+MD5sum: 00a259d37c598f970815ec2235bb40e8
+SHA1: a8ce8c04442ad2024dac5a18a02dd9fc3768e3a6
+SHA256: f9dfd0123a85b296ee59490843e91af826f68f4e2c8cf927e9683c3f9f3d75a8
 Section: python
 Priority: optional
 Homepage: http://python-sounddevice.readthedocs.io/
