@@ -12,16 +12,16 @@ Priority: optional
 Description: android tools for Debian
 
 Package: birdtray
-Version: 1.9.0+ds-2~bpo11+1
+Version: 1.9.0+ds-2+b1~bpo11+1
 Architecture: amd64
 Maintainer: Adam Borowski <kilobyte@angband.pl>
 Installed-Size: 1038
 Depends: thunderbird, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6
-Filename: ./birdtray_1.9.0+ds-2~bpo11+1_amd64.deb
-Size: 341004
-MD5sum: 9ae18ac76063d6b3e1817b0a5557d9b5
-SHA1: d991b5cc099bc7c4b039f0283c8bf4507b85db09
-SHA256: cdd1b10d0bb66e4b539557705a45408b9f6e83630bb6e9aa381651a60d54f2ab
+Filename: ./birdtray_1.9.0+ds-2+b1~bpo11+1_amd64.deb
+Size: 341388
+MD5sum: bc7501a73b32594807872e15b4599514
+SHA1: 85c986e4121049c9cb12203f7fc08bb7b3d44b86
+SHA256: 9946f43a8a0ed46e346ee620441b3ab66dca9840b1ba357ecad89b32b774d09c
 Section: mail
 Priority: optional
 Multi-Arch: foreign
