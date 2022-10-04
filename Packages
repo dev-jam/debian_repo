@@ -1745,16 +1745,16 @@ Description: Status proto mapping for gRPC
 
 Package: python3-imageio
 Source: imageio
-Version: 2.22.0-1
+Version: 2.22.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 4525
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.22.0-1_all.deb
-Size: 3170704
-MD5sum: 1c8d4346547bea6446a41512f6329778
-SHA1: 13bf52af3545122100652a2fad7629cba0b86c08
-SHA256: 4521dfdeadd7c1d5907583af410b3bfff7bddc26ee57cb165552e75a7c88d18e
+Filename: ./python3-imageio_2.22.1-1_all.deb
+Size: 3170568
+MD5sum: 1d0756cb0678d7ad795615e19ecf7182
+SHA1: 39ea3695088f297b330a5f25b371ba43e40a0477
+SHA256: 874edc72c7a68d22ecbd94c170433bd63bdc1d596c781d5f229e9430dc810ab3
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
