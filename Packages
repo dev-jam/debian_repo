@@ -1491,16 +1491,16 @@ Description: A python library that can be used to gather all sorts of informatio
 
 Package: python3-glfw
 Source: glfw
-Version: 2.5.4-1
+Version: 2.5.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 163
+Installed-Size: 164
 Depends: python3:any
-Filename: ./python3-glfw_2.5.4-1_all.deb
-Size: 25068
-MD5sum: 82bae1b1843ce9af1a81b8e999eadfb6
-SHA1: a06aef8e1f485a32aed8d4a21f506ef8106b6291
-SHA256: 4bd96e715afce17645d8dd145b95ece5173eb07865714ac40bc94d4d40c08da5
+Filename: ./python3-glfw_2.5.5-1_all.deb
+Size: 25184
+MD5sum: a21f51d01aba5e99c2b2732cc9a9587d
+SHA1: 07a903b922a36324ac55eafc59db57bdd1205f32
+SHA256: e1151efe0cb52523072bd0e44fa2bc58b539cd03021cb4197af5d444507907d0
 Section: python
 Priority: optional
 Homepage: https://github.com/FlorianRhiem/pyGLFW
@@ -1528,16 +1528,16 @@ Description: A ctypes-based wrapper for GLFW3.
 
 Package: python3-google-api-core
 Source: google-api-core
-Version: 2.8.1-1
+Version: 2.10.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 392
-Depends: python3-google-auth, python3-protobuf, python3-requests, python3:any
-Filename: ./python3-google-api-core_2.8.1-1_all.deb
-Size: 58488
-MD5sum: 2fc225299fc0dfcf0fa9d50a42e7f81e
-SHA1: 23484c4a05c5768d00f4f9cbd11b86e645eb144d
-SHA256: 816566d306d19acb56dd5251fe154e32770b6a4dba0b3ed6e591258b4699dfd1
+Installed-Size: 396
+Depends: python3-google-auth, python3-googleapis-common-protos, python3-protobuf, python3-requests, python3:any
+Filename: ./python3-google-api-core_2.10.1-1_all.deb
+Size: 59140
+MD5sum: c24ccbba4e917b96f05c50bd31213083
+SHA1: 5c8d8745c2c144c16797bf6f28bd1cf7bdb4de0e
+SHA256: d37cabd48d73e81b10dfa1fb22336e5ad1f82ef37066510aea02b300f8464f98
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-api-core
@@ -1560,7 +1560,7 @@ Description: Google API client core library
  .
  Supported Python Versions
  -------------------------
- Python >= 3.6
+ Python >= 3.7
 
 Package: python3-google-auth
 Source: google-auth
@@ -1636,16 +1636,16 @@ Description: API Client library for Google Cloud
 
 Package: python3-google-cloud-speech
 Source: google-cloud-speech
-Version: 2.14.1-1
+Version: 2.16.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 818
-Depends: python3-protobuf, python3:any
-Filename: ./python3-google-cloud-speech_2.14.1-1_all.deb
-Size: 40080
-MD5sum: d306526da6f5d486d341ff756d8ad972
-SHA1: fde9de5a6687fa6c2cd68cee8ce24976f5411734
-SHA256: c20b51e89cf7e764d3857c55788feba552ac3324f5f5b53223dc4dea1e0df640
+Installed-Size: 1373
+Depends: python3-google-api-core, python3-proto-plus, python3-protobuf, python3:any
+Filename: ./python3-google-cloud-speech_2.16.0-1_all.deb
+Size: 57868
+MD5sum: d119534c57b0e68da0816c2db8d8811d
+SHA1: 111f6fd33acd3eb72c3b961976766339552c94fd
+SHA256: 13750ba301720460ede0ddfd89287509d6603ea5ea78a12ac19b79aae95f1a65
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-speech
@@ -1653,36 +1653,35 @@ Description: Google Cloud Speech API client library
  Python Client for Cloud Speech API
  ==================================
  .
+ |stable| |pypi| |versions|
  .
- |GA| |pypi| |versions|
- .
- The `Cloud Speech API`_ enables developers to convert audio to text by applying
- powerful neural network models.  The API recognizes over 80 languages and
- variants, to support your global user base.
+ `Cloud Speech API`_: enables easy integration of Google speech recognition technologies into developer applications. Send audio and receive a text transcription from the Speech-to-Text API service.
  .
  - `Client Library Documentation`_
  - `Product Documentation`_
  .
- .. |GA| image:: https://img.shields.io/badge/support-GA-gold.svg
-    :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#general-availability
+ .. |stable| image:: https://img.shields.io/badge/support-stable-gold.svg
+    :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#stability-levels
  .. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-speech.svg
     :target: https://pypi.org/project/google-cloud-speech/
  .. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-speech.svg
     :target: https://pypi.org/project/google-cloud-speech/
- .. _Cloud Speech API: https://cloud.google.com/speech
+ .. _Cloud Speech API: https://cloud.google.com/speech-to-text/docs/
+ .. _Client Library Documentation: https://cloud.google.com/python/docs/reference/speech/latest
+ .. _Product Documentation:  https://cloud.google.com/speech-to-text/docs/
 
 Package: python3-googleapis-common-protos
 Source: googleapis-common-protos
-Version: 1.56.2-1
+Version: 1.56.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 609
+Installed-Size: 606
 Depends: python3-protobuf, python3:any
-Filename: ./python3-googleapis-common-protos_1.56.2-1_all.deb
-Size: 86548
-MD5sum: 4d961d738d5e109701c367009c528ed3
-SHA1: 01fe5e878ef9ae67503b88242402e22f3bc914be
-SHA256: 77a97b2c9abad10b22cff97b828d91821b5b15d191a4686f191bcc33a989083c
+Filename: ./python3-googleapis-common-protos_1.56.4-1_all.deb
+Size: 86516
+MD5sum: 361e0a6a4e2327f76d61ccc493ad3d4d
+SHA1: edb066a7b99c988c9733d866d4906395b66c9290
+SHA256: 28806e3432dfeb0ebbaab905a1bba8ded49c236df202adeea7ace45db8536c4a
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-api-common-protos
@@ -1969,16 +1968,16 @@ Description: Macros for Python: Quasiquotes, Case Classes, LINQ and more!
 
 Package: python3-markdown-it
 Source: markdown-it-py
-Version: 2.1.0-2~bpo11+1
+Version: 2.1.0-4~bpo11+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 281
 Depends: python3-mdurl, python3-typing-extensions | python3 (>> 3.8), python3:any
-Filename: ./python3-markdown-it_2.1.0-2~bpo11+1_all.deb
-Size: 58544
-MD5sum: 22ba5d4c4ad317bea2980ac050565389
-SHA1: 0bb2757a23ab43adf4e54fb80859b43f654ba56d
-SHA256: f7f3001846dd53792c22dacd88b8b9301c578c4efa8f82245b020d453459421c
+Filename: ./python3-markdown-it_2.1.0-4~bpo11+1_all.deb
+Size: 58740
+MD5sum: cf02bb46b178851280f0ee42b9d12be4
+SHA1: f3f8df7f05423b231ee64489e25b8b72a619323b
+SHA256: 1aa18e310e2b507e8a8d39af8ead83c6343f90b273e07558a36002c818fea2a3
 Section: python
 Priority: optional
 Homepage: https://github.com/executablebooks/markdown-it-py
@@ -1990,16 +1989,16 @@ Description: Python port of markdown-it and some its associated plugins
 
 Package: python3-mdurl
 Source: mdurl
-Version: 0.1.1-1~bpo11+1
+Version: 0.1.1-2~bpo11+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 43
 Depends: python3:any
-Filename: ./python3-mdurl_0.1.1-1~bpo11+1_all.deb
-Size: 9408
-MD5sum: b1a32749195cc660754a063d7ada16ed
-SHA1: 6d24c96474963277686ff8a95721e95f9164619d
-SHA256: 9457896d76febabf714ff49cae2f32aa34bac9550bc9f870cfdf36fdcf703646
+Filename: ./python3-mdurl_0.1.1-2~bpo11+1_all.deb
+Size: 9592
+MD5sum: fa5d91fc16a34bee30dfe2eaf9e5c40b
+SHA1: d6e97c80dc8745f1f0c8c20be469c01e7e5f6188
+SHA256: a5ba36ecad65262e770e900424432e9ff13db0e488d9232ba4bf5c3153c0359c
 Section: python
 Priority: optional
 Homepage: https://github.com/executablebooks/mdurl
@@ -2046,6 +2045,43 @@ Description: Video editing with Python
  concatenations, title insertions, video compositing
  (a.k.a. non-linear editing), video processing, and creation of custom
  effects.
+
+Package: python3-ntplib
+Source: ntplib
+Version: 0.4.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 32
+Depends: python3:any
+Filename: ./python3-ntplib_0.4.0-1_all.deb
+Size: 7588
+MD5sum: 88c9f0be105bc2335c55ebfdd2a7e676
+SHA1: 3f2aed8b80953ff89ab6c1da4d16879a242f9733
+SHA256: b04b040a67949f7998df912f0b112543c932171b1fffe40c9339671a3aa00800
+Section: python
+Priority: optional
+Homepage: https://github.com/cf-natali/ntplib
+Description: Python NTP library
+ .
+ ntplib - Python NTP library
+ ===========================
+ .
+ Description
+ -----------
+ .
+ This module offers a simple interface to query NTP servers from Python.
+ .
+ It also provides utility functions to translate NTP fields values to text (mode,
+ leap indicator...). Since it's pure Python, and only depends on core modules, it
+ should work on any platform with a Python implementation.
+ .
+ Example
+ -------
+ .
+ >>> import ntplib
+ >>> from time import ctime
+ >>> c = ntplib.NTPClient()
+ >>> response = c.request('europe.pool.ntp.org', version=3)
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
@@ -2403,16 +2439,16 @@ Description: Log and progress bar manager for console, notebooks, web...
 
 Package: python3-proto-plus
 Source: proto-plus
-Version: 1.20.5-1
+Version: 1.22.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 139
+Installed-Size: 143
 Depends: python3-protobuf, python3:any
-Filename: ./python3-proto-plus_1.20.5-1_all.deb
-Size: 25312
-MD5sum: e86ca1817a40ccb3c45712610ae2d3d0
-SHA1: 98441fb3ab7164449451c017bf506d2c0f122bb6
-SHA256: 8a63a221884b5d910337af9fe8fcf0894711e294f41129dd314e482574bfdd4e
+Filename: ./python3-proto-plus_1.22.1-1_all.deb
+Size: 25936
+MD5sum: 7c0015b26b5d15425a0d51b32d8e2ccf
+SHA1: 5c83c468f01845ec12a8bc8f874762fffa87e7b2
+SHA256: 23a1413afc990d6a597f35f58c93fb0dd8117bed88dbb33dd6940a2eab406061
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/proto-plus-python.git
@@ -2656,16 +2692,16 @@ Description: Python lib for synching with OpenScienceFramework projects
 
 Package: python3-pyspellchecker
 Source: pyspellchecker
-Version: 0.6.3-1
+Version: 0.7.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2721
+Installed-Size: 2446
 Depends: python3:any
-Filename: ./python3-pyspellchecker_0.6.3-1_all.deb
-Size: 2742512
-MD5sum: e3e3a440a449957a995ea203da34b590
-SHA1: 2bf30de39f4bde0c3496ca141f2cb0c9d68310e9
-SHA256: 6c339c05014821980e9c2f07f8d616e7a24c334cc2ac30396cd430f7c30fff57
+Filename: ./python3-pyspellchecker_0.7.0-1_all.deb
+Size: 2460172
+MD5sum: 04d76be2f9720b95dcca26085b040793
+SHA1: 18fe231db3d27e92ad9b310d663011ac3e0be480
+SHA256: e597470fa2c6fa29cb611068dc460a0a4363ba5a2adf2d6a3871222834964d96
 Section: python
 Priority: optional
 Homepage: https://github.com/barrust/pyspellchecker
@@ -2871,17 +2907,17 @@ Description: The Tobii Pro SDK is a tool for letting you interact easily with yo
 
 Package: python3-vlc
 Source: python-vlc
-Version: 3.0.12118-2~bpo11+1
+Version: 3.0.16120-1~bpo11+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 555
 Depends: python3:any, libvlc5
 Recommends: vlc
-Filename: ./python3-vlc_3.0.12118-2~bpo11+1_all.deb
-Size: 105064
-MD5sum: cccd030310b03e5f79f19aca5b5bc65a
-SHA1: 37a85881ba42872333f08f535ecd8c1c3d4f2f8f
-SHA256: c45c5a605117ac826e914ee27417ab0b14d59818bde8bc967fc51c61e15ef2f0
+Filename: ./python3-vlc_3.0.16120-1~bpo11+1_all.deb
+Size: 105280
+MD5sum: 45c537cf04733d63c47da297332da736
+SHA1: 95b76277ca4c9fef5422e097ac05f4000310d5c2
+SHA256: 29c06a0aaad2a47c0fd4ea71416977c34a5199abb2dd6eea15fcb97f62a8b8a7
 Section: python
 Priority: optional
 Homepage: http://wiki.videolan.org/PythonBinding
@@ -2893,16 +2929,16 @@ Description: VLC Python bindings
 
 Package: python3-websockets
 Source: websockets
-Version: 9.1-1
+Version: 10.3-1
 Architecture: amd64
-Maintainer: Aymeric Augustin <aymeric.augustin@m4x.org>
-Installed-Size: 339
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 379
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4)
-Filename: ./python3-websockets_9.1-1_amd64.deb
-Size: 56332
-MD5sum: 6f97f7c2d33c363d883436e8d511882a
-SHA1: 6472c2c727168fae2d94c235bcf8ed9bd06551e8
-SHA256: c8b7499e1a335d26629b16b5bbfb696fb2460377388443a0118c61ee9bc8c052
+Filename: ./python3-websockets_10.3-1_amd64.deb
+Size: 63260
+MD5sum: 69bbcb8cba052d0d119cca009393a22d
+SHA1: d6c991e5130d8a373d793ea108b4527b845e42e4
+SHA256: 07c06ac6f7be073a77fef965fdf3f80dbfa58718472b575921eac5c168c267ac
 Section: python
 Priority: optional
 Homepage: https://github.com/aaugustin/websockets
@@ -2911,22 +2947,22 @@ Description: An implementation of the WebSocket Protocol (RFC 6455 & 7692
     :width: 480px
     :alt: websockets
  .
- |rtd| |pypi-v| |pypi-pyversions| |pypi-l| |pypi-wheel| |tests|
+ |licence| |version| |pyversions| |wheel| |tests| |docs|
  .
- .. |rtd| image:: https://readthedocs.org/projects/websockets/badge/?version=latest
-    :target: https://websockets.readthedocs.io/
- .
- .. |pypi-v| image:: https://img.shields.io/pypi/v/websockets.svg
+ .. |licence| image:: https://img.shields.io/pypi/l/websockets.svg
      :target: https://pypi.python.org/pypi/websockets
  .
- .. |pypi-pyversions| image:: https://img.shields.io/pypi/pyversions/websockets.svg
+ .. |version| image:: https://img.shields.io/pypi/v/websockets.svg
      :target: https://pypi.python.org/pypi/websockets
  .
- .. |pypi-l| image:: https://img.shields.io/pypi/l/websockets.svg
+ .. |pyversions| image:: https://img.shields.io/pypi/pyversions/websockets.svg
      :target: https://pypi.python.org/pypi/websockets
  .
- .. |pypi-wheel| image:: https://img.shields.io/pypi/wheel/websockets.svg
+ .. |wheel| image:: https://img.shields.io/pypi/wheel/websockets.svg
      :target: https://pypi.python.org/pypi/websockets
+ .
+ .. |tests| image:: https://img.shields.io/github/checks-status/aaugustin/websockets/main
+    :target: https://github.com/aaugustin/websockets/actions/workflows/tests.yml
 
 Package: python3-wheel2deb
 Version: 0:0.5.8-1~w2d0
