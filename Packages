@@ -2098,15 +2098,15 @@ Description: Python NTP library
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
-Version: 8.5.0-1
+Version: 8.6.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 349
-Filename: ./python3-opensesame-plugin-audio-low-latency_8.5.0-1_all.deb
-Size: 70088
-MD5sum: 2c90106ec4275db5979af581c6790af5
-SHA1: 812d8d2806cec2177b73e8c5bb779d31ff035af5
-SHA256: 82f3e1b3ea46a355605c2bee6c75c342b50ea76838dac81f0a82de17c4f6e82d
+Installed-Size: 353
+Filename: ./python3-opensesame-plugin-audio-low-latency_8.6.0-1_all.deb
+Size: 70476
+MD5sum: 2ccfe8a624bff0d18b96d164e5c4a536
+SHA1: b3d5e8cfecc86c102f4cd42d72cfa6bcfac7c5a4
+SHA256: 26bf07a6d6a835e76dfe46ef893915bb04117cb0ef7d343c0ca25f129cbc4040
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
