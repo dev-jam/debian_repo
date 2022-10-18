@@ -1162,6 +1162,32 @@ Description: Psychology experiment software in Python
  .
  * [PsychoPy Homepage](https://www.psychopy.org)
 
+Package: python-pil-doc
+Source: pillow
+Version: 9.2.0-1~bpo11+1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 7662
+Depends: libjs-sphinxdoc (>= 2.4.3-5~)
+Suggests: python3-doc, python3-pil, python3-pil.imagetk
+Filename: ./python-pil-doc_9.2.0-1~bpo11+1_all.deb
+Size: 736516
+MD5sum: 0918a051f6f9d4766f2457f0faf59559
+SHA1: 8da1b3758088928cdef96d154fd82b5d97a6e612
+SHA256: 08b8dc614d59433f2324e036dd0f6639b43c5b641538d3dacee049b94b138d74
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://python-pillow.github.io/
+Description: Examples for the Python Imaging Library
+ The Python Imaging Library (PIL) adds an image object to your
+ Python interpreter. You can load image objects from a variety of file
+ formats, and apply a rich set of image operations to them.
+ .
+ This package contains PIL API documentation and some example scripts.
+ You may also want to look at the python-pil-doc-html or
+ python-pil-doc-pdf packages for the PIL handbook documentation.
+
 Package: python3-arabic-reshaper
 Source: arabic-reshaper
 Version: 2.1.4-1
@@ -1757,16 +1783,16 @@ Description: Status proto mapping for gRPC
 
 Package: python3-imageio
 Source: imageio
-Version: 2.22.1-1
+Version: 2.22.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4525
+Installed-Size: 4526
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.22.1-1_all.deb
-Size: 3170568
-MD5sum: 1d0756cb0678d7ad795615e19ecf7182
-SHA1: 39ea3695088f297b330a5f25b371ba43e40a0477
-SHA256: 874edc72c7a68d22ecbd94c170433bd63bdc1d596c781d5f229e9430dc810ab3
+Filename: ./python3-imageio_2.22.2-1_all.deb
+Size: 3170852
+MD5sum: 7b5543177e93e3eff8e601bab6eb801f
+SHA1: d37fd10f60279c938b2ea62f6a2ecc68417f99df
+SHA256: 63a4627c96e797e1a8da48259cefc6d43977b24ce85d0487230c838cf0fd0432
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -2243,6 +2269,73 @@ Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
 Description: An OpenSesame Plug-in for collecting button responses, audio
+
+Package: python3-pil
+Source: pillow
+Version: 9.2.0-1~bpo11+1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1691
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, mime-support | python3-pil.imagetk, libc6 (>= 2.14), libfreetype6 (>= 2.10.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.7), libopenjp2-7 (>= 2.0.0), libraqm0 (>= 0.7.0), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2.1), libxcb1, zlib1g (>= 1:1.1.4)
+Recommends: python3-olefile
+Suggests: python-pil-doc
+Conflicts: python3-imaging (<< 1.1.7+2.0.0-1.1)
+Breaks: python3-imaging (<< 1.1.7+2.0.0-1.1)
+Replaces: python3-imaging (<< 1.1.7+2.0.0-1.1)
+Provides: python3-pillow
+Filename: ./python3-pil_9.2.0-1~bpo11+1_amd64.deb
+Size: 468436
+MD5sum: 826d2055527a86189f4b565ecdbd8402
+SHA1: e66ef1df8d22f9f9cc5ca8b692093ba22080d448
+SHA256: 0ae1fd9272c421f796ab8a6fca3386495a99b09d6b60db8d3f71f22eee171fca
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: http://python-pillow.github.io/
+Description: Python Imaging Library (Python3)
+ The Python Imaging Library (PIL) adds an image object to your Python
+ interpreter. You can load images from a variety of file formats, and
+ apply a rich set of image operations to them.
+ .
+ Image Objects:
+  o Bilevel, greyscale, palette, true colour (RGB), true colour with
+    transparency (RGBA).
+  o colour separation (CMYK).
+  o Copy, cut, paste operations.
+  o Flip, transpose, resize, rotate, and arbitrary affine transforms.
+  o Transparency operations.
+  o Channel and point operations.
+  o Colour transforms, including matrix operations.
+  o Image enhancement, including convolution filters.
+ .
+ File Formats:
+  o Full (Open/Load/Save): BMP, EPS (with ghostscript), GIF, IM, JPEG,
+    MSP, PDF, PNG, PPM, TIFF, XBM.
+  o Read only (Open/Load): ARG, CUR, DCX, FLI, FPX, GBR, GD, ICO, IMT, IPTC,
+    MCIDAS, MPEG, PhotoCD, PCX, PIXAR, PSD, TGA, SGI, SUN, TGA, WMF, XPM.
+  o Save only: PDF, EPS (without ghostscript).
+
+Package: python3-pil.imagetk
+Source: pillow
+Version: 9.2.0-1~bpo11+1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 107
+Depends: python3-pil (= 9.2.0-1~bpo11+1), python3-tk (>= 3.4.1-2), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4)
+Suggests: python-pil-doc
+Breaks: python3-imaging-tk (<< 1.1.7+2.0.0-1.1)
+Replaces: python3-imaging-tk (<< 1.1.7+2.0.0-1.1)
+Filename: ./python3-pil.imagetk_9.2.0-1~bpo11+1_amd64.deb
+Size: 78900
+MD5sum: 27b1559b55fba086481fe3ddc7b4cc69
+SHA1: e3567f5947b670a6d1a1671049e3ba727f182ef3
+SHA256: cd970c8ca7cfd77f7ba450a509d39387faf904ecd6cc8e85fd685ddf55955b1d
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: http://python-pillow.github.io/
+Description: Python Imaging Library - ImageTk Module (Python3)
+ Tk dependent python-pil module.
 
 Package: python3-pillow
 Source: pillow
