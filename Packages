@@ -2124,19 +2124,20 @@ Description: Python NTP library
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
-Version: 8.6.0-1
+Version: 8.7.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 353
-Filename: ./python3-opensesame-plugin-audio-low-latency_8.6.0-1_all.deb
-Size: 70476
-MD5sum: 2ccfe8a624bff0d18b96d164e5c4a536
-SHA1: b3d5e8cfecc86c102f4cd42d72cfa6bcfac7c5a4
-SHA256: 26bf07a6d6a835e76dfe46ef893915bb04117cb0ef7d343c0ca25f129cbc4040
+Installed-Size: 362
+Depends: python3-numpy, python3-pygame, python3-opensesame
+Filename: ./python3-opensesame-plugin-audio-low-latency_8.7.0-1_all.deb
+Size: 72020
+MD5sum: 6555ceaebeb5a6b3d06ce6d27e4a9954
+SHA1: 9c5820a34b57d76b7cc577f7898052722dfc1e07
+SHA256: 79d4bd0a06562289804df8013f7c7caf6e62cbf4a6bc926f57f55929ed776664
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
-Description: An OpenSesame Plug-in for playing and recording audio files
+Description: An OpenSesame Plug-in for playing and recording audio files with low latency on Linux.
 
 Package: python3-opensesame-plugin-broadcast-screen
 Source: opensesame-plugin-broadcast-screen
