@@ -942,16 +942,16 @@ Description: GUI to clone and manage Live-Build USB sticks
  thus featuring seamless auto-cloning.
 
 Package: memtest86+
-Version: 6.00-2
+Version: 6.00-3~bpo11+1
 Architecture: amd64
 Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
 Installed-Size: 12674
 Suggests: grub-pc | grub-legacy, memtest86, memtester, mtools
-Filename: ./memtest86+_6.00-2_amd64.deb
-Size: 125900
-MD5sum: eab43c2a5ce888227af9f75b6956a68d
-SHA1: 15ffac55dcdb1fb8e91af2c93d15936323f35f8d
-SHA256: 534e7355164719ce232c118d08b720204deb32eb8ae3e18608a872bfd6986066
+Filename: ./memtest86+_6.00-3~bpo11+1_amd64.deb
+Size: 126432
+MD5sum: b633b413d33a4a722033e7b393098bef
+SHA1: e018043dd3e8378e44b42f06684b9b533c9b3070
+SHA256: e891da93d082c5702a228d9e7d5647abfc6eac5da84c23f0caf051509728abe9
 Section: misc
 Priority: optional
 Homepage: https://www.memtest.org/
