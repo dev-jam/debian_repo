@@ -3253,93 +3253,18 @@ Description: Free software to help manage your screen-based eye tracker.
 License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
 
-Package: virtualbox
-Version: 6.1.38-dfsg-3~bpo11+1
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 107218
-Depends: adduser, iproute2, procps, virtualbox-dkms (>= 6.1.38-dfsg-3~bpo11+1) | virtualbox-source (>= 6.1.38-dfsg-3~bpo11+1) | virtualbox-modules, python3 (<< 3.10), python3 (>= 3.9~), python3.9, python3:any, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.104, liblzf1 (>= 1.5), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpython3.9 (>= 3.9.1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx6 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), libxt6, zlib1g (>= 1:1.1.4)
-Recommends: virtualbox-qt (= 6.1.38-dfsg-3~bpo11+1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libxcb1, libxext6
-Suggests: vde2, virtualbox-guest-additions-iso
-Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0, virtualbox-6.1
-Filename: ./virtualbox_6.1.38-dfsg-3~bpo11+1_amd64.deb
-Size: 21382692
-MD5sum: 74b721a218d18a5b10e9bcdff5ff38ff
-SHA1: b3210edb6d4f79b10912a3ace909fcf536003505
-SHA256: cb29a36e734827e808117ec7eb336219b698f4cf80e6411e35988052cf8fd47f
-Section: contrib/misc
-Priority: optional
-Homepage: https://www.virtualbox.org
-Description: x86 virtualization solution - base binaries
- VirtualBox is a free x86 virtualization solution allowing a wide range
- of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
- Linux system.
- .
- This package provides the binaries for VirtualBox. Either the virtualbox-dkms
- or the virtualbox-source package is also required in order to compile the
- kernel modules needed for virtualbox. A graphical user interface for
- VirtualBox is provided by the package virtualbox-qt.
-
-Package: virtualbox-dkms
-Source: virtualbox
-Version: 6.1.38-dfsg-3~bpo11+1
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 5591
-Depends: dkms (>= 2.1.0.0)
-Recommends: virtualbox (>= 6.1.38-dfsg-3~bpo11+1)
-Provides: virtualbox-modules
-Filename: ./virtualbox-dkms_6.1.38-dfsg-3~bpo11+1_amd64.deb
-Size: 730424
-MD5sum: 284cdfae8139a6b08e708e1d85dec0f6
-SHA1: cc39c96bb8927dbfd6efb84e8d3286f7d8b3a84e
-SHA256: 5bf1d1cc626c5b202d130c46d537da4a7d4de919c97f91262fadbd4a78b432e8
-Section: contrib/kernel
-Priority: optional
-Homepage: https://www.virtualbox.org
-Description: x86 virtualization solution - kernel module sources for dkms
- VirtualBox is a free x86 virtualization solution allowing a wide range
- of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
- Linux system.
- .
- This package provides the source code for the virtualbox kernel module to be
- build with dkms. Kernel sources or headers are required to compile this
- module.
-
-Package: virtualbox-ext-pack
-Version: 6.1.38-1~bpo11+1
-Architecture: all
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 139
-Pre-Depends: debconf
-Depends: virtualbox (>= 6.1.38-dfsg-0~) | virtualbox-6.1, virtualbox (<< 6.1.38-dfsg-z) | virtualbox-6.1, wget, debconf (>= 0.5) | debconf-2.0
-Filename: ./virtualbox-ext-pack_6.1.38-1~bpo11+1_all.deb
-Size: 14036
-MD5sum: d95e5cf4e04e99a665a3c59a50fa6bdf
-SHA1: 7f5358b06cd8250d0512d517c483dda472e558b6
-SHA256: 368f0ccb1cb53d24783e91859bb52fe9bbced57481f1b1b8db4c91d56a3dc032
-Section: contrib/misc
-Priority: optional
-Homepage: https://www.virtualbox.org
-Description: extra capabilities for VirtualBox, downloader.
- VirtualBox requires an extension pack to provide support for Remote
- Desktop Protocol, USB 2.0, PXE booting for Intel network cards, etc.
- This PUEL-licensed extension pack is free for personal use.
- .
- This package downloads the extension pack from internet during install.
-
 Package: virtualbox-guest-additions-iso
-Version: 6.1.38-1~bpo11+1
+Version: 6.1.40-1~bpo11+1
 Architecture: all
 Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 62413
-Recommends: virtualbox (>= 6.1.38)
+Installed-Size: 62409
+Recommends: virtualbox (>= 6.1.40)
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
-Filename: ./virtualbox-guest-additions-iso_6.1.38-1~bpo11+1_all.deb
-Size: 47388108
-MD5sum: db5de9398cd143f2535518969039f811
-SHA1: 2cbbad30f5bc8cfed8e5eabf6270f6cfd3fd5100
-SHA256: 79ea989a62707009c69a55e225798131fb78b08aa31c0f8c5c6a2126d2517fdb
+Filename: ./virtualbox-guest-additions-iso_6.1.40-1~bpo11+1_all.deb
+Size: 47352876
+MD5sum: a0c8bc85e1f0c6d74f9ec5a14d4b0be0
+SHA1: 5e00869a0d7802915dfd45bf953c50d532b58da0
+SHA256: ff9943091da43d8f535ded258d98b0661da059109031806df2e096bb0eab5e1e
 Section: non-free/misc
 Priority: optional
 Homepage: https://www.virtualbox.org
@@ -3351,110 +3276,6 @@ Description: guest additions iso image for VirtualBox
  This package provides an iso image which contains the guest additions
  for Linux, Solaris and Windows to be installed on the host system. The guest
  systems then can mount the iso and install the guest additions from there.
-
-Package: virtualbox-guest-utils
-Source: virtualbox
-Version: 6.1.38-dfsg-3~bpo11+1
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 5951
-Depends: adduser, pciutils, libc6 (>= 2.17), libpam0g (>= 0.99.7.1), zlib1g (>= 1:1.1.4)
-Suggests: virtualbox-guest-x11 (= 6.1.38-dfsg-3~bpo11+1)
-Filename: ./virtualbox-guest-utils_6.1.38-dfsg-3~bpo11+1_amd64.deb
-Size: 942476
-MD5sum: 45d26a1ebcb339731511a12630d7559d
-SHA1: 52bd17cf29a17cda56692bc473a235fe7ae71b45
-SHA256: 12e9b59cd7486aea9b51ead2314402f4821e4a103b991fdfffe52cf1a6d7d987
-Section: contrib/misc
-Priority: optional
-Homepage: https://www.virtualbox.org
-Description: x86 virtualization solution - non-X11 guest utilities
- VirtualBox is a free x86 virtualization solution allowing a wide range
- of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
- Linux system.
- .
- This package provides the non-X11 guest utilities for VirtualBox. These
- utilities are meant to be run inside the virtual machine.
- They provide closer integration and allow to share data through shared folders
- between the host system and the virtual machine.
-
-Package: virtualbox-guest-x11
-Source: virtualbox
-Version: 6.1.38-dfsg-3~bpo11+1
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 2093
-Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 6.1.38-dfsg-3~bpo11+1), libc6 (>= 2.17), libx11-6 (>= 2:1.4.99.1), libxext6, libxmu6, libxt6, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
-Provides: xorg-driver-video
-Filename: ./virtualbox-guest-x11_6.1.38-dfsg-3~bpo11+1_amd64.deb
-Size: 606748
-MD5sum: db2409f0aabfd9d8037ec8c4db407774
-SHA1: 86c8bd59eebb0292624241a0b03a207500caf164
-SHA256: 4cdf4a995247088dbc514f4c6064de99c44a2ff775e3ba04c161bcde6ce6c24a
-Section: contrib/x11
-Priority: optional
-Homepage: https://www.virtualbox.org
-Description: x86 virtualization solution - X11 guest utilities
- VirtualBox is a free x86 virtualization solution allowing a wide range
- of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
- Linux system.
- .
- This package provides the X11 guest utilities for VirtualBox. These utilities
- are meant to be run inside the virtual machine.
- They provide closer integration and improve the interactive performance.
-
-Package: virtualbox-qt
-Source: virtualbox
-Version: 6.1.38-dfsg-3~bpo11+1
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 57757
-Depends: virtualbox (= 6.1.38-dfsg-3~bpo11+1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6
-Breaks: virtualbox (<< 4.1.6-dfsg-2~)
-Replaces: virtualbox (<< 4.1.6-dfsg-2~)
-Filename: ./virtualbox-qt_6.1.38-dfsg-3~bpo11+1_amd64.deb
-Size: 21602024
-MD5sum: 0ca06a719d710424d393953065053382
-SHA1: 6b5262cd1de6b8cd68446088c476a3d470c0022d
-SHA256: 5c90c5a59691f1c8884da4234dd856b531c4fc7687f08c6ee5fe24cbe01438e9
-Section: contrib/misc
-Priority: optional
-Homepage: https://www.virtualbox.org
-Description: x86 virtualization solution - Qt based user interface
- VirtualBox is a free x86 virtualization solution allowing a wide range
- of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
- Linux system.
- .
- This package provides the Qt based graphical user interface for VirtualBox.
-
-Package: virtualbox-source
-Source: virtualbox
-Version: 6.1.38-dfsg-3~bpo11+1
-Architecture: amd64
-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
-Installed-Size: 912
-Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
-Recommends: virtualbox (>= 6.1.38-dfsg-3~bpo11+1)
-Filename: ./virtualbox-source_6.1.38-dfsg-3~bpo11+1_amd64.deb
-Size: 866148
-MD5sum: 9220b40797f7f72be701c58c4a9ef289
-SHA1: 373f13896420475b8e8f3f4ebc24d87737567a80
-SHA256: ef3a88ee2ada425d047fddcb92a03a49d58fbf549106816c4a2ecdde9c04c868
-Section: contrib/kernel
-Priority: optional
-Homepage: https://www.virtualbox.org
-Description: x86 virtualization solution - kernel module source
- VirtualBox is a free x86 virtualization solution allowing a wide range
- of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
- Linux system.
- .
- This package provides the source code for the virtualbox kernel module.
- The virtualbox package is also required in order to make use of these
- modules. Kernel sources or headers are required to compile this module.
- .
- The source is placed under /usr/src, and after decompression it can
- be built to produce a virtualbox-modules-_KVERS_ providing
- "virtualbox-modules" package.
 
 Package: woeusb-ng
 Version: 0.2.7-1
