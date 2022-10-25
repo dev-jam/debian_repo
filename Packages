@@ -941,6 +941,37 @@ Description: GUI to clone and manage Live-Build USB sticks
  The application detects when it is run from a Debian-Live environment,
  thus featuring seamless auto-cloning.
 
+Package: memtest86+
+Version: 6.00-1
+Architecture: amd64
+Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
+Installed-Size: 12674
+Suggests: grub-pc | grub-legacy, memtest86, memtester, mtools
+Filename: ./memtest86+_6.00-1_amd64.deb
+Size: 126108
+MD5sum: af539225f2500ec2a2e422b6817c86f7
+SHA1: 79f09a9a0729807f38068f067dec3074b10f1afb
+SHA256: f69b03b6071661f5e139554960a7c6bef44b95df5533a37a0bb92c735513e80f
+Section: misc
+Priority: optional
+Homepage: https://www.memtest.org/
+Description: thorough real-mode memory tester
+ Memtest86+ scans your RAM for errors.
+ .
+ This tester runs independently of any OS - it is run at computer
+ boot-up, so that it can test *all* of your memory.  You may want to
+ look at `memtester', which allows to test your memory within Linux,
+ but this one won't be able to test your whole RAM.
+ .
+ It can output a list of bad RAM regions usable by the BadRAM kernel
+ patch, so that you can still use your old RAM with one or two bad bits.
+ .
+ Memtest86+ is based on memtest86 3.0, and adds support for recent
+ hardware, as well as a number of general-purpose improvements,
+ including many patches to memtest86 available from various sources.
+ .
+ Both memtest86 and memtest86+ are being worked on in parallel.
+
 Package: nordvpn-release
 Version: 1.0.0
 Architecture: all
