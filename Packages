@@ -891,18 +891,18 @@ Description: Live System Boot Components (initramfs-tools backend)
  This package contains the initramfs-tools backend.
 
 Package: live-build
-Version: 1:20220814
+Version: 1:20221025
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 1236
+Installed-Size: 1235
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20220814_all.deb
-Size: 408620
-MD5sum: 303340893a84a0c3d7acde65625781ac
-SHA1: 3b65f4510108718b6e16cb38452ab3f04f1b94ca
-SHA256: d122f1f5efc6a04b25ee810039f6a930e2a1324fc39b1a2ef2f09f361624117e
+Filename: ./live-build_20221025_all.deb
+Size: 407376
+MD5sum: 304fa46f527f21c80715702443af8e09
+SHA1: ea34f98c88ff8f9f4e65c500814b50c90d3973dc
+SHA256: c069c75b30ef799a0f2a95fa027f5a154816afeba7c8ee11b07590c4bff9bda6
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
@@ -942,16 +942,16 @@ Description: GUI to clone and manage Live-Build USB sticks
  thus featuring seamless auto-cloning.
 
 Package: memtest86+
-Version: 6.00-3~bpo11+1
+Version: 6.00-4~bpo11+1
 Architecture: amd64
 Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
 Installed-Size: 12674
-Suggests: grub-pc | grub-legacy, memtest86, memtester, mtools
-Filename: ./memtest86+_6.00-3~bpo11+1_amd64.deb
-Size: 126432
-MD5sum: b633b413d33a4a722033e7b393098bef
-SHA1: e018043dd3e8378e44b42f06684b9b533c9b3070
-SHA256: e891da93d082c5702a228d9e7d5647abfc6eac5da84c23f0caf051509728abe9
+Suggests: grub-pc | grub-legacy, memtester, mtools
+Filename: ./memtest86+_6.00-4~bpo11+1_amd64.deb
+Size: 125764
+MD5sum: 22e4b3df8c9aa7371264c1b58b733de5
+SHA1: bc2b8e2042a3fa903f6f8c3ba61c92037058b805
+SHA256: 5eaa909b466b7ca28d343f1dd1a1481f1fa29f9d76a446b48bf6e31ef4ce7568
 Section: misc
 Priority: optional
 Homepage: https://www.memtest.org/
