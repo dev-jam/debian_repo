@@ -168,14 +168,14 @@ Priority: optional
 Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
-Version: 1.14-1
+Version: 1.15-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.14-1_all.deb
-Size: 15030312
-MD5sum: 687043f7a3462f90b38a29cdbe7079f2
-SHA1: 7c91bcce191d6efef29a75d029b8ed022ce1dae8
-SHA256: 82223a441ee0f96a2098c8beb11c6a9093f5b090636325a30efeb0b256a74c4a
+Filename: ./devjam-grub-tools_1.15-1_all.deb
+Size: 13218992
+MD5sum: 2d3ca123fb8007d75f05bda1a546a68e
+SHA1: 61fca69b5c15a1515049fd1c39ab4abefc05176e
+SHA256: ad0a3236af2e12a3797dcf4d8cb6321162dc4eeacbdf7678f9b9c89f6b7e7d67
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
@@ -891,18 +891,18 @@ Description: Live System Boot Components (initramfs-tools backend)
  This package contains the initramfs-tools backend.
 
 Package: live-build
-Version: 1:20221025
+Version: 1:20221027
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
 Installed-Size: 1235
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20221025_all.deb
-Size: 407376
-MD5sum: 304fa46f527f21c80715702443af8e09
-SHA1: ea34f98c88ff8f9f4e65c500814b50c90d3973dc
-SHA256: c069c75b30ef799a0f2a95fa027f5a154816afeba7c8ee11b07590c4bff9bda6
+Filename: ./live-build_20221027_all.deb
+Size: 409568
+MD5sum: fe8392809e24ee9564c39fd4623fc6d9
+SHA1: 80f62ce4a48aeb98e8b5b52688bb7e010530b3b7
+SHA256: 9e602b3c332932999e8c56b31355d5da0c1f9ead96072ee00f99d886a8e58386
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
