@@ -323,6 +323,25 @@ Description: Utility tools for Free implementation of aptX
  .
  This package contains utility tools such as freeaptxdec and freeaptxenc.
 
+Package: fsearch
+Version: 0.2.2-1+3.2
+Architecture: amd64
+Maintainer: Christian Boxdörfer <cboxdoerfer@posteo.de>
+Installed-Size: 1091
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.59.2), libgtk-3-0 (>= 3.21.5), libicu67 (>= 67.1-1~), libpango-1.0-0 (>= 1.14.0), libpcre2-8-0 (>= 10.22)
+Filename: ./fsearch_0.2.2-1+3.2_amd64.deb
+Size: 232876
+MD5sum: 5bea0ab4e4dfe9eee6a12c0fee38aee0
+SHA1: a059287ea035f80fc8e61c8dc19102034c358c28
+SHA256: 6c9eaa57fe0d8375d762298cce4109251b91b61cc78696e48d66983d8f49067f
+Section: utils
+Priority: optional
+Homepage: https://cboxdoerfer.github.io/fsearch/
+Description: A fast graphical file search utility
+ FSearch is a fast file search utility, based on GTK3.
+ It supports regular expressions, wildcards, fast sorting,
+ instant results with millions of files and more.
+
 Package: glmark2-data
 Source: glmark2
 Version: 2022.06~git.3f1104d-1~bpo11+1
@@ -741,6 +760,74 @@ Description: allow applications to export a menu into the panel -- GTK3 version
  support if none of those are available.
  .
  This package contains shared libraries to be used by GTK3 applications.
+
+Package: libdvd-pkg
+Version: 1.4.3-1-1~bpo11+1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 82
+Depends: debconf (>= 0.5) | debconf-2.0, build-essential, wget | devscripts, debhelper-compat (= 13)
+Recommends: libcap2-bin
+Provides: libdvdcss-dev, libdvdcss2
+Filename: ./libdvd-pkg_1.4.3-1-1~bpo11+1_all.deb
+Size: 16544
+MD5sum: c465b56f1c6a0718acd8f8797335e249
+SHA1: 9fe2dd173cda351c79aef49362661d66bc8e2b59
+SHA256: 43dcc7745376e5d4e340669131dfddfcbc872103d242d5e972480f1a3a16ee12
+Section: contrib/utils
+Priority: optional
+Description: DVD-Video playing library - installer
+ This package provides libraries that are needed for playing video DVDs
+ with a media player (such as VLC, SMplayer, Totem, etc.). It automates
+ the process of downloading source files, compiling them, and installing
+ the binary packages.
+
+Package: libdvdcss-dev
+Source: libdvdcss
+Version: 1.4.3-1~local
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 26
+Depends: libdvd-pkg, libdvdcss2 (= 1.4.3-1~local)
+Filename: ./libdvdcss-dev_1.4.3-1~local_amd64.deb
+Size: 6864
+MD5sum: e742f844b720107c2415e71114073e86
+SHA1: 3cfb813be98eb70626081fddbe05a13510b8a99c
+SHA256: b7b762f8e6cfbba949130b41650fcd3fd0874131e775f90fe355edb078ab065d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Description: library for accessing encrypted DVDs - development files
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides development files.
+
+Package: libdvdcss2
+Source: libdvdcss
+Version: 1.4.3-1~local
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 62
+Depends: libdvd-pkg, libc6 (>= 2.7)
+Provides: libdvdcss
+Filename: ./libdvdcss2_1.4.3-1~local_amd64.deb
+Size: 22848
+MD5sum: ed1ba645e408881d12ad9a751c4e8765
+SHA1: 9960786049a337755d4aaf405f2756ab84eba335
+SHA256: 7f7b799db28f9917f7747c163c4b295ea3489c1c03f05180231356f49bf538f2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Description: library for accessing encrypted DVDs
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides runtime libraries.
 
 Package: libfreeaptx-dev
 Source: libfreeaptx
