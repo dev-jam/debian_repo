@@ -1879,16 +1879,16 @@ Description: Status proto mapping for gRPC
 
 Package: python3-imageio
 Source: imageio
-Version: 2.22.2-1
+Version: 2.22.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4526
+Installed-Size: 4528
 Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.22.2-1_all.deb
-Size: 3170852
-MD5sum: 7b5543177e93e3eff8e601bab6eb801f
-SHA1: d37fd10f60279c938b2ea62f6a2ecc68417f99df
-SHA256: 63a4627c96e797e1a8da48259cefc6d43977b24ce85d0487230c838cf0fd0432
+Filename: ./python3-imageio_2.22.3-1_all.deb
+Size: 3171356
+MD5sum: 92dea89cd32b580e85bb8f81cbfd2ce8
+SHA1: 40737a488ed7cae511430f82bf87df69dbaa28c6
+SHA256: ff6d5d6af55c2e9b44ee424cac43f934ec7cde47a5e02bd8f134d9074403bc12
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -3157,16 +3157,16 @@ Description: VLC Python bindings
 
 Package: python3-websockets
 Source: websockets
-Version: 10.3-1
+Version: 10.4-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 379
+Installed-Size: 381
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4)
-Filename: ./python3-websockets_10.3-1_amd64.deb
-Size: 63260
-MD5sum: 69bbcb8cba052d0d119cca009393a22d
-SHA1: d6c991e5130d8a373d793ea108b4527b845e42e4
-SHA256: 07c06ac6f7be073a77fef965fdf3f80dbfa58718472b575921eac5c168c267ac
+Filename: ./python3-websockets_10.4-1_amd64.deb
+Size: 63832
+MD5sum: 84c9de7231483740ec4792bb86040055
+SHA1: 9650b61c8166c1646a0c92d5244b39932da54491
+SHA256: d419e4067c79adc305e81cc6a97dd886c715c695cd4db6917d3908e4b52d3125
 Section: python
 Priority: optional
 Homepage: https://github.com/aaugustin/websockets
@@ -3175,7 +3175,7 @@ Description: An implementation of the WebSocket Protocol (RFC 6455 & 7692
     :width: 480px
     :alt: websockets
  .
- |licence| |version| |pyversions| |wheel| |tests| |docs|
+ |licence| |version| |pyversions| |tests| |docs| |openssf|
  .
  .. |licence| image:: https://img.shields.io/pypi/l/websockets.svg
      :target: https://pypi.python.org/pypi/websockets
@@ -3186,11 +3186,11 @@ Description: An implementation of the WebSocket Protocol (RFC 6455 & 7692
  .. |pyversions| image:: https://img.shields.io/pypi/pyversions/websockets.svg
      :target: https://pypi.python.org/pypi/websockets
  .
- .. |wheel| image:: https://img.shields.io/pypi/wheel/websockets.svg
-     :target: https://pypi.python.org/pypi/websockets
- .
- .. |tests| image:: https://img.shields.io/github/checks-status/aaugustin/websockets/main
+ .. |tests| image:: https://img.shields.io/github/checks-status/aaugustin/websockets/main?label=tests
     :target: https://github.com/aaugustin/websockets/actions/workflows/tests.yml
+ .
+ .. |docs| image:: https://img.shields.io/readthedocs/websockets.svg
+    :target: https://websockets.readthedocs.io/
 
 Package: python3-wheel2deb
 Version: 0:0.5.8-1~w2d0
