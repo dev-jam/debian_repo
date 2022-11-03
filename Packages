@@ -301,28 +301,6 @@ Priority: optional
 Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
-Package: freeaptx-utils
-Source: libfreeaptx
-Version: 0.1.1-2~bpo11+1
-Architecture: amd64
-Maintainer: Kentaro Hayashi <kenhys@xdump.org>
-Installed-Size: 45
-Depends: libc6 (>= 2.4), libfreeaptx0 (>= 0.1.1)
-Filename: ./freeaptx-utils_0.1.1-2~bpo11+1_amd64.deb
-Size: 8948
-MD5sum: e03999bbef0dd42fcf45df549e23455b
-SHA1: 6118fe9861950f86adfa9813db686a010ec52c3a
-SHA256: 8d87caaf1759818136ba7dd161827d044d1834636a84a8b1ff2694d93ea5a531
-Section: utils
-Priority: optional
-Homepage: https://github.com/iamthehorker/libfreeaptx
-Description: Utility tools for Free implementation of aptX
- libfreeaptx is based on version 0.2.0 of libopenaptx with the intent of
- continuing under a free license without the additional license restriction
- added to libopenaptx 0.2.1.
- .
- This package contains utility tools such as freeaptxdec and freeaptxenc.
-
 Package: fsearch
 Version: 0.2.2-1+3.2
 Architecture: amd64
@@ -2146,16 +2124,16 @@ Description: Python port of markdown-it and some its associated plugins
 
 Package: python3-mdurl
 Source: mdurl
-Version: 0.1.1-2~bpo11+1
+Version: 0.1.2-1~bpo11+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 43
+Installed-Size: 42
 Depends: python3:any
-Filename: ./python3-mdurl_0.1.1-2~bpo11+1_all.deb
-Size: 9592
-MD5sum: fa5d91fc16a34bee30dfe2eaf9e5c40b
-SHA1: d6e97c80dc8745f1f0c8c20be469c01e7e5f6188
-SHA256: a5ba36ecad65262e770e900424432e9ff13db0e488d9232ba4bf5c3153c0359c
+Filename: ./python3-mdurl_0.1.2-1~bpo11+1_all.deb
+Size: 9544
+MD5sum: 9893c78eee63d5b0b4564a8396fe719c
+SHA1: 0de268580d555cdedb9f943173ab263cbca98c37
+SHA256: 331f07d8151d87f7a8adf4208dc8c00f52ba5acf60fedeb81ac84d61ed9e37fc
 Section: python
 Priority: optional
 Homepage: https://github.com/executablebooks/mdurl
@@ -2494,56 +2472,45 @@ Description: Python Imaging Library (Fork)
                  alt="Documentation Status"
 
 Package: python3-pip
-Source: pip
-Version: 22.2.2-1
+Source: python-pip
+Version: 22.3+dfsg-1~bpo11+1
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 6983
-Depends: python3:any
-Filename: ./python3-pip_22.2.2-1_all.deb
-Size: 1257720
-MD5sum: a707fc0b122ba8ec6f267c0ca57d1433
-SHA1: e69943af9d4ca2e28349d83e1006c25ecfcd6b58
-SHA256: 822a90041670b4de4ae1eb3d23117df27e7a53da605c01d361766a09afa133f1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 6653
+Depends: ca-certificates, python3-distutils, python3-setuptools, python3-wheel, python3:any
+Recommends: build-essential, python3-dev (>= 3.2)
+Breaks: python-pip
+Replaces: python-pip
+Provides: pip
+Filename: ./python3-pip_22.3+dfsg-1~bpo11+1_all.deb
+Size: 1328556
+MD5sum: 830841dcb2be5e7c1958755adf087dea
+SHA1: 84fdd6d2c1428e579e387d4e768c3f1699bb5bc5
+SHA256: c92051660e1d485621b206058968355e6eaad7acfe0dfbf07ae4b93ab235a041
 Section: python
 Priority: optional
-Homepage: https://pip.pypa.io/
-Description: The PyPA recommended tool for installing Python packages.
- pip - The Python Package Installer
- ==================================
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
  .
- .. image:: https://img.shields.io/pypi/v/pip.svg
-    :target: https://pypi.org/project/pip/
- .
- .. image:: https://readthedocs.org/projects/pip/badge/?version=latest
-    :target: https://pip.pypa.io/en/latest
- .
- pip is the `package installer`_ for Python. You can use pip to install packages from the `Python Package Index`_ and other indexes.
- .
- Please take a look at our documentation for how to install and use pip:
- .
- * `Installation`_
- * `Usage`_
- .
- We release updates regularly, with a new version every 3 months. Find more details in our documentation:
- .
- * `Release notes`_
- * `Release process`_
+ This is the Python 3 version of the package.
 
 Package: python3-pip-whl
 Source: python-pip
-Version: 22.2+dfsg-1~bpo11+1
+Version: 22.3+dfsg-1~bpo11+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 1739
+Installed-Size: 1746
 Depends: ca-certificates
 Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
 Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
-Filename: ./python3-pip-whl_22.2+dfsg-1~bpo11+1_all.deb
-Size: 1709512
-MD5sum: 5f75a4478e387262216aa87d76af99c6
-SHA1: 92c0dfc0d78b3acc031ade4bf637779432c0147e
-SHA256: 6ee3ffbf946bc76715cab3186afd1465e5865981045875a412064c3cfd95baf1
+Filename: ./python3-pip-whl_22.3+dfsg-1~bpo11+1_all.deb
+Size: 1718092
+MD5sum: 79af5fe3360b4d8782d4cef3033feaac
+SHA1: a8c9984e36f5fe40c10b07c1e5b633be6cbb5bfb
+SHA256: 43cfd7125d2807cd2e4adb2a48bc47f74e3ddd434f59ac371d9d059536cffa1f
 Section: python
 Priority: optional
 Multi-Arch: foreign
@@ -3279,17 +3246,17 @@ Description: Graphical hard drive backup and restore
  Acronis True Image and Macrium Reflect.
 
 Package: smplayer
-Version: 22.2.0~ds0-1~bpo11+1
+Version: 22.7.0~ds0-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 4410
+Installed-Size: 4394
 Depends: mpv | mplayer, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
 Recommends: smplayer-themes, smplayer-l10n
-Filename: ./smplayer_22.2.0~ds0-1~bpo11+1_amd64.deb
-Size: 1964500
-MD5sum: 929d99c0991bd2957b0f7cb29473aa77
-SHA1: 30974fe8f36e46088cf1c56bb8d44718eeba3419
-SHA256: a41a29cba3c4459de92c9321b0ed4b6a57e913485ba08b0c331727a23131b38e
+Filename: ./smplayer_22.7.0~ds0-1~bpo11+1_amd64.deb
+Size: 1961856
+MD5sum: 8795fb502a917d1439ace0c74be6794a
+SHA1: 6225350e0f829cddebd511bfdf5c581b563169cf
+SHA256: ef5559584c5d1f4c51fab5a7582f9ac8ee32892ab972836210ceed55fe87b501
 Section: video
 Priority: optional
 Homepage: http://smplayer.sourceforge.net/
@@ -3305,18 +3272,18 @@ Description: Complete front-end for MPlayer and mpv
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 22.2.0~ds0-1~bpo11+1
+Version: 22.7.0~ds0-1~bpo11+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10890
-Depends: smplayer (>= 22.2.0~ds0-1~bpo11+1)
+Installed-Size: 10903
+Depends: smplayer (>= 22.7.0~ds0-1~bpo11+1)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_22.2.0~ds0-1~bpo11+1_all.deb
-Size: 1333196
-MD5sum: d3e009f5b5e6e1b4362554ec9eb87b08
-SHA1: 0d4155bba651a1bb790a641c749caa94aaf8ad37
-SHA256: ac826ed9114b00af8b3f13c2dca8c355b2b70717a7c81de1bc746ad0cafe141b
+Filename: ./smplayer-l10n_22.7.0~ds0-1~bpo11+1_all.deb
+Size: 1336704
+MD5sum: 7e9844bfc87027f6775ced35a69079b2
+SHA1: ffd5d759371fd5a74048793fa9ce0088159a6725
+SHA256: 4c6738d1168c488f9e16a3ffe297895d5314721375a7c222c458d9fc943549d3
 Section: localization
 Priority: optional
 Homepage: http://smplayer.sourceforge.net/
