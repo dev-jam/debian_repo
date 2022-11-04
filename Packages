@@ -807,53 +807,6 @@ Description: library for accessing encrypted DVDs
  .
  This package provides runtime libraries.
 
-Package: libfreeaptx-dev
-Source: libfreeaptx
-Version: 0.1.1-2~bpo11+1
-Architecture: amd64
-Maintainer: Kentaro Hayashi <kenhys@xdump.org>
-Installed-Size: 24
-Depends: libfreeaptx0 (= 0.1.1-2~bpo11+1)
-Filename: ./libfreeaptx-dev_0.1.1-2~bpo11+1_amd64.deb
-Size: 4684
-MD5sum: f10dbe179d656f36cac25110721d8f07
-SHA1: 418bcc4bc352a3a9681cf2998115bd4b31d18dfc
-SHA256: 1b2e43b4f6801784673cb3807d055eefe58ac15e30790ee130a3be3cd225e92a
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://github.com/iamthehorker/libfreeaptx
-Description: Development files for Free implementation of aptX
- libfreeaptx is based on version 0.2.0 of libopenaptx with the intent of
- continuing under a free license without the additional license restriction
- added to libopenaptx 0.2.1.
- .
- This package contains development files for libfreeaptx.
-
-Package: libfreeaptx0
-Source: libfreeaptx
-Version: 0.1.1-2~bpo11+1
-Architecture: amd64
-Maintainer: Kentaro Hayashi <kenhys@xdump.org>
-Installed-Size: 42
-Depends: libc6 (>= 2.4)
-Filename: ./libfreeaptx0_0.1.1-2~bpo11+1_amd64.deb
-Size: 11936
-MD5sum: ba379cddca9930a8ae473080223674e8
-SHA1: 2a331c5e7dfca62d898b59338f5969e1db161f23
-SHA256: 4621aa42bbb8b33ab7c2495cef1616f0d04ae98b3c68102982666747c27d1218
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://github.com/iamthehorker/libfreeaptx
-Description: Free implementation of aptX
- libfreeaptx is based on version 0.2.0 of libopenaptx with the intent of
- continuing under a free license without the additional license restriction
- added to libopenaptx 0.2.1.
- .
- The initial version of libfreeaptx was reset to 0.1.0 to prevent confusion
- between the two projects.
-
 Package: libindicator3-7
 Source: libindicator
 Version: 0.5.0-4
