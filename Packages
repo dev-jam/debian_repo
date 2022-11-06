@@ -274,14 +274,14 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.14-1
+Version: 1.15-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.14-1_amd64.deb
-Size: 26355664
-MD5sum: 796f4cb9d19628c68d550ce8739556ff
-SHA1: 93b6a0b1f43f0892d0dcd08ba795d6dc15eccbca
-SHA256: ff2f4d930e19c4abf101a5d71b2b29014d346257a823da89554352c0b98a371e
+Filename: ./devjam-tools_1.15-1_amd64.deb
+Size: 26355372
+MD5sum: 1c24f92bc857d8f38c9c24c1353390d1
+SHA1: 487724eaea7cc5852cd9919ed6093b33a220ac65
+SHA256: 02fd995c7b19ed683668b50a22c6708d15764e1d86ff38f71367ccf29c616186
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
@@ -1965,40 +1965,40 @@ Description: JavaScript to Python Translator & JavaScript interpreter wri
 
 Package: python3-json-tricks
 Source: json-tricks
-Version: 3.15.5-1
+Version: 3.16.1-1
 Architecture: all
-Maintainer: Mark V <markv.nl.dev@gmail.com>
-Installed-Size: 92
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 94
 Depends: python3:any
-Filename: ./python3-json-tricks_3.15.5-1_all.deb
-Size: 21368
-MD5sum: 696642201ea1969dfb190bd4fd50e4fa
-SHA1: 8f7106c65b824d74108977859d1e1f76b6f33905
-SHA256: 208dc21a89ebad35a15ff78c9d11c00ad024511bd52f6100b400cf221b7ddc22
+Filename: ./python3-json-tricks_3.16.1-1_all.deb
+Size: 21924
+MD5sum: 21fc1a8aba4cb83094ab1e6f5a14224e
+SHA1: 6d94e9f430034cae66fc06d7e473879f7f81052d
+SHA256: 6bdb1c8d637cfdcd4326d99038bf27bfd73e5c24a8d23d7aa68f4c7eeb0c9c8d
 Section: python
 Priority: optional
 Homepage: https://github.com/mverleg/pyjson_tricks
 Description: Extra features for Python's JSON: comments, order, numpy, pa
+ # JSON tricks (python)
  .
- JSON tricks (python)
- ---------------------------------------
+ The [pyjson-tricks] package brings several pieces of
+ functionality to python handling of json files:
  .
- The `pyjson-tricks` package brings several pieces of functionality to python handling of json files:
- .
- 1. **Store and load numpy arrays** in human-readable format.
- 2. **Store and load class instances** both generic and customized.
- 3. **Store and load date/times** as a dictionary (including timezone).
- 4. **Preserve map order** ``{}`` using ``OrderedDict``.
- 5. **Allow for comments** in json files by starting lines with ``#``.
- 6. Sets, complex numbers, Decimal, Fraction, enums, compression, duplicate keys, pathlib Paths ...
+ 1.  **Store and load numpy arrays** in human-readable format.
+ 2.  **Store and load class instances** both generic and customized.
+ 3.  **Store and load date/times** as a dictionary (including timezone).
+ 4.  **Preserve map order** `{}` using `OrderedDict`.
+ 5.  **Allow for comments** in json files by starting lines with `#`.
+ 6.  Sets, complex numbers, Decimal, Fraction, enums, compression,
+     duplicate keys, pathlib Paths, bytes ...
  .
  As well as compression and disallowing duplicate keys.
  .
- * Code: https://github.com/mverleg/pyjson_tricks
- * Documentation: http://json-tricks.readthedocs.org/en/latest/
- * PIP: https://pypi.python.org/pypi/json_tricks
+ * Code: <https://github.com/mverleg/pyjson_tricks>
+ * Documentation: <http://json-tricks.readthedocs.org/en/latest/>
+ * PIP: <https://pypi.python.org/pypi/json_tricks>
  .
- The 2.0 series added some of the above features and broke backward compatibility. The version 3.0 series is a more readable rewrite that also makes it easier to combine encoders, again not fully backward compatible.
+ Several keys of the format `__keyname__` have special meanings, and more
 
 Package: python3-konfsave
 Version: 0:0.4.2-1~w2d0
