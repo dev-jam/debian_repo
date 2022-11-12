@@ -301,18 +301,18 @@ Description: Manipulate images e their metadata.
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
 Package: live-build
-Version: 1:20221101
+Version: 1:20221112
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
 Installed-Size: 1235
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20221101_all.deb
-Size: 407428
-MD5sum: e5529fe0ea2fc75fbecb6fb53205a00c
-SHA1: d777ee407d5f1eb3483020cebcb66534f1942968
-SHA256: e46f34d97bcb22d084f9a38914f1e1e78fe0a743a501aee05efa556abdaebd03
+Filename: ./live-build_20221112_all.deb
+Size: 409668
+MD5sum: 579e2fd06d29ee6789fa2ad1c9fb4d76
+SHA1: 263fc16cb60f81071b794b3acc23360e544ef634
+SHA256: 73faf89992ba992d16b37c3f0cbb92e78fecf91021dcfbf9e9ac772e7a1734fc
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
