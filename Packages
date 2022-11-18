@@ -212,6 +212,22 @@ Priority: optional
 Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
+Package: inxi-gui
+Version: 1.0.0
+Architecture: all
+Maintainer: Kevin Kim <root@hamonikr.org>
+Installed-Size: 32
+Depends: yad, policykit-1
+Filename: ./inxi-gui_1.0.0_all.deb
+Size: 5632
+MD5sum: 1125cf91b8e0797abf1e7500e1342402
+SHA1: d717538001d21338ec81f9f2dd668c7660336731
+SHA256: 6cdf910ebc27e0e3d842f02deb8192e68e89d0a528646b48d0b84f0acc0238ca
+Section: system
+Priority: optional
+Homepage: https://hamonikr.org
+Description: Simple gui front end to inxi.
+
 Package: kde-service-menu-pdf
 Version: 2.3
 Architecture: all
