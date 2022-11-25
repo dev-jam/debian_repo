@@ -452,49 +452,6 @@ Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
 
-Package: python3-opensesame-plugin-audio-low-latency
-Source: opensesame-plugin-audio-low-latency
-Version: 8.9.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 357
-Depends: python3-numpy, python3-pygame, python3-opensesame
-Recommends: python3-pyalsaaudio, python3-sounddevice, python3-pyaudio
-Filename: ./python3-opensesame-plugin-audio-low-latency_8.9.0-1_all.deb
-Size: 71908
-MD5sum: 3d2f453e9275ccba660e8f46bf0acc30
-SHA1: 078848eb90615e7be14b4d5b3c3a7b4ac363cba7
-SHA256: 4d2ac3608ca7b288c455c82d7cdf486da99f5db4e50df11dd878093a6015c9fd
-Section: python
-Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
-Description: An OpenSesame plug-in for playing and recording audio files with low latency
- The main goal of this plug-in is to play and record audio with minimal and predictable
- latencies to achieve a high accuracy and precision. The PyAlsaAudio package which uses
- the Linux ALSA audio system provided the best results within Python. PortAudio
- and sounddevice are cross-platform and work on both Windows as Linux.
-
-Package: python3-opensesame-plugin-experiment-manager
-Source: opensesame-plugin-experiment-manager
-Version: 2.3.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 30
-Depends: python3-opensesame
-Filename: ./python3-opensesame-plugin-experiment-manager_2.3.0-1_all.deb
-Size: 7448
-MD5sum: dd8f749bc815552884d515d6945b2f15
-SHA1: a5ecdd86839b7bbda3ed0c201bea9cd326eaaf9a
-SHA256: f71a7e5ab252062f44cf7d3f081cda8146cbe83463e86e96a03c0f3efe16956a
-Section: python
-Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
-Description: An OpenSesame plug-in for managing/executing multiple OpenSesame experiments
- This plug-in can insert standalone OpenSesame Experiments within a main experiment.
- It can run within a loop or sequence as an item. This makes it possible to run a number
- of experiments in sequence (random or fixed order) and also it gives the possibility to
- give each experiment its own (different) backend.
-
 Package: python3-opensesame-plugin-media-player-mpy
 Source: opensesame-plugin-media-player-mpy
 Version: 0.1.11-1
@@ -510,62 +467,6 @@ Section: python
 Priority: optional
 Homepage: https://github.com/dschreij/opensesame-plugin-mediaplayer
 Description: Media player plugin for OpenSesame, based on MoviePy
-
-Package: python3-opensesame-plugin-parallel-port-trigger
-Source: opensesame-plugin-parallel-port-trigger
-Version: 2.3.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 166
-Depends: python3-opensesame
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_2.3.0-1_all.deb
-Size: 53076
-MD5sum: 54016aab0734d7fbe398269e38ba1396
-SHA1: 63adcf4f58caca0b9ccf17a3e3c2fd6789ba9497
-SHA256: c1fb467c5d1bf79bd690ba347d25b12e7f7774771d60b21bdbca8333df1eeaa8
-Section: python
-Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
-Description: An OpenSesame plug-in for sending stimulus synchronization triggers through the parallel port to data acquisition systems
- In EEG/ERP studies it is common to send triggers to mark the timestamp for significant events (e.g., the onset of a trial,
- presentation of a particular stimulus, etc.). Triggers are typically bytes that are sent via the parallel port to data
- acquisition systems.
-
-Package: python3-opensesame-plugin-psychopy
-Source: opensesame-plugin-psychopy
-Version: 0.6.2-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 42
-Filename: ./python3-opensesame-plugin-psychopy_0.6.2-1_all.deb
-Size: 11256
-MD5sum: 759d3e53e286b00a5a7edf23a2aa3dda
-SHA1: 640bcfc38f7c1d28d2294281d3eed02f5fc91f32
-SHA256: e43b7dcf69f07a7d108a7f44756393bb7b336812a3ea822eefb733fee47e4e06
-Section: python
-Priority: optional
-Homepage: https://github.com/smathot/opensesame-plugin-psychopy
-Description: PsychoPy plugins for OpenSesame
- No readme information
-
-Package: python3-opensesame-plugin-radboudbox
-Source: opensesame-plugin-radboudbox
-Version: 2.3.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 97
-Depends: python3-opensesame, python3-rusocsci
-Filename: ./python3-opensesame-plugin-radboudbox_2.3.0-1_all.deb
-Size: 23012
-MD5sum: 0331c3495b651fe276d04a1112ec1513
-SHA1: 1d79836ec0551e1e9915538e2aeeea84d6f69f53
-SHA256: b260d454a4343e92da746b72f4945637f2d074c707af2e2009b21dfe19f3fbc2
-Section: python
-Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
-Description: An OpenSesame plug-in for detecting and sending responses and audio detection with the Radboud Buttonbox
- An OpenSesame plug-in for collecting button responses, audio detection, voice key and sending stimulus synchronization
- triggers with the Radboud Buttonbox to data acquisition systems.
 
 Package: python3-tartube
 Source: tartube
