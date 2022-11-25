@@ -12,17 +12,17 @@ Priority: optional
 Description: android tools for Debian
 
 Package: deadbeef-static
-Version: 1.8.8-1
+Version: 1.9.3-1
 Architecture: amd64
-Maintainer: Alexey Yakovenko <waker@users.sf.net>
-Installed-Size: 19352
+Maintainer: Oleksiy Yakovenko <waker@users.sf.net>
+Installed-Size: 19482
 Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libx11-6
 Recommends: libpulse0, libdbus-1-3
-Filename: ./deadbeef-static_1.8.8-1_amd64.deb
-Size: 8759578
-MD5sum: 1cd429a0fd55ae9e2274704902cb60c7
-SHA1: 30537bb4d32de38a4e45b1afdaed427d5b2be99d
-SHA256: 1f545d5737e96439d682b09e9768264c303e2f9561b8a458259b660f562209cf
+Filename: ./deadbeef-static_1.9.3-1_amd64.deb
+Size: 8752612
+MD5sum: 24a004e27967cdda96f9541e0f140582
+SHA1: f7057442e214d91c17f18372f8865ba9c84cfdfe
+SHA256: e09655b9051337ac3a54b7389b9a6aa7d7caab0f37d0a6e2688aae340384772a
 Section: sound
 Priority: optional
 Homepage: http://deadbeef.sourceforge.net/
@@ -436,16 +436,16 @@ Description: plasma-appimage-integration built using CMake
 
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
-Version: 2.0.0-2
+Version: 2.0.0-3
 Architecture: all
-Maintainer: Simone Riva <simone.rva [at] gmail.com>
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 209
 Depends: python3:any
-Filename: ./python3-dr14-tmeter_2.0.0-2_all.deb
-Size: 32096
-MD5sum: ca39442f279ab509ff8ec82a0dd08da4
-SHA1: 2d8a385fd7b33ce37663100de0d7328999a96457
-SHA256: 8d2498c39d2f943ba52c36584cf3fb19ecd3adff8da2dfdfc78a47126183cfbc
+Filename: ./python3-dr14-tmeter_2.0.0-3_all.deb
+Size: 32072
+MD5sum: 760cb1b5d022f4f1770fc74add284df6
+SHA1: 7449cb618209785b87ff5796caf66a31bc841d88
+SHA256: 9fdaa571d0b280545dbc86e676e84da713a52b1e63b0ba5490a49a7b68aa444f
 Section: python
 Priority: optional
 Homepage: http://simon-r.github.com/dr14_t.meter
