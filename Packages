@@ -470,16 +470,16 @@ Description: Media player plugin for OpenSesame, based on MoviePy
 
 Package: python3-tartube
 Source: tartube
-Version: 2.4.93-1
+Version: 2.4.165-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 6582
+Installed-Size: 6712
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.093-STRICT.deb
-Size: 2467748
-MD5sum: bc67097bd17ec75e33c70c916b2d3abc
-SHA1: c07f3959ba3560a3142ef759b64f3484e262439b
-SHA256: afea76ffe278d47f5980d8e93d6a2863e17c3df29f51223e7760543d61a7f2ae
+Filename: ./python3-tartube_2.4.165-STRICT.deb
+Size: 2520072
+MD5sum: cdd23a9a320967e854644c35fca478fe
+SHA1: d18821be6bad15bb4c2dd8c6551ba072ff34c22e
+SHA256: 4a0bd2bcdbff361fd25d7386160967b0c00e5098fa6d46b007f61716946c126d
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
