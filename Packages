@@ -325,10 +325,10 @@ Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
 Filename: ./live-build_20221127_all.deb
-Size: 338380
-MD5sum: 7627488ab268d47d6e0e818a4447b4c9
-SHA1: fd644bcb71b3f8369c1851da3580413c147b7456
-SHA256: 3022faea1f28b55c0b1d193d05edb6c5ba5460f3a5c27e27afc3d41eb0ec14b7
+Size: 338620
+MD5sum: 59fe5edf79d70e4274a6a01626ae46dd
+SHA1: 63c674804e760e14a50d8ffd9217d3f5265e3791
+SHA256: b29020fce248df40c729f6e5732a3beef5dd70ce2f6db818a1cd338c2bebf44f
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
