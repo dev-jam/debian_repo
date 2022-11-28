@@ -189,10 +189,10 @@ Version: 1.18-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Filename: ./devjam-tools_1.18-1_amd64.deb
-Size: 26356304
-MD5sum: 471a3ce1907a9f06504bbdf3a747f52a
-SHA1: 6e88ea5710c9831db1f40d48906700124e3dbfa5
-SHA256: cd6105a21d4dee5cc5f3064a07b63edf60683e010850ee8fe2c0a52287741e02
+Size: 26355904
+MD5sum: 763371943e53447563acb5fee8f02a53
+SHA1: f3aad95843da748be6cd8021a5f0b2391cc5b5ff
+SHA256: a13194b6f8a19d522bd8c2d9fd091b1ebcbd6e1499ab52c57b0a7dc5b6e1d27e
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
