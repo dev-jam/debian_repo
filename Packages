@@ -452,22 +452,6 @@ Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
 
-Package: python3-opensesame-plugin-media-player-mpy
-Source: opensesame-plugin-media-player-mpy
-Version: 0.1.11-1
-Architecture: all
-Maintainer: Daniel Schreij <dschreij@gmail.com>
-Installed-Size: 58
-Filename: ./python3-opensesame-plugin-media-player-mpy_0.1.11-1_all.deb
-Size: 12208
-MD5sum: c9983c6a523df1799043c9e4eca27e4d
-SHA1: 86c00689c58824e4dd2cdd630afccbc60fe72c54
-SHA256: fd14f62d1be8e183bc1827e7c8422edc9463afc90e30c40f9e40f5b169b5da5c
-Section: python
-Priority: optional
-Homepage: https://github.com/dschreij/opensesame-plugin-mediaplayer
-Description: Media player plugin for OpenSesame, based on MoviePy
-
 Package: python3-tartube
 Source: tartube
 Version: 2.4.165-1
