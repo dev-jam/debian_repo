@@ -79,14 +79,14 @@ Priority: optional
 Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
-Version: 1.15-1
+Version: 1.16-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.15-1_all.deb
-Size: 13218992
-MD5sum: 2d3ca123fb8007d75f05bda1a546a68e
-SHA1: 61fca69b5c15a1515049fd1c39ab4abefc05176e
-SHA256: ad0a3236af2e12a3797dcf4d8cb6321162dc4eeacbdf7678f9b9c89f6b7e7d67
+Filename: ./devjam-grub-tools_1.16-1_all.deb
+Size: 13153444
+MD5sum: b68d8d604f62f03ee180c565d9e6402f
+SHA1: f5cad631f350485b31ee5976b84c15216b93329a
+SHA256: c456c52a0cbb23da777309078433754cef4cbb60b2b71b4c2bea8a21dee1d2d9
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
@@ -317,18 +317,18 @@ Description: Manipulate images e their metadata.
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
 Package: live-build
-Version: 1:20221127
+Version: 1:20230113
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
 Installed-Size: 1167
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20221127_all.deb
-Size: 338620
-MD5sum: 59fe5edf79d70e4274a6a01626ae46dd
-SHA1: 63c674804e760e14a50d8ffd9217d3f5265e3791
-SHA256: b29020fce248df40c729f6e5732a3beef5dd70ce2f6db818a1cd338c2bebf44f
+Filename: ./live-build_20230113_all.deb
+Size: 338124
+MD5sum: 42614bb5127001f351e42c34eeae9af7
+SHA1: 30345aa201a10db8ca4d899150509833d4cdc4f4
+SHA256: db487966107200f4c9b325315195abd75792a45ef1deb767ae250fc33b265391
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
