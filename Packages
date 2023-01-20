@@ -79,17 +79,30 @@ Priority: optional
 Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
-Version: 1.19-1
+Version: 1.20-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.19-1_all.deb
-Size: 14157008
-MD5sum: 2000a546419f428f7f18c76c82af02ca
-SHA1: dcd03b4a23e6a19e568e7092c2e1b8b62780497d
-SHA256: eb4a37c65c6ae5bfbac5726d20ccfa7e7b296c19efa261a13a0edcc0d402cbe5
+Filename: ./devjam-grub-tools_1.20-1_all.deb
+Size: 14156932
+MD5sum: 62c3e8c7fc5dc496800d2b8249935f8d
+SHA1: c2063939e43835c60052ce28eb7bd51e04b14d2c
+SHA256: 757a0de6c224ec84039ffeefa2b31efe23859218be61b989363216d49eafe73e
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
+
+Package: devjam-grub-tpm
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-grub-tpm_1.0-1_all.deb
+Size: 1176
+MD5sum: 7f65eac536d133a9efeaa39a43e08721
+SHA1: 34db6eea5eeeee6c69b39b3e37bc98054130723a
+SHA256: 461542fd1bae7bc5b2399c4d5924d7ab644a031bb31b16fa7b82a53b284d6894
+Section: base
+Priority: optional
+Description: Grub tpm workaround by devjam
 
 Package: devjam-hooks
 Version: 1.0-1
