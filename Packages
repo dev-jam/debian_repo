@@ -198,14 +198,14 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.21-1
+Version: 1.22-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.21-1_amd64.deb
-Size: 26355868
-MD5sum: 19d5517bbc5d38df7c9dca36cd1327be
-SHA1: f70c0c517f20c0f6c40805871073a3fcaeed5883
-SHA256: 537e61c9778db6d4347f393b563e2f882142974b0b8ae3e98bceef2f4ca5884d
+Filename: ./devjam-tools_1.22-1_amd64.deb
+Size: 26355800
+MD5sum: c01182a5cfcc6bb4f7ccc4c8f5f0496e
+SHA1: 6ff514de6186d603d6ef02e4f6680e491cf61be9
+SHA256: 8c4067161308f7d368034448a958ff723dc092b9ea15782399ceca87086b9010
 Section: base
 Priority: optional
 Description: personal tools for Debian Bullseye
