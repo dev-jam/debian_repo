@@ -498,18 +498,19 @@ Priority: optional
 Description: realtimeconfigquickscan for Debian
 
 Package: tobiiproeyetrackermanager
-Version: 2.3.7-1664
+Version: 2.4.11-1935
 Architecture: amd64
 Maintainer: Tobii Pro - Team Bromine
-Installed-Size: 291194
-Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
-Filename: ./tobiiproeyetrackermanager_2.3.7-1_amd64.deb
-Size: 67217918
-MD5sum: 5ea3889f80ebb94c11389549e32aa765
-SHA1: a0255057314a99bfeae9ec9f102d839fa8afb1f4
-SHA256: 8d82202c3076aec28d57d1e360bbf2d069995384681cf88be017d80e08404ce0
+Installed-Size: 285780
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: ./tobiiproeyetrackermanager_2.4.11-1_amd64.deb
+Size: 72786210
+MD5sum: 3f02c0239a74b0a968ebb47ae2b780b3
+SHA1: 98d87d5575976a60257fc40f4d9d77f98c9cf14d
+SHA256: 58670b7d22ac48d77086f954d375b5565401eb0ffd1529bd6b5c66e21942ebcb
 Section: default
-Priority: extra
+Priority: optional
 Homepage: https://www.tobiipro.com/product-listing/eye-tracker-manager/
 Description: Free software to help manage your screen-based eye tracker.
   A configuration and setting utility that helps you manage your connected eye trackers. It is available free of charge and greatly increases efficiency for users of Tobii Eyetrackers
