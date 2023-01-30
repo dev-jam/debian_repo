@@ -449,16 +449,16 @@ Description: plasma-appimage-integration built using CMake
 
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
-Version: 2.0.0-3
+Version: 2.0.0-4
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 209
+Installed-Size: 212
 Depends: python3:any
-Filename: ./python3-dr14-tmeter_2.0.0-3_all.deb
-Size: 32072
-MD5sum: 760cb1b5d022f4f1770fc74add284df6
-SHA1: 7449cb618209785b87ff5796caf66a31bc841d88
-SHA256: 9fdaa571d0b280545dbc86e676e84da713a52b1e63b0ba5490a49a7b68aa444f
+Filename: ./python3-dr14-tmeter_2.0.0-4_all.deb
+Size: 32224
+MD5sum: 81b746ba65f3fb17f6fb856349b01066
+SHA1: 0db976de99fb9ff19d6844b4804c29c3ed66ad4e
+SHA256: 9ab1ae744106a5ddec928f35f4a46acadca0664e5d80eef0c8e0ad7d9530390d
 Section: python
 Priority: optional
 Homepage: http://simon-r.github.com/dr14_t.meter
@@ -467,22 +467,23 @@ Description: Compute the DR14 value of the given audio files
 
 Package: python3-tartube
 Source: tartube
-Version: 2.4.165-1
+Version: 2.4.221-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 6712
+Installed-Size: 6757
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.165-STRICT.deb
-Size: 2520072
-MD5sum: cdd23a9a320967e854644c35fca478fe
-SHA1: d18821be6bad15bb4c2dd8c6551ba072ff34c22e
-SHA256: 4a0bd2bcdbff361fd25d7386160967b0c00e5098fa6d46b007f61716946c126d
+Filename: ./python3-tartube_2.4.221-STRICT.deb
+Size: 2534040
+MD5sum: 2f96912795ed235f49aaefaa2d1274cf
+SHA1: 1cb747d8493278dfb09b3475296ac1d79cd93914
+SHA256: f570bb4132db55895bf6ad8eda09d6d20fe5d33f9e93f1471d1441e5eae3d960
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
-Description: GUI front-end for youtube-dl
+Description: GUI front-end for youtube-dl, yt-dlp and other compatible vi
  .
- Tartube is a GUI front-end for youtube-dl, written in Python 3 / Gtk 3.
+ Tartube is a GUI front-end for youtube-dl, yt-dlp and other compatible video
+ downloaders.
 
 Package: realtimeconfigquickscan
 Version: 1.3-1
