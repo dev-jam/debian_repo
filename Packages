@@ -329,6 +329,85 @@ Description: Manipulate images e their metadata.
  .
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
+Package: live-boot
+Version: 1:20230131
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 117
+Depends: live-boot-initramfs-tools | live-boot-backend
+Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
+Suggests: cryptsetup, curlftpfs, httpfs2, wget
+Filename: ./live-boot_20230131_all.deb
+Size: 28748
+MD5sum: 22683bcf1526f01d839063c19d1dd288
+SHA1: 5af934c8877477178c2e1c9335d31b1db08a6cd8
+SHA256: ac1a408aa73711046ec57329512ad59260c6f5bb9057a89b27a9a2edd43183b8
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ In addition to live-boot, a backend for the initrd generation is required, such
+ as live-boot-initramfs-tools.
+
+Package: live-boot-doc
+Source: live-boot
+Version: 1:20230131
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 70
+Filename: ./live-boot-doc_20230131_all.deb
+Size: 48272
+MD5sum: 91822671a5823e5b8d27d2e23253a077
+SHA1: bdf2204228cf0037dc908286075ef0fc50616d98
+SHA256: 392a7d8f9831933d6463f75288c0683ec5057043279fccde09241341fb79a182
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (documentation)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace).
+ .
+ This package contains the documentation.
+
+Package: live-boot-initramfs-tools
+Source: live-boot
+Version: 1:20230131
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 25
+Depends: busybox | busybox-initramfs, initramfs-tools, udev
+Conflicts: live-boot-backend
+Replaces: live-boot-backend
+Provides: live-boot-backend
+Filename: ./live-boot-initramfs-tools_20230131_all.deb
+Size: 5804
+MD5sum: b8da0cf77ba4c16050a2e120f2ff215f
+SHA1: 7178c61f9337b61feb2b08baf5534ee4a2a511d2
+SHA256: ed82b77707d7d75cdc23ea6366029a7ee6686758fdf1192d7be7d830fafc85d5
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (initramfs-tools backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ This package contains the initramfs-tools backend.
+
 Package: live-build
 Version: 1:20230202
 Architecture: all
@@ -351,6 +430,267 @@ Description: Live System Build Components
  .
  live-build contains the components to build a live system from a configuration
  directory.
+
+Package: live-clone
+Version: 2.8-1
+Architecture: all
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Installed-Size: 1444
+Depends: python3:any, python3-pyqt5, python3-markdown, python3-mdx-math, gir1.2-udisks-2.0, fdisk, dosfstools, sg3-utils, sudo
+Suggests: qemu-kvm
+Filename: ./live-clone_2.8-1_all.deb
+Size: 548584
+MD5sum: ed3b6992cf9b4655861d2eb6a76aaee3
+SHA1: 59b95d57f41ff29405acab7e9cd7729904b22123
+SHA256: 78efcc4f02b6382c59696c2ce1d76d8f90047d389443f521a283d9f5de17232d
+Section: python
+Priority: optional
+Description: GUI to clone and manage Live-Build USB sticks
+ This application allows one to make bootable USB sticks from an
+ iso-hybrid image issued by Live-Build. It adapts additionally a
+ persistence partition to use the free space on the USB stick.
+ .
+ It features also management tools for live USB sticks: when such
+ USB disks are used daily, they happen to have inconsistencies in their
+ persistence area which can render them unusable. Tools are provided to
+ save persistence data when necessary, and to blank the persistence area,
+ so the USB disk can be used again.
+ .
+ The application detects when it is run from a Debian-Live environment,
+ thus featuring seamless auto-cloning.
+
+Package: live-config
+Version: 11.0.3+nmu1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 116
+Depends: live-config-systemd | live-config-backend
+Recommends: iproute2 | iproute, keyboard-configuration, live-config-doc, live-tools, locales | locales-all, sudo, user-setup
+Suggests: pciutils, wget
+Filename: ./live-config_11.0.3+nmu1_all.deb
+Size: 16252
+MD5sum: 8c5faf68eb8bc367e44274f6261cb2b9
+SHA1: 9503b7b2bf0149cd9e99743c10c2c74fe1de03d1
+SHA256: cd7c8e6557ac11d809a610626d15d2bbf1a9efb78bca66f0f41547dc754094d6
+Section: misc
+Priority: optional
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ In addition to live-config, a backend for an init system is required, such as
+ live-config-systemd.
+
+Package: live-config-doc
+Source: live-config
+Version: 11.0.3+nmu1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 77
+Filename: ./live-config-doc_11.0.3+nmu1_all.deb
+Size: 35356
+MD5sum: 192ff0d0021c8e671dd44f526c4ef673
+SHA1: c09100cd75761d768e0cb8c443a08a309cad87d1
+SHA256: 1e5182fb5822b59f4e5cee3136121dce0a9afa32b1d407958db36a41c5d23f99
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components (documentation)
+ live-config contains the components that configure a live system during the
+ boot process (late userspace).
+ .
+ This package contains the documentation.
+
+Package: live-config-systemd
+Source: live-config
+Version: 11.0.3+nmu1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 23
+Depends: systemd
+Recommends: dbus
+Conflicts: live-config-backend
+Replaces: live-config-backend
+Provides: live-config-backend
+Filename: ./live-config-systemd_11.0.3+nmu1_all.deb
+Size: 4932
+MD5sum: daecdc67a70f3cff0d2c12b9b3529f4a
+SHA1: 49a4556cf0194b6b12303a428ee39eab1f0411fe
+SHA256: 7be72d7e778991923d5934096393d2e7c19e801029eba1591fe6dbd63709c5a9
+Section: misc
+Priority: optional
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components (systemd backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the systemd backend.
+
+Package: live-manual
+Version: 2:20151217.2
+Architecture: all
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Installed-Size: 46
+Depends: live-manual-epub (>= 2:20151217.2), live-manual-html (>= 2:20151217.2), live-manual-odf (>= 2:20151217.2), live-manual-pdf (>= 2:20151217.2), live-manual-txt (>= 2:20151217.2)
+Filename: ./live-manual_20151217.2_all.deb
+Size: 38336
+MD5sum: 231d5392f6527ba1f6dc92a38d072cfc
+SHA1: 1453e155c8403fb8d9dddc5633056832ffb4c11f
+SHA256: 7c068d503ce204541a494588375d22ea8702a1c7d9d609278d7eaa1c7e69ad16
+Section: metapackages
+Priority: optional
+Homepage: http://debian-live.alioth.debian.org/devel/live-manual/
+Description: Live Systems Documentation (metapackage)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Live Systems project.
+ .
+ This package is a metapackage depending on all available output formats.
+
+Package: live-manual-epub
+Source: live-manual
+Version: 2:20151217.2
+Architecture: all
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Installed-Size: 1290
+Provides: live-manual
+Filename: ./live-manual-epub_20151217.2_all.deb
+Size: 1105888
+MD5sum: 22a73737bb8b2e9f182f7e3003504aad
+SHA1: d38e5351bb82a9932dc820bd4b32d15f5220b0f5
+SHA256: 8d020f6c902903c388ef2ccf003c5db4f2f067b6935416dce9793a41b9f4e1fc
+Section: doc
+Priority: optional
+Homepage: http://debian-live.alioth.debian.org/devel/live-manual/
+Description: Live Systems Documentation (epub)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Live Systems project.
+ .
+ This package contains the epub output.
+
+Package: live-manual-html
+Source: live-manual
+Version: 2:20151217.2
+Architecture: all
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Installed-Size: 8417
+Provides: live-manual
+Filename: ./live-manual-html_20151217.2_all.deb
+Size: 508248
+MD5sum: ccce458093ce6a44c4acacfaf734e379
+SHA1: 273ea3853be5ec277a3c3e86d5641bbd1f6a156b
+SHA256: fb575f16c39be23b73ce12f822202f4d90675a4d796c98d427805422a89389ca
+Section: doc
+Priority: optional
+Homepage: http://debian-live.alioth.debian.org/devel/live-manual/
+Description: Live Systems Documentation (html)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Live Systems project.
+ .
+ This package contains the html output.
+
+Package: live-manual-odf
+Source: live-manual
+Version: 2:20151217.2
+Architecture: all
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Installed-Size: 1010
+Provides: live-manual
+Filename: ./live-manual-odf_20151217.2_all.deb
+Size: 925904
+MD5sum: ee9d69283ca4a1314a1875dcc7f536f3
+SHA1: bf9e9bbb63a16fe34794699f71da34e8f8e87cb8
+SHA256: f197134bd454cde3ccae1c4dc2b8abe2eaffe54bbf13882e630044723db1a6af
+Section: doc
+Priority: optional
+Homepage: http://debian-live.alioth.debian.org/devel/live-manual/
+Description: Live Systems Documentation (odf)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Live Systems project.
+ .
+ This package contains the odf output.
+
+Package: live-manual-pdf
+Source: live-manual
+Version: 2:20151217.2
+Architecture: all
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Installed-Size: 2335
+Provides: live-manual
+Filename: ./live-manual-pdf_20151217.2_all.deb
+Size: 2129304
+MD5sum: e2ddc9d0dec1578b7d46e3039ede49ae
+SHA1: 874cde89c072ff179540a9208f1d46c91fa9181f
+SHA256: 173f5a4f6fc209706aa99b579201180440e06c0ab94e4355e33a53a72dfb705b
+Section: doc
+Priority: optional
+Homepage: http://debian-live.alioth.debian.org/devel/live-manual/
+Description: Live Systems Documentation (pdf)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Live Systems project.
+ .
+ This package contains the pdf output.
+
+Package: live-manual-txt
+Source: live-manual
+Version: 2:20151217.2
+Architecture: all
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Installed-Size: 670
+Provides: live-manual
+Filename: ./live-manual-txt_20151217.2_all.deb
+Size: 669296
+MD5sum: c29c7179ddd90595ca30e33fcf44a03a
+SHA1: abdca6392ba19240627f5de20e53638c23042505
+SHA256: 7fb30f707766b337729477c1d8427381bcd991daf95c0857b41f3103035c775c
+Section: doc
+Priority: optional
+Homepage: http://debian-live.alioth.debian.org/devel/live-manual/
+Description: Live Systems Documentation (txt)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Live Systems project.
+ .
+ This package contains the txt output.
+
+Package: live-tools
+Version: 1:20190831.1
+Architecture: all
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Installed-Size: 105
+Depends: lsb-base, initramfs-tools
+Suggests: debian-installer-launcher, eject, perl, procps, rsync, uuid-runtime
+Filename: ./live-tools_20190831.1_all.deb
+Size: 26120
+MD5sum: be904deb8878ed2ca4e5a232d3b846c0
+SHA1: 22309ceb9cec368dac03fd26c2b0f3131210f05d
+SHA256: ce6f53c793860fca9106edec7a392205de043adbc473ffc77431fb2afa92b4ca
+Section: misc
+Priority: optional
+Homepage: https://debian-live.alioth.debian.org/live-tools/
+Description: Live System Extra Components
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-tools contains extra components for live systems.
 
 Package: nordvpn-release
 Version: 1.0.0
