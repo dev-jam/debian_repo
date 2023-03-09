@@ -118,15 +118,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-service-menu-collection
-Version: 1.4-1
+Version: 1.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools
-Filename: ./devjam-kde-service-menu-collection_1.4-1_all.deb
-Size: 3812
-MD5sum: 692375e661cb8bc36ee6f953d4469cd5
-SHA1: 92b58001f73a5fe47cc535c8759e2a04d83404a9
-SHA256: fa0bacc53bb2bd4bc4226925e254a4661903276c1a5de583154cce6e3922a934
+Filename: ./devjam-kde-service-menu-collection_1.5-1_all.deb
+Size: 3872
+MD5sum: e9c37bc6a5507090ef0cf1c47e16e7ae
+SHA1: c6508c95ed928468c07750ce2e970ecaa2f3fe35
+SHA256: fa9fb3846677f6ba43b2fd2ca596d7f6fc4c2b52c42fd1b8465cbcd3e2c6159a
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
