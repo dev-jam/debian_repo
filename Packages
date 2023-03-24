@@ -330,18 +330,18 @@ Description: Manipulate images e their metadata.
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
 Package: live-build
-Version: 1:20230202
+Version: 1:20230324
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 1168
+Installed-Size: 1169
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20230202_all.deb
-Size: 339284
-MD5sum: a7b98995da23e5e1ab7304c9cd2d832d
-SHA1: a3649cb87d70d43dd0f239b7486af777697e4bd8
-SHA256: cb035ca6d2c664e06a8e85853753df5c2acfbaafbb6228c3d235fff72ad3b6a3
+Filename: ./live-build_20230324_all.deb
+Size: 340724
+MD5sum: 0b1da19b7b1d0f19dfeeeedafb2666bb
+SHA1: 741ba4544917c7cf10267d79d19e13dc9c122dee
+SHA256: bc654cadd7cfd9786cafb9e39815bdaef1c3d949b418609e44f85f013792255c
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
@@ -472,7 +472,7 @@ Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
 Installed-Size: 6828
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.260-STRICT.deb
+Filename: ./python3-tartube_2.4.260-STRICT_all.deb
 Size: 2542104
 MD5sum: c85c32cecf517a44708eb009a928328c
 SHA1: 1bf18be8dc82446e3d024e0934d8581804d382e3
@@ -505,7 +505,7 @@ Maintainer: Tobii Pro - Team Bromine
 Installed-Size: 284181
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: ./TobiiProEyeTrackerManager-2.5.0.deb
+Filename: ./tobiiproeyetrackermanager_2.5.0_amd64.deb
 Size: 72826872
 MD5sum: 36b354423817be4b2001926202fd083f
 SHA1: 40f893932cc2edb945bcea5c517dfe42a9d11ff9
