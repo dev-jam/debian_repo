@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 34.0.0-9570255
+Version: 34.0.1-9680074
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_34.0.0-9570255_amd64.deb
-Size: 3970156
-MD5sum: 1248ef3d5151822317d30c915f86a77c
-SHA1: 88e649a95506438b8f5bcb7a5943b04182817719
-SHA256: 5d1904be4d75b530345d985fa1691e04a880de03cef08cfe2e252abea449002f
+Filename: ./android-tools_34.0.1-9680074_amd64.deb
+Size: 3965360
+MD5sum: 78b134e0331b688804ef5f8aa0593908
+SHA1: 4c994861edcfeb06ec8b5a8501f255b92d2e7b63
+SHA256: f81addfb13a8bfbb9c5f06a864c2916f8048701bc2e8f9fb59668e299547d15f
 Section: base
 Priority: optional
 Description: android tools for Debian
