@@ -132,14 +132,14 @@ Priority: optional
 Description: KDE Service Menu items collection by devjam
 
 Package: devjam-keyring
-Version: 1.8-1
+Version: 1.9-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-keyring_1.8-1_all.deb
-Size: 47268
-MD5sum: 0d0a7eb070015b82d5da7db0da72ba1a
-SHA1: ac19155c90bbf16b7c78cd80b94374a3d826cee5
-SHA256: f1dcf76f874f9facb0b869138a19ee3e9cffa04c6b1bd18231f81b8f2a9feafb
+Filename: ./devjam-keyring_1.9-1_all.deb
+Size: 49856
+MD5sum: 0d627fef03082f9f16d1c8482c8c0360
+SHA1: da0f81bafccaf3f0debc97e50644e55f62b77436
+SHA256: 6e4a3dc751f27d2a72aae2080175dd3616c9886e730c222eb7ed0188c07b17f0
 Section: base
 Priority: optional
 Description: custom keyring for Debian Bullseye
