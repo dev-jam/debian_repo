@@ -198,17 +198,17 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.25-1
+Version: 1.26-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.25-1_amd64.deb
-Size: 26356304
-MD5sum: 38f4902282df9fe0eee6a8f7d22e76cb
-SHA1: 7e4baa4712f9686dc9259b40a9531610f3632f2a
-SHA256: fb62b0f4a1e2e9867c2e4e4911c82290a18fe332f0d78c577384b7b85144eb45
+Filename: ./devjam-tools_1.26-1_amd64.deb
+Size: 26366436
+MD5sum: e1ad712b4a2a0cd904e255c4b2bf13e2
+SHA1: f2aff3d413a1be199064b989b3a404f54557c40b
+SHA256: e21443cfbd687721ce15681bd63cefd0875a3890030aef33aa8dd942f083cc90
 Section: base
 Priority: optional
-Description: personal tools for Debian Bullseye
+Description: personal tools for Debian
 
 Package: e1000e-dkms
 Version: 3.8.7
@@ -330,18 +330,18 @@ Description: Manipulate images e their metadata.
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
 Package: live-build
-Version: 1:20230324
+Version: 1:20230511
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 1169
+Installed-Size: 750
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20230324_all.deb
-Size: 340724
-MD5sum: 0b1da19b7b1d0f19dfeeeedafb2666bb
-SHA1: 741ba4544917c7cf10267d79d19e13dc9c122dee
-SHA256: bc654cadd7cfd9786cafb9e39815bdaef1c3d949b418609e44f85f013792255c
+Filename: ./live-build_20230511_all.deb
+Size: 196172
+MD5sum: 6eb6a322e73762b57b5fd9e683cc98d8
+SHA1: 586979022ff5814c46505c193912f02cf8e14b95
+SHA256: b73c9d125106d5654b94bb7685bd76706f6f4346a072df3db83df840fa48b471
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
