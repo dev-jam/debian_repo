@@ -118,15 +118,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-service-menu-collection
-Version: 1.5-1
+Version: 1.6-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools
-Filename: ./devjam-kde-service-menu-collection_1.5-1_all.deb
-Size: 3872
-MD5sum: e9c37bc6a5507090ef0cf1c47e16e7ae
-SHA1: c6508c95ed928468c07750ce2e970ecaa2f3fe35
-SHA256: fa9fb3846677f6ba43b2fd2ca596d7f6fc4c2b52c42fd1b8465cbcd3e2c6159a
+Filename: ./devjam-kde-service-menu-collection_1.6-1_all.deb
+Size: 4148
+MD5sum: b74ef406bc1f3b39a5cb49611c83af4f
+SHA1: adc21abb7aaf14a5d69af72a5024730cf0c93473
+SHA256: 86b3a42b84c450aebb325a6ed929e67a20e6b0c7a89a951bba09cc72f73290ca
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -198,14 +198,14 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.27-1
+Version: 1.28-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-tools_1.27-1_amd64.deb
-Size: 26366368
-MD5sum: ae971f6ca549d549804e5641cca43995
-SHA1: a78ee4e463dc1dce18cea837f1181cdff2071538
-SHA256: c23e14e8297540067ddc353d21b18d72bd24df64648085610c24b499c47a90f5
+Filename: ./devjam-tools_1.28-1_amd64.deb
+Size: 26367680
+MD5sum: a171897c54df73c47e0ad18407497aed
+SHA1: 8fa64d91807a0399c31c2b7b99b54b034ebdb22f
+SHA256: 94f8dc1b60ee17600e25b77b2ec1045bd39c8059e8ac3fc1f4f11ced2e3bcdf0
 Section: base
 Priority: optional
 Description: personal tools for Debian
