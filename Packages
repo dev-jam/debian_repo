@@ -118,15 +118,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-service-menu-collection
-Version: 1.7-1
+Version: 1.8-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, jdupes, inotify-tools, zstd
-Filename: ./devjam-kde-service-menu-collection_1.7-1_all.deb
-Size: 4168
-MD5sum: a0ce7a473d88835da475edea91a23a21
-SHA1: edae116a2ad8414eadf13823adddd9e367271a33
-SHA256: 2c42b4e3fb4abdec7bbc117df6dbfb6187491b03ccecd143dff38b716fba42aa
+Filename: ./devjam-kde-service-menu-collection_1.8-1_all.deb
+Size: 4208
+MD5sum: 4f1cfff681513b89d2cc804621540f11
+SHA1: 7f7fe3cecabb2428b8654c0c14edb8395f1d807c
+SHA256: ed075985c2c085342c4bc1de8fbd6ef24c401327dea57b490c0d3c24f3830cfe
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -198,15 +198,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.30-1
+Version: 1.31-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, live-build, ffmpeg, imagemagick, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
-Filename: ./devjam-tools_1.30-1_amd64.deb
-Size: 26367436
-MD5sum: 38e9d4084cf612c55b0cdf34533ed053
-SHA1: 1bf2a004a19effbf6186ca7445923b23c6d8d3ed
-SHA256: dcc6c9bf2cc5fd91808a430f16254c8ec7e4aec0cc091ed9573dcfd3ce130a38
+Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, live-build, ffmpeg, graphicsmagick-imagemagick-compat, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
+Filename: ./devjam-tools_1.31-1_amd64.deb
+Size: 26367896
+MD5sum: 8c89ea63dc7d186ad8d0161952f4277b
+SHA1: c9d06ab09493bde2fde28e6159a9d9d64d2873ef
+SHA256: bd8bdb1529ea804d63ef003f2880c80f87db7153b7ccae4a6b5146c6c1884056
 Section: base
 Priority: optional
 Description: personal tools for Debian
