@@ -171,14 +171,14 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.15-1
+Version: 1.16-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science_1.15-1_amd64.deb
-Size: 50716
-MD5sum: f120eb28504fb4d8ccf812f84f949122
-SHA1: eeeb497f50c78f0ced7691a535db08aa23daf4e1
-SHA256: d22c20fbbd168108a9f0583427947ed2aa6c7aa37de2a5de943b1a29b6409fbc
+Filename: ./devjam-science_1.16-1_amd64.deb
+Size: 50684
+MD5sum: ae66eed8b60282f9f2cd2246ce5732cf
+SHA1: c065da038965db096ac9f6206f10a0c5cdd2173c
+SHA256: 9407445e88aa485090e1d0fa5114aa490b7d9ee800269ff8c81cc55adea82fe8
 Section: base
 Priority: optional
 Description: personal tools for Debian
@@ -198,15 +198,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.32-1
+Version: 1.33-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, live-build, ffmpeg, imagemagick, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
-Filename: ./devjam-tools_1.32-1_amd64.deb
-Size: 26366768
-MD5sum: d6434d6d66f9963cfc29b55ce37ffb58
-SHA1: bd3590a26280a1e1f24e86fe386aed6789209031
-SHA256: 4835dbef27c9ed7c3bebfa6c6083a942ef4113c916b5a47680fe266d991403c0
+Filename: ./devjam-tools_1.33-1_amd64.deb
+Size: 26366852
+MD5sum: 44a9b0d17dcf021ded8272f51e689b57
+SHA1: af578dbf394737ac05c6084ab883fff84e6c7226
+SHA256: 44ab96c2cb2d4ea35244cf2db0b56fc9eaa28b989bf07930da84e67e6f00d086
 Section: base
 Priority: optional
 Description: personal tools for Debian
