@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 34.0.3-10161052
+Version: 34.0.4-10411341
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_34.0.3-10161052_amd64.deb
-Size: 3965364
-MD5sum: 5b988fb213b7da9955dee4dbf2a70cb8
-SHA1: c167e2f0f7567e954669c8d2ebdea315254c60f3
-SHA256: d9a2104d6724dd71d509b06a45f22fcc1ecc2b7605274afecf88a19177c701a4
+Filename: ./android-tools_34.0.4-10411341_amd64.deb
+Size: 3962772
+MD5sum: 950c720c76882adc52d62b86e2cd0e4e
+SHA1: 07c9b72389171bcbef24a6528af0021f672072f7
+SHA256: 41faca2f3b47b5f1bde0ec24461e22178f89dbac9383dcf490ddfb289104627d
 Section: base
 Priority: optional
 Description: android tools for Debian
@@ -331,18 +331,18 @@ Description: Manipulate images e their metadata.
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
 Package: live-build
-Version: 1:20230511
+Version: 1:20230806
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 750
+Installed-Size: 749
 Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
-Filename: ./live-build_20230511_all.deb
-Size: 196172
-MD5sum: 6eb6a322e73762b57b5fd9e683cc98d8
-SHA1: 586979022ff5814c46505c193912f02cf8e14b95
-SHA256: b73c9d125106d5654b94bb7685bd76706f6f4346a072df3db83df840fa48b471
+Filename: ./live-build_20230806_all.deb
+Size: 195836
+MD5sum: 57ed9d6a8890889978b85c76dbbdbb60
+SHA1: f0a5c32b3c01cc5119ce2b0831169883a3062819
+SHA256: 0c5620e043ba0a2a3d83e04bab40b0f0f0f0c730a4e3c8a84b9e51fc2a294e46
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
