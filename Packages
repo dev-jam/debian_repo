@@ -468,16 +468,16 @@ Description: Compute the DR14 value of the given audio files
 
 Package: python3-tartube
 Source: tartube
-Version: 2.4.386-1
+Version: 2.4.412-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 7013
+Installed-Size: 7033
 Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.386-STRICT.deb
-Size: 2556656
-MD5sum: 40545280cbb825dbc89008eeee41aefb
-SHA1: a0cb65637970b5cf158a679f3b5175172ef4cfcc
-SHA256: 0bcedb03cb55ded87f7095c1c76a8bfd09a44e3ebf1d54df3df7e13a287ccf0b
+Filename: ./python3-tartube_2.4.412-STRICT.deb
+Size: 2559092
+MD5sum: 55478345d0cd71b97ec6ad68f88fd60c
+SHA1: ab0fb857700289c547e3601ecd36e415079048d8
+SHA256: b6cc1642873858567442e76c86e5bfb600554930d5760666a92b1065e0616d36
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
