@@ -339,10 +339,10 @@ Depends: debootstrap
 Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, parted, mtd-utils
 Filename: ./live-build_20230809_all.deb
-Size: 196116
-MD5sum: 81e3fa21888fb659ee4edc865a0a1e56
-SHA1: 6f354931de5d401021499488d45498d04548976b
-SHA256: b3357b0ef83166671edc25aa3b456bf80519b510c07b8e53e8d99251b0bfeb3d
+Size: 196140
+MD5sum: 93bf0fb53e6b557d71a37c2e21e6f1f2
+SHA1: 9cca2d6691870624f20c27fca1f439c433297e00
+SHA256: d2b6154a8d294ef91ee174b703585ca06c689724b33b9faf92ac923f6e6e510e
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
