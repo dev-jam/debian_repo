@@ -561,12 +561,12 @@ Version: 0:2023.7.6-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 9808
-Depends: python3 (>= 3.7~), python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodomex, python3-websockets, python3:any
+Depends: python3 (>= 3.7~), python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-websockets, python3:any
 Filename: ./yt-dlp_2023.7.6-1~w2d0_all.deb
-Size: 1691320
-MD5sum: bd08515976326ecc9bf577d73c0bf9fb
-SHA1: 4a51f1c0411fe2bfab3432a619dcade0fbb71f19
-SHA256: 27b412794c99ec4481dd95a7525721f82b8e4114aad9a1b1cb9a8b2619bbb4ef
+Size: 1691328
+MD5sum: 63c831759b169af0d1bffaeb29cf742f
+SHA1: 274d5800c1d693db59f9b2d766062b18d21f366f
+SHA256: d999604f53715f7c083ace13437a392167e7010ac54ceb51bad6cddc2faecdcb
 Section: python
 Priority: optional
 Homepage: https://github.com/yt-dlp/yt-dlp
