@@ -482,23 +482,6 @@ Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
 
-Package: python3-rtcqs
-Version: 0:0.5.3-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 69
-Depends: python3-simplegui, python3:any
-Filename: ./python3-rtcqs_0.5.3-1~w2d0_all.deb
-Size: 22592
-MD5sum: e90b4cf7c080dd6a16ec953152ce54c4
-SHA1: 77bc0bcacba7b523eb4cb5c7f30253ec4da9beb3
-SHA256: 07509b533c268bf661d1b673f4fed0132f8127a2f5ab138ed1fd10fa70a98383
-Section: python
-Priority: optional
-Homepage: https://codeberg.org/rtcqs/rtcqs
-Description: Linux audio performance analyzer
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: python3-simplegui
 Version: 0:4.60.5-1~w2d0
 Architecture: all
@@ -536,6 +519,23 @@ Description: GUI front-end for youtube-dl, yt-dlp and other compatible vi
  Tartube is a GUI front-end for youtube-dl, yt-dlp and other compatible video
  downloaders.
 
+Package: rtcqs
+Version: 0:0.5.3-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 68
+Depends: python3-simplegui, python3:any
+Filename: ./rtcqs_0.5.3-1~w2d0_all.deb
+Size: 22468
+MD5sum: f22dcd25583687ee0b1f7bdd29bf52ac
+SHA1: 70a7ede11e7653725c7cb272370602df7405ae94
+SHA256: 8ae052f5d87247446ef63e186993b984d6bd19e1067ff8de94525e09976e60ce
+Section: python
+Priority: optional
+Homepage: https://codeberg.org/rtcqs/rtcqs
+Description: Linux audio performance analyzer
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: tobiiproeyetrackermanager
 Version: 2.6.0-2073
 Architecture: amd64
@@ -555,4 +555,21 @@ Description: Free software to help manage your screen-based eye tracker.
   A configuration and setting utility that helps you manage your connected eye trackers. It is available free of charge and greatly increases efficiency for users of Tobii Eyetrackers
 License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
+
+Package: yt-dlp
+Version: 0:2023.7.6-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 9808
+Depends: python3 (>= 3.7~), python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodomex, python3-websockets, python3:any
+Filename: ./yt-dlp_2023.7.6-1~w2d0_all.deb
+Size: 1691320
+MD5sum: bd08515976326ecc9bf577d73c0bf9fb
+SHA1: 4a51f1c0411fe2bfab3432a619dcade0fbb71f19
+SHA256: 27b412794c99ec4481dd95a7525721f82b8e4114aad9a1b1cb9a8b2619bbb4ef
+Section: python
+Priority: optional
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: A youtube-dl fork with additional features and patches
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
