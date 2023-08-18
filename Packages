@@ -482,6 +482,40 @@ Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
 
+Package: python3-pysimplegui
+Version: 0:4.60.5-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1821
+Depends: python3 (>= 3.4~), python3:any
+Filename: ./python3-pysimplegui_4.60.5-1~w2d0_all.deb
+Size: 438292
+MD5sum: ef9aa61fbd28fc92614d0e3b30492edd
+SHA1: 9b59cd0218ce3c02d3c70ccd178a24fce45fde4b
+SHA256: 91285314683fea97ca11c4ceecf7952ff5871221e37ae05e364de7e8dbab5367
+Section: python
+Priority: optional
+Homepage: https://github.com/PySimpleGUI/PySimpleGUI
+Description: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-rtcqs
+Version: 0:0.5.3-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 69
+Depends: python3-pysimplegui, python3:any
+Filename: ./python3-rtcqs_0.5.3-1~w2d0_all.deb
+Size: 22592
+MD5sum: 245dc2de25b0e9c6cba0ff79c38a1fab
+SHA1: 6fec463d10125fe3c6fc14c193f01055beaaac00
+SHA256: 8f06276483777f80159cfc077996e3103ea96a50d3b5256def52dc5df8e2c7bc
+Section: python
+Priority: optional
+Homepage: https://codeberg.org/rtcqs/rtcqs
+Description: Linux audio performance analyzer
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-tartube
 Source: tartube
 Version: 2.4.412-1
