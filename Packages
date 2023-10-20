@@ -145,17 +145,17 @@ Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-liquorix-config
-Version: 1.6-1
+Version: 1.7-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-liquorix-config_1.6-1_all.deb
-Size: 1524
-MD5sum: 8ff75aa99e17aec01a4f35a168cbadee
-SHA1: 189694046e9a7b97fe219ae1d72911efc589c0fc
-SHA256: 58d6ce2df59e85502739a9fa87b896cfe2008d34d37255509345ee0dc6901697
+Filename: ./devjam-liquorix-config_1.7-1_all.deb
+Size: 1572
+MD5sum: 55bc4b62308ff07da79b4c2dbd590eb4
+SHA1: ab8b06c4b5d13ac297efe23a9ad0426cc9b3a3ac
+SHA256: 5eb514ef343f1b415577e2a3096d816dafa7f7b810489821cdc726e2e82fe8c4
 Section: base
 Priority: optional
-Description: Grub boot items by devjam
+Description: Liquorix configs by devjam
 
 Package: devjam-pipewire-scripts
 Version: 1.0-1
