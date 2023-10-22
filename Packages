@@ -145,14 +145,14 @@ Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-liquorix-config
-Version: 1.10-1
+Version: 1.11-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-liquorix-config_1.10-1_all.deb
-Size: 1736
-MD5sum: d2f239609cb63aae6d571685600e8d67
-SHA1: 40b2677099dfbb12ccae0621b53779c8f41ec9a4
-SHA256: 10a9df0eb2110539313b4f4feb52b1d5d695ef9e1dd48a500ce0dcd1f647c98d
+Filename: ./devjam-liquorix-config_1.11-1_all.deb
+Size: 1620
+MD5sum: 90c63c12fb3da97df03ad8e374d77212
+SHA1: cc25feda591ff56dc95075e7fdb72407bdc64939
+SHA256: 508025ce22d4e9f7f01224975326566a6d41c7036e17594a5f692ff9fdb636b2
 Section: base
 Priority: optional
 Description: Liquorix configs by devjam
