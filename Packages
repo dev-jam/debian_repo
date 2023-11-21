@@ -1,28 +1,28 @@
 Package: android-tools
-Version: 34.0.3-10161052
+Version: 34.0.5-10900879
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_34.0.3-10161052_amd64.deb
-Size: 3965364
-MD5sum: 5b988fb213b7da9955dee4dbf2a70cb8
-SHA1: c167e2f0f7567e954669c8d2ebdea315254c60f3
-SHA256: d9a2104d6724dd71d509b06a45f22fcc1ecc2b7605274afecf88a19177c701a4
+Filename: ./android-tools_34.0.5-10900879_amd64.deb
+Size: 3935420
+MD5sum: 195512ba0f33d50ed237f3887c578b92
+SHA1: 47c775fac67acea72a6e1b019dc47d61e6197d95
+SHA256: b7b18a79e0f6bfc819c6ce307aef6c4676797a25004822ee172e96845a253ef5
 Section: base
 Priority: optional
 Description: android tools for Debian
 
 Package: deadbeef-static
-Version: 1.9.3-1
+Version: 1.9.5-1
 Architecture: amd64
 Maintainer: Oleksiy Yakovenko <waker@users.sf.net>
-Installed-Size: 19482
+Installed-Size: 20232
 Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libx11-6
 Recommends: libpulse0, libdbus-1-3
-Filename: ./deadbeef-static_1.9.3-1_amd64.deb
-Size: 8752612
-MD5sum: 24a004e27967cdda96f9541e0f140582
-SHA1: f7057442e214d91c17f18372f8865ba9c84cfdfe
-SHA256: e09655b9051337ac3a54b7389b9a6aa7d7caab0f37d0a6e2688aae340384772a
+Filename: ./deadbeef-static_1.9.5-1_amd64.deb
+Size: 9038610
+MD5sum: b8b5eb76b82e3e611843b9f0b22961e2
+SHA1: 5d87a2e5d6960978e52a87cd147ea28c14db9e56
+SHA256: bc74ea9c8fa99f98d10c6af051f972e8192ac31c0243a5c3e6c295c1002f4d30
 Section: sound
 Priority: optional
 Homepage: http://deadbeef.sourceforge.net/
@@ -501,16 +501,16 @@ Description: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI i
 
 Package: python3-tartube
 Source: tartube
-Version: 2.4.412-1
+Version: 2.4.429-1
 Architecture: all
-Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 7033
-Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.412-STRICT.deb
-Size: 2559092
-MD5sum: 55478345d0cd71b97ec6ad68f88fd60c
-SHA1: ab0fb857700289c547e3601ecd36e415079048d8
-SHA256: b6cc1642873858567442e76c86e5bfb600554930d5760666a92b1065e0616d36
+Maintainer: None <None>
+Installed-Size: 7040
+Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
+Filename: ./python3-tartube_2.4.429-STRICT.deb
+Size: 2560264
+MD5sum: a0dc95e5bdfcd0207b663374d94986e2
+SHA1: bbc2fbe3cac663bbb28f9428d5275bd86e201a98
+SHA256: 825a264c2ca7fcf20cc5b3c85af946ebb583428928f1778cd5113c00beac9f66
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
