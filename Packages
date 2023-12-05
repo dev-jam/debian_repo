@@ -554,17 +554,17 @@ Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: tobiiproeyetrackermanager
-Version: 2.6.0-2073
+Version: 2.6.1-2089
 Architecture: amd64
 Maintainer: Tobii Pro - Team Bromine
-Installed-Size: 383149
+Installed-Size: 384362
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: ./tobiiproeyetrackermanager_2.6.0_amd64.deb
-Size: 80236826
-MD5sum: a3210e17ad679b3776bc89bc6b136cfa
-SHA1: 4b623ad1fa2d2c7c8524a4076660cf3115f6edb9
-SHA256: 3045fbf7dcdf9950e951afdf1c38163b99dc6b82259709cc94f6701e290117ad
+Filename: ./tobiiproeyetrackermanager_2.6.1_amd64.deb
+Size: 80390456
+MD5sum: 43761ff2d9540dd6ccb7fb5ec48614df
+SHA1: 4ee24c20309eae60d3888be2b199d4e5ebdb548d
+SHA256: db51a4dd31c4977c9932a5c46daab66e33f1dc376dfb97b041a8d90190bc23e5
 Section: default
 Priority: optional
 Homepage: https://www.tobiipro.com/product-listing/eye-tracker-manager/
