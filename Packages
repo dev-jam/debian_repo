@@ -523,7 +523,7 @@ Architecture: all
 Maintainer: None <None>
 Installed-Size: 7040
 Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.429-STRICT.deb
+Filename: ./python3-tartube_2.4.429-STRICT_all.deb
 Size: 2560264
 MD5sum: a0dc95e5bdfcd0207b663374d94986e2
 SHA1: bbc2fbe3cac663bbb28f9428d5275bd86e201a98
