@@ -518,23 +518,37 @@ Description: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI i
 
 Package: python3-tartube
 Source: tartube
-Version: 2.4.429-1
+Version: 2.5.0-1
 Architecture: all
-Maintainer: None <None>
-Installed-Size: 7040
+Maintainer: A S Lewis <aslewis@cpan.org>
+Installed-Size: 7151
 Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.429-STRICT_all.deb
-Size: 2560264
-MD5sum: a0dc95e5bdfcd0207b663374d94986e2
-SHA1: bbc2fbe3cac663bbb28f9428d5275bd86e201a98
-SHA256: 825a264c2ca7fcf20cc5b3c85af946ebb583428928f1778cd5113c00beac9f66
+Filename: ./python3-tartube_2.5.0-STRICT_all.deb
+Size: 2571524
+MD5sum: 42458283cb8553bd18169cb5ab5f0e9e
+SHA1: fa957f50f273f534797c25d46f803c6cd3103339
+SHA256: c961afc81a788b0c1bc8dfaf1db08ad60970f590b4a96c9d687f87df745fba66
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
-Description: GUI front-end for youtube-dl, yt-dlp and other compatible vi
- .
+Description: GUI front-end for youtube-dl and yt-dlp
  Tartube is a GUI front-end for youtube-dl, yt-dlp and other compatible video
  downloaders.
+ .
+  - You can fetch a list of videos from your favourite channels and playlists on
+  YouTube, BitChute, and hundreds of other websites
+  - In buffering is an issue, you can download a temporary copy of a video
+  before automatically opening it in your favourite media player
+  - Tartube will organise your videos into convenient folders (if that's what
+  you want)
+  - Tartube can alert you when livestreams and debut videos are starting
+  (YouTube only)
+  - If you think the censors will remove a video, against the wishes of its
+  creators and before you've had a chance to watch it, Tartube can make an
+  archive copy
+  - Tartube won't manipulate search results, unsubscribe you from your favourite
+  channels or deliberately conceal videos
+  - Tartube is free and open-source software
 
 Package: rtcqs
 Version: 0:0.5.3-1~w2d0
