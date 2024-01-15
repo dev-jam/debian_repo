@@ -118,15 +118,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-service-menu-collection
-Version: 1.9-1
+Version: 1.10-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, jdupes, inotify-tools, zstd, kio-admin
-Filename: ./devjam-kde-service-menu-collection_1.9-1_all.deb
-Size: 4020
-MD5sum: 57af810154a50aaef73a0cb943c2726a
-SHA1: faf3dad6b360b1aea4ef6ada0e35dcd027a4e797
-SHA256: f8ac5ecc7287b360fbe2b937f8fa5f68f3ad7dd57e4a7b9185712d4748051585
+Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, jdupes, inotify-tools, zstd, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
+Filename: ./devjam-kde-service-menu-collection_1.10-1_all.deb
+Size: 4004
+MD5sum: 12e97c45dbfedc3374ac2b83fe85fb02
+SHA1: bb0f56880e13c027addb556088aa018ce5a6c8df
+SHA256: ae9b660a5c1f33d742649e44f39774098231a6e02d311c9e30b59219b71c446c
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -184,29 +184,29 @@ Priority: optional
 Description: personal tools for Debian
 
 Package: devjam-thunar-custom-actions
-Version: 1.0-3
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, unoconv, pacpl, meld, eiciel, fuseiso9660, mkvtoolnix, coreutils, cfourcc, devscripts, mediainfo
-Filename: ./devjam-thunar-custom-actions_1.0-3_all.deb
-Size: 3144
-MD5sum: 48e0695ff2ec71222873f6039fb2e079
-SHA1: ebc021e4cbe52fd311e0d6f738912f1f89790a8d
-SHA256: 82e0c656aa2743a402c2920852852b57e35049570470663c2f7be04e5ba178e1
+Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, unoconv, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, mkvtoolnix, ffmpeg, devjam-tools
+Filename: ./devjam-thunar-custom-actions_1.1-1_all.deb
+Size: 3060
+MD5sum: 2f6f73c2cbe7ed9d5ff47318f843298b
+SHA1: 61c10a51e42a754bc088bb5df027a3f9701b5f62
+SHA256: 2ad28ca7837da1e407e6a5de741585880213ed6ca0524c2c01e96766484824e8
 Section: base
 Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.34-1
+Version: 1.35-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, live-build, ffmpeg, imagemagick, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
-Filename: ./devjam-tools_1.34-1_amd64.deb
-Size: 27222952
-MD5sum: b8cdbf83dcad2bc8115f40b3f1047dcf
-SHA1: e918b92a4fee974ace3a0f1bb4169e48efc65b86
-SHA256: be6157e2e6613a6eb4de32604bc31362a225dcab206e4920c8b69207d8236c74
+Filename: ./devjam-tools_1.35-1_amd64.deb
+Size: 27223720
+MD5sum: 2ee9e5e7cfaf5d4c35a6faf1e29d1972
+SHA1: df1eb82fff0306df53d9a8e359ee6eb441a14041
+SHA256: 9c535fa1b1985e70028a43aae781980e7d6283524efd3ec11f48dd147ffa60f2
 Section: base
 Priority: optional
 Description: personal tools for Debian
