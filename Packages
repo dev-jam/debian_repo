@@ -550,23 +550,6 @@ Description: GUI front-end for youtube-dl and yt-dlp
   channels or deliberately conceal videos
   - Tartube is free and open-source software
 
-Package: rtcqs
-Version: 0:0.5.3-2~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 68
-Depends: python3-simplegui, python3:any
-Filename: ./rtcqs_0.5.3-2~w2d0_all.deb
-Size: 22548
-MD5sum: aed91866d8133002e34cfc72979fba23
-SHA1: f560b10b9927bd664d03e8b289268e6d1ceecf32
-SHA256: af3fe1465dc3c312035a7ed3376c05fab58d55a95d80cf02a7762c4ad4eea5d5
-Section: python
-Priority: optional
-Homepage: https://codeberg.org/rtcqs/rtcqs
-Description: Linux audio performance analyzer
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: tobiiproeyetrackermanager
 Version: 2.6.1-2089
 Architecture: amd64
