@@ -499,6 +499,23 @@ Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
 
+Package: python3-rtcqs
+Version: 0:0.5.3-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 68
+Depends: python3-simplegui, python3:any
+Filename: ./python3-rtcqs_0.5.3-2~w2d0_all.deb
+Size: 22564
+MD5sum: f7227fd9372f68c97494dbb6b2aeb156
+SHA1: 89aaa2c4f3ba246d7031a156e379df71b11ee3f8
+SHA256: 2fd34439be43ce313740988647984f50da3ca04fb3437f1de8423ca593b675a3
+Section: python
+Priority: optional
+Homepage: https://codeberg.org/rtcqs/rtcqs
+Description: Linux audio performance analyzer
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-simplegui
 Version: 0:4.60.5-1~w2d0
 Architecture: all
