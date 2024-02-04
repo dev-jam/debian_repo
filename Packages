@@ -118,15 +118,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-service-menu-collection
-Version: 1.10-1
+Version: 1.11-4
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, jdupes, inotify-tools, zstd, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-service-menu-collection_1.10-1_all.deb
-Size: 4004
-MD5sum: 12e97c45dbfedc3374ac2b83fe85fb02
-SHA1: bb0f56880e13c027addb556088aa018ce5a6c8df
-SHA256: ae9b660a5c1f33d742649e44f39774098231a6e02d311c9e30b59219b71c446c
+Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, jdupes, fclones, inotify-tools, zstd, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
+Filename: ./devjam-kde-service-menu-collection_1.11-4_all.deb
+Size: 4068
+MD5sum: 66cbbd528f9cc4a9d6a8128ceb026a32
+SHA1: a2c353b2e9c2d891d0c77d9a32b75574d6c13454
+SHA256: 42d27cb804070899d1cdd8b00f250ac86e925b64d9eb8215065e2d65cb1db391
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -198,15 +198,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.36-1
+Version: 1.37-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, live-build, ffmpeg, imagemagick, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
-Filename: ./devjam-tools_1.36-1_amd64.deb
-Size: 27223856
-MD5sum: 65eeedf78e4f071f4a18c23418b0e81c
-SHA1: 7f6c679d3f3f290af150a1f4847486b3e0675d93
-SHA256: c411ae7fb17a350797b9aaf2a2dbccf832f75a4239714d02fbc2c7cb2aa2fa6a
+Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
+Filename: ./devjam-tools_1.37-1_amd64.deb
+Size: 27224568
+MD5sum: 9cc2c3cdeca2bc7ab42b7d4ac73845c5
+SHA1: de045ecc0382c4fecfd2e639e772d8ffa3badc3d
+SHA256: adbe285da4c6823952e1c1df68c38b4ef6727a8f0fd139fe70c47d2f0408ac8f
 Section: base
 Priority: optional
 Description: personal tools for Debian
