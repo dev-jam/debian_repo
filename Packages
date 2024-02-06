@@ -979,16 +979,16 @@ Vcs-Browser: https://github.com/pkolaczk/fclones
 Vcs-Git: https://github.com/pkolaczk/fclones
 
 Package: fclones-gui
-Version: 0.2.0
+Version: 0.2.0-2
 Architecture: amd64
 Maintainer: Piotr Kołaczkowski <pkolaczk@gmail.com>
 Installed-Size: 3759
 Depends: libc6 (>= 2.34), libpango-1.0-0 (>= 1.14.0), libgtk-4-1 (>= 4.0.0), libadwaita-1-0 (>= 1.0.1), libglib2.0-0 (>= 2.53.1)
-Filename: ./fclones-gui_0.2.0_amd64.deb
-Size: 1132012
-MD5sum: 23880964c016791d7fc0fe44db581c27
-SHA1: ee5c5563cdb44587c951315a0b388d2d84b0dba9
-SHA256: db6c00d9d053bea06fcf95b759c8065d81571d768bc61ecdad1051f721ce91e8
+Filename: ./fclones-gui_0.2.0-2_amd64.deb
+Size: 1155436
+MD5sum: 4e07d39b892b8e4dd2f8d898baf649ac
+SHA1: 5832b9c49ac32f7c9d671e7141d09834a6757d0c
+SHA256: d869f7089d9c2816f858ea6d515d63cba36e8be07dd0fb2ae924183d09d1859b
 Priority: optional
 Homepage: https://github.com/pkolaczk/fclones-gui
 Description: Interactive duplicate file remover
