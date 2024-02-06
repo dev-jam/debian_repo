@@ -1408,6 +1408,19 @@ Description: GUI front-end for youtube-dl and yt-dlp
   channels or deliberately conceal videos
   - Tartube is free and open-source software
 
+Package: sedutil
+Version: 1.16.0-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./sedutil_1.16.0-1_amd64.deb
+Size: 44437560
+MD5sum: 951a95e1041220741462d1e511fc7b5d
+SHA1: 19a00f768396a11e69bb88c4a19cd9ad0bcb59f5
+SHA256: ff032d4a89e6a5d50df57f6d68f8e86a916f8ec1321125cfba988b70d80ac31d
+Section: base
+Priority: optional
+Description: sedutil ladar for Debian
+
 Package: tobiiproeyetrackermanager
 Version: 2.6.1-2089
 Architecture: amd64
