@@ -118,15 +118,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-service-menu-collection
-Version: 1.12-1
+Version: 1.13-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-service-menu-collection_1.12-1_all.deb
-Size: 4000
-MD5sum: 3bed7a68079cac266afb0e247aefb7aa
-SHA1: 342ad794cc68cc466d969ea003bb4e85263d8351
-SHA256: 9edecbd3e0707bc2f3000a134dbcea0e8f1385e247c6aae98f21659458cdaca3
+Filename: ./devjam-kde-service-menu-collection_1.13-1_all.deb
+Size: 4120
+MD5sum: 6044ff9cf7706845f48d7244ed5d17be
+SHA1: 9c931db969d0fd26b8064f1b30b752fc5aa4c00d
+SHA256: a2c7e02395273f2f49c1ed4604a51d732cccb01abea99c641309affe53df5423
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -198,15 +198,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.37-1
+Version: 1.38-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
-Filename: ./devjam-tools_1.37-1_amd64.deb
-Size: 27224568
-MD5sum: 9cc2c3cdeca2bc7ab42b7d4ac73845c5
-SHA1: de045ecc0382c4fecfd2e639e772d8ffa3badc3d
-SHA256: adbe285da4c6823952e1c1df68c38b4ef6727a8f0fd139fe70c47d2f0408ac8f
+Filename: ./devjam-tools_1.38-1_amd64.deb
+Size: 27224688
+MD5sum: b63582ee93e5ba3fa14bbf567055bb13
+SHA1: d643f01b5696accc2ea81088958e45d62660d5ef
+SHA256: eae33aa522dec800d4c9d1f3b0ced0e9f121a903ed3cf570916229260be485c0
 Section: base
 Priority: optional
 Description: personal tools for Debian
