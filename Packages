@@ -157,6 +157,19 @@ Section: base
 Priority: optional
 Description: Liquorix configs by devjam
 
+Package: devjam-lowlatency
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-lowlatency_1.0-1_amd64.deb
+Size: 1308
+MD5sum: 828e138b7552ed1bdd9fb9858017c6d2
+SHA1: 995f115f1c14ae3559ed7fa0813bc08224e7d534
+SHA256: 2a89b4f0384e1f1cb49799826cf5067880753c2c69a0166fa03304c78376a13b
+Section: base
+Priority: optional
+Description: personal tools for Debian
+
 Package: devjam-pipewire-scripts
 Version: 1.0-1
 Architecture: all
@@ -171,14 +184,14 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.18-1
+Version: 1.19-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science_1.18-1_amd64.deb
-Size: 50716
-MD5sum: 29b56b646f796ae2673c4ca4672e4764
-SHA1: fd1c3b0ba91803ec0f6b0a164ceb5b2ecfde401c
-SHA256: ef75018723e840d9b84299121a4ccc414d797402b64495d6362822c7e8cac47f
+Filename: ./devjam-science_1.19-1_amd64.deb
+Size: 50448
+MD5sum: 269b6fdcffa696dafc3a126e7d5609b3
+SHA1: e8b110dd8d0cb5018e1793c28678c1c78e517071
+SHA256: fabc04c29d165acebe461fb21cad3de7a1189cb3e6c3d55358edcb6e09158f85
 Section: base
 Priority: optional
 Description: personal tools for Debian
