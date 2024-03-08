@@ -197,15 +197,15 @@ Priority: optional
 Description: personal tools for Debian
 
 Package: devjam-thunar-custom-actions
-Version: 1.1-1
+Version: 1.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, unoconv, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-thunar-custom-actions_1.1-1_all.deb
-Size: 3060
-MD5sum: 2f6f73c2cbe7ed9d5ff47318f843298b
-SHA1: 61c10a51e42a754bc088bb5df027a3f9701b5f62
-SHA256: 2ad28ca7837da1e407e6a5de741585880213ed6ca0524c2c01e96766484824e8
+Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, unoconv, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, mkvtoolnix, ffmpeg, devjam-tools, fclones, zstd
+Filename: ./devjam-thunar-custom-actions_1.2-1_all.deb
+Size: 3156
+MD5sum: d8a4268cd3f220e5f8eff1dea338d2fe
+SHA1: 65df9d91a703d094e73dba685744726c17808aec
+SHA256: c4ab7d0ec76b172996313da7179720a0996729928aee77fded0b3c9c6f07524e
 Section: base
 Priority: optional
 Description: Thunar custom actions collection
