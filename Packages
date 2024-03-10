@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 34.0.5-10900879
+Version: 35.0.0-11411520
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_34.0.5-10900879_amd64.deb
-Size: 3935420
-MD5sum: 195512ba0f33d50ed237f3887c578b92
-SHA1: 47c775fac67acea72a6e1b019dc47d61e6197d95
-SHA256: b7b18a79e0f6bfc819c6ce307aef6c4676797a25004822ee172e96845a253ef5
+Filename: ./android-tools_35.0.0-11411520_amd64.deb
+Size: 4453164
+MD5sum: 5562e5eefd8cfa63d774e0dbd3381aba
+SHA1: 0c28facaf1420e9b16ccfcd37fc28446bf678708
+SHA256: ad2b369a8fc0c4d9a291006563967408c181b407c099d4d336ab23c1380184f6
 Section: base
 Priority: optional
 Description: android tools for Debian
@@ -211,15 +211,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.38-1
+Version: 1.39-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo-gui, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan
-Filename: ./devjam-tools_1.38-1_amd64.deb
-Size: 27224688
-MD5sum: b63582ee93e5ba3fa14bbf567055bb13
-SHA1: d643f01b5696accc2ea81088958e45d62660d5ef
-SHA256: eae33aa522dec800d4c9d1f3b0ced0e9f121a903ed3cf570916229260be485c0
+Filename: ./devjam-tools_1.39-1_amd64.deb
+Size: 27223892
+MD5sum: 5db2169ad873f8920c8e555fb6312fef
+SHA1: f8048769116240a51085b1ca6cff5f52fab1d17a
+SHA256: 83e118348e17d2b25d002595c4b7b42bc1233b1bd5717b2187d69370d3aff17e
 Section: base
 Priority: optional
 Description: personal tools for Debian
@@ -229,7 +229,7 @@ Version: 3.8.7
 Architecture: all
 Maintainer: Kolja Hildebrand <kolja.hildebrand@gmail.com>
 Depends: dkms (>= 1.95)
-Filename: ./e1000e-dkms_3.8.7_all.deb
+Filename: ./e1000e-dkms_3.8.7-1_all.deb
 Size: 241548
 MD5sum: 9eed0400f409bf0ed262edbd31084703
 SHA1: 672b51755d57914f466f4ade75eee79eb6757596
@@ -240,21 +240,21 @@ Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
 Package: fastfetch
-Version: 2.2.3
+Version: 2.8.8
 Architecture: amd64
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
-Installed-Size: 18015
+Installed-Size: 13301
 Depends: libc6
-Filename: ./fastfetch_2.2.3_amd64.deb
-Size: 4722996
-MD5sum: ddf13ec5c7a719de3a2f5b41bd3397ee
-SHA1: 5edead3c818a7d6f6b3c7cba04bbcc7b341d0558
-SHA256: 393188c22201c0848e639b05267a20c9381a84abd6fcf8853843368267fe7b1a
+Filename: ./fastfetch_2.8.8-1_amd64.deb
+Size: 5262038
+MD5sum: f8674dda7d2cae8b1f6a0422a405ee73
+SHA1: 3862f5c5e6ad03e91b5a90a5571eceb9f4626669
+SHA256: 5d8ccb80a32154943ea4b4113b2fa900d79dd0ed6f88a5a921028537cff2fe68
 Section: devel
 Priority: optional
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Description: Fast neofetch-like system information tool
- fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written in c to achieve much better performance.
+ fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 
 Package: fclones
 Version: 0.34.0-1
@@ -1354,19 +1354,18 @@ Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
 
 Package: python3-rtcqs
-Version: 0:0.5.3-2~w2d0
+Version: 0:0.6.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 68
-Depends: python3-simplegui, python3:any
-Filename: ./python3-rtcqs_0.5.3-2~w2d0_all.deb
-Size: 22564
-MD5sum: f7227fd9372f68c97494dbb6b2aeb156
-SHA1: 89aaa2c4f3ba246d7031a156e379df71b11ee3f8
-SHA256: 2fd34439be43ce313740988647984f50da3ca04fb3437f1de8423ca593b675a3
+Installed-Size: 80
+Depends: python3-simplegui (<< 4.61), python3:any
+Filename: ./python3-rtcqs_0.6.2-1~w2d0_all.deb
+Size: 23608
+MD5sum: c8f340d69311694396b768f48462ee51
+SHA1: 86ab324de0f857beed6482e537463e4bd5d253d8
+SHA256: 60a66fe5039ceaa437bf93b7839d203c8d7941e8a5eff5daf3ba6f44d6e25c51
 Section: python
 Priority: optional
-Homepage: https://codeberg.org/rtcqs/rtcqs
 Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
