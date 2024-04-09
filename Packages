@@ -241,16 +241,16 @@ Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
 Package: fastfetch
-Version: 2.8.8
+Version: 2.9.1
 Architecture: amd64
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
-Installed-Size: 13301
+Installed-Size: 13377
 Depends: libc6
-Filename: ./fastfetch_2.8.8-1_amd64.deb
-Size: 5262038
-MD5sum: f8674dda7d2cae8b1f6a0422a405ee73
-SHA1: 3862f5c5e6ad03e91b5a90a5571eceb9f4626669
-SHA256: 5d8ccb80a32154943ea4b4113b2fa900d79dd0ed6f88a5a921028537cff2fe68
+Filename: ./fastfetch_2.9.1-1_amd64.deb
+Size: 5297718
+MD5sum: 0f7fa7bc76ec55dc6968d1afda7867f4
+SHA1: 00fa6ff58322ed29f31948f33cde1fba0810fd06
+SHA256: 804023cd1353cf9522bdefdcbc77d6301cf8556b4daaeef287a9a8374a9d96f5
 Section: devel
 Priority: optional
 Homepage: https://github.com/fastfetch-cli/fastfetch
