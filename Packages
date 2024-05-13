@@ -1434,6 +1434,29 @@ Description: GUI front-end for youtube-dl and yt-dlp
   channels or deliberately conceal videos
   - Tartube is free and open-source software
 
+Package: rescuezilla
+Version: 2.5-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2849
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils
+Recommends: partimage, ecryptfs-utils, nbdkit
+Filename: ./rescuezilla_2.5-1_all.deb
+Size: 521620
+MD5sum: 4a07d75296f2b04139bfaa42a98b3b96
+SHA1: e6763c764205cbdbafd77bdedea9771cdf08f247
+SHA256: 808f8aaa3d0025aa2ba71beaeb19514afc3c4a6e0afcedfcfd4e6a22915205dd
+Section: admin
+Priority: optional
+Homepage: https://rescuezilla.com
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
 Package: sedutil
 Version: 1.16.0-1
 Architecture: amd64
