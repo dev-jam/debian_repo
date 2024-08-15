@@ -1215,6 +1215,85 @@ Description: Manipulate images e their metadata.
  .
  Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
+Package: live-boot
+Version: 1:20240525
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 119
+Depends: live-boot-initramfs-tools | live-boot-backend
+Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
+Suggests: cryptsetup, curlftpfs, httpfs2, wget
+Filename: ./live-boot_20240525_all.deb
+Size: 29140
+MD5sum: 21d4b9b5760ba2c148d879ecab77e40e
+SHA1: 1c3d7ef3a3d6b86237156e6871e93cac28c22bb0
+SHA256: 0f8b86308a51ccbe522ab26931e515eb07b7b6a5c4c1bf43b068d32d69eb4658
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ In addition to live-boot, a backend for the initrd generation is required, such
+ as live-boot-initramfs-tools.
+
+Package: live-boot-doc
+Source: live-boot
+Version: 1:20240525
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 70
+Filename: ./live-boot-doc_20240525_all.deb
+Size: 48744
+MD5sum: c9a1d28316b3adb776a9b09a2bc5bcc7
+SHA1: 7e12c2a9f523bdc1f7d7dcbc1113c2c664024bf6
+SHA256: 9dc6d53a7973901b80d1c335627b99fb6ff6fb6ef3a7a094a3ee54ae1b360685
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (documentation)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace).
+ .
+ This package contains the documentation.
+
+Package: live-boot-initramfs-tools
+Source: live-boot
+Version: 1:20240525
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 25
+Depends: busybox | busybox-initramfs, initramfs-tools, udev
+Conflicts: live-boot-backend
+Replaces: live-boot-backend
+Provides: live-boot-backend
+Filename: ./live-boot-initramfs-tools_20240525_all.deb
+Size: 6052
+MD5sum: 452e7b27d94fda1e27c00467fa456768
+SHA1: 1c959834d7303cb214541ff3baa7a08f806029b9
+SHA256: 8614d767efb74a0f389cd50ceb80d1b91b7a4f11753781760839ac7033e6a8e5
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (initramfs-tools backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ This package contains the initramfs-tools backend.
+
 Package: live-build
 Version: 1:20240810+bsr
 Architecture: all
@@ -1237,6 +1316,129 @@ Description: Live System Build Components
  .
  live-build contains the components to build a live system from a configuration
  directory.
+
+Package: live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 117
+Depends: live-config-systemd | live-config-backend
+Recommends: iproute2 | iproute, keyboard-configuration, live-config-doc, live-tools, locales | locales-all, sudo, user-setup
+Suggests: pciutils, wget
+Filename: ./live-config_11.0.5_all.deb
+Size: 16256
+MD5sum: 4ce2e10232a070e636dceb2ea040e008
+SHA1: 0a3c2505465e6e68c5722b35f26640a7501176a3
+SHA256: 2fba42fd76b60455714f23cfdd2998fcc632de9dd4c3d16f81b5e31855004304
+Section: misc
+Priority: optional
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ In addition to live-config, a backend for an init system is required, such as
+ live-config-systemd.
+
+Package: live-config-doc
+Source: live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 78
+Filename: ./live-config-doc_11.0.5_all.deb
+Size: 35456
+MD5sum: 905b33ac01b23e5a198a1b190b55da1e
+SHA1: ce75aeebdb62b39d962585ae8ccc288d57be83f5
+SHA256: 952dd6d877f55c603c4e7bcff9aff3c21706b0e2e59ab3a976fe57f70d1d2b24
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components (documentation)
+ live-config contains the components that configure a live system during the
+ boot process (late userspace).
+ .
+ This package contains the documentation.
+
+Package: live-config-systemd
+Source: live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 24
+Depends: systemd
+Recommends: dbus
+Conflicts: live-config-backend
+Replaces: live-config-backend
+Provides: live-config-backend
+Filename: ./live-config-systemd_11.0.5_all.deb
+Size: 4996
+MD5sum: 31a4cd0a23140673a963d26b2d315ca0
+SHA1: 9a5eb1d2ba400c998f1b733cdde9a5414e3293df
+SHA256: 74b877b96b3777cbe888ad051e4873d71e9044e26c221e6786343561a535cae7
+Section: misc
+Priority: optional
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components (systemd backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the systemd backend.
+
+Package: live-config-sysvinit
+Source: live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 27
+Depends: sysvinit-core | sysvinit (<< 2.88dsf-44)
+Conflicts: live-config-backend
+Replaces: live-config-backend
+Provides: live-config-backend
+Filename: ./live-config-sysvinit_11.0.5_all.deb
+Size: 4884
+MD5sum: 0d02c6a4104898adb6b2a587770b1efe
+SHA1: 8e3b5c363788659e11f68c099b42e4d258f1b16b
+SHA256: 8d32129b9bd0652255cffea6dc8dd560d83e73e61571f112bca7d4b51af531ce
+Section: misc
+Priority: optional
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components (sysvinit backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the sysvinit backend.
+
+Package: live-tools
+Version: 1:20240525
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 109
+Depends: initramfs-tools
+Suggests: debian-installer-launcher, eject, perl, procps, rsync, uuid-runtime
+Filename: ./live-tools_20240525_all.deb
+Size: 26764
+MD5sum: b6144c12a560d00508d2a7a7ef6da542
+SHA1: 6116edad026426f2df88339c62b82ba5c0cfef09
+SHA256: a73ade93655365ee30669ed80e565b927f016ef3935e99df9a2acfa770fa4c60
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Extra Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-tools contains extra components for live systems.
 
 Package: nordvpn-release
 Version: 1.0.0
