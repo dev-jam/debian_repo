@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 35.0.1-11580240
+Version: 35.0.2-12147458
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_35.0.1-11580240_amd64.deb
-Size: 4461932
-MD5sum: c4629d06b74ba2ef9f48ae2c6e283218
-SHA1: 868401f9ee4be0dafb739430213cced09688d7d4
-SHA256: 4f143609fc6d592d648ce8ad60d852c8f2d0eb6b671b6cd82bc2fa971edb86ad
+Filename: ./android-tools_35.0.2-12147458_amd64.deb
+Size: 7552992
+MD5sum: a77ee0d75090d609929c827721aa209c
+SHA1: 815c5d354625b0e0fd3ae29c64858d72aadee9df
+SHA256: 253a6b0868bc4e589ba0aead321bcc9490b134196386e099c2a784e8d033a3b8
 Section: base
 Priority: optional
 Description: android tools for Debian
@@ -1673,17 +1673,17 @@ Priority: optional
 Description: sedutil ladar for Debian
 
 Package: tobiiproeyetrackermanager
-Version: 2.6.1-2089
+Version: 2.7.1-2203
 Architecture: amd64
 Maintainer: Tobii Pro - Team Bromine
-Installed-Size: 384362
+Installed-Size: 379357
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: ./tobiiproeyetrackermanager_2.6.1_amd64.deb
-Size: 80390456
-MD5sum: 43761ff2d9540dd6ccb7fb5ec48614df
-SHA1: 4ee24c20309eae60d3888be2b199d4e5ebdb548d
-SHA256: db51a4dd31c4977c9932a5c46daab66e33f1dc376dfb97b041a8d90190bc23e5
+Filename: ./tobiiproeyetrackermanager_2.7.1_amd64.deb
+Size: 79197058
+MD5sum: 49f60373a27e9292bef5a10d7cea6886
+SHA1: 6cde44f83ea9b3f22c807fad9c425702d85cae3f
+SHA256: 11db48caf953a939f7563ed03f704d6c595660bbced1c5158f9d66ab905e26d0
 Section: default
 Priority: optional
 Homepage: https://www.tobiipro.com/product-listing/eye-tracker-manager/
