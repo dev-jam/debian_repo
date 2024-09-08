@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 35.0.2-12147458
+Version: 34.0.3-10161052
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_35.0.2-12147458_amd64.deb
-Size: 7552992
-MD5sum: a77ee0d75090d609929c827721aa209c
-SHA1: 815c5d354625b0e0fd3ae29c64858d72aadee9df
-SHA256: 253a6b0868bc4e589ba0aead321bcc9490b134196386e099c2a784e8d033a3b8
+Filename: ./android-tools_34.0.3-10161052_amd64.deb
+Size: 3965364
+MD5sum: 5b988fb213b7da9955dee4dbf2a70cb8
+SHA1: c167e2f0f7567e954669c8d2ebdea315254c60f3
+SHA256: d9a2104d6724dd71d509b06a45f22fcc1ecc2b7605274afecf88a19177c701a4
 Section: base
 Priority: optional
 Description: android tools for Debian
