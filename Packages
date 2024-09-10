@@ -241,16 +241,16 @@ Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
 Package: fastfetch
-Version: 2.13.2
+Version: 2.23.0
 Architecture: amd64
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
-Installed-Size: 22317
+Installed-Size: 25720
 Depends: libc6 (>= 2.31)
-Filename: ./fastfetch_2.13.2-1_amd64.deb
-Size: 5966486
-MD5sum: 3af39bca4f5e02186a8271f2ed011719
-SHA1: dbcf6391665cb773f1a38724c36ce686819434ce
-SHA256: e1c09a7c6e1c854616ef392df0f093e21de03baccdc8816ba02ba071933b2cd6
+Filename: ./fastfetch_2.23.0-1_amd64.deb
+Size: 6833868
+MD5sum: 9238e53c7ea0515011e676cab7283b45
+SHA1: 5ff990df309a6a4245d3f2669c92482e18475ddb
+SHA256: 4cd6c23674b1bba3389a9f01073d8ea548b40b16c0e9c291cdb23e21f3a4b026
 Section: devel
 Priority: optional
 Homepage: https://github.com/fastfetch-cli/fastfetch
@@ -1604,16 +1604,16 @@ Description: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI i
 
 Package: python3-tartube
 Source: tartube
-Version: 2.5.0-1
+Version: 2.5.40-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 7151
+Installed-Size: 7177
 Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.5.0-STRICT_all.deb
-Size: 2571524
-MD5sum: 42458283cb8553bd18169cb5ab5f0e9e
-SHA1: fa957f50f273f534797c25d46f803c6cd3103339
-SHA256: c961afc81a788b0c1bc8dfaf1db08ad60970f590b4a96c9d687f87df745fba66
+Filename: ./python3-tartube_2.5.040-STRICT_all.deb
+Size: 2574448
+MD5sum: 1ead9aee56ae4b925cf0d33564565271
+SHA1: 94220a6e0c98e18f5098781625317afba2e37f1c
+SHA256: b6505fcec099b7b27ad5fde5c4cc7a68898999706c54dfbd40419fe280e19f5f
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
