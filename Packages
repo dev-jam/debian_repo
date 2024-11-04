@@ -1317,6 +1317,34 @@ Description: Live System Build Components
  live-build contains the components to build a live system from a configuration
  directory.
 
+Package: live-clone
+Version: 3.6-1
+Architecture: all
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Installed-Size: 1456
+Depends: python3:any, python3-pyqt5, python3-markdown, python3-mdx-math, gir1.2-udisks-2.0, fdisk, dosfstools, sg3-utils, sudo, pkexec
+Suggests: qemu-kvm
+Filename: ./live-clone_3.6-1_all.deb
+Size: 553812
+MD5sum: 3685f6f56124b9ad0af242943b077caf
+SHA1: 0ac18c2be739157989b2f172035cd8d3088ca328
+SHA256: e07935ebfea360759f8e1235ee1ce7d3110ba6c1b1dee544acbdee214f55ae18
+Section: python
+Priority: optional
+Description: GUI to clone and manage Live-Build USB sticks
+ This application allows one to make bootable USB sticks from an
+ iso-hybrid image issued by Live-Build. It adapts additionally a
+ persistence partition to use the free space on the USB stick.
+ .
+ It features also management tools for live USB sticks: when such
+ USB disks are used daily, they happen to have inconsistencies in their
+ persistence area which can render them unusable. Tools are provided to
+ save persistence data when necessary, and to blank the persistence area,
+ so the USB disk can be used again.
+ .
+ The application detects when it is run from a Debian-Live environment,
+ thus featuring seamless auto-cloning.
+
 Package: live-config
 Version: 11.0.5
 Architecture: all
