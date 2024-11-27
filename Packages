@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 34.0.3-10161052
+Version: 35.0.2-12147458
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_34.0.3-10161052_amd64.deb
-Size: 3965364
-MD5sum: 5b988fb213b7da9955dee4dbf2a70cb8
-SHA1: c167e2f0f7567e954669c8d2ebdea315254c60f3
-SHA256: d9a2104d6724dd71d509b06a45f22fcc1ecc2b7605274afecf88a19177c701a4
+Filename: ./android-tools_35.0.2-12147458_amd64.deb
+Size: 4706752
+MD5sum: 0b98a3f66d349fc48e8a4f88ce48cd22
+SHA1: 81346bbc08c01fb232abe5dcbab0cf9dbcba7d32
+SHA256: 99fc321e47dbea7cd37890b3de37d304b949caf51fb8776d5e220eb7eed62285
 Section: base
 Priority: optional
 Description: android tools for Debian
@@ -1633,16 +1633,16 @@ Description: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI i
 
 Package: python3-tartube
 Source: tartube
-Version: 2.5.40-1
+Version: 2.5.59-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 7177
+Installed-Size: 7189
 Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.5.040-STRICT_all.deb
-Size: 2574448
-MD5sum: 1ead9aee56ae4b925cf0d33564565271
-SHA1: 94220a6e0c98e18f5098781625317afba2e37f1c
-SHA256: b6505fcec099b7b27ad5fde5c4cc7a68898999706c54dfbd40419fe280e19f5f
+Filename: ./python3-tartube_2.5.059-STRICT_all.deb
+Size: 2576336
+MD5sum: 9d6a355fa2c34d5dafa9a6d6f1256483
+SHA1: 85ee1849cc328833207ecc3e32e24a4d0ed6c5b4
+SHA256: ff51822d295601f700dda85c5e21813997a82a7b02fb70b70702a43053465fe1
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
@@ -1702,17 +1702,17 @@ Priority: optional
 Description: sedutil ladar for Debian
 
 Package: tobiiproeyetrackermanager
-Version: 2.7.1-2203
+Version: 2.7.2-2225
 Architecture: amd64
 Maintainer: Tobii Pro - Team Bromine
-Installed-Size: 379357
+Installed-Size: 380519
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: ./tobiiproeyetrackermanager_2.7.1_amd64.deb
-Size: 79197058
-MD5sum: 49f60373a27e9292bef5a10d7cea6886
-SHA1: 6cde44f83ea9b3f22c807fad9c425702d85cae3f
-SHA256: 11db48caf953a939f7563ed03f704d6c595660bbced1c5158f9d66ab905e26d0
+Filename: ./tobiiproeyetrackermanager_2.7.2_amd64.deb
+Size: 79235150
+MD5sum: f8b65ae391432196c31c7b1d92225952
+SHA1: 184b120be683432425c73b51db3311273e077639
+SHA256: 201f3ce40a5bf8e3d8bbfe1725099dbff284c367df7df2711f00baa451e2fc08
 Section: default
 Priority: optional
 Homepage: https://www.tobiipro.com/product-listing/eye-tracker-manager/
