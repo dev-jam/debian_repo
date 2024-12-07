@@ -1129,16 +1129,16 @@ Homepage: https://hamonikr.org
 Description: Simple gui front end to inxi.
 
 Package: kde-service-menu-pdf
-Version: 2.3
+Version: 3.0
 Architecture: all
 Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
 Installed-Size: 250
 Depends: dolphin (>= 18) | konqueror (>= 18), ghostscript, pdf2djvu, poppler-utils, texlive-extra-utils
-Filename: ./kde-service-menu-pdf_2.3_all.deb
-Size: 43064
-MD5sum: 2a404a654c35d44c03d6b554e2726a9e
-SHA1: ee40544804acf041e7860c14b1cc2fbbc932bdd1
-SHA256: 3f95663c132a2af87fd9269fb231523a8fb4d4e2f4adacedf1fa64a117072d2a
+Filename: ./kde-service-menu-pdf_3.0_all.deb
+Size: 42224
+MD5sum: 71809a3be8c848e08cbb74c774151c55
+SHA1: ecc51e89562d1b815b36acb868ea0200e7b5ce0a
+SHA256: 3e7e3809afc40935e5d3d62f10a2448af84b203ee93fa45391a9c9d5433613a8
 Section: kde
 Priority: optional
 Homepage: http://www.egregorion.net
