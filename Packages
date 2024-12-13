@@ -1155,19 +1155,19 @@ Description: Manage and modify PDF documents using Dolphin/Konqueror
  Copyright (C) 2007-2019 Giuseppe Benigno <giuseppe.benigno@gmail.com>
 
 Package: kde-service-menu-reimage
-Version: 2.6.0.1
+Version: 2.6.1
 Architecture: amd64
-Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
 Installed-Size: 78
 Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
-Filename: ./kde-service-menu-reimage_2.6.0.1_amd64.deb
-Size: 32484
-MD5sum: 91c0a63f9c3241cb1d2d788ae92f37be
-SHA1: ec612e113301c4dac6548d406c5608ac629f7a9f
-SHA256: a7acb608173d93b0073f5b447c88e541f790fab93ed598bf0a1bb581fd611ee8
+Filename: ./kde-service-menu-reimage_2.6.1_amd64.deb
+Size: 16952
+MD5sum: ba73c1b4e247ecf813907b42fbe81e70
+SHA1: 475cc30a9fbd47fe7a6031cb26a99dfa26391106
+SHA256: c67545e237605c36c1db4b27cb2bd6371fb222b57dfb61037e98412ac8d037c9
 Section: kde
 Priority: optional
-Homepage: https://github.com/biglinux/kde-service-menu-reimage
+Homepage: http://www.egregorion.net
 Description: Manipulate images and their metadata.
  kde-service-menu-reimage is a package that extends the functionalities of
  Dolphin/Konqueror adding many additionally sensible menu, reachables with right
@@ -1215,7 +1215,6 @@ Description: Manipulate images and their metadata.
  Drop shadow
  .
  Copyright (C) 2018-2019 Giuseppe Benigno <giuseppe.benigno(at)gmail.com>
- Copyright (C) 2024 Robert-André Mauchin <zebob.m(at)gmail.com>
 
 Package: live-boot
 Version: 1:20240525
