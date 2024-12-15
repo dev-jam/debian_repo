@@ -1305,9 +1305,9 @@ Recommends: apt-utils, bzip2, cryptsetup, file, live-boot-doc, live-config-doc, 
 Suggests: e2fsprogs, git, parted, mtd-utils
 Filename: ./live-build_20241215+bsr_all.deb
 Size: 203840
-MD5sum: 74d5c0e973c43f4f2be6099eac833cba
-SHA1: 75de88e81723700adfa736c3c452553b71699fe5
-SHA256: 729ef0f9daa5db5559336131b0cdc92af74140c7a68088aa1eceb46d41fb912a
+MD5sum: 53e2bc69934aab9aaf09b4f8375fc3a6
+SHA1: f38162572be92882449a7f86f67231ee2085d227
+SHA256: 63ba3d2d2731f39dfbff42d5781d42bfc2cca801bc036098122ea694f8245c62
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
