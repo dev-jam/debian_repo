@@ -79,14 +79,14 @@ Priority: optional
 Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
-Version: 1.23-1
+Version: 1.24-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.23-1_all.deb
+Filename: ./devjam-grub-tools_1.24-1_all.deb
 Size: 8485136
-MD5sum: 8c9d31f2c25a5eabad444af9061bc852
-SHA1: 8362560845da2404bce840402ed981c51d20bfe1
-SHA256: cdb4929c8d7f7879fc16a689fae435bcf739cd79b1a06b6127fe42d8f6c04901
+MD5sum: aacee0c05ea3662a82d05a3016b4b122
+SHA1: bd3e74615b8cea927744bac8244eeaf18b8e6218
+SHA256: 769bde6f94f82d4d47f2ac9ae23e891c151cff7697af549abacb9609af11bd8d
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
