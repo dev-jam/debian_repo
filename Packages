@@ -117,16 +117,16 @@ Section: base
 Priority: optional
 Description: Grub boot items by devjam
 
-Package: devjam-kde-service-menu-collection
-Version: 1.14-1
+Package: devjam-kde-servicemenu-collection
+Version: 1.15-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-service-menu-collection_1.14-1_all.deb
+Filename: ./devjam-kde-servicemenu-collection_1.15-1_all.deb
 Size: 3996
-MD5sum: 51030428e20ace27b6572e2825d00f3c
-SHA1: b040eb77aabd61a5fde3f1ca23e6dec464947a4a
-SHA256: 3103ad15bf005b37978958eae85cd25cb0eff3810e299b61c9c70a4268987dd8
+MD5sum: c9ea210014aec0aeedc4d053f7925aa5
+SHA1: 437ed32f58125bc6c23f93ee021dd30f073dc374
+SHA256: b5514f6842dedbd65f302c0802766151abaf7f2813eab44d66ed7a56c50ec1d6
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -1128,43 +1128,44 @@ Priority: optional
 Homepage: https://hamonikr.org
 Description: Simple gui front end to inxi.
 
-Package: kde-service-menu-pdf
-Version: 3.0
+Package: kde-servicemenu-kim5
+Version: 0.9.6.1-1mx23+1
 Architecture: all
-Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
-Installed-Size: 250
-Depends: dolphin (>= 18) | konqueror (>= 18), ghostscript, pdf2djvu, poppler-utils, texlive-extra-utils
-Filename: ./kde-service-menu-pdf_3.0_all.deb
-Size: 42224
-MD5sum: 71809a3be8c848e08cbb74c774151c55
-SHA1: ecc51e89562d1b815b36acb868ea0200e7b5ce0a
-SHA256: 3e7e3809afc40935e5d3d62f10a2448af84b203ee93fa45391a9c9d5433613a8
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 154
+Depends: dolphin | konqueror, imagemagick, ffmpeg, x11-apps
+Conflicts: kde-servicemenu-kim4
+Replaces: kde-servicemenu-kim4
+Filename: ./kde-servicemenu-kim5_0.9.6.1-1mx23+1_all.deb
+Size: 54416
+MD5sum: 76e087510633c661bbee5e0994208518
+SHA1: 918239fb9e8d100fd6a3d2f202b0310f66445287
+SHA256: da635a57fc5190c8675bc44eeaea10de31a8918f946293a0be805cdd70c57c58
 Section: kde
 Priority: optional
-Homepage: http://www.egregorion.net
-Description: Manage and modify PDF documents using Dolphin/Konqueror
- kde-service-menu-pdf is a package that extends the functionalities of Dolphin
- or Konqueror adding many additionally sensible menu, reachables with right
- click on the files. It's similar to gnome nautilus actions.
- These actions are related to pdf files.
- .
- You can extract pages or images, optimize, join, print, rotate,
- detach files, repaginate, converto to djvu, html, plain text, ps,
- image (png, jpg, fax), converto to booklet and many others actions.
- .
- Copyright (C) 2007-2019 Giuseppe Benigno <giuseppe.benigno@gmail.com>
+Homepage: https://github.com/caco3/kim5
+Description: image service menu for KDE file managers
+ Kim (KDE Image Menu) is an image service menu for KDE file managers which
+  allows a user to:
+ - compress images,
+ - resize images,
+ - convert images,
+ - rotate images,
+ - rename images,
+ - resize and send by mail images,
+ - and many other actions!
 
-Package: kde-service-menu-reimage
-Version: 2.6.1
+Package: kde-servicemenu-reimage
+Version: 2.6.2
 Architecture: amd64
-Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
+Maintainer: Irfan Hakim <irfanhakim.as@yahoo.com>
 Installed-Size: 78
 Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
-Filename: ./kde-service-menu-reimage_2.6.1_amd64.deb
-Size: 16952
-MD5sum: ba73c1b4e247ecf813907b42fbe81e70
-SHA1: 475cc30a9fbd47fe7a6031cb26a99dfa26391106
-SHA256: c67545e237605c36c1db4b27cb2bd6371fb222b57dfb61037e98412ac8d037c9
+Filename: ./kde-servicemenu-reimage_2.6.2_amd64.deb
+Size: 17280
+MD5sum: 536275f5fb935156ae9c418e53f4ea30
+SHA1: 700ef45e8720dd8da08d0001f8957f55700c0820
+SHA256: b45483a9493600b9b84c1cf8c5b88ed493eeb6a996f58014287098c2f3b02225
 Section: kde
 Priority: optional
 Homepage: http://www.egregorion.net
