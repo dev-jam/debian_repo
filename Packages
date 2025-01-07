@@ -1469,6 +1469,26 @@ Description: Live System Extra Components
  .
  live-tools contains extra components for live systems.
 
+Package: mx23-archive-keyring
+Version: 2023.6.6
+Architecture: all
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 63
+Depends: gpgv
+Recommends: gnupg
+Breaks: apt (<< 0.7.25.1)
+Filename: ./mx23-archive-keyring_2023.6.6_all.deb
+Size: 18580
+MD5sum: 207a437606a4f4e2ad5eb6ba056f8edc
+SHA1: 07334c5d62afefe3b50ea66e5280cc52a55b2cf5
+SHA256: 64fe94f8387c132be8ffef1f98c73403acb8d35716b37600465ecf8fa473a5f4
+Section: misc
+Priority: important
+Multi-Arch: foreign
+Description: GnuPG archive keys of the MX-21 Linux archive
+ The MX Linux project digitally signs its repository Release files.
+ This package contains the archive keys used for that.
+
 Package: nordvpn-release
 Version: 1.0.0
 Architecture: all
