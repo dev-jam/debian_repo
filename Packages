@@ -1619,6 +1619,23 @@ Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
 
+Package: python3-repolib
+Version: 1:1.5.1-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 227
+Depends: python3:any
+Filename: ./python3-repolib_1.5.1-1~w2d0_all.deb
+Size: 40372
+MD5sum: 13bd3633fc076012909da5b09e27d49a
+SHA1: dcf9e4257118930edaf442871b513796dead908b
+SHA256: 18d841800407d9e9a6a7f28d60da3e4f64627dce9e09e43649c02fb39cea11cc
+Section: python
+Priority: optional
+Homepage: https://github.com/pop-os/repolib
+Description: Easily manage software sources
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-rtcqs
 Version: 0:0.6.2-1~w2d0
 Architecture: all
