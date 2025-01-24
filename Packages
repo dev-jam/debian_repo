@@ -241,23 +241,6 @@ Priority: optional
 Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
-Package: fastfetch
-Version: 2.30.1
-Architecture: amd64
-Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
-Installed-Size: 27871
-Depends: libc6 (>= 2.31)
-Filename: ./fastfetch_2.30.1-1_amd64.deb
-Size: 7274720
-MD5sum: 8061f6ad9f964353a85ad47afe71e5c1
-SHA1: 0bebfda4b631f404a63f8e821656c6387894d91f
-SHA256: 284b34d8c1397d657788aeb2d46541ccd50603f585ab0bbdb156287040023964
-Section: devel
-Priority: optional
-Homepage: https://github.com/fastfetch-cli/fastfetch
-Description: Fast neofetch-like system information tool
- fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
-
 Package: fclones
 Version: 0.34.0-1
 Architecture: amd64
@@ -1154,68 +1137,6 @@ Description: image service menu for KDE file managers
  - rename images,
  - resize and send by mail images,
  - and many other actions!
-
-Package: kde-servicemenu-reimage
-Version: 2.6.2
-Architecture: amd64
-Maintainer: Irfan Hakim <irfanhakim.as@yahoo.com>
-Installed-Size: 78
-Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
-Filename: ./kde-servicemenu-reimage_2.6.2_amd64.deb
-Size: 17280
-MD5sum: 536275f5fb935156ae9c418e53f4ea30
-SHA1: 700ef45e8720dd8da08d0001f8957f55700c0820
-SHA256: b45483a9493600b9b84c1cf8c5b88ed493eeb6a996f58014287098c2f3b02225
-Section: kde
-Priority: optional
-Homepage: http://www.egregorion.net
-Description: Manipulate images and their metadata.
- kde-service-menu-reimage is a package that extends the functionalities of
- Dolphin/Konqueror adding many additionally sensible menu, reachables with right
- click on the files. These actions are related to picture files.
- .
- Compress and resize
- Advanced optimization for web
- Compress in % (change quality)
- Resize in % or square
- .
- Convert and rotate
- Convert to all formats supported by ImageMagick
- Convert to PDF or PDF/A-1
- Generate favicons for browser/android/apple/ms
- Convert to Base64
- Rotate
- Overturn vertically/horizontally
- .
- Metadata:
- Rename jpg and tiff files with data content in Exif metadata.
- (For example: 001.jpg -> 2018-04-27_133741.jpg)
- Rename jpg and tiff files with file's data.
- Set file's datetime from Exif date.
- Set file date from file's name
- Set Exif datetime from file's date.
- Set Exif datetime from file's name.
- Add comment
- View metadata
- Extract metadata to file
- Delete comment field
- Strip Exif section
- Delete IPTC section
- Delete XMP section
- Strip all unnecessary data
- Add timestamp from Exif
- .
- Tools
- Create animated GIF
- Append to right
- GrayScale
- Sepia filter
- Change transparent to color
- Add colored border
- Add transparent border
- Drop shadow
- .
- Copyright (C) 2018-2019 Giuseppe Benigno <giuseppe.benigno(at)gmail.com>
 
 Package: live-boot
 Version: 1:20240525
