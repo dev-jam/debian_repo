@@ -185,15 +185,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.22-1
+Version: 1.23-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch
-Filename: ./devjam-science_1.22-1_all.deb
+Filename: ./devjam-science_1.23-1_all.deb
 Size: 50596
-MD5sum: b5e619f852884ec985868b97408aca4f
-SHA1: 448fb9a4f5431d6ae2ea5bbb30fdb2d01e546a15
-SHA256: f81ade7111078d8e90f41e91a35e143f1292e72c2f3ab9a92ef60369012c45be
+MD5sum: 3c3d6da119b8d40fa3500aa83118f587
+SHA1: 40a2646424870028ded4490e0062763b1d6cd7f7
+SHA256: 65cb79d84cd0e7cf1b3667f99aab7437e93fc3434ad33355c4d63ebcaad09aad
 Section: base
 Priority: optional
 Description: science tools
