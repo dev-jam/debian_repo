@@ -1592,16 +1592,16 @@ Description: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI i
 
 Package: python3-tartube
 Source: tartube
-Version: 2.5.59-1
+Version: 2.5.100-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 7189
+Installed-Size: 11545
 Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.5.059-STRICT_all.deb
-Size: 2576336
-MD5sum: 9d6a355fa2c34d5dafa9a6d6f1256483
-SHA1: 85ee1849cc328833207ecc3e32e24a4d0ed6c5b4
-SHA256: ff51822d295601f700dda85c5e21813997a82a7b02fb70b70702a43053465fe1
+Filename: ./python3-tartube_2.5.100-STRICT_all.deb
+Size: 2928708
+MD5sum: 4f74b4039400eb6dec4f2ccb49c15064
+SHA1: 2f73d65c39b4c1ced618de3475cd509566400040
+SHA256: 13d997dbc95d6f646285166987e50e24a1c54a084fe7b981a634605a6217fe8b
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
