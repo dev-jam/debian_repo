@@ -1625,17 +1625,17 @@ Description: GUI front-end for youtube-dl and yt-dlp
   - Tartube is free and open-source software
 
 Package: rescuezilla
-Version: 2.5-1
+Version: 2.5.1-1
 Architecture: all
 Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
-Installed-Size: 2849
+Installed-Size: 2850
 Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils
 Recommends: partimage, ecryptfs-utils, nbdkit
-Filename: ./rescuezilla_2.5-1_all.deb
-Size: 521620
-MD5sum: 4a07d75296f2b04139bfaa42a98b3b96
-SHA1: e6763c764205cbdbafd77bdedea9771cdf08f247
-SHA256: 808f8aaa3d0025aa2ba71beaeb19514afc3c4a6e0afcedfcfd4e6a22915205dd
+Filename: ./rescuezilla_2.5.1-1_all.deb
+Size: 522016
+MD5sum: df9ea8e36e83e5b8b9571de3dba03f9b
+SHA1: 8d6ad434eea309fafa3a5fca5a1f53d4c3567ac9
+SHA256: 372fe580a4dd7f233a403b3d342fdeedf9dc686af6af5b71cc79570984701c9a
 Section: admin
 Priority: optional
 Homepage: https://rescuezilla.com
