@@ -1139,18 +1139,18 @@ Description: image service menu for KDE file managers
  - and many other actions!
 
 Package: live-boot
-Version: 1:20240525.1~bpo12+1
+Version: 1:20250225
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
-Installed-Size: 120
+Installed-Size: 124
 Depends: live-boot-initramfs-tools | live-boot-backend
 Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
 Suggests: cryptsetup, curlftpfs, httpfs2, wget
-Filename: ./live-boot_20240525.1~bpo12+1_all.deb
-Size: 29416
-MD5sum: 72ed3ac29a4ae172d0ac57d0829d6edb
-SHA1: 428294b7859bf9996476f0e1443c0b5f1dabb015
-SHA256: d9d6d2963cf812f0fcb4ae700f62e6c0b5472324ef7c6932c20b88086d879c7f
+Filename: ./live-boot_20250225_all.deb
+Size: 30872
+MD5sum: dfa30add730e70ac62d5e1c4ecb36dce
+SHA1: c7d67283d1252ef4657463f83ebc7f544e0740c8
+SHA256: 7d83a4006fe1113b8747ea090c20bcb8bb1207fc8fd3a7a211bbfbe12a88a65b
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
@@ -1167,15 +1167,15 @@ Description: Live System Boot Components
 
 Package: live-boot-doc
 Source: live-boot
-Version: 1:20240525.1~bpo12+1
+Version: 1:20250225
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 70
-Filename: ./live-boot-doc_20240525.1~bpo12+1_all.deb
+Filename: ./live-boot-doc_20250225_all.deb
 Size: 48928
-MD5sum: 85f12cc33a8b79180021aaa59378bbfb
-SHA1: 8cc32a66278e5d7c8f4aebc0814a3a7c6a4862b3
-SHA256: 05bc39d2a82508258a43426744afa66ce412299ba9d667600e7082ebcdb0053a
+MD5sum: 75bd1371fb8702d30db2c1505339d02c
+SHA1: c254a75dc33102f645c106cb7243ea4c9ad97107
+SHA256: af3ee05f987f87e675ddb2f35269620bab47b4f01e15d00d9fd9baae20a5b1e2
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -1191,7 +1191,7 @@ Description: Live System Boot Components (documentation)
 
 Package: live-boot-initramfs-tools
 Source: live-boot
-Version: 1:20240525.1~bpo12+1
+Version: 1:20250225
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 25
@@ -1199,11 +1199,11 @@ Depends: busybox | busybox-initramfs, initramfs-tools, udev
 Conflicts: live-boot-backend
 Replaces: live-boot-backend
 Provides: live-boot-backend
-Filename: ./live-boot-initramfs-tools_20240525.1~bpo12+1_all.deb
-Size: 6232
-MD5sum: 67f6f0565760acf5604f41d59f4a2ec3
-SHA1: f8bc723085699452a57d5792f197b1741e7af01f
-SHA256: a66003ee83d30c8e7e1a87f474c099fd1b17903a9d2ee68c605baae69056f285
+Filename: ./live-boot-initramfs-tools_20250225_all.deb
+Size: 6264
+MD5sum: e1bcf80b1c5dee7ec83c9ce05c89d7df
+SHA1: 6800217d043aec76c13c9723f6926220ff120ef0
+SHA256: 8b263eade64adc555474779f610167a47a24cfb349b1fbd151ce20627b6d60cf
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
@@ -1241,17 +1241,17 @@ Description: Live System Build Components
  directory.
 
 Package: live-clone
-Version: 3.6-1
+Version: 3.7-1
 Architecture: all
 Maintainer: Georges Khaznadar <georgesk@debian.org>
 Installed-Size: 1456
 Depends: python3:any, python3-pyqt5, python3-markdown, python3-mdx-math, gir1.2-udisks-2.0, fdisk, dosfstools, sg3-utils, sudo, pkexec
 Suggests: qemu-kvm
-Filename: ./live-clone_3.6-1_all.deb
-Size: 553812
-MD5sum: 3685f6f56124b9ad0af242943b077caf
-SHA1: 0ac18c2be739157989b2f172035cd8d3088ca328
-SHA256: e07935ebfea360759f8e1235ee1ce7d3110ba6c1b1dee544acbdee214f55ae18
+Filename: ./live-clone_3.7-1_all.deb
+Size: 553852
+MD5sum: 5646e91a55414bdd62081b4e2aafc1b5
+SHA1: 242c861044d8d843a41f549ead904ba2c1337108
+SHA256: 21a01cdb2e21a46fb1049db727a7ab1cc6caeffa75a70e9002e9fde1cd972e91
 Section: python
 Priority: optional
 Description: GUI to clone and manage Live-Build USB sticks
@@ -1369,6 +1369,126 @@ Description: Live System Configuration Components (sysvinit backend)
  process (late userspace).
  .
  This package contains the sysvinit backend.
+
+Package: live-manual
+Version: 2:20250226
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 14
+Depends: live-manual-epub (>= 2:20250226), live-manual-html (>= 2:20250226), live-manual-odf (>= 2:20250226), live-manual-pdf (>= 2:20250226)
+Filename: ./live-manual_20250226_all.deb
+Size: 4324
+MD5sum: 3fc982010ced5c02a695da6d702b2343
+SHA1: 536f8a6c8638d835cbcac9b12fbf8ba16714305d
+SHA256: 1275cf884563cbc52ccfd45c8a9d698717173ab37bb4de99f05f282769447cc0
+Section: metapackages
+Priority: optional
+Homepage: https://live-team.pages.debian.net/live-manual/
+Description: Debian Live Documentation (metapackage)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Debian Live project.
+ .
+ This package is a metapackage depending on all available output formats.
+
+Package: live-manual-epub
+Source: live-manual
+Version: 2:20250226
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 1211
+Provides: live-manual
+Filename: ./live-manual-epub_20250226_all.deb
+Size: 1017236
+MD5sum: 3c0180628f9de8b1473a2fd5650587cb
+SHA1: c49732dd5e3d949c30aa2a3b9f2657f23cd870f9
+SHA256: a1910145b35525199473c589e27c7f8d4a71890ed777ce376f0d61a0ffd3d16c
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://live-team.pages.debian.net/live-manual/
+Description: Debian Live Documentation (epub)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Debian Live project.
+ .
+ This package contains the epub output.
+
+Package: live-manual-html
+Source: live-manual
+Version: 2:20250226
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 8005
+Breaks: live-manual-txt (<< 2:20250211~)
+Replaces: live-manual-txt (<< 2:20250211~)
+Provides: live-manual
+Filename: ./live-manual-html_20250226_all.deb
+Size: 416080
+MD5sum: bd35838bab79e1c841061218866a947d
+SHA1: 4f9a382d243f8d15bbd126ff32d2b30a1f1164dd
+SHA256: fc35106d33ba0973475d793aa4480ebb0de27bdc73614c5803f97b5a93e3f063
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://live-team.pages.debian.net/live-manual/
+Description: Debian Live Documentation (html)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Debian Live project.
+ .
+ This package contains the html output.
+
+Package: live-manual-odf
+Source: live-manual
+Version: 2:20250226
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 964
+Provides: live-manual
+Filename: ./live-manual-odf_20250226_all.deb
+Size: 879236
+MD5sum: fa0fcdbb06633c8fc71133425d6845a4
+SHA1: 2a1d281e3a2257986f71476d17a862ac90e126da
+SHA256: 11cb741c0c91fdbabaf69ef3ead3fcfcc7bcf9808d35ae476677590e6d5949e9
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://live-team.pages.debian.net/live-manual/
+Description: Debian Live Documentation (odf)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Debian Live project.
+ .
+ This package contains the odf output.
+
+Package: live-manual-pdf
+Source: live-manual
+Version: 2:20250226
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 11903
+Provides: live-manual
+Filename: ./live-manual-pdf_20250226_all.deb
+Size: 11509664
+MD5sum: 2a27821fd59074d73774c566135d96b3
+SHA1: d86751c88dde875c8d680bc726eda8ec55ddc7d2
+SHA256: cbb2312330ead70180ef5cc4441a71efb87e8b8fc627526d4be364d04695964e
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://live-team.pages.debian.net/live-manual/
+Description: Debian Live Documentation (pdf)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-manual contains the documentation for the Debian Live project.
+ .
+ This package contains the pdf output.
 
 Package: live-tools
 Version: 1:20240525
