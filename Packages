@@ -1490,6 +1490,32 @@ Description: Debian Live Documentation (pdf)
  .
  This package contains the pdf output.
 
+Package: live-manual-txt
+Source: live-manual
+Version: 2:20250226
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 11
+Depends: live-manual-html (>= 2:20250211~)
+Provides: live-manual
+Filename: ./live-manual-txt_20250226_all.deb
+Size: 4024
+MD5sum: 8e48f53817c0bb792f42b664b5520a41
+SHA1: f786ab626d74eb80eccd9dff0ac3596602a7f106
+SHA256: 7a6985412a6404d660d3cd232aee36d02f97d2ddfd1487353fc228e26ea12a01
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://live-team.pages.debian.net/live-manual/
+Description: Debian Live Documentation (txt)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ The text version is no longer provided, use the html variant instead.
+ .
+ This package is the transitional dummy package for live-manual-pdf.
+ It can safely be removed.
+
 Package: live-tools
 Version: 1:20240525
 Architecture: all
