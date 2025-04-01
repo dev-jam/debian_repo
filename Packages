@@ -242,16 +242,15 @@ Homepage: http://sourceforge.net/projects/e1000/
 Description: Intel e1000e Ethernet adapter driver (DKMS version)
 
 Package: fclones
-Version: 0.34.0-1
+Version: 0.35.0-1
 Architecture: amd64
 Maintainer: Piotr Kołaczkowski <pkolaczk@gmail.com>
-Installed-Size: 4695
-Depends: libc6:amd64 (>= 2.28)
-Filename: ./fclones_0.34.0-1_amd64.deb
-Size: 1419648
-MD5sum: 1cdc0593be6a55ef4983522abe84d537
-SHA1: 8c589af033be12ef637695640d12ba944b10210f
-SHA256: f32400bb6dfb2a74bce7669f8a7a7abaae6b4ba1d05fedd6e739f4fcf40fd116
+Installed-Size: 4740
+Filename: ./fclones_0.35.0-1_amd64.deb
+Size: 1449600
+MD5sum: 423d6a4227a48a33b04347c7a4afc421
+SHA1: aad9913f1532d293f0ed649426fbd861af32b097
+SHA256: e399b706e7d72c8c1bebf63f9558cd3bb4154b70a550d2fe679b833a60fe54c2
 Priority: optional
 Homepage: https://github.com/pkolaczk/fclones
 Description: Finds and removes duplicate files
@@ -450,6 +449,24 @@ Description: Finds and removes duplicate files
      cargo install fclones
  .
  The build will write the binary to `.cargo/bin/fclones`.
+ .
+ ### Shell completions
+ .
+ `fclones` supports shell completions but you have to set it up manually at the
+ moment,
+ which can be done by adding the script printed by the `fclones complete`
+ subcommand to your shell configuration.
+ All shells supported by
+ [clap_complete](https://docs.rs/clap_complete/latest/clap_complete/aot/enum.Shell.html)
+ are supported.
+ At the time of writing this includes:
+ .
+ - Bash: Add `eval "$(fclones complete bash)"` to your `~/.bashrc`
+ - Zsh: Add `source <(fclones complete zsh)` to your `~/.zshrc`
+ - Fish: Add `fclones complete fish | source` to your
+ `~/.config/fish/config.fish`
+ - Elvish
+ - Powershell
  .
  ## Usage
  .
@@ -847,7 +864,7 @@ Description: Finds and removes duplicate files
  and it will automatically tune the level of parallelism, memory buffer sizes
  and partial hashing sizes
  based on the device type. These automatic settings can be overridden with
- `-threads` as well.
+ `--threads` as well.
  .
  The following options can be passed to `--threads`. The more specific options
  override the less specific ones.
@@ -973,8 +990,6 @@ Description: Finds and removes duplicate files
  1       |   1:18.47       |  15.7 MB
  [fdupes](https://github.com/adrianlopezroche/fdupes)   |  1.6.1    | C        |
  1       |   1:33.71       |  15.9 MB
-Vcs-Browser: https://github.com/pkolaczk/fclones
-Vcs-Git: https://github.com/pkolaczk/fclones
 
 Package: fclones-gui
 Version: 0.2.0
@@ -1083,14 +1098,14 @@ Vcs-Browser: https://github.com/pkolaczk/fclones-gui
 Vcs-Git: https://github.com/pkolaczk/fclones-gui
 
 Package: fclones-gui-launcher
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./fclones-gui-launcher_1.0-1_all.deb
-Size: 23600
-MD5sum: 296e0b86890855185329d93a02487abf
-SHA1: fc823c9bb333e1a53d54f9cabd6cd431b8251c0f
-SHA256: b7440badaba10997ba8388f586830132ae8ff2e142b85c4e37191b9590188656
+Filename: ./fclones-gui-launcher_1.1-1_all.deb
+Size: 23608
+MD5sum: cb8e8d1bb793c28647b3b38b81d3d21d
+SHA1: 80aaf2652f6018a6b76bc6ed1bc68f28e770af64
+SHA256: 749b981e8b5395bb095e5ac14f331b2c600cc2bdacffc6ec2020ed32f6cf9cd8
 Section: base
 Priority: optional
 Description: Desktop launcher for fclones-gui
