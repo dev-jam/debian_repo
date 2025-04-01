@@ -1771,17 +1771,17 @@ Description: GUI front-end for youtube-dl and yt-dlp
   - Tartube is free and open-source software
 
 Package: rescuezilla
-Version: 2.5.1-1
+Version: 2.6-1
 Architecture: all
 Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
-Installed-Size: 2850
-Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils
-Recommends: partimage, ecryptfs-utils, nbdkit
-Filename: ./rescuezilla_2.5.1-1_all.deb
-Size: 522016
-MD5sum: df9ea8e36e83e5b8b9571de3dba03f9b
-SHA1: 8d6ad434eea309fafa3a5fca5a1f53d4c3567ac9
-SHA256: 372fe580a4dd7f233a403b3d342fdeedf9dc686af6af5b71cc79570984701c9a
+Installed-Size: 2996
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils
+Recommends: partimage, ecryptfs-utils, nbdkit, python3-whichcraft
+Filename: ./rescuezilla_2.6-1_all.deb
+Size: 538816
+MD5sum: 1939869b18487da023a59b6e07419335
+SHA1: 9f877b9d2cefcbf091a40201109146441c757873
+SHA256: 4ca4792152e1888a3e46b938e4bbcc411946cc4741ac4d783e2eea7739976608
 Section: admin
 Priority: optional
 Homepage: https://rescuezilla.com
