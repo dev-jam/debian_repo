@@ -1718,22 +1718,6 @@ Homepage: https://github.com/pop-os/repolib
 Description: Easily manage software sources
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: python3-rtcqs
-Version: 0:0.6.2-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 80
-Depends: python3-simplegui (<< 4.61), python3:any
-Filename: ./python3-rtcqs_0.6.2-1~w2d0_all.deb
-Size: 23608
-MD5sum: c8f340d69311694396b768f48462ee51
-SHA1: 86ab324de0f857beed6482e537463e4bd5d253d8
-SHA256: 60a66fe5039ceaa437bf93b7839d203c8d7941e8a5eff5daf3ba6f44d6e25c51
-Section: python
-Priority: optional
-Description: Linux audio performance analyzer
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: python3-simplegui
 Version: 0:4.60.5-1~w2d0
 Architecture: all
@@ -1807,6 +1791,22 @@ Description: Graphical hard drive backup and restore
  Clonezilla are intimidating and difficult to use, so Rescuezilla provides
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
+
+Package: rtcqs
+Version: 0:0.6.6-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 80
+Depends: python3:any
+Filename: ./rtcqs_0.6.6-1~w2d0_all.deb
+Size: 23704
+MD5sum: cea6ad1127e3474010f742c468522c20
+SHA1: d1c3b79ca422ef305a52361db8eb839a3d9ebef3
+SHA256: 3337e18fa61ce545f4303600c23c5aad62453e1f73c605c9b63bd2c0775d75f4
+Section: python
+Priority: optional
+Description: None
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: sedutil
 Version: 1.16.0-1
