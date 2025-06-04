@@ -1110,6 +1110,19 @@ Section: base
 Priority: optional
 Description: Desktop launcher for fclones-gui
 
+Package: grafito
+Version: 0.9.3-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./grafito_0.9.3-1_all.deb
+Size: 2620608
+MD5sum: 584f452fd27e6dd2f3a5a2a4ee440b64
+SHA1: 757fa45bc7c3b896ba626824781913de95f4fcb7
+SHA256: 39c809eb41553a782ebedb1a31ebbe51f4dd01ac535d9e7544e969736e130d32
+Section: base
+Priority: optional
+Description: grafito
+
 Package: inxi-gui
 Version: 1.0.0
 Architecture: all
