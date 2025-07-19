@@ -1259,18 +1259,18 @@ Description: Live System Boot Components (initramfs-tools backend)
  This package contains the initramfs-tools backend.
 
 Package: live-build
-Version: 1:20250629+bsr
+Version: 1:20250720+bsr
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
 Installed-Size: 806
 Depends: cpio, debootstrap
 Recommends: apt-utils, bzip2, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, eatmydata, git, mtd-utils, parted
-Filename: ./live-build_20250629+bsr_all.deb
-Size: 207916
-MD5sum: fedbeaa8851b391afa34afc7509fcb52
-SHA1: 2d5bdb39cb0a92602b27bc5d7097f3d5e57ea965
-SHA256: c3f40823df302338d884bbb07f1251043f281579cef294e8da17f27503b48112
+Filename: ./live-build_20250720+bsr_all.deb
+Size: 207940
+MD5sum: bbebef9b8acf588155590d4f6b2cd9ae
+SHA1: e3ee97ab74023c558bac412380926cf92d6ca56c
+SHA256: 896c738647a78c2ed325fe94a41208e9270723db8a91abff0b2e4e51278d4042
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
