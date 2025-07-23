@@ -1267,10 +1267,10 @@ Depends: cpio, debootstrap
 Recommends: apt-utils, bzip2, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, eatmydata, git, mtd-utils, parted
 Filename: ./live-build_20250723+bsr_all.deb
-Size: 207692
-MD5sum: 40be78a0b103778ec6ff9dc83334e20a
-SHA1: 5f15b7360914ef8b0298b78089a8bf88a2e5a7ba
-SHA256: 57bde41d94eacbb3bfb255b72f2aadcddbb18bdc18613003ea885bc8d638e1e5
+Size: 207704
+MD5sum: 13c265da9746071b1c223b5d7a8a1340
+SHA1: a17d18cd3da80c3548a7d6b557d23cf17eafc755
+SHA256: 0eb22a1381aeda6cf7d1b0f68b39e43485b9f08151ac321aa882972d443b5f9f
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
