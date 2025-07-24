@@ -1834,6 +1834,25 @@ Priority: optional
 Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: rtirq
+Version: 20240905-48.1
+Architecture: all
+Maintainer: Rui Nuno Capela <rncbc@rncbc.org>
+Installed-Size: 46
+Replaces: rtirq-init (<= 20240905-48.1)
+Filename: ./rtirq_20240905-48.1_all.deb
+Size: 15296
+MD5sum: 5df761f6e2207605c450959a4f50f235
+SHA1: e5cead9e73a09fad21aee4bd648bfd1070180990
+SHA256: 6392cd8a3fe9472de33d924a98f9cbd8fd9f50d9067d275911a032d15f87d549
+Section: misc
+Priority: optional
+Homepage: https://www.rncbc.org/archive/#rtirq
+Description: Realtime IRQ thread system tunning
+  Startup scripts for tunning the realtime scheduling policy and priority
+  of relevant IRQ service threads, featured for a PREEMPT_RT / threadirqs
+  enabled kernel configuration.
+
 Package: sedutil
 Version: 1.16.0-1
 Architecture: amd64
