@@ -105,14 +105,14 @@ Priority: optional
 Description: Grub tpm workaround by devjam
 
 Package: devjam-hooks
-Version: 1.9-1
+Version: 1.10-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-hooks_1.9-1_all.deb
+Filename: ./devjam-hooks_1.10-1_all.deb
 Size: 1516
-MD5sum: 7fa1fd1364bdf4c12083bae2f495b2b2
-SHA1: a2d8df0afaed7c6f3f3cef3fc11b34edcb2abdac
-SHA256: 8f1c76c89e1b838a5338c850517b13235af1ee70aaba310a8e9dafb88bd6b85e
+MD5sum: baef00fc3fdfc2209fe8ca5cde6c35d1
+SHA1: f1a9df51c54963e740240929a6bb2806f232d7f8
+SHA256: 2a77919a6e13cf7a01fd7f4d970ba454959ceca2ab5bff12515f8868c3a07726
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
