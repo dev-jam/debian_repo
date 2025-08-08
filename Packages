@@ -1693,22 +1693,6 @@ Section: devel
 Priority: optional
 Description: plasma-appimage-integration built using CMake
 
-Package: python3-betteradbsync
-Version: 0:1.4.0-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 135
-Depends: python3:any
-Filename: ./python3-betteradbsync_1.4.0-1~w2d0_all.deb
-Size: 19052
-MD5sum: 771e5586e6c0d42ad2e28c8d0bb66374
-SHA1: 38b7cc08bca56ce51e72ae06cd2bd22bed9af9f9
-SHA256: a38ad0afcbbf6b925fd81b40afb8a217267062022878857cbaeed2a28fd6c992
-Section: python
-Priority: optional
-Description: Better version of adb-sync for Python3
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
 Version: 2.0.0-4
@@ -1726,40 +1710,6 @@ Priority: optional
 Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
-
-Package: python3-repolib
-Version: 1:1.5.1-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 227
-Depends: python3:any
-Filename: ./python3-repolib_1.5.1-1~w2d0_all.deb
-Size: 40372
-MD5sum: 13bd3633fc076012909da5b09e27d49a
-SHA1: dcf9e4257118930edaf442871b513796dead908b
-SHA256: 18d841800407d9e9a6a7f28d60da3e4f64627dce9e09e43649c02fb39cea11cc
-Section: python
-Priority: optional
-Homepage: https://github.com/pop-os/repolib
-Description: Easily manage software sources
- This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-simplegui
-Version: 0:4.60.5-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1821
-Depends: python3 (>= 3.4~), python3:any
-Filename: ./python3-simplegui_4.60.5-1~w2d0_all.deb
-Size: 438280
-MD5sum: 2ff74fb8fe849361f36a4018690965bc
-SHA1: e818852ec996d8d7c96fddb934064dad3a3069ef
-SHA256: 20fd8820f1c953ff484ad183686adffe08ff8dd640eda05c4d54ef2722af94ba
-Section: python
-Priority: optional
-Homepage: https://github.com/PySimpleGUI/PySimpleGUI
-Description: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers.
- This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tartube
 Source: tartube
@@ -1817,22 +1767,6 @@ Description: Graphical hard drive backup and restore
  Clonezilla are intimidating and difficult to use, so Rescuezilla provides
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
-
-Package: rtcqs
-Version: 0:0.6.6-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 80
-Depends: python3:any
-Filename: ./rtcqs_0.6.6-1~w2d0_all.deb
-Size: 23704
-MD5sum: cea6ad1127e3474010f742c468522c20
-SHA1: d1c3b79ca422ef305a52361db8eb839a3d9ebef3
-SHA256: 3337e18fa61ce545f4303600c23c5aad62453e1f73c605c9b63bd2c0775d75f4
-Section: python
-Priority: optional
-Description: None
- This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: rtirq
 Version: 20240905-48.1
