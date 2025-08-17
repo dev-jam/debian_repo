@@ -66,15 +66,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-config-xlibre-x11-plasma-intel
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre, xserver-xlibre-input-synaptics
-Filename: ./devjam-config-xlibre-x11-plasma-intel_1.0-1_all.deb
-Size: 3888
-MD5sum: 758f01f3b4e3acc4d0c0f0819c1fad06
-SHA1: 9f0833ce7fa634bb00fc21168ca19ca68d2f16a5
-SHA256: 24907b3e241c5c5e538fac76407fae9f1999a6e9257fbcb2d3b36381d464fd3f
+Filename: ./devjam-config-xlibre-x11-plasma-intel_1.1-1_all.deb
+Size: 3768
+MD5sum: 6773d619900e0828493662c7fcec4dee
+SHA1: 0ec7ee2e5604ab9fc3f570cfda70019addfae01b
+SHA256: 32bda1cfe9e8258d336908f8f423c286cd5c68e58c152ff0624b30260f2b9e5a
 Section: base
 Priority: optional
 Description: Improvements to the KDE Plasma experience on X11. Applies to those using the modesetting driver (mainly Intel graphics cards)
