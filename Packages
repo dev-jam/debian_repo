@@ -65,19 +65,101 @@ Section: base
 Priority: optional
 Description: Grub boot items by devjam
 
-Package: devjam-config-xlibre-x11-plasma-modesetting
-Version: 1.3-1
+Package: devjam-gpu-chromium-optimizations
+Version: 1.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: xlibre, xserver-xlibre-input-synaptics
-Filename: ./devjam-config-xlibre-x11-plasma-modesetting_1.3-1_all.deb
-Size: 3780
-MD5sum: 6b7df03fb8dbbcf083c983ab846eb241
-SHA1: b6c355568324538e25df04a65acf4e308b3ae892
-SHA256: 17a0e7091e5bc69559037126cc4ce206285af64c95dc31a3f563d3654d006756
-Section: base
+Recommends: chromium
+Filename: ./devjam-gpu-chromium-optimizations_1.0-1_all.deb
+Size: 1480
+MD5sum: b51fc6d843a263ae753b306126fe3994
+SHA1: 64ba86cb05b59cfbe9a70a40c63b2415a43c8431
+SHA256: 4c92765f47d32962ab0a92a990877ce740a5c1edcf94d9dd98a45d5bba427e54
+Section: web
 Priority: optional
-Description: Improvements to the KDE Plasma experience on X11. Applies to those using the modesetting driver (mainly Intel graphics cards)
+Description: GPU Optimizations for chromium such as video decoding, compositing and rendering.
+
+Package: devjam-gpu-intel-optimizations
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-gpu-intel-optimizations_1.0-1_all.deb
+Size: 928
+MD5sum: 6bc0e75d341229298f91b190d6397639
+SHA1: efb5d1c23951a92d1984ec3a8cb34049a4fe0097
+SHA256: 848350c40af75be06b608b76adb48c40cca92e6900563c717b835034a7884d2f
+Section: x11
+Priority: optional
+Description: Optimizations for the i915 Intel driver
+
+Package: devjam-gpu-mesa-optimizations
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-gpu-mesa-optimizations_1.0-1_all.deb
+Size: 1184
+MD5sum: 55bffe949177d5e3742efafd9f16cbe2
+SHA1: 8d4b61c051b2cb7205722d755341a7f2a4446e38
+SHA256: 2bb85a9269b4edb77edcfec076d7808f1ecefa19493ec21b96027105081afb19
+Section: video
+Priority: optional
+Description: Mesa optimizations for gl threads, DRI and video decoding/encoding
+
+Package: devjam-gpu-x11-synaptics-inertial-scrolling
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xserver-xlibre-input-synaptics | xserver-xorg-input-synaptics
+Filename: ./devjam-gpu-x11-synaptics-inertial-scrolling_1.0-1_all.deb
+Size: 1916
+MD5sum: e7d44887f31e55330ab3475418f550aa
+SHA1: 09be39ac6e35a8707223d02a8a1f3941cab553c9
+SHA256: 02cf77c9e48fb8890112cca9dd855cf6e10f0341de79f27d23412efa4ee6c2a3
+Section: x11
+Priority: optional
+Description: Inertial scrolling (aka kinetic scrolling) for synaptics
+
+Package: devjam-gpu-x11-xlibre-modesetting-tearfree
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree_1.0-1_all.deb
+Size: 1088
+MD5sum: ea24a94a0284904ca4d13a3d2d7e299e
+SHA1: 8963c1c56ca2033d60227bf6546bc29ac904411a
+SHA256: 55e50d385395fbedac91cffb9edcbd33b0a1e132430591b0b1ca8e504710a6cc
+Section: x11
+Priority: optional
+Description: Tearfree improvements to the modesetting driver
+
+Package: devjam-gpu-x11-xlibre-modesetting-tearfree-plasma
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre,devjam-gpu-x11-xlibre-modesetting-tearfree
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma_1.0-1_all.deb
+Size: 1208
+MD5sum: f92a133266c782a991389f90b9266673
+SHA1: 9fa5aa5b1f20e05d61ab7a30ec4ab91e51d5787d
+SHA256: 5783bc6641411e015a2b779bbea399d9d8c61e1072858800cb24d775a19261ce
+Section: x11
+Priority: optional
+Description: Disable sync to vblank at kwin, let modesetting handle vsync/tearfree. Applies to the modesetting driver from XLibre or latest unreleased Xorg.
+
+Package: devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre,devjam-gpu-x11-xlibre-modesetting-tearfree-plasma
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl_1.0-1_all.deb
+Size: 944
+MD5sum: eca1f21afb578809cc33315e9d55a2b9
+SHA1: 7786fde64823dda0ab2585d1e8c31fba40c227df
+SHA256: 4864d031b8591e48ac2d7d4f20661500073b79d785a402b0000502d0eb369b11
+Section: x11
+Priority: optional
+Description: Switch from glx to EGL for Kwin/Qt.
 
 Package: devjam-grub-theme
 Version: 1.1-1
