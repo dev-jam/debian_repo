@@ -162,27 +162,27 @@ Priority: optional
 Description: Switch from glx to EGL for Kwin/Qt.
 
 Package: devjam-grub-theme
-Version: 1.1-1
+Version: 1.1-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-theme_1.1-1_all.deb
-Size: 162912
-MD5sum: 784a818aa3f6a2c555fcb1876c35f110
-SHA1: cc01994b8fd75d2a0a470c7e94a327a2db664e8f
-SHA256: 82c10742c728107800e37f9958059bab3e4d8a51c9ef222d34a2fc3a944a5258
+Filename: ./devjam-grub-theme_1.1-2_all.deb
+Size: 162960
+MD5sum: b10f2edb552615ebe73f0378c4474e61
+SHA1: c0a94b5cea4c52d1764de9000f9ff0e3913c9cd8
+SHA256: 9eaaa8b57389cf8eb3a7bc8fa37623e9ceab68c86f189e1e35e1cc198dd72d19
 Section: base
 Priority: optional
 Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
-Version: 1.24-1
+Version: 1.24-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.24-1_all.deb
-Size: 8485136
-MD5sum: aacee0c05ea3662a82d05a3016b4b122
-SHA1: bd3e74615b8cea927744bac8244eeaf18b8e6218
-SHA256: 769bde6f94f82d4d47f2ac9ae23e891c151cff7697af549abacb9609af11bd8d
+Filename: ./devjam-grub-tools_1.24-2_all.deb
+Size: 8484680
+MD5sum: ebdaddfe18d7904e18a25da2572dc639
+SHA1: 6430e911b74c134f0ab2da5523461fff59886f2b
+SHA256: 6feeb47ca5dec95c42dfd25064a155a5a9e3093145fd582b13b253847774a354
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
