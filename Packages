@@ -53,14 +53,14 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.7-3
+Version: 1.7-4
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.7-3_all.deb
-Size: 378916
-MD5sum: f36244b5212b50dbe01259877315434d
-SHA1: a5e40a70d627f677242496aa76996af740bbf860
-SHA256: eb0d8a09bdd33c07d1e21c8b9377bdbc16d9b01028e8f0fc9eb6fe0fb95732cf
+Filename: ./devjam-config-tools_1.7-4_all.deb
+Size: 378924
+MD5sum: eb9b74511900d104ce3f6fbb57e3e61d
+SHA1: cdc671a7d00881ebe1f3f17c21efb22cd0e3dd4d
+SHA256: 25e25d2752f9fc4d78859ca54d452f07f8d26e0f979fdd344d463a9a2fc80639
 Section: libs
 Priority: optional
 Description: Grub boot items by devjam
@@ -80,14 +80,14 @@ Priority: optional
 Description: GPU Optimizations for chromium such as video decoding, compositing and rendering.
 
 Package: devjam-gpu-intel-optimizations
-Version: 1.0-5
+Version: 1.0-6
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-gpu-intel-optimizations_1.0-5_all.deb
+Filename: ./devjam-gpu-intel-optimizations_1.0-6_all.deb
 Size: 896
-MD5sum: d575c305ba1f120f4daea06c048bd277
-SHA1: b1f9918bd1ccfb4c16848d218568467208475620
-SHA256: 5252c0e5c22cc2b8ede0f71cc1c1c2c0d2a9c8a512ca786f0f6900d8159d098c
+MD5sum: 5c1f78eebb5b6a1f84a7c1d5c6a6d20f
+SHA1: 4cac92dd95c126a1f9531c294bd276f55326123f
+SHA256: 85b4be471c1e467e544d5943dbc3cc8c30b2a7a14d7f241dce504fe11451b123
 Section: x11
 Priority: optional
 Description: Optimizations for the i915 Intel driver
@@ -267,15 +267,15 @@ Priority: optional
 Description: Liquorix configs by devjam
 
 Package: devjam-lowlatency
-Version: 1.4-3
+Version: 1.4-4
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.4-3_amd64.deb
-Size: 1752
-MD5sum: ca492af45389df878df7fca982806083
-SHA1: 0482f0478c8732876ddb69f7ded9ec388f1a0f4f
-SHA256: 4de4887349891fbcf0077b95bc7532306333a94b01ed7200f85fc0d422f1f747
+Filename: ./devjam-lowlatency_1.4-4_amd64.deb
+Size: 1748
+MD5sum: 67ed506ce7849318476d6ac6ee28ef04
+SHA1: 1e3aa86ca323d4c70e2677dadc012de7ff0db549
+SHA256: 85c05abc3b87aa0a987123ab835f02d8bc0763d606643dc001e31a206da46f92
 Section: libs
 Priority: optional
 Description: personal tools for Debian
@@ -294,15 +294,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.49-4
+Version: 1.49-5
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.49-4_all.deb
-Size: 277332
-MD5sum: 7d028d9f25a2698d7cff7ca549579874
-SHA1: cdaa3b55219bd97930e1bcbfb21ae6e785f8c6e6
-SHA256: 938d779e619f41814494c2fc5ebcc5e72470bb4a46c0f547d3086a4d210970b3
+Filename: ./devjam-science_1.49-5_all.deb
+Size: 277536
+MD5sum: 2eb48e69ff522f13e7d5f8858d779057
+SHA1: c4983165022ffbe4a4b70e247aa7bc725c521303
+SHA256: c75e8c95658d3753c1ad01defd61090cee92d4b553d6bc3285a3192d147bf5fb
 Section: science
 Priority: optional
 Description: science tools
