@@ -53,14 +53,14 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.7-1
+Version: 1.7-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.7-1_all.deb
-Size: 378960
-MD5sum: 47662626853e5e7657aa0a385cc9f7e7
-SHA1: 20972210ef34a10412ecd8008d40d2519c4f3d66
-SHA256: 05443f4168731838ba4adcb29a4f1ad2eafe469e8cb766c77d1574a6b9c58e5d
+Filename: ./devjam-config-tools_1.7-2_all.deb
+Size: 378956
+MD5sum: 44cfc91b46cf6d67fa0767eb21701beb
+SHA1: fc067e4a1d3b5f1611b42cb1f91886f8bddcf269
+SHA256: 56064d50216c5a5aec76f1a52ebbae6dd9d98197752be82292bba511c46672a3
 Section: libs
 Priority: optional
 Description: Grub boot items by devjam
@@ -267,15 +267,15 @@ Priority: optional
 Description: Liquorix configs by devjam
 
 Package: devjam-lowlatency
-Version: 1.4-1
+Version: 1.4-2
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.4-1_amd64.deb
-Size: 1792
-MD5sum: 18ef06e57ba6bb4e45d505e5333de2e4
-SHA1: 1a2fb04597a21d027e48095909ad147678bb675f
-SHA256: c1cea6deaf05355b51061ceb45a22592fa25b08969bc49eac4ee02bf0be67073
+Filename: ./devjam-lowlatency_1.4-2_amd64.deb
+Size: 1804
+MD5sum: 4d358b0e3e4189bdc62178d96a20fd20
+SHA1: 30f54f8d368d76fb081c7a6a26dc3565eb4d22f9
+SHA256: eb0e3d88572cb0c59633a5664f44e60ede40d84c240bcda72c4dbae8ae2083f4
 Section: libs
 Priority: optional
 Description: personal tools for Debian
@@ -294,15 +294,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.49-1
+Version: 1.49-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.49-1_all.deb
-Size: 277532
-MD5sum: 630ca873c8e27483b1ab62c601de97f2
-SHA1: 30cad2e4a222f3b0bdbc82f02ea0ef966a8bccd3
-SHA256: 2e4fb83cd065d212175a03e091c0f695eace40174c39c3777af5a6e4e69ee53c
+Filename: ./devjam-science_1.49-2_all.deb
+Size: 277540
+MD5sum: 7647f2114e4f8a3c659bf52525a003d7
+SHA1: b8e719b8e62d3e69f211186e6a39d7185984989e
+SHA256: f0aaa388f2b5706779c23653710166c5acb00fafb3f87df4ce01ccb761caa080
 Section: science
 Priority: optional
 Description: science tools
