@@ -120,43 +120,43 @@ Priority: optional
 Description: Inertial scrolling (aka kinetic scrolling) for synaptics
 
 Package: devjam-gpu-x11-xlibre-modesetting-tearfree
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree_1.0-1_all.deb
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree_1.1-1_all.deb
 Size: 1088
-MD5sum: ea24a94a0284904ca4d13a3d2d7e299e
-SHA1: 8963c1c56ca2033d60227bf6546bc29ac904411a
-SHA256: 55e50d385395fbedac91cffb9edcbd33b0a1e132430591b0b1ca8e504710a6cc
+MD5sum: fd5a2c3c5f01d661dd999aada3d39fd6
+SHA1: 1dc9174ed5455927a46b37e29017855f87398906
+SHA256: 9991775ed39355cdfaaa90a98fc53843d5222e18e80406bac2c07fee52338bb6
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the modesetting driver
 
 Package: devjam-gpu-x11-xlibre-modesetting-tearfree-plasma
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre,devjam-gpu-x11-xlibre-modesetting-tearfree
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma_1.0-1_all.deb
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma_1.1-1_all.deb
 Size: 1208
-MD5sum: f92a133266c782a991389f90b9266673
-SHA1: 9fa5aa5b1f20e05d61ab7a30ec4ab91e51d5787d
-SHA256: 5783bc6641411e015a2b779bbea399d9d8c61e1072858800cb24d775a19261ce
+MD5sum: 05f893bd58ca91a4ff2482195674698b
+SHA1: 21d0d12b855d52cd7c4c0c3dec6c256331900a9a
+SHA256: f66020983facc56ce7b8c0da7207f313e063e08fe515dee638b2fd3f7d873dad
 Section: x11
 Priority: optional
 Description: Disable sync to vblank at kwin, let modesetting handle vsync/tearfree. Applies to the modesetting driver from XLibre or latest unreleased Xorg.
 
 Package: devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre,devjam-gpu-x11-xlibre-modesetting-tearfree-plasma
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl_1.0-1_all.deb
-Size: 944
-MD5sum: eca1f21afb578809cc33315e9d55a2b9
-SHA1: 7786fde64823dda0ab2585d1e8c31fba40c227df
-SHA256: 4864d031b8591e48ac2d7d4f20661500073b79d785a402b0000502d0eb369b11
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl_1.1-1_all.deb
+Size: 948
+MD5sum: efcc88979e282f6e62d9b1b8b3372a83
+SHA1: 7bb8543554fdd6423fddc0c0f8cb9ca17b5255c8
+SHA256: 05e5cff1f0ee9581e10f375bda67d2c1b793616cd273a6c760247b597fdf4b70
 Section: x11
 Priority: optional
 Description: Switch from glx to EGL for Kwin/Qt.
