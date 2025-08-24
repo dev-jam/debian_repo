@@ -120,15 +120,15 @@ Priority: optional
 Description: Inertial scrolling (aka kinetic scrolling) for synaptics
 
 Package: devjam-gpu-x11-xlibre-modesetting-tearfree
-Version: 1.1-1
+Version: 1.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree_1.1-1_all.deb
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree_1.2-1_all.deb
 Size: 1088
-MD5sum: fd5a2c3c5f01d661dd999aada3d39fd6
-SHA1: 1dc9174ed5455927a46b37e29017855f87398906
-SHA256: 9991775ed39355cdfaaa90a98fc53843d5222e18e80406bac2c07fee52338bb6
+MD5sum: ef89674f0cb10533e114c91b8802767d
+SHA1: e8a9cd63970bc7d1b4855b012634cb5a789b6024
+SHA256: 9f0b8e52c45594e425f66314c417439c7c65f63948e1e127f85b892114f06ab4
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the modesetting driver
