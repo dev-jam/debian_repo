@@ -281,28 +281,28 @@ Priority: optional
 Description: personal tools for Debian
 
 Package: devjam-pipewire-scripts
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-pipewire-scripts_1.0-1_all.deb
-Size: 1676
-MD5sum: e165b1d3eadf7686187f6f91ae995c87
-SHA1: aeb7db291852b1bf4d4f2fb5bcc8ec2ee18d6a6b
-SHA256: 4d68c5470fcc923f59bde990f645fa726a286e55e4e8a549d501f75b677eba4e
+Filename: ./devjam-pipewire-scripts_1.1-1_all.deb
+Size: 1692
+MD5sum: d4a01d3dca21d3b9584dfe3a9ddf8169
+SHA1: 81da6645f5015dd4ff27780857b2da493e1d0e1f
+SHA256: 53be99a897260c57aece91fa7dca4505fa556740aba29e2693c83e5dff72f63d
 Section: base
 Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.49-5
+Version: 1.50-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.49-5_all.deb
-Size: 277536
-MD5sum: 2eb48e69ff522f13e7d5f8858d779057
-SHA1: c4983165022ffbe4a4b70e247aa7bc725c521303
-SHA256: c75e8c95658d3753c1ad01defd61090cee92d4b553d6bc3285a3192d147bf5fb
+Filename: ./devjam-science_1.50-1_all.deb
+Size: 277812
+MD5sum: 99dac491574509a1b68d336e7886b97a
+SHA1: 16160c89e3e41469c0b610c9897102cf67888721
+SHA256: b2a1641a57c4c7c1d72da79a745ede32813256b871df533c37d9285868ac7d7c
 Section: science
 Priority: optional
 Description: science tools
