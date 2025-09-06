@@ -280,6 +280,48 @@ Section: libs
 Priority: optional
 Description: personal tools for Debian
 
+Package: devjam-opensesame-psychopy-2024.2.4
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science
+Filename: ./devjam-opensesame-psychopy-2024.2.4_1.0-1_all.deb
+Size: 1416
+MD5sum: fbd6c80924b6f2c312335c2dc889d0a3
+SHA1: dccc810513ad0a863f4a4a8360d7d2a9f0fdf546
+SHA256: af4f0c405cfda52fa2e9d8bcae80d35bcd1c28807a7e960074ce6aa9ac6cfa1a
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy 2024.2.4
+
+Package: devjam-opensesame-psychopy-2025.1.1
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science
+Filename: ./devjam-opensesame-psychopy-2025.1.1_1.0-1_all.deb
+Size: 1428
+MD5sum: e15b603f7e2a1f5a6af504a605a41f00
+SHA1: 2de340daae6788f4c6a63cee1e9c2ff5a3e9f9b7
+SHA256: a3cc21cbc48211a5b59871c15010875583059993ef5a4c982c47657ebd7f2e13
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy 2025.1.1
+
+Package: devjam-opensesame-psychopy-2025.2.0
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science
+Filename: ./devjam-opensesame-psychopy-2025.2.0_1.0-1_all.deb
+Size: 1424
+MD5sum: 847d7051207bce9a924461eac8c54067
+SHA1: 0cb49cb431ab6c17cbe97052e52c383edf916151
+SHA256: c78a8a467f895c69810c81c5e70a3b02daa3897fe229d3e86696de39977ffe5a
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy 2025.2.0
+
 Package: devjam-pipewire-scripts
 Version: 1.1-1
 Architecture: all
@@ -294,28 +336,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.60-1
+Version: 1.61-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.60-1_all.deb
-Size: 277720
-MD5sum: 1554bd09d93c5dc9a5b55f3435048da5
-SHA1: d7fbec707355e8987f86415ff08213a4605ea8b1
-SHA256: ccb63fbc638cd9041fa1c8a1ddfc8a30602c84835c35e29ad0a08cb313bd98f8
-Section: science
-Priority: optional
-Description: science tools
-
-Package: devjam-science-beta
-Version: 1.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-science-beta_1.0-1_all.deb
-Size: 1464
-MD5sum: 6632bff79091e96bd377bdb017212196
-SHA1: 44c389fea7ee9aea8d25aa11d83cbf81749850e9
-SHA256: 430e6a4ff006a3f6374efe793da19737a39c14273621c22cded3f08130e8d8a9
+Filename: ./devjam-science_1.61-1_all.deb
+Size: 277280
+MD5sum: a17faacb1adb76b1954bf501d416270e
+SHA1: 883ff18e0a80a5296c03c87d168607396f550e54
+SHA256: acdfc9eda1c9da947eac7c3d7e47b81c9fc1f51d4eae4f58eae1a14f3ecd4a7d
 Section: science
 Priority: optional
 Description: science tools
