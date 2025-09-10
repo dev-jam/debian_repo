@@ -214,15 +214,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-servicemenu-collection
-Version: 1.18-1
+Version: 1.19-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-servicemenu-collection_1.18-1_all.deb
-Size: 4408
-MD5sum: 828bfeb8db843b4e33b541aeb3b4d130
-SHA1: 8aaec591250c06118a72c8682f2e045be26e8681
-SHA256: 0acec1a001c6dc29b533d99e7c498527945893e4fcdca6dd7c5a6a2ab0f1c0ca
+Filename: ./devjam-kde-servicemenu-collection_1.19-1_all.deb
+Size: 4468
+MD5sum: 07d245b6021a0bf7bbb59b006414efb4
+SHA1: 1c393d2e89acb51f231ae554d861786a379ced17
+SHA256: 1c672ca5144d28e300c2098fa4faa9dd32f6f484d3a3af5ae8a8ea7b793ba4ab
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -336,15 +336,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.61-1
+Version: 1.62-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.61-1_all.deb
-Size: 277280
-MD5sum: a17faacb1adb76b1954bf501d416270e
-SHA1: 883ff18e0a80a5296c03c87d168607396f550e54
-SHA256: acdfc9eda1c9da947eac7c3d7e47b81c9fc1f51d4eae4f58eae1a14f3ecd4a7d
+Filename: ./devjam-science_1.62-1_all.deb
+Size: 277388
+MD5sum: 3277cf62acb5da78ecf964709676ed50
+SHA1: 7b7a69c7ff4b8c41610833fdb0fa5bc0fde48a76
+SHA256: 620299c4c461928a900fac3a390b0c41386567d81bf4259d2480b6c68577eed5
 Section: science
 Priority: optional
 Description: science tools
@@ -364,15 +364,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.52-1
+Version: 1.53-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan, genisoimage, csvtool
-Filename: ./devjam-tools_1.52-1_amd64.deb
-Size: 27553196
-MD5sum: 990b8c96da1e7bb24acd4f56a59f4d3c
-SHA1: 7352d65959e5fc81b4b065ff066074ddcb2283d7
-SHA256: 405b0855adeed321e6447b188659510da4a047fc2d0250f97a84ede850a71778
+Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan, genisoimage, csvtool, diffoscope
+Filename: ./devjam-tools_1.53-1_amd64.deb
+Size: 27553708
+MD5sum: c44a2fe5d1b2387ec5c88d71dd41aaa7
+SHA1: 66758378e1a948c23482add5db0fd6242cee8d20
+SHA256: 4a0aa7439e6e278c6fb16787e1de29c66f8956ffe84b6a924493bd2363b1f862
 Section: base
 Priority: optional
 Description: personal tools for Debian
