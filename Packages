@@ -341,10 +341,10 @@ Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
 Filename: ./devjam-rtirq_1.0-1_amd64.deb
-Size: 4556
-MD5sum: 74d6cba3df2535dc41407a457f867375
-SHA1: 1f0ac7b2833ee7eaafda10f824c9f6d767f739ff
-SHA256: d9c6d5a48f5805c86c5019bf42282c29c447b4c2318265942c5b5eb90f912ef8
+Size: 4560
+MD5sum: 847918978aa2091afeb7105be9c996d4
+SHA1: a7f780d36ddba2240201acf7dfff1b26965ab3e8
+SHA256: e65afae873cdafe36dd945b214164c7b744aa22cdebd6994d481e431eff440bb
 Section: libs
 Priority: optional
 Description: Experiment mode with Liquorix
