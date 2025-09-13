@@ -336,15 +336,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-rtirq
-Version: 1.0-1
+Version: 1.1-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-rtirq_1.0-1_amd64.deb
-Size: 4560
-MD5sum: 847918978aa2091afeb7105be9c996d4
-SHA1: a7f780d36ddba2240201acf7dfff1b26965ab3e8
-SHA256: e65afae873cdafe36dd945b214164c7b744aa22cdebd6994d481e431eff440bb
+Filename: ./devjam-rtirq_1.1-1_amd64.deb
+Size: 5508
+MD5sum: d3d52ee1547b1dec1ef8fc2912c67e46
+SHA1: 5aa62ad955c1fe68ac3c4ce0192d73f61db9665e
+SHA256: 3b8d1390ab0ce813ab7d3db41eb55952546828509cc2dc1213e2ad7a3b028466
 Section: libs
 Priority: optional
 Description: Experiment mode with Liquorix
