@@ -350,15 +350,15 @@ Priority: optional
 Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
-Version: 1.11-1
+Version: 1.12-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-science-experiment-mode-rtirq_1.11-1_amd64.deb
+Filename: ./devjam-science-experiment-mode-rtirq_1.12-1_amd64.deb
 Size: 7424
-MD5sum: 9e233301b0d890eb122e5c7763553b22
-SHA1: 786e3411c6f6f4d002a69891922e10ea8e2c8e89
-SHA256: 966e9ae1c8137cf11d7a1c4e72a0b3d0574ed361275f5fa32f9fe1eef3f89e6f
+MD5sum: cca4b73659f2c6eef32d3da3be456166
+SHA1: 6858f88a49640ff67d328db78a0a438cd969dfb2
+SHA256: 77f400739373a1cf56d3384894704c37c4c196184951dbd9d53950add6880d83
 Section: libs
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
