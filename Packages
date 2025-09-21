@@ -180,9 +180,9 @@ Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Filename: ./devjam-grub-tools_1.25-1_all.deb
 Size: 8485132
-MD5sum: d5bfecb52f644b3723b8a857bb90cd34
-SHA1: 448c4148edbc8479ebd71488c52347b9f41a1aa9
-SHA256: 9af4af60fc505714c1ae9c3e0784db50fe640a83e56f16b8b1657e492f490d34
+MD5sum: 32f0599fd1238ca683201349a53b1fdc
+SHA1: 59d2d4a36065c019fe74d6c3d7ba292d6cd068fb
+SHA256: 6e02bd13b93a321c9ad5ec2c3b8e13acd2c348e4252ab0e2c8e042ff727a516e
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
