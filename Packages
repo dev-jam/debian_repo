@@ -309,15 +309,15 @@ Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2025.1.1
 
 Package: devjam-opensesame-psychopy-2025.2.0
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy-2025.2.0_1.0-1_all.deb
-Size: 1424
-MD5sum: 847d7051207bce9a924461eac8c54067
-SHA1: 0cb49cb431ab6c17cbe97052e52c383edf916151
-SHA256: c78a8a467f895c69810c81c5e70a3b02daa3897fe229d3e86696de39977ffe5a
+Filename: ./devjam-opensesame-psychopy-2025.2.0_1.1-1_all.deb
+Size: 2072
+MD5sum: fefe3baf95b7528275dd0d513d2d5ff4
+SHA1: e5c33a8e6b06ee2928d14cc8ffd4537fb8b11759
+SHA256: cd7056090fa9494eb8b111ef9cd92e051faa14f19c7a3c684a0e07e2e0e01a4d
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2025.2.0
@@ -350,15 +350,15 @@ Priority: optional
 Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
-Version: 1.19-1
+Version: 1.20-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-science-experiment-mode-rtirq_1.19-1_amd64.deb
-Size: 9284
-MD5sum: a18efd2cd196b6eb5980d320c0e5d279
-SHA1: 57a501192dbc312583e60b39001108822f06310a
-SHA256: 9ce15cf90e6d21e2daaa53d387ab18d01bf1cfec79fdfdfee0123f91bfc21f02
+Filename: ./devjam-science-experiment-mode-rtirq_1.20-1_amd64.deb
+Size: 9280
+MD5sum: 6a0300e084988789498d190424516e35
+SHA1: f9775755704588ac1ae3ee5732b86f8d12b6c5b3
+SHA256: d178c5c5d2b50ba7f5c969df104a407fcb26ef3ff4da63e138147c43cdd04730
 Section: libs
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
