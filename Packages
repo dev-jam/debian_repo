@@ -267,15 +267,15 @@ Priority: optional
 Description: Liquorix configs by devjam
 
 Package: devjam-lowlatency
-Version: 1.12.1
+Version: 1.13.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.12.1_amd64.deb
-Size: 2556
-MD5sum: d8915c3c49c122638bce1c7f1e293ff6
-SHA1: ba5a47afc4d7d3dbdb91c3b00b0ec6b8d75568aa
-SHA256: 6edf2d8fade5b51d892bde26747563456a9d9ba67f5e6b13f5b783f69ceae52c
+Filename: ./devjam-lowlatency_1.13.1_amd64.deb
+Size: 2580
+MD5sum: bbb406ff6d11d1993545c61e9439545a
+SHA1: 47b939a931223373deba5ce261f53dad5fed1678
+SHA256: fce71ef3b4171aca7f4993355d495eac96d11781c4cbb29bcb6e5cf3fb087477
 Section: libs
 Priority: optional
 Description: personal tools for Debian
