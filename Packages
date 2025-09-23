@@ -214,15 +214,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-servicemenu-collection
-Version: 1.24-1
+Version: 1.25-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-servicemenu-collection_1.24-1_all.deb
-Size: 4896
-MD5sum: e1a4fd35d55cb69ca4311b0999a66030
-SHA1: 5e14e213db8cd9e2e8d3a86b0cf155d39c10a5e9
-SHA256: 3cddf0bab120147862d20a38d2939a5a1ab09a52af64c33c98afb326b8ccd498
+Filename: ./devjam-kde-servicemenu-collection_1.25-1_all.deb
+Size: 4864
+MD5sum: f8344ed5badf9e88bd5d5b590b3716db
+SHA1: e8f59a7e814e7f6d7230f6b49162947ef147edc2
+SHA256: 63157392bdd5f974fbd3cbb2489df2b43fd337d9e923cbc0ac89d95bd4a3514d
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -336,57 +336,57 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.62-1
+Version: 1.63-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.62-1_all.deb
-Size: 277388
-MD5sum: 3277cf62acb5da78ecf964709676ed50
-SHA1: 7b7a69c7ff4b8c41610833fdb0fa5bc0fde48a76
-SHA256: 620299c4c461928a900fac3a390b0c41386567d81bf4259d2480b6c68577eed5
+Filename: ./devjam-science_1.63-1_all.deb
+Size: 277436
+MD5sum: 1362a47e16794f91c0de6c5fedc176c4
+SHA1: cc5def801a8ec04829d3757cf6a079c20c794867
+SHA256: 549e702135d9955b1f0fa5faebaf3336691da4b33d10ea77e2242e99123629fe
 Section: science
 Priority: optional
 Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
-Version: 1.20-1
+Version: 1.21-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-science-experiment-mode-rtirq_1.20-1_amd64.deb
-Size: 9280
-MD5sum: 6a0300e084988789498d190424516e35
-SHA1: f9775755704588ac1ae3ee5732b86f8d12b6c5b3
-SHA256: d178c5c5d2b50ba7f5c969df104a407fcb26ef3ff4da63e138147c43cdd04730
+Filename: ./devjam-science-experiment-mode-rtirq_1.21-1_amd64.deb
+Size: 9272
+MD5sum: 71ad9cee40cd7d5eb72c523a92a4ffba
+SHA1: 9b648a09b460e7a080662b73663018884b83ddaf
+SHA256: bee4ade8c3e4922252c9ed595b269fdf195c19a94f264c399c9d3759b1114c1d
 Section: libs
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
 
 Package: devjam-thunar-custom-actions
-Version: 3.1-1
+Version: 3.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, unoconv, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, mkvtoolnix, ffmpeg, devjam-tools, fclones, zstd
-Filename: ./devjam-thunar-custom-actions_3.1-1_all.deb
-Size: 4560
-MD5sum: 1fc48d9feb10e6cc25071d0ab799e644
-SHA1: 39d1cbf7dcee803c1610e9ca8a6072f814fd7a79
-SHA256: 0dc19c5a055424b06e9079bc4ba67efded8ffaab749d9efbff6050780b292eb8
+Filename: ./devjam-thunar-custom-actions_3.2-1_all.deb
+Size: 4572
+MD5sum: 6e66176db6bf4ed5a10afa513ef01bca
+SHA1: 8a005caa4a158c06cc0967b223732f0f6c61abf5
+SHA256: 1440b00eaa393bf6c6f8e61e4ca625470e6826a6ab2aca8cdc57ceec68da03ac
 Section: base
 Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.57-1
+Version: 1.58-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan, genisoimage, csvtool
-Filename: ./devjam-tools_1.57-1_amd64.deb
-Size: 27553816
-MD5sum: ff019dd33e6288fc57bebd162d843ba2
-SHA1: 9075802adb73c4548f0dc6de4d2ebac0be19e403
-SHA256: 66ec56ac4b5299a2f909f07f19dfb1634db1fd94545047bb96094f8b841e747e
+Filename: ./devjam-tools_1.58-1_amd64.deb
+Size: 27554140
+MD5sum: a1e2577cc2a07cc281d9466e159e2aac
+SHA1: 55b5bb50cba6e5b44a15c4fc21705dce4decb87f
+SHA256: e639b018416f72c4d46744c388aee6365ac808fca914527ccd167af5ad8b3133
 Section: base
 Priority: optional
 Description: personal tools for Debian
