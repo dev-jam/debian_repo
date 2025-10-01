@@ -214,15 +214,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-servicemenu-collection
-Version: 1.25-1
+Version: 1.26-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-servicemenu-collection_1.25-1_all.deb
-Size: 4864
-MD5sum: f8344ed5badf9e88bd5d5b590b3716db
-SHA1: e8f59a7e814e7f6d7230f6b49162947ef147edc2
-SHA256: 63157392bdd5f974fbd3cbb2489df2b43fd337d9e923cbc0ac89d95bd4a3514d
+Recommends: meld, imagemagick, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
+Filename: ./devjam-kde-servicemenu-collection_1.26-1_all.deb
+Size: 5016
+MD5sum: bc981efa16170cc6b0fd3cd322c443ac
+SHA1: 97e8a5a4a2852578efd4f0c9f11bbf594b16bd16
+SHA256: f074a8cf75710232e0ec7ee1d4b330b7a579d3b93168f3d4d4f9defbda801800
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
