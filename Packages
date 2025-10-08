@@ -214,15 +214,15 @@ Priority: optional
 Description: Grub boot items by devjam
 
 Package: devjam-kde-servicemenu-collection
-Version: 1.27-1
+Version: 1.28-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, imagemagick, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-servicemenu-collection_1.27-1_all.deb
-Size: 5028
-MD5sum: e35649a5146e976992ec2abff9d14f98
-SHA1: 9edd6c9ba6f7c44b97a2198f067fabf5a4fef8ed
-SHA256: cd295776f1eeca61ebd21227a49dd04f1c183489941a7f53d71262042f98a476
+Filename: ./devjam-kde-servicemenu-collection_1.28-1_all.deb
+Size: 4888
+MD5sum: e123cef751bfc33d85e46b8709a6f596
+SHA1: a8109a754f81e4556b128cd71c771587684c115b
+SHA256: 19ae12d9a0802c0da99d29c339e6b4871d7f490c640c7f604ac1049b4fb0d01b
 Section: base
 Priority: optional
 Description: KDE Service Menu items collection by devjam
@@ -336,15 +336,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.63-1
+Version: 1.64-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.63-1_all.deb
-Size: 277436
-MD5sum: 1362a47e16794f91c0de6c5fedc176c4
-SHA1: cc5def801a8ec04829d3757cf6a079c20c794867
-SHA256: 549e702135d9955b1f0fa5faebaf3336691da4b33d10ea77e2242e99123629fe
+Filename: ./devjam-science_1.64-1_all.deb
+Size: 277832
+MD5sum: ce68cd1b6224043acd9f069be1374dfe
+SHA1: 46d64874e41f9be3b07c6cb1098d01775bf30a9e
+SHA256: 2027ee0a44b36eb9f88a60c2891a3dd12510a5e38ed7027171771e87a70b3cd1
 Section: science
 Priority: optional
 Description: science tools
