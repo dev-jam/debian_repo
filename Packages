@@ -53,14 +53,14 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.9-1
+Version: 1.10-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.9-1_all.deb
-Size: 379060
-MD5sum: f7a9877ab545f5484e2f25851c2da62c
-SHA1: 17cacb0fcf7cf46650f55b06f31ec4225dac997d
-SHA256: 73f9dd9f537d77ade92ab26129c3c36ec8e7a158017561ec908db5631b994ae5
+Filename: ./devjam-config-tools_1.10-1_all.deb
+Size: 2164
+MD5sum: bdcf76bc7ccece858cfeda21d55a0039
+SHA1: 50414aac506d0060ebfe12847a904b9301983d1e
+SHA256: f7a34d9468d6eae5c73ca060c907626e6286a3087e7ac706b172d814694cf540
 Section: libs
 Priority: optional
 Description: Generic configs by devjam
@@ -336,15 +336,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.64-1
+Version: 1.65-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.64-1_all.deb
-Size: 277832
-MD5sum: ce68cd1b6224043acd9f069be1374dfe
-SHA1: 46d64874e41f9be3b07c6cb1098d01775bf30a9e
-SHA256: 2027ee0a44b36eb9f88a60c2891a3dd12510a5e38ed7027171771e87a70b3cd1
+Filename: ./devjam-science_1.65-1_all.deb
+Size: 277824
+MD5sum: eb6222ff0d8e3986843be349a03dd37c
+SHA1: f5403c7dfee1ee92e81356494acbe98dc7f68054
+SHA256: 9d6ad9f3a9adadd4702600ebc4bc77a586c42fe86ac93fb3b33d13f014ff3514
 Section: science
 Priority: optional
 Description: science tools
