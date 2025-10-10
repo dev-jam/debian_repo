@@ -281,43 +281,43 @@ Priority: optional
 Description: personal tools for Debian
 
 Package: devjam-opensesame-psychopy-2024.2.4
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy-2024.2.4_1.0-1_all.deb
-Size: 1416
-MD5sum: fbd6c80924b6f2c312335c2dc889d0a3
-SHA1: dccc810513ad0a863f4a4a8360d7d2a9f0fdf546
-SHA256: af4f0c405cfda52fa2e9d8bcae80d35bcd1c28807a7e960074ce6aa9ac6cfa1a
+Filename: ./devjam-opensesame-psychopy-2024.2.4_1.1-1_all.deb
+Size: 1432
+MD5sum: 89ab7e972d97c123c76904a88f689b55
+SHA1: 29e27c4136efdd7c6d192bd48b857264dfe44d2a
+SHA256: 58d756e679cc16841023351d60a81a2b5b5da15451a0e64c2cb3259e717c57b4
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2024.2.4
 
 Package: devjam-opensesame-psychopy-2025.1.1
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy-2025.1.1_1.0-1_all.deb
-Size: 1428
-MD5sum: e15b603f7e2a1f5a6af504a605a41f00
-SHA1: 2de340daae6788f4c6a63cee1e9c2ff5a3e9f9b7
-SHA256: a3cc21cbc48211a5b59871c15010875583059993ef5a4c982c47657ebd7f2e13
+Filename: ./devjam-opensesame-psychopy-2025.1.1_1.1-1_all.deb
+Size: 1432
+MD5sum: 0f3cd9e82b16378f1cb88abc15b143e0
+SHA1: a770d796e3abc15548f94ac56b8ec3a2c9b0efb5
+SHA256: 1ab07e113827eb3f26a0fd0b264852d0cf1c5b502bea4c784626139f378bd746
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2025.1.1
 
 Package: devjam-opensesame-psychopy-2025.2.0
-Version: 1.4-1
+Version: 1.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy-2025.2.0_1.4-1_all.deb
-Size: 4128
-MD5sum: 14d387753adf624d83729f3c79060066
-SHA1: 1e780e2f474bebd024bb9e3d67418a3a77c44662
-SHA256: 871e5818455d05a1fe1995524438b80ea98a8baec18562dba8e38c5ceba46e64
+Filename: ./devjam-opensesame-psychopy-2025.2.0_1.5-1_all.deb
+Size: 4136
+MD5sum: c0cc189d1b0255e8061f1c5d414e45e5
+SHA1: bf38d4c9f8c1cd8bc5b212372c178140e41e9477
+SHA256: 57c03bdcc814c852d0e6af0cd2fb96be754f28abe48e708f6c022b468c6a2f83
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2025.2.0
