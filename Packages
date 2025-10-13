@@ -267,15 +267,15 @@ Priority: optional
 Description: Liquorix configs by devjam
 
 Package: devjam-lowlatency
-Version: 1.15.1
+Version: 1.16.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.15.1_amd64.deb
-Size: 2800
-MD5sum: 556cda2fa0e5acbc6049d12317671ce1
-SHA1: fede623428c6a2fbe42204cc826e72cfe2d55595
-SHA256: af19bef8795c30d4c907c07ad60819e4f4172dec39f07c119e8b54b1c42620db
+Filename: ./devjam-lowlatency_1.16.1_amd64.deb
+Size: 2900
+MD5sum: 56b3404aff0845d60becc85edc28e79a
+SHA1: 56e3548aa9e0fe1b28c1fe4ea838d56b03f26592
+SHA256: 5096e017bc91c73b5cbf9ef0b641ecd9e45403ac4248e03b7fb1bb1ac189bcb6
 Section: libs
 Priority: optional
 Description: personal tools for Debian
@@ -350,15 +350,15 @@ Priority: optional
 Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
-Version: 1.33-1
+Version: 1.34-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-science-experiment-mode-rtirq_1.33-1_amd64.deb
+Filename: ./devjam-science-experiment-mode-rtirq_1.34-1_amd64.deb
 Size: 10036
-MD5sum: 78dc8635338fc8bcf36066227dc65d74
-SHA1: 0ecc4e95b27d845df382418c6303d016a97a5cf4
-SHA256: 661683f31d2234e48ae8dfd47e6aff6960188e3142f182fd301532664d974bb0
+MD5sum: cbfdec6436e763cb8c0456e70d26b303
+SHA1: d59fe0d0ae164cd1b673df50c9b6bbcb3cacb40e
+SHA256: f4ad36caae8d36c5f5efed43bcf9b1675cb1eaa7cc73ddeca2b2bcfca3928f60
 Section: libs
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
