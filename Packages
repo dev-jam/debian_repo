@@ -148,15 +148,15 @@ Priority: optional
 Description: Disable sync to vblank at kwin, let modesetting handle vsync/tearfree. Applies to the modesetting driver from XLibre or latest unreleased Xorg.
 
 Package: devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl
-Version: 1.2-1
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre,devjam-gpu-x11-xlibre-modesetting-tearfree-plasma
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl_1.2-1_all.deb
-Size: 952
-MD5sum: 2710acf64972005fdb497e8a9e74cfcc
-SHA1: 7540b00b461e60336d288bebde1d5d51b6aef0b0
-SHA256: 68dcd31a73b93c8a416331b1499729f3ed88045f32062647378fc889082c5280
+Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl_1.3-1_all.deb
+Size: 996
+MD5sum: f11ba7a0116cdf057da4a8962a373889
+SHA1: d23a83f25c48fe455f0d7d5ad13ae49a80eabc5e
+SHA256: e8d300dea72e4b72a9d0a5b5283e5475c83103b1c294be0d1d6ddf7a88163441
 Section: x11
 Priority: optional
 Description: Switch from glx to EGL for Kwin/Qt.
