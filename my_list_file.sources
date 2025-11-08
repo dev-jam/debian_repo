@@ -1,0 +1,11 @@
+# dev-jam Repo's
+
+X-Repolib-Name: dev-jam
+Enabled: yes
+Types: deb
+URIs: https://dev-jam.github.io/debian_repo/
+Suites: ./
+Components: 
+Signed-By: /usr/share/keyrings/dev-jam.asc
+
+
