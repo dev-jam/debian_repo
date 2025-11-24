@@ -1905,16 +1905,16 @@ Description: plasma-appimage-integration built using CMake
 
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
-Version: 2.0.0-4
+Version: 2.0.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 212
 Depends: python3:any
-Filename: ./python3-dr14-tmeter_2.0.0-4_all.deb
-Size: 32224
-MD5sum: 81b746ba65f3fb17f6fb856349b01066
-SHA1: 0db976de99fb9ff19d6844b4804c29c3ed66ad4e
-SHA256: 9ab1ae744106a5ddec928f35f4a46acadca0664e5d80eef0c8e0ad7d9530390d
+Filename: ./python3-dr14-tmeter_2.0.1-1_all.deb
+Size: 32332
+MD5sum: 581e1910c3fb7182bb41dbe94de0a7cd
+SHA1: 6b3835e210b3481e6b1e80a746d468dd8b1169d1
+SHA256: e982bc4b7a269663a596fde3baf0a8eb95946a084ee98e6233a6c443a01189ae
 Section: python
 Priority: optional
 Homepage: http://simon-r.github.com/dr14_t.meter
