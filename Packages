@@ -1345,6 +1345,21 @@ Priority: optional
 Homepage: https://hamonikr.org
 Description: Simple gui front end to inxi.
 
+Package: jan
+Version: 0.7.3
+Architecture: amd64
+Maintainer: Jan <service@jan.ai>
+Installed-Size: 185064
+Depends: libayatana-appindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
+Filename: ./Jan_0.7.3_amd64.deb
+Size: 75553546
+MD5sum: 4a1ac7fe96f2754c92b38d07aec1aa1b
+SHA1: e98169a53dcf7e73ffbba0e7f99a548c6c8cdf27
+SHA256: de852b052cf85007f8ac9728c0607926af2c1d7375ee1652d31d5e91be4a6283
+Priority: optional
+Description: Use offline LLMs with your own data. Run open source models like Llama2 or Falcon on your internal computers/servers.
+ (none)
+
 Package: kde-servicemenu-kim5
 Version: 0.9.6.1-1mx23+1
 Architecture: all
