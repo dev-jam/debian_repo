@@ -11,6 +11,24 @@ Section: base
 Priority: optional
 Description: android tools for Debian
 
+Package: appimagelauncher
+Version: 3.0.0-beta-2-gha287~96cb937
+Architecture: amd64
+Maintainer: ldnp <ldnp@ldnp>
+Installed-Size: 149170
+Pre-Depends: bash
+Depends: systemd, libgl1, libfontconfig1, libharfbuzz0b, libfribidi0
+Built-Using: linuxdeploy-plugin-native_packages
+Filename: ./appimagelauncher_3.0.0-beta-2-gha287.96cb937_amd64.deb
+Size: 37972152
+MD5sum: 503170dd49a2b0ee20e33f29f6e2eeb4
+SHA1: ef526ab2682dcf0505eddabae7a04bc235fc8913
+SHA256: 4117552105968a8011955d065b5fd55f547a2ed21dac1fe0a046ee9b60220c36
+Section: misc
+Priority: standard
+Multi-Arch: no
+Description: ldnp-built package
+
 Package: deadbeef-static
 Version: 1.10.0-1
 Architecture: amd64
@@ -1901,22 +1919,6 @@ Priority: optional
 Homepage: http://www.phoronix-test-suite.com/
 Description: An Automated, Open-Source Testing Framework
  The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
-
-Package: plasma-appimage-integration
-Version: 0.1.0-neon-user-lts
-Architecture: amd64
-Maintainer: Alexis Lopez Zubieta <contact@azubieta.net>
-Installed-Size: 301
-Pre-Depends: bash, libqt5widgets5 (>= 5.2.1), libqt5gui5 (>= 5.2.1), libqt5core5a (>= 5.2.1), dbus-user-session
-Provides: appimage-services
-Filename: ./plasma-appimage-integration_0.1.0-neon-user-lts_amd64.deb
-Size: 51816
-MD5sum: deab94e0ba6ea8a4cf5d33a9b1260cba
-SHA1: dbc126d2805f64cd1ec8637f6a6fce98f2d6f6ff
-SHA256: 77b4ea1d106fade0bfe75b9512cee112303aab439e3b2ac656967ff6818a6b88
-Section: devel
-Priority: optional
-Description: plasma-appimage-integration built using CMake
 
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
