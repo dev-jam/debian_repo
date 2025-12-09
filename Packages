@@ -273,27 +273,27 @@ Priority: optional
 Description: KDE Service Menu items collection by devjam
 
 Package: devjam-keyring
-Version: 1.32-1
+Version: 1.33-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-keyring_1.32-1_all.deb
-Size: 49668
-MD5sum: f98758892277289e44cde9be2e1aa764
-SHA1: 82841f6379ffb31b4df5e90508a3513e5c6b9a52
-SHA256: 11b53987d710d058516018ae1dc9ad712043b2a5b35a78c296cee784f3257f39
+Filename: ./devjam-keyring_1.33-1_all.deb
+Size: 52120
+MD5sum: 6358fee5f135c31bf959b2fc5635f7e8
+SHA1: bc640a1b49dfcbc67175305e72139b41d89ef198
+SHA256: 3dfa344b94d1024ec42438349eb84db2b7599e89e42f7b3ab93f546cb2a268ad
 Section: base
 Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-keyring-legacy
-Version: 1.32-1
+Version: 1.33-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-keyring-legacy_1.32-1_all.deb
-Size: 27844
-MD5sum: 5b6443d52aa0a4a8b6ce5c4e768eded5
-SHA1: f6b907336db9f6d7fa40e03da2ee7699d56e5e13
-SHA256: 92fc4bfa87a6b2ce75d90bf594127a882e4bf0e6c09158dbbe0b5b2643684a8f
+Filename: ./devjam-keyring-legacy_1.33-1_all.deb
+Size: 30284
+MD5sum: 7e5f6c2f2fa04b12a1acbd1c644d93c9
+SHA1: 8b0b74fffe52d97b181e36f7fce0ae667e5755cf
+SHA256: 1c34e21419960752772f4b0f288bcebaf2bd04a22eb78dc553d4236b1c96941b
 Section: base
 Priority: optional
 Description: custom keyring for Debian
