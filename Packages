@@ -1652,15 +1652,15 @@ Priority: optional
 Description: sedutil ladar for Debian
 
 Package: systemd-manager-tui
-Version: 1.0.8-1
+Version: 1.2.0-1
 Architecture: amd64
 Maintainer: Matheus-git <mathiew0@gmail.com>
-Installed-Size: 3049
-Filename: ./systemd-manager-tui_1.0.8-1_amd64.deb
-Size: 1030000
-MD5sum: 4b8fc2a524d0f10db67ef679a57b4664
-SHA1: e59b3b7ff915f6e7880259cf7cc70c4ed8523da4
-SHA256: 1cd44781e45d712eb1cfec714c63da80a9ed9900044c3a85d3858b5eb675e2e5
+Installed-Size: 3784
+Filename: ./systemd-manager-tui_1.2.0_amd64.deb
+Size: 1181656
+MD5sum: 487d72b23e2c16a9bd8cd0fcc818991c
+SHA1: f787c7aab41351d9ad5cb2066d3d07b21b149b1c
+SHA256: e81a1deb5af67284edba1e6b27e729ec1dbe9909b6718529d91daf9c7bcc2607
 Priority: optional
 Homepage: https://github.com/matheus-git/systemd-manager-tui
 Description: TUI for managing systemd services
@@ -1672,14 +1672,15 @@ Description: TUI for managing systemd services
  Interfaces).
  .
  This tool allows you to manage systemd services with ease. You can view logs,
- list services, view properties, and control their lifecycle—start, stop,
- restart, enable, and disable—using the D-Bus API.
+ list services, view properties, edit unit file and control their
+ lifecycle—start, stop, restart, mask, unmask, enable, and disable—using the
+ D-Bus API. It also supports Vim-like navigation.
  .
- Additionally, it is possible to navigate between system and session units,
- choose to list either all units or only those of type 'service', and directly
- edit the selected unit's file.
+ It's possible to navigate between system and user units, and choose to list
+ only services (in runtime) or ALL units.
  .
  ## Screenshots
+ .
  ![screenshot_list](https://raw.githubusercontent.com/matheus-git/systemd-manager-tui/main/assets/systemd-manager-tui.gif)
  View
  [screenshots](https://github.com/matheus-git/systemd-manager-tui/blob/main/docs/screenshots.md)
@@ -1689,19 +1690,38 @@ Description: TUI for managing systemd services
  After installation, you can create an `alias` to make it easier to use.
  .
  ### Ubuntu (recommended)
-     sudo dpkg -i systemd-manager-tui_x.x.x-x_amd64.deb
- Download the .deb file from Releases
  .
- ### Arch linux (recommended)
-     yay -S systemd-manager-tui-bin
- https://aur.archlinux.org/packages/systemd-manager-tui-bin
+     sudo dpkg -i ./systemd-manager-tui_x.x.x-x_amd64.deb
  .
+ Download the .deb file from
+ [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
+ .
+ ### Fedora (recommended)
+ .
+     sudo dnf install ./systemd-manager-tui_x.x.x-x_x86_64.rpm
+ .
+ Download the .rpm file from
+ [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
+ .
+ ### Arch linux
+ .
+     yay -S systemd-manager-tui
+ .
+ https://aur.archlinux.org/packages/systemd-manager-tui
+ .
+ ### NixOS
+     nix run github:matheus-git/systemd-manager-tui
+ .
+ NixOS with flakes [Read here](docs/flakes.md)
  ### Binary
+ .
      chmod +x systemd-manager-tui
      ./systemd-manager-tui
- Download binary from Releases
+ Download binary from
+ [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
  .
  ### Cargo
+ .
      cargo install --locked systemd-manager-tui
  .
  ## Main libraries
