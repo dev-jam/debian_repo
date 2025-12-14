@@ -1651,6 +1651,19 @@ Section: base
 Priority: optional
 Description: sedutil ladar for Debian
 
+Package: systemctl-tui
+Version: 0.4.0-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./systemctl-tui_0.4.0-1_amd64.deb
+Size: 1628824
+MD5sum: 651e0d72948758fd8b962ef0fd3d9593
+SHA1: ba035850f60c9985ea80515797950af043725a91
+SHA256: beabf279975a237c71310438082bf3e7c263896b601680142233b589f3d367d4
+Section: base
+Priority: optional
+Description: systemctl-tui for Debian
+
 Package: systemd-manager-tui
 Version: 1.2.0-1
 Architecture: amd64
