@@ -408,6 +408,20 @@ Section: base
 Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
+Package: devjam-psychopy-2025.2.3-opensesame
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: shared-mime-info, desktop-file-utils, hicolor-icon-theme
+Filename: ./devjam-psychopy-2025.2.3-opensesame_1.0-1_all.deb
+Size: 228704
+MD5sum: 2c1b41ee1b2e8f3ff3c2b5f71f7eb8f3
+SHA1: 72d9a3bb8afb27adb31dceac0d1ea48ea7dc98b9
+SHA256: f922eb29a0f9f534d70360c696289dbd4c2bab503f505604bae8a37ecb453156
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy 2025.2.3
+
 Package: devjam-science
 Version: 1.65-1
 Architecture: all
