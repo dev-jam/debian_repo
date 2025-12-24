@@ -1397,7 +1397,7 @@ Architecture: amd64
 Maintainer: Jan <service@jan.ai>
 Installed-Size: 186223
 Depends: libayatana-appindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
-Filename: ./Jan_0.7.5_amd64.deb
+Filename: ./jan_0.7.5_amd64.deb
 Size: 75982880
 MD5sum: 0820795cf5e16947434d6d4fdc9f2d9f
 SHA1: 527c4db7d45321a0ef1e653ba0c543d8a45d5199
