@@ -1476,6 +1476,26 @@ Description: GnuPG archive keys of the MX-21 Linux archive
  The MX Linux project digitally signs its repository Release files.
  This package contains the archive keys used for that.
 
+Package: mx25-archive-keyring
+Version: 2025.03
+Architecture: all
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 66
+Depends: gpgv
+Recommends: gnupg
+Breaks: apt (<< 0.7.25.1)
+Filename: ./mx25-archive-keyring_2025.03_all.deb
+Size: 20700
+MD5sum: 7a62e39b8053954f60140be9c9ed174e
+SHA1: f7642810dc028db609a054fef008ddedd29bb240
+SHA256: c490bc3fa24b8fe1c3850c0f5175b1e7f595c379369c08890db5044e26385bee
+Section: misc
+Priority: important
+Multi-Arch: foreign
+Description: GnuPG archive keys of the MX-25 Linux archive
+ The MX Linux project digitally signs its repository Release files.
+ This package contains the archive keys used for that.
+
 Package: navidrome
 Version: 0.59.0
 Architecture: amd64
