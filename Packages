@@ -164,44 +164,58 @@ Section: x11
 Priority: optional
 Description: Inertial scrolling (aka kinetic scrolling) for synaptics
 
-Package: devjam-gpu-x11-xlibre-modesetting-tearfree
-Version: 1.2-1
+Package: devjam-gpu-x11-xlibre-tearfree-amdgpu
+Version: 1.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree_1.2-1_all.deb
-Size: 1088
-MD5sum: ef89674f0cb10533e114c91b8802767d
-SHA1: e8a9cd63970bc7d1b4855b012634cb5a789b6024
-SHA256: 9f0b8e52c45594e425f66314c417439c7c65f63948e1e127f85b892114f06ab4
+Filename: ./devjam-gpu-x11-xlibre-tearfree-amdgpu_1.0-1_all.deb
+Size: 1040
+MD5sum: 74275616222f8c92d4affc8bfff545e3
+SHA1: 8b57b9f4dd5299ce304961fa2e9d3fd3a4e96202
+SHA256: 0f705a17a43d6fb11674d3cf30e776473e4e005cd22759f2d326e4870b936603
+Section: x11
+Priority: optional
+Description: Tearfree improvements to the amdgpu driver
+
+Package: devjam-gpu-x11-xlibre-tearfree-modesetting
+Version: 1.3-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre
+Filename: ./devjam-gpu-x11-xlibre-tearfree-modesetting_1.3-1_all.deb
+Size: 1032
+MD5sum: 4a24b55af3f739d72d8da675da2de7f2
+SHA1: 38979b118121d7f76f610f1606b61b5290fe823c
+SHA256: fae4edb90d92dc01f8baf3934d42ac2f0673ba850f805c256392839adb1aa9e1
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the modesetting driver
 
-Package: devjam-gpu-x11-xlibre-modesetting-tearfree-plasma
-Version: 1.3-1
+Package: devjam-gpu-x11-xlibre-tearfree-plasma
+Version: 1.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: xlibre,devjam-gpu-x11-xlibre-modesetting-tearfree
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma_1.3-1_all.deb
-Size: 1212
-MD5sum: 7540e52641bf640e5cd23ae67ab872ea
-SHA1: 28b531b9967eeaf28691b20489a81dc606c3eda0
-SHA256: c72129c11dbe76bdc590d91cfc9126818b44be70555bd6d61a19d04f094aad49
+Recommends: xlibre
+Filename: ./devjam-gpu-x11-xlibre-tearfree-plasma_1.4-1_all.deb
+Size: 1204
+MD5sum: dd98e920bf834274fd8188e899966151
+SHA1: 9eb8a80e18bf8c0fb8ae8c6613204735add5bce1
+SHA256: f71df4b1468e460cfc7ab340de451ebc1bc0b7444636b5de9f78161ed4c3ebc3
 Section: x11
 Priority: optional
 Description: Disable sync to vblank at kwin, let modesetting handle vsync/tearfree. Applies to the modesetting driver from XLibre or latest unreleased Xorg.
 
-Package: devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl
-Version: 1.3-1
+Package: devjam-gpu-x11-xlibre-tearfree-plasma-egl
+Version: 1.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: xlibre,devjam-gpu-x11-xlibre-modesetting-tearfree-plasma
-Filename: ./devjam-gpu-x11-xlibre-modesetting-tearfree-plasma-egl_1.3-1_all.deb
-Size: 996
-MD5sum: f11ba7a0116cdf057da4a8962a373889
-SHA1: d23a83f25c48fe455f0d7d5ad13ae49a80eabc5e
-SHA256: e8d300dea72e4b72a9d0a5b5283e5475c83103b1c294be0d1d6ddf7a88163441
+Recommends: xlibre,devjam-gpu-x11-xlibre-tearfree-plasma
+Filename: ./devjam-gpu-x11-xlibre-tearfree-plasma-egl_1.4-1_all.deb
+Size: 988
+MD5sum: 468af56737cedab72eaeb4c101f3101b
+SHA1: 48ba2cc4a5ed928be927c12a72377c41a0cd2ddd
+SHA256: ab289e17ac05b466dcb81e2cda9541cc5029df60137f31585ddd1f13912d32da
 Section: x11
 Priority: optional
 Description: Switch from glx to EGL for Kwin/Qt.
