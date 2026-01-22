@@ -165,29 +165,29 @@ Priority: optional
 Description: Inertial scrolling (aka kinetic scrolling) for synaptics
 
 Package: devjam-gpu-x11-xlibre-tearfree-amdgpu
-Version: 1.0-1
+Version: 1.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-tearfree-amdgpu_1.0-1_all.deb
-Size: 1040
-MD5sum: 74275616222f8c92d4affc8bfff545e3
-SHA1: 8b57b9f4dd5299ce304961fa2e9d3fd3a4e96202
-SHA256: 0f705a17a43d6fb11674d3cf30e776473e4e005cd22759f2d326e4870b936603
+Filename: ./devjam-gpu-x11-xlibre-tearfree-amdgpu_1.4-1_all.deb
+Size: 1036
+MD5sum: 0f556f18f203985b9ec4df1703de1633
+SHA1: c5c5cb9db13fc84f1193318137133a564b0a290a
+SHA256: a5db1b2ccfb949543187c3c2cb993d561b76f21182889be4a63a9d3cbb7e3f75
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the amdgpu driver
 
 Package: devjam-gpu-x11-xlibre-tearfree-modesetting
-Version: 1.3-1
+Version: 1.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-tearfree-modesetting_1.3-1_all.deb
+Filename: ./devjam-gpu-x11-xlibre-tearfree-modesetting_1.4-1_all.deb
 Size: 1032
-MD5sum: 4a24b55af3f739d72d8da675da2de7f2
-SHA1: 38979b118121d7f76f610f1606b61b5290fe823c
-SHA256: fae4edb90d92dc01f8baf3934d42ac2f0673ba850f805c256392839adb1aa9e1
+MD5sum: be4451455b5cda6e3224fd5f4311dc40
+SHA1: fb1690aa49e0d73b558b44f6b8bb5d64abe4085e
+SHA256: b7ff30659a868a2cbcce750a872f60cd027631fd058f153d6720e167f9e5310d
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the modesetting driver
@@ -260,14 +260,14 @@ Priority: optional
 Description: Grub tpm workaround by devjam
 
 Package: devjam-hooks
-Version: 1.16-1
+Version: 1.17-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-hooks_1.16-1_all.deb
-Size: 2404
-MD5sum: 3575e589d4f6020e57bc5f872b99a5e6
-SHA1: 8bba0dd220e2b1f32aa13c82a6f2696dfdf7d7b2
-SHA256: 4fd09b0bd4b084962561c31994c35d222c98afe75a86f0f948891ad49a572518
+Filename: ./devjam-hooks_1.17-1_all.deb
+Size: 2508
+MD5sum: 8fd6a092cb81c19de1278c738b817e36
+SHA1: 57c3406442653613553053997762d8f01b316033
+SHA256: bcfc1d3020c581685ab685571df924c898b0d24e59ae896a6b8e08f729820b29
 Section: base
 Priority: optional
 Description: Grub boot items by devjam
