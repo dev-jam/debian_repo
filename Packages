@@ -84,29 +84,29 @@ Priority: optional
 Description: Generic configs by devjam
 
 Package: devjam-gpu-brave-optimizations
-Version: 1.1-1
+Version: 1.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: chromium
-Filename: ./devjam-gpu-brave-optimizations_1.1-1_all.deb
-Size: 1628
-MD5sum: 46e33b1bb7e0307fe04d9f08b803eb66
-SHA1: 89215a4ad172fc2d65c9509ab47ced4c73fce888
-SHA256: d1b63d7cac8812c6c4be477bfdbf729d1f568db57ae95ded36043165def1f73c
+Filename: ./devjam-gpu-brave-optimizations_1.2-1_all.deb
+Size: 1632
+MD5sum: 8356d60b0b138e471afebafbbfe978ee
+SHA1: 2d73e5662b642c40c29e216ad56dccb1af63491c
+SHA256: 911ac92a2b14e99754162bc443bae25ed799c1bab2036425d597253ac1f78fd5
 Section: web
 Priority: optional
 Description: GPU Optimizations for brave such as video decoding, compositing and rendering.
 
 Package: devjam-gpu-chromium-optimizations
-Version: 1.1-1
+Version: 1.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: chromium
-Filename: ./devjam-gpu-chromium-optimizations_1.1-1_all.deb
-Size: 1464
-MD5sum: 5a41b26944930954b0b4028e70e27c3f
-SHA1: 6dc8240b09f515ffd2fff630f6cf9b37a1829059
-SHA256: d27bfcf1e091950ec22f0666a915b5741830776b9f101b3f990ea3e94405d237
+Filename: ./devjam-gpu-chromium-optimizations_1.2-1_all.deb
+Size: 1460
+MD5sum: 0d47e5cd4010827a6f20da67a53494df
+SHA1: d2580b9f9928be14c394f370f9a3629b51423bce
+SHA256: f3191c7ca2f1ca682640a68080eb61cdfc9ff72ef17cfb9fa4beea5b70e708c3
 Section: web
 Priority: optional
 Description: GPU Optimizations for chromium such as video decoding, compositing and rendering.
