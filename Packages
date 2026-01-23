@@ -165,29 +165,29 @@ Priority: optional
 Description: Inertial scrolling (aka kinetic scrolling) for synaptics
 
 Package: devjam-gpu-x11-xlibre-tearfree-amdgpu
-Version: 1.4-1
+Version: 1.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-tearfree-amdgpu_1.4-1_all.deb
-Size: 1036
-MD5sum: 0f556f18f203985b9ec4df1703de1633
-SHA1: c5c5cb9db13fc84f1193318137133a564b0a290a
-SHA256: a5db1b2ccfb949543187c3c2cb993d561b76f21182889be4a63a9d3cbb7e3f75
+Filename: ./devjam-gpu-x11-xlibre-tearfree-amdgpu_1.5-1_all.deb
+Size: 1104
+MD5sum: d847abe1bd9175b2d031650730084cf1
+SHA1: 836466c27e159b695f2c3e7891dd4bb6cb32e1a6
+SHA256: 8fb3e481a44a757720e84d747b6cc94459572dc858f0d384948060c380a25498
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the amdgpu driver
 
 Package: devjam-gpu-x11-xlibre-tearfree-modesetting
-Version: 1.4-1
+Version: 1.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-tearfree-modesetting_1.4-1_all.deb
-Size: 1032
-MD5sum: be4451455b5cda6e3224fd5f4311dc40
-SHA1: fb1690aa49e0d73b558b44f6b8bb5d64abe4085e
-SHA256: b7ff30659a868a2cbcce750a872f60cd027631fd058f153d6720e167f9e5310d
+Filename: ./devjam-gpu-x11-xlibre-tearfree-modesetting_1.5-1_all.deb
+Size: 1096
+MD5sum: a1a40d41682846cd2e25839b62747a94
+SHA1: bfa1b7813342c153b5707c5dfd42194772eaaf34
+SHA256: dd3650ee1352b67830f8b30bbcca5d258e9cc5a173f3cc1cce6125086587e883
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the modesetting driver
