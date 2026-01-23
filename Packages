@@ -84,29 +84,29 @@ Priority: optional
 Description: Generic configs by devjam
 
 Package: devjam-gpu-brave-optimizations
-Version: 1.2-1
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: chromium
-Filename: ./devjam-gpu-brave-optimizations_1.2-1_all.deb
-Size: 1632
-MD5sum: 8356d60b0b138e471afebafbbfe978ee
-SHA1: 2d73e5662b642c40c29e216ad56dccb1af63491c
-SHA256: 911ac92a2b14e99754162bc443bae25ed799c1bab2036425d597253ac1f78fd5
+Filename: ./devjam-gpu-brave-optimizations_1.3-1_all.deb
+Size: 1628
+MD5sum: 426a971045e8902d5785a04231ab453f
+SHA1: 41e85e6518defb47ab7643f79bbfd3298ae6045d
+SHA256: 0ef09182bd2300da02153a395791eb96c50d9e884a1328248134f276bbf3d571
 Section: web
 Priority: optional
 Description: GPU Optimizations for brave such as video decoding, compositing and rendering.
 
 Package: devjam-gpu-chromium-optimizations
-Version: 1.2-1
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: chromium
-Filename: ./devjam-gpu-chromium-optimizations_1.2-1_all.deb
-Size: 1460
-MD5sum: 0d47e5cd4010827a6f20da67a53494df
-SHA1: d2580b9f9928be14c394f370f9a3629b51423bce
-SHA256: f3191c7ca2f1ca682640a68080eb61cdfc9ff72ef17cfb9fa4beea5b70e708c3
+Filename: ./devjam-gpu-chromium-optimizations_1.3-1_all.deb
+Size: 1464
+MD5sum: 88d76717b5ef524aa6f05529ba376566
+SHA1: 421621adf37f73a8dee70cfc7ab0ce975785f86c
+SHA256: 603d56c6d9641cfc9c2312ac254cd48bf8c0eedc26f057a942b6c5782420c5ad
 Section: web
 Priority: optional
 Description: GPU Optimizations for chromium such as video decoding, compositing and rendering.
@@ -410,15 +410,15 @@ Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2025.2.3
 
 Package: devjam-opensesame-psychopy-2025.2.4
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy-2025.2.4_1.0-1_all.deb
-Size: 4092
-MD5sum: ba3ff99d116a56d817c74bbd3cd9c30b
-SHA1: 380774a92a3328cc9917cbd6dbd7859290d418e3
-SHA256: a1b48de419482c6e67c6f01ca65503d0d7bdd968e7c80be8130aa7619e384831
+Filename: ./devjam-opensesame-psychopy-2025.2.4_1.1-1_all.deb
+Size: 4136
+MD5sum: 9d2485b3985a4c5b70ba6a89945762e8
+SHA1: b3da3f3079a8a2b407d7abe6f976b8db502e1540
+SHA256: 7c08c03b8029b0cfe21b42af12a583e09d65e119840e318429dac0d52b55558d
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2025.2.4
