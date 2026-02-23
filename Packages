@@ -423,6 +423,20 @@ Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2025.2.4
 
+Package: devjam-opensesame-psychopy-2026.1.0
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science
+Filename: ./devjam-opensesame-psychopy-2026.1.0_1.0-1_all.deb
+Size: 4108
+MD5sum: 8b47f26471b0f0fb94b6999e7c203112
+SHA1: 671b3a5200c00e1c91b2f2ed1bf70b0f369052a1
+SHA256: 97e13975bd8a98358d6ec69ebb3f2374459683758daefb323c3fb072e8a3f485
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy 2026.1.0
+
 Package: devjam-pipewire-scripts
 Version: 1.1-1
 Architecture: all
