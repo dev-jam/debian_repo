@@ -30,17 +30,17 @@ Multi-Arch: no
 Description: ldnp-built package
 
 Package: deadbeef-static
-Version: 1.10.0-1
+Version: 1.10.2-1
 Architecture: amd64
 Maintainer: Oleksiy Yakovenko <waker@users.sf.net>
-Installed-Size: 20633
+Installed-Size: 27590
 Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libx11-6
 Recommends: libpulse0, libdbus-1-3
-Filename: ./deadbeef-static_1.10.0-1_amd64.deb
-Size: 9221842
-MD5sum: 1de6e32aa2dc49185afdfd11a0cc2cbd
-SHA1: 129d0eda0741e2f8a2336d8784e8e4e36a157e0c
-SHA256: 9c722907a8548dbf725cc49054cb0b400a3f9cc733e4f6d2a734b1eb69d1d61c
+Filename: ./deadbeef-static_1.10.2-1_amd64.deb
+Size: 11744488
+MD5sum: 97735cdebdf706917255c8d10b302477
+SHA1: 6a19fba1ec189a49919c5f7b1161a6f11b34367f
+SHA256: c6fd8be256d37cd8d0e6e94d57092990a1c85f275f26c7049b63674f855bbf1f
 Section: sound
 Priority: optional
 Homepage: http://deadbeef.sourceforge.net/
@@ -1617,32 +1617,20 @@ Description: Open Sound System (http://www.opensound.com)
 Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
 
 Package: par2-turbo
-Source: par2cmdline-turbo
-Version: 1.3.0-1~bsr
+Version: 0:1.4.0-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2816
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
-Conflicts: par2, par2-mt, par2-tbb
-Provides: par2
-Filename: ./par2-turbo_1.3.0-1~bsr_amd64.deb
-Size: 908308
-MD5sum: 84c106e78e823b26bbae6e2993288c80
-SHA1: 9c4eb7e86a389c0a28714c0bd07b9d8f39733ecf
-SHA256: 8613bb1afc292c95a55c0df67ab7785166e05081d398703a9f643c8aa6093169
-Section: utils
+Installed-Size: 2945
+Depends: python3:any
+Filename: ./par2-turbo_1.4.0-1~w2d0_amd64.deb
+Size: 930096
+MD5sum: e549f3a07223bf2ea4505c214ba6bb02
+SHA1: dca1dd2041e9117aafe531d7b5bea3a36f1da496
+SHA256: 5802fc5b45ce3e62a005509a38b116956a6b44945c89eeca36bbe73c45f6c653
+Section: python
 Priority: optional
-Homepage: https://github.com/animetosho/par2cmdline-turbo
-Description: multithreaded PAR 2.0 compatible file verification and repair tool
- par2cmdline-turbo is a command line utility for creating and using PAR2 files
- to detect and repair damage in data files. It is most commonly used as
- part of backup systems as well as on Usenet. This version differs from the
- regular par2 by enhancements from parpar to increase performance.
- .
- In case files in a recovery set get damaged (e.g. while transmitted over
- a network or stored on a faulty disk) the program can read the damaged
- files and the (possibly damaged) PAR2 files, and regenerate the original
- input files.
+Description: Produce, verify and repair par2 files.
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: phoronix-test-suite
 Version: 10.8.4
@@ -1770,15 +1758,15 @@ Priority: optional
 Description: sedutil ladar for Debian
 
 Package: systemd-manager-tui
-Version: 1.2.0-1
+Version: 1.2.4-1
 Architecture: amd64
 Maintainer: Matheus-git <mathiew0@gmail.com>
-Installed-Size: 3784
-Filename: ./systemd-manager-tui_1.2.0_amd64.deb
-Size: 1181656
-MD5sum: 487d72b23e2c16a9bd8cd0fcc818991c
-SHA1: f787c7aab41351d9ad5cb2066d3d07b21b149b1c
-SHA256: e81a1deb5af67284edba1e6b27e729ec1dbe9909b6718529d91daf9c7bcc2607
+Installed-Size: 7521
+Filename: ./systemd-manager-tui_1.2.4_amd64.deb
+Size: 2008452
+MD5sum: 086b5400860f59fbac5b729213637e78
+SHA1: 369efa65ccd80892f7ec90a0e86f0c22ec5ba4ca
+SHA256: 9d30cfd037353f47361254e9cd3da16f3c1878ae71428cbf8d9022e4499a775a
 Priority: optional
 Homepage: https://github.com/matheus-git/systemd-manager-tui
 Description: TUI for managing systemd services
@@ -1786,20 +1774,18 @@ Description: TUI for managing systemd services
  .
  ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
  .
- A program for managing systemd services through a TUI (Terminal User
- Interfaces).
+ A TUI application for managing systemd services.
  .
  This tool allows you to manage systemd services with ease. You can view logs,
- list services, view properties, edit unit file and control their
- lifecycle—start, stop, restart, mask, unmask, enable, and disable—using the
- D-Bus API. It also supports Vim-like navigation.
+ list services, view properties, edit unit files, and control their lifecycle:
+ start, stop, restart, mask, unmask, enable, and disable using the D-Bus API. It
+ also supports Vim-like navigation. It is possible to navigate between system
+ and user units and choose to list only running services or all units.
  .
- It's possible to navigate between system and user units, and choose to list
- only services (in runtime) or ALL units.
- .
- ## Screenshots
+ ## Quick Preview
  .
  ![screenshot_list](https://raw.githubusercontent.com/matheus-git/systemd-manager-tui/main/assets/systemd-manager-tui.gif)
+ .
  View
  [screenshots](https://github.com/matheus-git/systemd-manager-tui/blob/main/docs/screenshots.md)
  .
