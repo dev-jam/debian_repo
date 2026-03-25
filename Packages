@@ -1631,20 +1631,32 @@ Description: Open Sound System (http://www.opensound.com)
 Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
 
 Package: par2-turbo
-Version: 0:1.4.0-1~w2d0
+Source: par2cmdline-turbo
+Version: 1.4.0-1~bsr
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2945
-Depends: python3:any
-Filename: ./par2-turbo_1.4.0-1~w2d0_amd64.deb
-Size: 930096
-MD5sum: e549f3a07223bf2ea4505c214ba6bb02
-SHA1: dca1dd2041e9117aafe531d7b5bea3a36f1da496
-SHA256: 5802fc5b45ce3e62a005509a38b116956a6b44945c89eeca36bbe73c45f6c653
-Section: python
+Installed-Size: 2816
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Conflicts: par2, par2-mt, par2-tbb
+Provides: par2
+Filename: ./par2-turbo_1.4.0-1~bsr_amd64.deb
+Size: 925120
+MD5sum: 30bbaadd939350375ed301c3be780fb6
+SHA1: 0b5152a0ab130df5b404874020ab19cde26b3473
+SHA256: 5ca0f77bec3f7fbac0d05ea387a2429ee1db0ebfc54cf7dd2647d0c9f7226243
+Section: utils
 Priority: optional
-Description: Produce, verify and repair par2 files.
- This package was automatically generated from the upstream wheel by wheel2deb.
+Homepage: https://github.com/animetosho/par2cmdline-turbo
+Description: multithreaded PAR 2.0 compatible file verification and repair tool
+ par2cmdline-turbo is a command line utility for creating and using PAR2 files
+ to detect and repair damage in data files. It is most commonly used as
+ part of backup systems as well as on Usenet. This version differs from the
+ regular par2 by enhancements from parpar to increase performance.
+ .
+ In case files in a recovery set get damaged (e.g. while transmitted over
+ a network or stored on a faulty disk) the program can read the damaged
+ files and the (possibly damaged) PAR2 files, and regenerate the original
+ input files.
 
 Package: phoronix-test-suite
 Version: 10.8.4
