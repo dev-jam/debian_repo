@@ -1553,17 +1553,17 @@ Description: GnuPG archive keys of the MX-25 Linux archive
  This package contains the archive keys used for that.
 
 Package: navidrome
-Version: 0.61.0
+Version: 0.61.1
 Architecture: amd64
 Maintainer: Deluan Quintão <deluan at navidrome.org>
-Installed-Size: 66077
+Installed-Size: 66097
 Depends: ffmpeg
 Suggests: mpv
-Filename: ./navidrome_0.61.0_linux_amd64.deb
-Size: 22288498
-MD5sum: 2be1a309c07f8ece496638e00c08b617
-SHA1: abe772d1bca5bcd652837ffb5a195b1ce630ad98
-SHA256: d825c5b8a698153340024f25af8c47b32319f48fb0198ef196ddc33dc2897448
+Filename: ./navidrome_0.61.1_linux_amd64.deb
+Size: 22292414
+MD5sum: 1d7491f7f7bad4a21030e004d17b947e
+SHA1: d6631eda877bb2d510e4011cb5a5e3a0018a3a75
+SHA256: 8842f4a94047a982dfb45e809f586c548b3b7ec170cf45c060c5a10923608a3c
 Priority: optional
 Homepage: https://navidrome.org
 Description: 🎧☁ Your Personal Streaming Service
@@ -1841,17 +1841,17 @@ Description: TUI for managing systemd services
  This project is open-source under the MIT License.
 
 Package: tobiiproeyetrackermanager
-Version: 2.7.2-2225
+Version: 2.7.4
 Architecture: amd64
 Maintainer: Tobii Pro - Team Bromine
-Installed-Size: 380519
+Installed-Size: 399752
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: ./tobiiproeyetrackermanager_2.7.2_amd64.deb
-Size: 79235150
-MD5sum: f8b65ae391432196c31c7b1d92225952
-SHA1: 184b120be683432425c73b51db3311273e077639
-SHA256: 201f3ce40a5bf8e3d8bbfe1725099dbff284c367df7df2711f00baa451e2fc08
+Filename: ./tobiiproeyetrackermanager_2.7.4_amd64.deb
+Size: 83992320
+MD5sum: aa1948feda20fbaba6eb9996db2a1deb
+SHA1: d996559dc4a841d72a38ef011624626eb255ff07
+SHA256: d9875dec48b4152f5bbd5e9f75152d3a378f55e2888b423896c6ce15fbce7614
 Section: default
 Priority: optional
 Homepage: https://www.tobiipro.com/product-listing/eye-tracker-manager/
