@@ -1860,3 +1860,24 @@ Description: Free software to help manage your screen-based eye tracker.
 License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
 
+Package: ventoy-bin
+Version: 1.1.111-1~bsr
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 23659
+Filename: ./ventoy-bin_1.1.111-1~bsr_amd64.deb
+Size: 19053320
+MD5sum: 6cddad37b019b61ed7be0aee40a1127c
+SHA1: 91d3c8cf18629cb14e7f54295a85c4351884579a
+SHA256: 4e1a66caa4abb64ee05b046f73d4a2210e5b12d7917983cc1845a54f88b5717a
+Section: utils
+Priority: optional
+Homepage: https://www.pardus.org.tr
+Description: A New Bootable USB Solution
+ Ventoy is an open source tool to create bootable USB drives
+ for ISO/WIM/IMG/VHD(x)/EFI files. With Ventoy, you don't
+ need to format the disk over and over, you just need to copy
+ the ISO/WIM/IMG/VHD(x)/EFI files to the USB drive
+ and boot them directly.
+Original-Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
+
