@@ -1567,17 +1567,17 @@ Description: GnuPG archive keys of the MX-25 Linux archive
  This package contains the archive keys used for that.
 
 Package: navidrome
-Version: 0.61.1
+Version: 0.61.2
 Architecture: amd64
 Maintainer: Deluan Quintão <deluan at navidrome.org>
-Installed-Size: 66097
+Installed-Size: 66621
 Depends: ffmpeg
 Suggests: mpv
-Filename: ./navidrome_0.61.1_linux_amd64.deb
-Size: 22292414
-MD5sum: 1d7491f7f7bad4a21030e004d17b947e
-SHA1: d6631eda877bb2d510e4011cb5a5e3a0018a3a75
-SHA256: 8842f4a94047a982dfb45e809f586c548b3b7ec170cf45c060c5a10923608a3c
+Filename: ./navidrome_0.61.2_linux_amd64.deb
+Size: 22440650
+MD5sum: 836a6fe6ed2f34f5b7337f9067090e6a
+SHA1: 2e9476019cc10cb2bcc9c041068869d7abc628c7
+SHA256: 4e2c5a7954312a3d4dcb984833a49eb09513aabe7190eab7964c1187195f59f8
 Priority: optional
 Homepage: https://navidrome.org
 Description: 🎧☁ Your Personal Streaming Service
