@@ -1662,6 +1662,24 @@ Homepage: http://www.phoronix-test-suite.com/
 Description: An Automated, Open-Source Testing Framework
  The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
 
+Package: pipeweaver
+Version: 0.1.5-1
+Architecture: amd64
+Maintainer: Craig McLure <craig@mclure.net>
+Installed-Size: 18167
+Depends: libqt6webenginewidgets6 (>= 6.2.0), pipewire (>=1.0.5), qml6-module-qtqml-workerscript (>= 6.2.0), qml6-module-qtquick (>= 6.2.0), qml6-module-qtquick-controls (>= 6.2.0), qml6-module-qtquick-templates (>= 6.2.0), qml6-module-qtquick-window (>= 6.2.0), qml6-module-qtwebengine (>= 6.2.0)
+Conflicts: pipeweaver-app
+Filename: ./pipeweaver_0.1.5-1_amd64.deb
+Size: 4788624
+MD5sum: 4299fa073c929057d391c203369b5531
+SHA1: 8162f65b8d5e413f7732228f67dded12d3145ac4
+SHA256: 669ec611164ae0e1820e2a6584cbf2a1a92f0e295a8bf7d39dd614b7c9152189
+Section: sound
+Priority: optional
+Homepage: https://pipeweaver.github.io/
+Description: A tool for audio control and routing via Pipewire
+ A tool for audio control and routing via Pipewire
+
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
 Version: 2.0.1-1
