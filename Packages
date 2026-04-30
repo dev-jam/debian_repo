@@ -1504,18 +1504,18 @@ Description: image service menu for KDE file managers
  - and many other actions!
 
 Package: live-build
-Version: 1:20260301+bsr
+Version: 1:20260430+bsr
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 822
+Installed-Size: 810
 Depends: cpio, debootstrap
 Recommends: apt-utils, bzip2, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, eatmydata, git, mtd-utils, parted
-Filename: ./live-build_20260301+bsr_all.deb
-Size: 210168
-MD5sum: 684ea5f62bcfa842ffca6fb13500d957
-SHA1: d32d2ff3e66308b3fb77627f646af75b0fbebe14
-SHA256: 9f942d52f696acb657f93153ff0ce6d6bd5b82f229b2d5093a44fa9ecce4a2fe
+Filename: ./live-build_20260430+bsr_all.deb
+Size: 197804
+MD5sum: a64450394495fc60000c8d3383f19f03
+SHA1: 55d473310d5c0deaa58c321a8fad206760428291
+SHA256: 96d94abd25444175987f5e8c4c454466f2f630c22d1ada8a87e4a067ad821b90
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
