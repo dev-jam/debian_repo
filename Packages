@@ -1503,6 +1503,31 @@ Description: image service menu for KDE file managers
  - resize and send by mail images,
  - and many other actions!
 
+Package: linux-vulnerability-mitigation
+Version: 20260508.2-1
+Architecture: all
+Maintainer: Daniel Baumann <daniel@debian.org>
+Installed-Size: 25
+Depends: debconf (>= 0.5) | debconf-2.0
+Enhances: linux
+Provides: mitigation-copy-fail, mitigation-dirty-frag
+Filename: ./linux-vulnerability-mitigation_20260508.2-1_all.deb
+Size: 5592
+MD5sum: 1a6750de24e59c2114b172d9f2ed32f6
+SHA1: 1a7b390f91ab3b2417b51e9c27ec8ed95e3bb429
+SHA256: 6285405d6259d8a2bdb1f2771cf7a66da072458da5a9213162952aa8f16112e3
+Section: admin
+Priority: optional
+Description: Linux Vulnerability Mitigation
+ This package contains mitigations for the recent Linux kernel security
+ vulnerabilities, such as:
+ .
+   * CVE-2026-31431: Copy Fail
+   * CVE-2026-43284/CVE-2026-43500: Dirty Frag
+ .
+ Once the system has been rebooted with a fixed Linux kernel,
+ it is safe to remove this package.
+
 Package: live-build
 Version: 1:20260430+bsr
 Architecture: all
