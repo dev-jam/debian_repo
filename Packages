@@ -1504,18 +1504,19 @@ Description: image service menu for KDE file managers
  - and many other actions!
 
 Package: linux-vulnerability-mitigation
-Version: 20260508.2-1~bpo13+1
+Version: 20260515.1-1~ffwd13+u1
 Architecture: all
-Maintainer: Daniel Baumann <daniel@debian.org>
-Installed-Size: 25
+Bugs: mailto:maintainers@lists.fastforward.deb822.org
+Maintainer: Fast Forward Maintainers <maintainers@lists.fastforward.deb822.org>
+Installed-Size: 29
 Depends: debconf (>= 0.5) | debconf-2.0
 Enhances: linux
 Provides: mitigation-copy-fail, mitigation-dirty-frag
-Filename: ./linux-vulnerability-mitigation_20260508.2-1~bpo13+1_all.deb
-Size: 5672
-MD5sum: 015274f307a6dcbfe3d0470124f010cf
-SHA1: 40284a6231a1e9e695bdc5cd246e6bf366180317
-SHA256: e1fa93c511475b7423bc42bb4548c6b2e3a7af6c3339945d34ea72e448f08c45
+Filename: ./linux-vulnerability-mitigation_20260515.1-1~ffwd13+u1_all.deb
+Size: 8176
+MD5sum: de247ebc1665115ab83256b72c5ce143
+SHA1: 44cae156f50e1c4d92999b20d32d5869f29047a5
+SHA256: a9a8c63e0856e0afb9236057c09926e36f7abd79376bbda8e39359949c8df42e
 Section: admin
 Priority: optional
 Description: Linux Vulnerability Mitigation
@@ -1527,6 +1528,10 @@ Description: Linux Vulnerability Mitigation
  .
  Once the system has been rebooted with a fixed Linux kernel,
  it is safe to remove this package.
+Original-Maintainer: Daniel Baumann <daniel@debian.org>
+Original-Vcs-Browser: https://forgejo.debian.net/linux/linux-vulnerability-mitigation
+Original-Vcs-Git: https://forgejo.debian.net/linux/linux-vulnerability-mitigation
+Uploaders: Daniel Baumann <daniel@debian.org>
 
 Package: live-build
 Version: 1:20260430+bsr
