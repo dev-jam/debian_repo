@@ -1556,6 +1556,34 @@ Description: Live System Build Components
  live-build contains the components to build a live system from a configuration
  directory.
 
+Package: modulejail
+Version: 1.1.4
+Architecture: all
+Maintainer: Jasper Nuyens <jnuyens@linuxbe.com>
+Depends: coreutils, findutils, awk | mawk | gawk | original-awk
+Recommends: curl | wget
+Filename: ./modulejail_1.1.4_all.deb
+Size: 18246
+MD5sum: 04e7ba511c12a1490bfcc42dc34804bb
+SHA1: 1e9d4cbcde7db04c7d2ce941b0562222831e34a3
+SHA256: 62d255e01412b5f6829a6a13fb542f8a69ee9f293ee7281869c49140980b75d7
+Section: admin
+Priority: optional
+Homepage: https://github.com/jnuyens/modulejail
+Description: Shrink Linux kernel-module attack surface
+ ModuleJail snapshots the set of currently loaded modules and writes a
+ modprobe.d blacklist for every kernel module not currently in use,
+ minus a built-in baseline and an optional sysadmin-supplied whitelist.
+ .
+ Aimed at Linux fleet operators who need to harden many servers against
+ the wave of AI-assisted kernel privilege-escalation discoveries. Every
+ additional loaded module is additional latent attack surface for the
+ next disclosed CVE.
+ .
+ No daemon, no continuous monitoring, no AI inside the tool. One shell
+ script, run once on a steady-state host, that writes one modprobe.d
+ blacklist file.
+
 Package: mx23-archive-keyring
 Version: 2023.6.6
 Architecture: all
