@@ -1504,19 +1504,20 @@ Description: image service menu for KDE file managers
  - and many other actions!
 
 Package: linux-vulnerability-mitigation
-Version: 20260515.1-1~ffwd13+u1
+Version: 20260515.2-1~ffwd13+u1
 Architecture: all
 Bugs: mailto:maintainers@lists.fastforward.deb822.org
 Maintainer: Fast Forward Maintainers <maintainers@lists.fastforward.deb822.org>
-Installed-Size: 29
+Installed-Size: 71
 Depends: debconf (>= 0.5) | debconf-2.0
+Suggests: bash-completion
 Enhances: linux
-Provides: mitigation-copy-fail, mitigation-dirty-frag
-Filename: ./linux-vulnerability-mitigation_20260515.1-1~ffwd13+u1_all.deb
-Size: 8176
-MD5sum: de247ebc1665115ab83256b72c5ce143
-SHA1: 44cae156f50e1c4d92999b20d32d5869f29047a5
-SHA256: a9a8c63e0856e0afb9236057c09926e36f7abd79376bbda8e39359949c8df42e
+Provides: mitigation-copy-fail, mitigation-dirty-frag, mitigation-fragnesia, mitigation-ssh-keysign-pwn
+Filename: ./linux-vulnerability-mitigation_20260515.2-1~ffwd13+u1_all.deb
+Size: 13352
+MD5sum: 5a982f13b47a97fa45d4e3cad39765f6
+SHA1: 28cdc6c05590b392ddd45a0d65a174753f86f614
+SHA256: 21614e44eae7c917e0a7368810c71c4cb85e7ad168a43dc9e4f2ef36726166d7
 Section: admin
 Priority: optional
 Description: Linux Vulnerability Mitigation
@@ -1524,7 +1525,10 @@ Description: Linux Vulnerability Mitigation
  vulnerabilities, such as:
  .
    * CVE-2026-31431: Copy Fail
-   * CVE-2026-43284/CVE-2026-43500: Dirty Frag
+   * CVE-2026-43284: Dirty Frag (Part 1) / Copy Fail 2
+   * CVE-2026-43500: Dirty Frag (Part 2)
+   * CVE-2026-46300: Fragnesia
+   * CVE-2026-46333: ssh-keysign-pwn
  .
  Once the system has been rebooted with a fixed Linux kernel,
  it is safe to remove this package.
