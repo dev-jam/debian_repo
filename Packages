@@ -1646,6 +1646,25 @@ Homepage: https://navidrome.org
 Description: 🎧☁ Your Personal Streaming Service
 Architecture-Variant: amd64v1
 
+Package: net.downloadhelper.coapp
+Version: 2.0.19
+Architecture: amd64
+Maintainer: Michel Gutierrez <coapp@downloadhelper.net>
+Conflicts: net.downloadhelper.coapp.noffmpeg
+Filename: ./vdhcoapp-linux-x86_64.deb
+Size: 44859908
+MD5sum: ef595f2e76c4bb564b59772f76c1018e
+SHA1: 3b6e8a00502b964da440132fa9f9007e7cdf59c0
+SHA256: 496d341eef326f3fb6f0ddf825b309d6e18a4ddb7f1bec7fe74d9282ae94dfc4
+Section: base
+Priority: optional
+Homepage: https://github.com/aclap-dev/vdhcoapp
+Description: Video DownloadHelper companion app (with builtin ffmpeg.)
+Copyright: 2018-2023 Michel Gutierrez
+Files: '*'
+Installedsize: 100000
+License: GPL-2.0
+
 Package: nordvpn-release
 Version: 1.0.0
 Architecture: all
