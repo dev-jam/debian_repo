@@ -1,12 +1,12 @@
 Package: android-tools
-Version: 36.0.2-14143358
+Version: 37.0.0-14910828
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./android-tools_36.0.2-14143358_amd64.deb
-Size: 5679032
-MD5sum: d9a8c0ee3656ebea39ab9bef3984d058
-SHA1: d99adbbd5d3c9d4dbfdd004ce5b15d1164022bd8
-SHA256: 13ab4fe1576f31c92d55a874082e23df9c2cfc94dcc5ee3f90dba37e49fc61b7
+Filename: ./android-tools_37.0.0-14910828_amd64.deb
+Size: 5934544
+MD5sum: 186ba3eafbed6b66131976e62001c43d
+SHA1: 491458f3765a0e55c7e9f81549125478cdba51b3
+SHA256: ff93991d5b95aeb05ee3c1448d8e97a28d516671ca54be0392537e761663aa5f
 Section: base
 Priority: optional
 Description: android tools for Debian
@@ -1462,16 +1462,16 @@ Homepage: https://hamonikr.org
 Description: Simple gui front end to inxi.
 
 Package: jan
-Version: 0.7.9
+Version: 0.8.2
 Architecture: amd64
 Maintainer: Jan <service@jan.ai>
-Installed-Size: 217906
+Installed-Size: 203688
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
-Filename: ./Jan_0.7.9_amd64.deb
-Size: 89452094
-MD5sum: 3a8b6a36f59124389e36b076cba3f416
-SHA1: c91fc8a74bb78b93078778c5d4412d6b255ed748
-SHA256: e403f25afd06db26a975d42fab9e07ff820b46863ce6db258b683d7630b659c8
+Filename: ./Jan_0.8.2_amd64.deb
+Size: 84446730
+MD5sum: 3614cdfc91a3eb0767bcdc5fc15ae4e1
+SHA1: b8d59bb2e951b4e732f2827883d5dc853564ab43
+SHA256: fa94dccaf9a3e583581570dc184b7e5ecc594a39d9f556531dc343c9bf23813e
 Priority: optional
 Description: Use offline LLMs with your own data. Run open source models like Llama2 or Falcon on your internal computers/servers.
  (none)
@@ -1562,19 +1562,19 @@ Description: Live System Build Components
  directory.
 
 Package: modulejail
-Version: 1.2.3
+Version: 1.4.1
 Architecture: all
 Maintainer: Jasper Nuyens <jnuyens@linuxbe.com>
 Depends: coreutils, findutils, awk | mawk | gawk | original-awk
 Recommends: curl | wget
-Filename: ./modulejail_1.2.3_all.deb
-Size: 27382
-MD5sum: ff2af11d52bc3b668896f4ede5fb32ec
-SHA1: 611a3b07135b8006a58abbfbbde2a22301db1de0
-SHA256: afe382276f9009934a08335f30f28995af5be8b3b179d412b60e07db372dc07b
+Filename: ./modulejail_1.4.1_all.deb
+Size: 48128
+MD5sum: 512b50e08753012b0183eb20e97f6cf6
+SHA1: ceba221158a43fea01bcde20143d25b69dd2c67e
+SHA256: 5fa7e077a66f0245cecee4ef78e053d4a8f77974be8c001ea17b598fd04c56d1
 Section: admin
 Priority: optional
-Homepage: https://github.com/jnuyens/modulejail
+Homepage: https://modulejail.com
 Description: Shrink Linux kernel-module attack surface
  ModuleJail snapshots the set of currently loaded modules and writes a
  modprobe.d blacklist for every kernel module not currently in use,
@@ -1630,17 +1630,17 @@ Description: GnuPG archive keys of the MX-25 Linux archive
  This package contains the archive keys used for that.
 
 Package: navidrome
-Version: 0.61.2
+Version: 0.62.0
 Architecture: amd64
 Maintainer: Deluan Quintão <deluan at navidrome.org>
-Installed-Size: 66621
+Installed-Size: 65875
 Depends: ffmpeg
 Suggests: mpv
-Filename: ./navidrome_0.61.2_linux_amd64.deb
-Size: 22440650
-MD5sum: 836a6fe6ed2f34f5b7337f9067090e6a
-SHA1: 2e9476019cc10cb2bcc9c041068869d7abc628c7
-SHA256: 4e2c5a7954312a3d4dcb984833a49eb09513aabe7190eab7964c1187195f59f8
+Filename: ./navidrome_0.62.0_linux_amd64.deb
+Size: 22053156
+MD5sum: 55da721f5c2e82e291e4f488a052d012
+SHA1: 35dc81a9de0adc692fc2c2bc5061865923a095b8
+SHA256: 297216a098ef46c1d45690730a0cf53fd273590cb96d091ebfdf68ed624df65e
 Priority: optional
 Homepage: https://navidrome.org
 Description: 🎧☁ Your Personal Streaming Service
@@ -1651,7 +1651,7 @@ Version: 2.0.19
 Architecture: amd64
 Maintainer: Michel Gutierrez <coapp@downloadhelper.net>
 Conflicts: net.downloadhelper.coapp.noffmpeg
-Filename: ./vdhcoapp-linux-x86_64.deb
+Filename: ./vdhcoapp_2.0.19_amd64.deb
 Size: 44859908
 MD5sum: ef595f2e76c4bb564b59772f76c1018e
 SHA1: 3b6e8a00502b964da440132fa9f9007e7cdf59c0
@@ -1782,16 +1782,16 @@ Description: Compute the DR14 value of the given audio files
 
 Package: python3-tartube
 Source: tartube
-Version: 2.5.197-1
+Version: 2.5.231-1
 Architecture: all
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 13047
+Installed-Size: 13103
 Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.5.197-STRICT_all.deb
-Size: 3055752
-MD5sum: a843940e0caefb61be1dec5ea9497518
-SHA1: b924dbfc6eb56021d43ce9d213001103799e0e9e
-SHA256: a8ab78bb06b8e40e7063118de885eadea5db00d061b2c6c3da2f854d8e14d4ea
+Filename: ./python3-tartube_2.5.231-STRICT_all.deb
+Size: 3059208
+MD5sum: a59ff799e73c5a6af144398debf3d09d
+SHA1: fbfbf7f7e77b566ea77af325a4c950f0862c810d
+SHA256: d4f7f96fa1c724c8b811e9b18eb0b0f3be3d5812407173635e33a8ff25ba4d9c
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
