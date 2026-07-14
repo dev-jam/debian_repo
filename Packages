@@ -479,6 +479,20 @@ Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy 2026.1.3
 
+Package: devjam-opensesame-psychopy-2026.2.0
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science
+Filename: ./devjam-opensesame-psychopy-2026.2.0_1.0-1_all.deb
+Size: 4112
+MD5sum: e060bcd68cb1b5226f3436eacc9c5398
+SHA1: 2d0a6eb84df832437a2bfaccec6c0e77c0cab8a3
+SHA256: f3fe1b45d7e7644c5bb336b0f473ce431f3fee10211b68b74ff5718906d1422b
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy 2026.2.0
+
 Package: devjam-pipewire-scripts
 Version: 1.1-1
 Architecture: all
@@ -1462,16 +1476,16 @@ Homepage: https://hamonikr.org
 Description: Simple gui front end to inxi.
 
 Package: jan
-Version: 0.8.2
+Version: 0.8.3
 Architecture: amd64
 Maintainer: Jan <service@jan.ai>
-Installed-Size: 203688
+Installed-Size: 206863
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
-Filename: ./Jan_0.8.2_amd64.deb
-Size: 84446730
-MD5sum: 3614cdfc91a3eb0767bcdc5fc15ae4e1
-SHA1: b8d59bb2e951b4e732f2827883d5dc853564ab43
-SHA256: fa94dccaf9a3e583581570dc184b7e5ecc594a39d9f556531dc343c9bf23813e
+Filename: ./Jan_0.8.3_amd64.deb
+Size: 86014680
+MD5sum: c39c79257fbb53aa193342f3917ca055
+SHA1: 67aa7287babe9cef46d0b493f55df52196eb8254
+SHA256: a0a8ffe2097921451bbc9601716f56fbfb142ddc565979385ec5b2986e1a082c
 Priority: optional
 Description: Use offline LLMs with your own data. Run open source models like Llama2 or Falcon on your internal computers/servers.
  (none)
@@ -1562,16 +1576,16 @@ Description: Live System Build Components
  directory.
 
 Package: modulejail
-Version: 1.4.1
+Version: 1.4.3
 Architecture: all
 Maintainer: Jasper Nuyens <jnuyens@linuxbe.com>
 Depends: coreutils, findutils, awk | mawk | gawk | original-awk
 Recommends: curl | wget
-Filename: ./modulejail_1.4.1_all.deb
-Size: 48128
-MD5sum: 512b50e08753012b0183eb20e97f6cf6
-SHA1: ceba221158a43fea01bcde20143d25b69dd2c67e
-SHA256: 5fa7e077a66f0245cecee4ef78e053d4a8f77974be8c001ea17b598fd04c56d1
+Filename: ./modulejail_1.4.3_all.deb
+Size: 49760
+MD5sum: 8212084292ba883100555bc0d4fd9045
+SHA1: ac35ad04ac0520d52854eea957c650738de4e098
+SHA256: 45dd301a09a08eab068b7bd65bbd718cb458a152c28b49549db49a6448c08ee7
 Section: admin
 Priority: optional
 Homepage: https://modulejail.com
