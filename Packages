@@ -339,6 +339,20 @@ Section: libs
 Priority: optional
 Description: personal tools for Debian
 
+Package: devjam-opensesame-psychopy
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science
+Filename: ./devjam-opensesame-psychopy_1.0-1_all.deb
+Size: 4108
+MD5sum: 2b15b897d8c81432fbbe83107d2f4065
+SHA1: 94c22563cc600df39773466bd864a7b2c6151489
+SHA256: b47538446e4623c635cacf015b53e9ec3d1379c6d9bb5e385ed4b5c7f6025191
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy
+
 Package: devjam-opensesame-psychopy-2024.2.4
 Version: 1.2-1
 Architecture: all
