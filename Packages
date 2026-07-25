@@ -2017,15 +2017,15 @@ License: Apache-2.0
 Vendor: Tobii Pro - Team Bromine
 
 Package: ventoy-bin
-Version: 1.1.12-1~bsr
+Version: 1.1.17-1~bsr
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 23662
-Filename: ./ventoy-bin_1.1.12-1~bsr_amd64.deb
-Size: 19056252
-MD5sum: efefe72a7e36765b9199543c0c53e03c
-SHA1: cc2eed8edb00c19f58cc3f0ef68b583a718b4b5c
-SHA256: b7fe0da1eddf7f7307907d73226a0176382691117225b8aa5e4773e6a90a756a
+Installed-Size: 23601
+Filename: ./ventoy-bin_1.1.17-1~bsr_amd64.deb
+Size: 18994596
+MD5sum: ead95bfb94ee9744cbe036fec941e0e7
+SHA1: f953f093cccd4443c42f343c50086d83792ef0b9
+SHA256: 8b9616d468364fe3a4d310a6943364b20bf67e38b7c64fce33fac0964c3b1b93
 Section: utils
 Priority: optional
 Homepage: https://www.pardus.org.tr
