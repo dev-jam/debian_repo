@@ -1545,6 +1545,68 @@ Description: image service menu for KDE file managers
  - resize and send by mail images,
  - and many other actions!
 
+Package: kde-servicemenu-reimage
+Version: 2.6.4
+Architecture: amd64
+Maintainer: Irfan Hakim <irfanhakim.as@yahoo.com>
+Installed-Size: 78
+Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
+Filename: ./kde-servicemenu-reimage_2.6.4_amd64.deb
+Size: 17296
+MD5sum: 2f62d74314a8334c003ed05b05d891c4
+SHA1: 37ced520615b674773ad1f8ac841604e9c338029
+SHA256: b09814041c97f02a33d55d048314e6d253bf739208a3d9ad82bc847e219b61df
+Section: kde
+Priority: optional
+Homepage: http://www.egregorion.net
+Description: Manipulate images and their metadata.
+ kde-service-menu-reimage is a package that extends the functionalities of
+ Dolphin/Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. These actions are related to picture files.
+ .
+ Compress and resize
+ Advanced optimization for web
+ Compress in % (change quality)
+ Resize in % or square
+ .
+ Convert and rotate
+ Convert to all formats supported by ImageMagick
+ Convert to PDF or PDF/A-1
+ Generate favicons for browser/android/apple/ms
+ Convert to Base64
+ Rotate
+ Overturn vertically/horizontally
+ .
+ Metadata:
+ Rename jpg and tiff files with data content in Exif metadata.
+ (For example: 001.jpg -> 2018-04-27_133741.jpg)
+ Rename jpg and tiff files with file's data.
+ Set file's datetime from Exif date.
+ Set file date from file's name
+ Set Exif datetime from file's date.
+ Set Exif datetime from file's name.
+ Add comment
+ View metadata
+ Extract metadata to file
+ Delete comment field
+ Strip Exif section
+ Delete IPTC section
+ Delete XMP section
+ Strip all unnecessary data
+ Add timestamp from Exif
+ .
+ Tools
+ Create animated GIF
+ Append to right
+ GrayScale
+ Sepia filter
+ Change transparent to color
+ Add colored border
+ Add transparent border
+ Drop shadow
+ .
+ Copyright (C) 2018-2019 Giuseppe Benigno <giuseppe.benigno(at)gmail.com>
+
 Package: linux-vulnerability-mitigation
 Version: 20260519.1-1~ffwd13+u1
 Architecture: all
@@ -1804,6 +1866,39 @@ Homepage: https://pipeweaver.github.io/
 Description: A tool for audio control and routing via Pipewire
  A tool for audio control and routing via Pipewire
 
+Package: python3-betteradbsync
+Version: 0:1.4.0-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 135
+Depends: python3:any
+Filename: ./python3-betteradbsync_1.4.0-2~w2d0_all.deb
+Size: 19052
+MD5sum: 01d59c53b8d92d8198834af43f1db3df
+SHA1: 900fe240a3d7a198740d8af2c483be19e07a3260
+SHA256: 51bb81141a71e158bec5c6485538e9ad7fdb3e14e960b2316bd0c81411697364
+Section: python
+Priority: optional
+Description: Better version of adb-sync for Python3
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-dirsync
+Version: 0:2.2.6-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 62
+Depends: python3:any
+Filename: ./python3-dirsync_2.2.6-2~w2d0_all.deb
+Size: 11304
+MD5sum: 46912c4851c447b50a2526d1a21741bb
+SHA1: 04815180cf92ae5f7cc0abe9187735c77c901c9e
+SHA256: 30bd25d32627778f1c94c619ddeb34624b3e313e68795631dad3f6a6448dbb85
+Section: python
+Priority: optional
+Homepage: https://github.com/tkhyn/dirsync/
+Description: Advanced directory tree synchronisation tool
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
 Version: 2.0.1-1
@@ -1821,6 +1916,72 @@ Priority: optional
 Homepage: http://simon-r.github.com/dr14_t.meter
 Description: Compute the DR14 value of the given audio files
  Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
+
+Package: python3-freesimplegui
+Version: 0:5.2.0.post1-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 2140
+Depends: python3 (>= 3.7~), python3:any
+Filename: ./python3-freesimplegui_5.2.0.post1-2~w2d0_all.deb
+Size: 608808
+MD5sum: 452d0903a983300e5e8c2576647df74b
+SHA1: c5d18988008654b3cbde3b8eba0f14f7123bd7c5
+SHA256: 4ffe621968d7c5256d5027229324365a0a9155cd589b1ce5f1459afefdbeec2b
+Section: python
+Priority: optional
+Description: The free-forever Python GUI framework.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-ps-mem
+Version: 0:3.14-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 99
+Depends: python3:any
+Filename: ./python3-ps-mem_3.14-2~w2d0_all.deb
+Size: 19724
+MD5sum: c230cdbb977fb731a49af8fd2f553f10
+SHA1: 1f6babe6f8ca3248b97c1f8b9e5ae777b74f026d
+SHA256: 4a8925b76c313ac6f930f26182effd4efffcbe1d488f01c6ef33dd423e7bc6b9
+Section: python
+Priority: optional
+Homepage: http://github.com/pixelb/ps_mem
+Description: A utility to report core memory usage per program
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-repolib
+Version: 0:1.5.1-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 227
+Depends: python3:any
+Filename: ./python3-repolib_1.5.1-2~w2d0_all.deb
+Size: 40376
+MD5sum: 660cb4121e05b01f7f3c3ac78e3ea8ab
+SHA1: 2e55a1a9643db0e33a04c7f7c03e782d130b69f5
+SHA256: 619b3a327134be3895ab832886b1a32a2b2c144fd2ea9202b38fecccdd697ce8
+Section: python
+Priority: optional
+Homepage: https://github.com/pop-os/repolib
+Description: Easily manage software sources
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-rtcqs
+Version: 0:0.6.7-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 79
+Depends: python3-freesimplegui, python3:any
+Filename: ./python3-rtcqs_0.6.7-2~w2d0_all.deb
+Size: 23700
+MD5sum: a684dded542c36497639662532b669e0
+SHA1: 002ba7467bad4d20365235975f7a842c647f75a4
+SHA256: 027316dbb06c6a7dcd81f1143d657fe1f59f0a7c4969339b019eae14ed728cb0
+Section: python
+Priority: optional
+Description: Linux audio performance analyzer
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tartube
 Source: tartube
