@@ -2198,3 +2198,20 @@ Description: A New Bootable USB Solution
  and boot them directly.
 Original-Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
 
+Package: wheel2deb
+Version: 0:0.9.5+bsr-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 88
+Depends: python3 (>= 3.10~), python3-attr (>= 20.1), python3-colorama, python3-dirsync, python3-jinja2 (<< 4), python3-jinja2 (>= 3), python3-packaging, python3-pkginfo, python3-rich, python3-typer (>= 0.6.1), python3-wheel, python3-yaml, python3:any
+Filename: ./wheel2deb_0.9.5+bsr-1~w2d0_all.deb
+Size: 18876
+MD5sum: c9fb663b32b96114c5e86127fbb9e074
+SHA1: 1b0dbd6413e73750d5a8b23ca58275a74b0ad700
+SHA256: 36799b74a0996c13c1cd420d421df092c150b76c42e55846f3d4224cba45b45a
+Section: python
+Priority: optional
+Homepage: https://github.com/upciti/wheel2deb
+Description: Python wheel to debian package converter
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
