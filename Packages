@@ -1474,6 +1474,36 @@ Section: base
 Priority: optional
 Description: Desktop launcher for fclones-gui
 
+Package: geteduroam-cli
+Version: 0.14.0+git-1
+Architecture: amd64
+Maintainer: Jeroen Wijenbergh
+Installed-Size: 14088
+Depends: network-manager
+Filename: ./geteduroam-cli_0.14_amd64.deb
+Size: 6062728
+MD5sum: fa8428b3436b7b2b33dcb7c77ced37ff
+SHA1: e70b3deb81c90fcf80754cf3c15514523619c0bb
+SHA256: 7a1560a56087e631f69532f386d260a1d4b413011e5c459f5e0e14460ca73acb
+Priority: optional
+Homepage: https://geteduroam.org/
+Description: Geteduroam CLI client for Linux distributions.
+
+Package: geteduroam-gui
+Version: 0.14.0+git-1
+Architecture: amd64
+Maintainer: Jeroen Wijenbergh
+Installed-Size: 22088
+Depends: network-manager, libgtk-4-1, libadwaita-1-0, libnotify-bin
+Filename: ./geteduroam-gui_0.14_amd64.deb
+Size: 7853772
+MD5sum: ad54a3dfe24024787bf76a85c17f50d8
+SHA1: da5bf6a588cc0bfd44fe002a3f3ec7afbad665e9
+SHA256: 66cbc82f8ca883b2d70d888d589976002f42494e938905fe35cf29f7d6322241
+Priority: optional
+Homepage: https://geteduroam.org/
+Description: Geteduroam GUI client for Linux distributions.
+
 Package: grafito
 Version: 0.9.3-1
 Architecture: all
