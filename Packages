@@ -1534,16 +1534,16 @@ Homepage: https://hamonikr.org
 Description: Simple gui front end to inxi.
 
 Package: jan
-Version: 0.8.3
+Version: 0.8.4
 Architecture: amd64
 Maintainer: Jan <service@jan.ai>
-Installed-Size: 206863
+Installed-Size: 211217
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
-Filename: ./Jan_0.8.3_amd64.deb
-Size: 86014680
-MD5sum: c39c79257fbb53aa193342f3917ca055
-SHA1: 67aa7287babe9cef46d0b493f55df52196eb8254
-SHA256: a0a8ffe2097921451bbc9601716f56fbfb142ddc565979385ec5b2986e1a082c
+Filename: ./Jan_0.8.4_amd64.deb
+Size: 86959662
+MD5sum: e1f9ad0ce192cd258234e3a89078f846
+SHA1: 95a737e3decaaae4e85600e40d41d515263a3a82
+SHA256: 9e1929b94363f843d0edf2a03833bbd958384ea64dcff649ff832df15efe0754
 Priority: optional
 Description: Use offline LLMs with your own data. Run open source models like Llama2 or Falcon on your internal computers/servers.
  (none)
