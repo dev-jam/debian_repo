@@ -2245,3 +2245,37 @@ Homepage: https://github.com/upciti/wheel2deb
 Description: Python wheel to debian package converter
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: yserver
+Version: 1.4.0-1
+Architecture: amd64
+Maintainer: Jos Dehaes <jos.dehaes@gmail.com>
+Installed-Size: 5376
+Depends: libc6 (>= 2.34), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libinput10 (>= 1.19.1), libudev1 (>= 183), libxkbcommon0 (>= 1.0.0), libxshmfence1, libvulkan1, xauth, xkb-data
+Recommends: mesa-vulkan-drivers, xfonts-base
+Suggests: lightdm
+Filename: ./yserver_1.4.0-1_amd64.deb
+Size: 1651256
+MD5sum: 3026b53d4b571ac559f3b17994463851
+SHA1: d46619e45c2e00bae6b58a988705fbe29b3c6835
+SHA256: fdb9228d3b22b30278121886dbc3a11287051b0d0d06f07f6987362215652653
+Section: x11
+Priority: optional
+Homepage: https://github.com/joske/yserver
+Description: modern X11 server written from scratch in Rust (DRM/KMS + Vulkan)
+ yserver is a modern X11 server written from scratch in Rust. The goal is not
+ to clone Xorg but to provide a practical X11 server that runs real desktop
+ environments, window managers and applications on modern Linux while dropping
+ legacy baggage (multiple screens, non-TrueColor visuals, indirect GLX, the
+ DDX driver ABI, endian-swapped clients, and so on).
+ .
+ It drives the GPU directly through atomic DRM/KMS and composites with Vulkan.
+ There is no seat manager: it opens /dev/dri and /dev/input directly, so the
+ user running it needs access to both (see /usr/share/doc/yserver/setup.md).
+ It runs full MATE/XFCE/Cinnamon/Plasma desktops and window managers such as
+ FVWM3, e16 and wmaker, and implements a broad set of extensions (Composite,
+ DAMAGE, DRI3, GLX, Present, RANDR, RENDER, SHAPE, SYNC, XFIXES, XInput, and
+ more).
+ .
+ This package provides the standalone DRM/KMS server (yserver) and starty(1),
+ a startx-style launcher for running it from a console.
+
