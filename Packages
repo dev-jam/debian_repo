@@ -1696,16 +1696,16 @@ Description: Live System Build Components
  directory.
 
 Package: modulejail
-Version: 1.4.3
+Version: 1.5.1
 Architecture: all
 Maintainer: Jasper Nuyens <jnuyens@linuxbe.com>
 Depends: coreutils, findutils, awk | mawk | gawk | original-awk
 Recommends: curl | wget
-Filename: ./modulejail_1.4.3_all.deb
-Size: 49760
-MD5sum: 8212084292ba883100555bc0d4fd9045
-SHA1: ac35ad04ac0520d52854eea957c650738de4e098
-SHA256: 45dd301a09a08eab068b7bd65bbd718cb458a152c28b49549db49a6448c08ee7
+Filename: ./modulejail_1.5.1_all.deb
+Size: 53076
+MD5sum: 137a176fd16eb94d32d06f597497d9b7
+SHA1: edf0a52195b48d68ac0bc7200d3911ce05c588cd
+SHA256: fa429b69fa822e1a0363ae08b74f3ad981e4be5e5a1a305af74295143ba6e047
 Section: admin
 Priority: optional
 Homepage: https://modulejail.com
