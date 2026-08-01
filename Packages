@@ -1474,6 +1474,26 @@ Section: base
 Priority: optional
 Description: Desktop launcher for fclones-gui
 
+Package: freetube
+Version: 0.25.1
+Architecture: amd64
+Maintainer: FreeTube Team <FreeTubeApp@protonmail.com>
+Installed-Size: 320651
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: ./freetube_0.25.1-beta_amd64.deb
+Size: 99744580
+MD5sum: 2f05da8e99b035499b436cfbb2d91635
+SHA1: 22a1b3dacaf9d6eb7f6d5b504b03c8c43e72a9a2
+SHA256: e30a9e4f0bb0887d0691f5479e04963f8d9aec8d232f9d1cef6577b8af1a50ab
+Section: default
+Priority: optional
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Description:
+  A private YouTube client
+License: AGPL-3.0-or-later
+Vendor: FreeTube Team <FreeTubeApp@protonmail.com>
+
 Package: geteduroam-cli
 Version: 0.14.0+git-1
 Architecture: amd64
@@ -2244,6 +2264,26 @@ Priority: optional
 Homepage: https://github.com/upciti/wheel2deb
 Description: Python wheel to debian package converter
  This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: winboat
+Version: 0.9.0
+Architecture: amd64
+Maintainer: TibixDev <staff@winboat.app>
+Installed-Size: 371989
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: ./winboat_0.9.0_amd64.deb
+Size: 100672402
+MD5sum: 0e92e414aecbf19d70b7d08c239642a6
+SHA1: dd9ee45756c2dc8423ca8d7ae57588352f97440d
+SHA256: 91d4d10d173fb572fba7c30ad49a2397374e4cde1bc5b4f807573890962afe4e
+Section: default
+Priority: optional
+Homepage: https://github.com/TibixDev/winboat#readme
+Description:
+  Windows for Penguins
+License: unknown
+Vendor: TibixDev <staff@winboat.app>
 
 Package: yserver
 Version: 1.4.0-1
