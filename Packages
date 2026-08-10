@@ -299,14 +299,14 @@ Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-liquorix-config
-Version: 1.17-1
+Version: 1.19-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-liquorix-config_1.17-1_all.deb
-Size: 1708
-MD5sum: f211457983ae2abbf452c9ea45530313
-SHA1: 3f095e46c571216fdc1303068f92868b283ac762
-SHA256: db1a139421b5de4d6d5c4bf49c99d696855c34e17dc3aa8c69959de244b017c3
+Filename: ./devjam-liquorix-config_1.19-1_all.deb
+Size: 4016
+MD5sum: c87bb1d2e4cc903da65cabb26635f729
+SHA1: 3c5d6f5956b822fc4254657e91428cee2798ed91
+SHA256: de13cfab22faffdf23cd2f5cb4e39d44a26f377064714ff59074dab4c8a7f4ea
 Section: base
 Priority: optional
 Description: Liquorix configs by devjam
@@ -563,15 +563,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.63-1
+Version: 1.64-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan, genisoimage, csvtool
-Filename: ./devjam-tools_1.63-1_amd64.deb
-Size: 27554696
-MD5sum: f855376b75f22093a0a7ae13150d8e28
-SHA1: 9ff27c05650c06a659fc6f4c287ba800f637cd3b
-SHA256: 908eae7b23a8cf4b5641390d7acd2c8c082ab82aabe86deeb1ca8f0c8c310992
+Filename: ./devjam-tools_1.64-1_amd64.deb
+Size: 27552516
+MD5sum: 975d576269945e33b6834ee96e03229c
+SHA1: cc6e266abd67ef34aefa785e1ed0b1c4d93f1020
+SHA256: f9e3c59203a7093ecde8c55df98afcb7d16f9b79d26625af371b0291284aedcd
 Section: base
 Priority: optional
 Description: personal tools for Debian
