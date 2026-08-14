@@ -83,6 +83,20 @@ Section: libs
 Priority: optional
 Description: Generic configs by devjam
 
+Package: devjam-conky
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: conky-std
+Filename: ./devjam-conky_1.0-1_all.deb
+Size: 4516
+MD5sum: 86092153778f0d90744fbd55e0f733a4
+SHA1: 9c02030783dcfc648d40cc3a8d7f2ac69c2ec77f
+SHA256: 080e5ffcc5db6f0eea9275c7d6ccad8ff5f12e3ed244177f5ecf523e03b28cd1
+Section: base
+Priority: optional
+Description: conky theme
+
 Package: devjam-gpu-brave-optimizations
 Version: 1.3-1
 Architecture: all
