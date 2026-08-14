@@ -84,15 +84,15 @@ Priority: optional
 Description: Generic configs by devjam
 
 Package: devjam-conky
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: conky-std
-Filename: ./devjam-conky_1.0-1_all.deb
-Size: 4516
-MD5sum: 86092153778f0d90744fbd55e0f733a4
-SHA1: 9c02030783dcfc648d40cc3a8d7f2ac69c2ec77f
-SHA256: 080e5ffcc5db6f0eea9275c7d6ccad8ff5f12e3ed244177f5ecf523e03b28cd1
+Filename: ./devjam-conky_1.1-1_all.deb
+Size: 4916
+MD5sum: 40257ae32f44c713536b6ae6fa69e44a
+SHA1: ee29b9a128fe9068e2d3f6c07331332da780ddc2
+SHA256: f07e0025c0aa61803ac910c3075bb1c7b82ca0c53a2fb4d9d04b0c21b1ef5277
 Section: base
 Priority: optional
 Description: conky theme
@@ -549,15 +549,15 @@ Priority: optional
 Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
-Version: 1.34-1
+Version: 1.35-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-science-experiment-mode-rtirq_1.34-1_amd64.deb
-Size: 10036
-MD5sum: cbfdec6436e763cb8c0456e70d26b303
-SHA1: d59fe0d0ae164cd1b673df50c9b6bbcb3cacb40e
-SHA256: f4ad36caae8d36c5f5efed43bcf9b1675cb1eaa7cc73ddeca2b2bcfca3928f60
+Filename: ./devjam-science-experiment-mode-rtirq_1.35-1_amd64.deb
+Size: 10088
+MD5sum: 0d660b93ffe8d595c1ce12c1fc3cac03
+SHA1: 2f847524cfeb07cfe7093569785f3ff9e583f2c7
+SHA256: f718ac0924e38be25ffbaa84a8b5bdabc677c2a979e57a38bee70bfa49042b07
 Section: libs
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
