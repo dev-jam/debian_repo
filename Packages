@@ -71,31 +71,44 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.11-1
+Version: 1.12-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.11-1_all.deb
+Filename: ./devjam-config-tools_1.12-1_all.deb
 Size: 2164
-MD5sum: 22d5cb8287edc7f72cee0949c0ceefd7
-SHA1: a0e562548abba5fb809c457542c30ac68212a0a1
-SHA256: 253e0483251b5f7ac0d5a6a3e8caafaf35afec7d7ef669afe0187ad7a5173293
+MD5sum: fa16ffed51a881735bf3ef8b14be5987
+SHA1: 7e4894a825d42be414e74d0b6f49dd6e6d252a8f
+SHA256: 647963dc7592c973d60c63b544f8b817b7bef6d7b4811881934c2a935a920fac
 Section: libs
 Priority: optional
 Description: Generic configs by devjam
 
 Package: devjam-conky
-Version: 1.2-1
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: conky-std
-Filename: ./devjam-conky_1.2-1_all.deb
-Size: 4920
-MD5sum: fee177190f1fc3f7322e546fde697c45
-SHA1: 498b2747a9f4000eaa9df7735448272671241abc
-SHA256: 145db153dc0146c515d95658fe0825d5f0d3cdfb3961797f51d08cc58dd7b105
+Recommends: conky-std, devjam-cpu-powercap
+Filename: ./devjam-conky_1.3-1_all.deb
+Size: 4532
+MD5sum: deaca2465a96a9ca0764c65c5fc75e03
+SHA1: 3f630efb6a5eb6e6fb4c0e975e8ea02732d93361
+SHA256: 56e2cf51c3c4f9d8491f21056f94cdbfdcdc87b46d32fb0202b7f19ee7903976
 Section: base
 Priority: optional
 Description: conky theme
+
+Package: devjam-cpu-powercap
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-cpu-powercap_1.0-1_all.deb
+Size: 1196
+MD5sum: efc5ffbfef6b30a9b8e648bee230d2f0
+SHA1: 4cfe91319d92c052c61ad6b164b68c897d492fac
+SHA256: c08d6efadc007b967eb554e54719b8eca83e7e517130605ea1999394a1c16d6b
+Section: base
+Priority: optional
+Description: powercap permissions
 
 Package: devjam-gpu-brave-optimizations
 Version: 1.3-1
@@ -326,15 +339,15 @@ Priority: optional
 Description: Liquorix configs by devjam
 
 Package: devjam-lowlatency
-Version: 1.16.1
+Version: 1.17.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.16.1_amd64.deb
-Size: 2900
-MD5sum: 56b3404aff0845d60becc85edc28e79a
-SHA1: 56e3548aa9e0fe1b28c1fe4ea838d56b03f26592
-SHA256: 5096e017bc91c73b5cbf9ef0b641ecd9e45403ac4248e03b7fb1bb1ac189bcb6
+Filename: ./devjam-lowlatency_1.17.1_amd64.deb
+Size: 2988
+MD5sum: c362e0cae5dda025f2706315941979f3
+SHA1: 964724a8fa49adc069bec13661aa4de6449270d7
+SHA256: 525f9dd259d9b6d1246120c58a6d9691712b6aee291bbc5813c96b2883e79f08
 Section: libs
 Priority: optional
 Description: personal tools for Debian
@@ -535,29 +548,29 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.70-1
+Version: 1.71-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.70-1_all.deb
-Size: 278956
-MD5sum: 941b993c0fecf2ce95d2b6dbc534c24e
-SHA1: 4c13b8aec84255605def63e6d872bc9002b39f4c
-SHA256: 93c28fbab21d65892559bc124fb5002b43ae599ee0cf9f985deaad0c13a9493a
+Filename: ./devjam-science_1.71-1_all.deb
+Size: 278968
+MD5sum: a2cc1d63be7aeda487d42c87f33f9d1b
+SHA1: bb5527068bd904f0db67aaf7ba3c544096f54a85
+SHA256: 8f3753dc16a91a0285c4f0acf49155cf857282d121f8249a4aaa477a75063d26
 Section: science
 Priority: optional
 Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
-Version: 1.35-1
+Version: 1.36-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-science-experiment-mode-rtirq_1.35-1_amd64.deb
-Size: 10088
-MD5sum: 0d660b93ffe8d595c1ce12c1fc3cac03
-SHA1: 2f847524cfeb07cfe7093569785f3ff9e583f2c7
-SHA256: f718ac0924e38be25ffbaa84a8b5bdabc677c2a979e57a38bee70bfa49042b07
+Filename: ./devjam-science-experiment-mode-rtirq_1.36-1_amd64.deb
+Size: 10080
+MD5sum: 1db8b6dbb430bb0a8f4cabb1b5108739
+SHA1: 0bfe56b3228f1e31a84316d9ae76e581da6ac304
+SHA256: 590a80c134be0533ff6d4da0e67398b4ff923c99738d1013e05c1b0d3c081de7
 Section: libs
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
