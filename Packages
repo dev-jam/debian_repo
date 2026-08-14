@@ -98,14 +98,14 @@ Priority: optional
 Description: conky theme
 
 Package: devjam-cpu-powercap
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-cpu-powercap_1.0-1_all.deb
-Size: 1196
-MD5sum: efc5ffbfef6b30a9b8e648bee230d2f0
-SHA1: 4cfe91319d92c052c61ad6b164b68c897d492fac
-SHA256: c08d6efadc007b967eb554e54719b8eca83e7e517130605ea1999394a1c16d6b
+Filename: ./devjam-cpu-powercap_1.1-1_all.deb
+Size: 1136
+MD5sum: c1d224945b765c613077b2a9ba422469
+SHA1: ca96c2c64d327090fbf68715eb2ef36dc9f9bdcb
+SHA256: 806efb452ee40bd1587b2734d04ec2b34d7473040b31e3beb9d35b55040b9e74
 Section: base
 Priority: optional
 Description: powercap permissions
@@ -339,29 +339,29 @@ Priority: optional
 Description: Liquorix configs by devjam
 
 Package: devjam-lowlatency
-Version: 1.18.1
+Version: 1.19.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.18.1_amd64.deb
-Size: 2848
-MD5sum: d065aaf2b03ccc8799a6354eaa1153cc
-SHA1: 544245458df243a0f53c7abd252df01c0260cc84
-SHA256: c2e83040fcf20a30379d9192c0be8c234832fca33b15cea63e89aa1210e612ac
+Filename: ./devjam-lowlatency_1.19.1_amd64.deb
+Size: 2852
+MD5sum: a2cbcd4aeeee757400c34a79c034b477
+SHA1: 76239fd9dfc9efa9192244c417d50216f47d13b0
+SHA256: 2981bdb88bee65257106fabb7eb1ba5fb1fcd35b68a2a5669199032c9c7d46e8
 Section: libs
 Priority: optional
 Description: personal tools for Debian
 
 Package: devjam-opensesame-psychopy
-Version: 1.1-1
+Version: 1.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy_1.1-1_all.deb
+Filename: ./devjam-opensesame-psychopy_1.2-1_all.deb
 Size: 4092
-MD5sum: 17ee0f424e44e752b60dde0da64ef81a
-SHA1: 02c920d7a8596291342e99c36aa7a09c73de52ab
-SHA256: c3f953f472bb7a6f793fc17549cc010b2b04595d8d4a64952cb2fabac5470b3f
+MD5sum: 6254cb5ccb4e53166c46cc589b28d10c
+SHA1: 682f000bce129d94669128706bbcc4a13d5c58bf
+SHA256: 8615a65b41e7e98e9de28f178b054332c57973b5570ce3a74ed2299f5e7a4923
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy
@@ -548,15 +548,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.71-1
+Version: 1.72-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.71-1_all.deb
-Size: 278968
-MD5sum: a2cc1d63be7aeda487d42c87f33f9d1b
-SHA1: bb5527068bd904f0db67aaf7ba3c544096f54a85
-SHA256: 8f3753dc16a91a0285c4f0acf49155cf857282d121f8249a4aaa477a75063d26
+Filename: ./devjam-science_1.72-1_all.deb
+Size: 278964
+MD5sum: a6c69d785d5f74c040a27dd089dabde0
+SHA1: c1af733c0361b1e9ab10859eb2b3f5a3a19e21e3
+SHA256: 1f61f383615ba1ddfb46e11fed2f12ac3e9acad54707338670da7b3b381a630b
 Section: science
 Priority: optional
 Description: science tools
