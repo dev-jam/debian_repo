@@ -84,15 +84,15 @@ Priority: optional
 Description: Generic configs by devjam
 
 Package: devjam-conky
-Version: 1.1-1
+Version: 1.2-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: conky-std
-Filename: ./devjam-conky_1.1-1_all.deb
-Size: 4916
-MD5sum: 40257ae32f44c713536b6ae6fa69e44a
-SHA1: ee29b9a128fe9068e2d3f6c07331332da780ddc2
-SHA256: f07e0025c0aa61803ac910c3075bb1c7b82ca0c53a2fb4d9d04b0c21b1ef5277
+Filename: ./devjam-conky_1.2-1_all.deb
+Size: 4920
+MD5sum: fee177190f1fc3f7322e546fde697c45
+SHA1: 498b2747a9f4000eaa9df7735448272671241abc
+SHA256: 145db153dc0146c515d95658fe0825d5f0d3cdfb3961797f51d08cc58dd7b105
 Section: base
 Priority: optional
 Description: conky theme
