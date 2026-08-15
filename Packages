@@ -30,17 +30,17 @@ Multi-Arch: no
 Description: ldnp-built package
 
 Package: deadbeef-static
-Version: 1.10.2-1
+Version: 1.10.3-1
 Architecture: amd64
 Maintainer: Oleksiy Yakovenko <waker@users.sf.net>
-Installed-Size: 27590
+Installed-Size: 27906
 Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libx11-6
 Recommends: libpulse0, libdbus-1-3
-Filename: ./deadbeef-static_1.10.2-1_amd64.deb
-Size: 11744488
-MD5sum: 97735cdebdf706917255c8d10b302477
-SHA1: 6a19fba1ec189a49919c5f7b1161a6f11b34367f
-SHA256: c6fd8be256d37cd8d0e6e94d57092990a1c85f275f26c7049b63674f855bbf1f
+Filename: ./deadbeef-static_1.10.3-1_amd64.deb
+Size: 11856668
+MD5sum: a48e25de74d40786247f77c3303f408c
+SHA1: 70dbc9b700b688f02ccd7d449c9c204de6dd29c3
+SHA256: 1e7e1568862c0109a3d5dd65f3221dae5a45a303fb13c01d66e64909d967b654
 Section: sound
 Priority: optional
 Homepage: http://deadbeef.sourceforge.net/
@@ -1538,19 +1538,6 @@ Priority: optional
 Homepage: https://geteduroam.org/
 Description: Geteduroam GUI client for Linux distributions.
 
-Package: grafito
-Version: 0.9.3-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./grafito_0.9.3-1_all.deb
-Size: 2620608
-MD5sum: 584f452fd27e6dd2f3a5a2a4ee440b64
-SHA1: 757fa45bc7c3b896ba626824781913de95f4fcb7
-SHA256: 39c809eb41553a782ebedb1a31ebbe51f4dd01ac535d9e7544e969736e130d32
-Section: base
-Priority: optional
-Description: grafito
-
 Package: inxi-gui
 Version: 1.0.0
 Architecture: all
@@ -1730,16 +1717,16 @@ Description: Live System Build Components
  directory.
 
 Package: modulejail
-Version: 1.5.1
+Version: 1.5.2
 Architecture: all
 Maintainer: Jasper Nuyens <jnuyens@linuxbe.com>
 Depends: coreutils, findutils, awk | mawk | gawk | original-awk
 Recommends: curl | wget
-Filename: ./modulejail_1.5.1_all.deb
-Size: 53076
-MD5sum: 137a176fd16eb94d32d06f597497d9b7
-SHA1: edf0a52195b48d68ac0bc7200d3911ce05c588cd
-SHA256: fa429b69fa822e1a0363ae08b74f3ad981e4be5e5a1a305af74295143ba6e047
+Filename: ./modulejail_1.5.2_all.deb
+Size: 53204
+MD5sum: a71086d3cc85cdfe57534f9accacea1c
+SHA1: 1117d65701017e3e5e999bfcf99cd29d53c9a0bc
+SHA256: 7be69d4238b47d8c2c4c97d9b34636e73c2369d223017893ac41245282685a7f
 Section: admin
 Priority: optional
 Homepage: https://modulejail.com
@@ -1913,17 +1900,17 @@ Description: An Automated, Open-Source Testing Framework
  The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
 
 Package: pipeweaver
-Version: 0.1.6-1
+Version: 0.1.9-1
 Architecture: amd64
 Maintainer: Craig McLure <craig@mclure.net>
-Installed-Size: 18256
+Installed-Size: 18575
 Depends: libqt6webenginewidgets6 (>= 6.2.0), pipewire (>=1.0.5), qml6-module-qtqml-workerscript (>= 6.2.0), qml6-module-qtquick (>= 6.2.0), qml6-module-qtquick-controls (>= 6.2.0), qml6-module-qtquick-templates (>= 6.2.0), qml6-module-qtquick-window (>= 6.2.0), qml6-module-qtwebengine (>= 6.2.0)
 Conflicts: pipeweaver-app
-Filename: ./pipeweaver_0.1.6-1_amd64.deb
-Size: 4773576
-MD5sum: cee29672ce0e7b9b2e85d372489e8844
-SHA1: 336be48e9e0b409efa07a427438cc3c79934a518
-SHA256: cb4f78c59fc4bcda2548198ae31613ee06cbbd8dfdbe3aa19a1786da6aa73333
+Filename: ./pipeweaver_0.1.9-1_amd64.deb
+Size: 4860620
+MD5sum: c74dc0a9a36f932916416e68fb8bca1f
+SHA1: 1f43cf5d2f4426826642e6c35ce6b4f7a824906f
+SHA256: 8f0df036a07fb22193f1330e4b83121acd3d6b9e101f1ffb020517bf21b59791
 Section: sound
 Priority: optional
 Homepage: https://pipeweaver.github.io/
@@ -2137,15 +2124,15 @@ Priority: optional
 Description: sedutil ladar for Debian
 
 Package: systemd-manager-tui
-Version: 1.2.4-1
+Version: 1.2.5-1
 Architecture: amd64
 Maintainer: Matheus-git <mathiew0@gmail.com>
-Installed-Size: 7521
-Filename: ./systemd-manager-tui_1.2.4_amd64.deb
-Size: 2008452
-MD5sum: 086b5400860f59fbac5b729213637e78
-SHA1: 369efa65ccd80892f7ec90a0e86f0c22ec5ba4ca
-SHA256: 9d30cfd037353f47361254e9cd3da16f3c1878ae71428cbf8d9022e4499a775a
+Installed-Size: 7873
+Filename: ./systemd-manager-tui_1.2.5_amd64.deb
+Size: 2131504
+MD5sum: d012f1cdd40495b6f36664befae873d3
+SHA1: d51d8378162f65c85c3faad1c5cd905b32a1e707
+SHA256: 26843579634740fb04f2b5fc018101bd46aa1fe50e97b03c40775f6663210565
 Priority: optional
 Homepage: https://github.com/matheus-git/systemd-manager-tui
 Description: TUI for managing systemd services
@@ -2167,6 +2154,15 @@ Description: TUI for managing systemd services
  .
  View
  [screenshots](https://github.com/matheus-git/systemd-manager-tui/blob/main/docs/screenshots.md)
+ .
+ ## Usage
+ .
+ ```bash
+ systemd-manager-tui
+ .
+ # With a filter
+ systemd-manager-tui -f docker
+ ```
  .
  ## Install
  .
