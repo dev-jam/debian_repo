@@ -71,15 +71,15 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-asus-z790-plus-wifi-sensors
-Version: 1.0-1
+Version: 1.1-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: lm-sensors
-Filename: ./devjam-asus-z790-plus-wifi-sensors_1.0-1_all.deb
-Size: 2104
-MD5sum: 0079545eb8d1df5a2524f73098083308
-SHA1: 4ba8b61e5671801cd5800aed58f415aafc5baed5
-SHA256: b4a389461a75be54465af96e49efe9281afe158770d6614906cec647d2ce6774
+Filename: ./devjam-asus-z790-plus-wifi-sensors_1.1-1_all.deb
+Size: 2108
+MD5sum: 60a8efb494ce2f6c1a17fdc58e38565b
+SHA1: dd2d879200c926cdf913056f8f0d4a6c45c0a7a0
+SHA256: 6872822435d1065fffe2ce4aad6f25c385b8470baa0ddfdadc2f9542ba305227
 Section: libs
 Priority: optional
 Description: lm-sensor config for the ASUS TUF Gaming Z790-Plus WiFi mainboard
