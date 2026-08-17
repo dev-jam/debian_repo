@@ -70,20 +70,6 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
-Package: devjam-asus-z790-plus-wifi-sensors
-Version: 1.1-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: lm-sensors
-Filename: ./devjam-asus-z790-plus-wifi-sensors_1.1-1_all.deb
-Size: 2108
-MD5sum: 60a8efb494ce2f6c1a17fdc58e38565b
-SHA1: dd2d879200c926cdf913056f8f0d4a6c45c0a7a0
-SHA256: 6872822435d1065fffe2ce4aad6f25c385b8470baa0ddfdadc2f9542ba305227
-Section: libs
-Priority: optional
-Description: lm-sensor config for the ASUS TUF Gaming Z790-Plus WiFi mainboard
-
 Package: devjam-config-tools
 Version: 1.14-1
 Architecture: all
@@ -589,6 +575,20 @@ SHA256: fbba2bba93ca2e55078ecc1acfd249a82735e9d9b6f96a089d095cce3f665d42
 Section: libs
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
+
+Package: devjam-sensors-asus-z790-plus-wifi
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: lm-sensors
+Filename: ./devjam-sensors-asus-z790-plus-wifi_1.0-1_all.deb
+Size: 2108
+MD5sum: 9b5cb7e21f46834e88e26aa9aa3ad413
+SHA1: 393d23a5e0d2e63b7d703144df61e92c2a463890
+SHA256: 8045fb5126743cd95f9202fe0eb5b6a1fa28b6915ffbd88d8db8708da185847c
+Section: libs
+Priority: optional
+Description: lm-sensor config for the ASUS TUF Gaming Z790-Plus WiFi mainboard
 
 Package: devjam-thunar-custom-actions
 Version: 3.2-1
