@@ -70,6 +70,20 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
+Package: devjam-asus-z790-plus-wifi-sensors
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: lm-sensors
+Filename: ./devjam-asus-z790-plus-wifi-sensors_1.0-1_all.deb
+Size: 2104
+MD5sum: 0079545eb8d1df5a2524f73098083308
+SHA1: 4ba8b61e5671801cd5800aed58f415aafc5baed5
+SHA256: b4a389461a75be54465af96e49efe9281afe158770d6614906cec647d2ce6774
+Section: libs
+Priority: optional
+Description: lm-sensor config for the ASUS TUF Gaming Z790-Plus WiFi mainboard
+
 Package: devjam-config-tools
 Version: 1.14-1
 Architecture: all
