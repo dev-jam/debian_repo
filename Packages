@@ -339,6 +339,19 @@ Section: base
 Priority: optional
 Description: Liquorix configs by devjam
 
+Package: devjam-liquorix-hardening
+Version: 1.0.1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-liquorix-hardening_1.0.1_amd64.deb
+Size: 1296
+MD5sum: 6233315e682fb7187d3b2a217a4c657d
+SHA1: f35996f8903cd7c7eb794775bbe8097f0a9f67d7
+SHA256: 0e1c154f067fb00284fa019c1bd1797789d1129273f223be641170218c1a8d79
+Section: libs
+Priority: optional
+Description: Liquorix hardening
+
 Package: devjam-lowlatency
 Version: 1.19.1
 Architecture: amd64
