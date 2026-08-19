@@ -339,32 +339,19 @@ Section: base
 Priority: optional
 Description: custom keyring for Debian
 
-Package: devjam-liquorix-config
-Version: 1.19-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-liquorix-config_1.19-1_all.deb
-Size: 4016
-MD5sum: c87bb1d2e4cc903da65cabb26635f729
-SHA1: 3c5d6f5956b822fc4254657e91428cee2798ed91
-SHA256: de13cfab22faffdf23cd2f5cb4e39d44a26f377064714ff59074dab4c8a7f4ea
-Section: base
-Priority: optional
-Description: Liquorix configs by devjam
-
 Package: devjam-lowlatency
-Version: 1.19.1
+Version: 1.20.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.19.1_amd64.deb
-Size: 2852
-MD5sum: a2cbcd4aeeee757400c34a79c034b477
-SHA1: 76239fd9dfc9efa9192244c417d50216f47d13b0
-SHA256: 2981bdb88bee65257106fabb7eb1ba5fb1fcd35b68a2a5669199032c9c7d46e8
+Filename: ./devjam-lowlatency_1.20.1_amd64.deb
+Size: 5976
+MD5sum: 4be9b237c246b061b8af3b4de821749d
+SHA1: bbea82c9f23f46e80e30295ec2729c3ebbf4560f
+SHA256: b927e6c60a957d547de96b9f3847c1d14e500c89b7f33b8d0d28d181f5d0c14d
 Section: libs
 Priority: optional
-Description: personal tools for Debian
+Description: Low latency tools and settings for Debian
 
 Package: devjam-opensesame-psychopy
 Version: 1.2-1
