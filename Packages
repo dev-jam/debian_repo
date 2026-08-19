@@ -71,14 +71,14 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.15-1
+Version: 1.16-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.15-1_all.deb
-Size: 2308
-MD5sum: 8e28911a422524d4910ead7de785e471
-SHA1: 4e18c5427ea8b2d4d8de711f7aa01359be2de6da
-SHA256: e689b206430df5feff31ad7ed590eb65a4c52621950ca829f974bd2fbe52873d
+Filename: ./devjam-config-tools_1.16-1_all.deb
+Size: 3164
+MD5sum: e08e5c0b8e7ed3dd82f203d04ea7caca
+SHA1: 1ee9993494abad55c136a026e4eb837f651a2442
+SHA256: 69389cc6f77a47d690a70c71bae8678e47faa46937988a8bb875e409ee09e919
 Section: libs
 Priority: optional
 Description: Generic configs by devjam
@@ -340,15 +340,15 @@ Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-lowlatency
-Version: 1.21.1
+Version: 1.22.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.21.1_amd64.deb
-Size: 6000
-MD5sum: 447e4d97afefb5e47d07e5abfde7d3c8
-SHA1: fa5e3186f47cdf5c65716ae4958fda313287197c
-SHA256: 0c40f6df10c8f216c5cb57366e1c64ce95250f6504792370344ebbbb207c8702
+Filename: ./devjam-lowlatency_1.22.1_amd64.deb
+Size: 2848
+MD5sum: 7c391fef7354063094256e23bc870d01
+SHA1: 3bf172a1845b9cf9004abe0aa9ae59f6b0048f87
+SHA256: 09b0a2bb93a95f081dfa9e2dffdfe01e8d04cd80a3067858f6a46503cb79ecec
 Section: libs
 Priority: optional
 Description: Low latency tools and settings for Debian
@@ -605,15 +605,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.68-1
+Version: 1.69-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan, genisoimage, csvtool, systemd-container
-Filename: ./devjam-tools_1.68-1_amd64.deb
-Size: 27553444
-MD5sum: d9556bf42e5605c56042dd3c621f6a16
-SHA1: fd90f51bd9726d350dccc33620880664a81118eb
-SHA256: 785e862efe9f3b0b59181bc98be5d6822ed530f6fb71605670405472314fc860
+Filename: ./devjam-tools_1.69-1_amd64.deb
+Size: 27554916
+MD5sum: f5622619e77cdfb8220d2d9ce5ddbb19
+SHA1: d3e38bd9fd94fd3d4a7dcf4cfe5f0f2348ca329f
+SHA256: f34b9161887ed7a7bbfa09de8b0cc0464d4d787eb63fe35b812b81dfceb89c3c
 Section: base
 Priority: optional
 Description: personal tools for Debian
