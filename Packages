@@ -1708,18 +1708,18 @@ Original-Vcs-Git: https://forgejo.debian.net/linux/linux-vulnerability-mitigatio
 Uploaders: Daniel Baumann <daniel@debian.org>
 
 Package: live-build
-Version: 1:20260719+bsr
+Version: 1:20260827+bsr
 Architecture: all
 Maintainer: Debian Live <debian-live@lists.debian.org>
 Installed-Size: 811
 Depends: cpio, debootstrap
 Recommends: apt-utils, bzip2, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, eatmydata, git, mtd-utils, parted
-Filename: ./live-build_20260719+bsr_all.deb
-Size: 198032
-MD5sum: a78caab057161aea4f854e8199372c75
-SHA1: b8415c0a8addd084455e1b626793161f1aa2f112
-SHA256: 28619153d22e7b395c547bb92b9ffbd66c49a972b2c0e215481d5ba83aac4634
+Filename: ./live-build_20260827+bsr_all.deb
+Size: 198068
+MD5sum: 5dcfe5e19a7e154d346bb7d8888e3f65
+SHA1: ff9ac57ce5fa4b994dadcf0f4b3a0d3342fbda04
+SHA256: f40967932dc782faa074864a29463038c647f1fdeac13bdc12a2177f224a34cc
 Section: misc
 Priority: optional
 Homepage: https://wiki.debian.org/DebianLive
