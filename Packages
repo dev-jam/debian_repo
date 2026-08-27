@@ -605,15 +605,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.70-1
+Version: 1.71-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan, genisoimage, csvtool, systemd-container
-Filename: ./devjam-tools_1.70-1_amd64.deb
-Size: 27556696
-MD5sum: 6c516d288f82db004bda877f674b1a48
-SHA1: 37dc14372a550ecb1efd23c155d6189fcef593d9
-SHA256: 82a628311acb3ebba3fac91b0ae2b5f30f84f36ca7267ba2e6661516e02307c9
+Filename: ./devjam-tools_1.71-1_amd64.deb
+Size: 27555904
+MD5sum: a4ded500a17d2ed700af47a115f5a057
+SHA1: 74b7a9c8914ecc71c4b6af137e32715656984e8d
+SHA256: 368b6ee5c0ca140eb7ade8753fcff9d8043c27b323dd98e610ecbb741214fc85
 Section: base
 Priority: optional
 Description: personal tools for Debian
