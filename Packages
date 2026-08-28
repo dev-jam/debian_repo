@@ -340,15 +340,15 @@ Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-lowlatency
-Version: 1.22.1
+Version: 1.23.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.22.1_amd64.deb
-Size: 2848
-MD5sum: 7c391fef7354063094256e23bc870d01
-SHA1: 3bf172a1845b9cf9004abe0aa9ae59f6b0048f87
-SHA256: 09b0a2bb93a95f081dfa9e2dffdfe01e8d04cd80a3067858f6a46503cb79ecec
+Filename: ./devjam-lowlatency_1.23.1_amd64.deb
+Size: 2756
+MD5sum: 8db6811effe4e3881a7e0597af20d6bc
+SHA1: 97b6204c766b0824e49b0920d9b60a0af1c29ddb
+SHA256: b4d8bdcf6ea04c3e4c5345b7de6788f9b8cd4cf73823c54177900be35ecac1f0
 Section: libs
 Priority: optional
 Description: Low latency tools and settings for Debian
@@ -605,15 +605,15 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.71-1
+Version: 1.72-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox, packaging-dev, debian-keyring, devscripts, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, tar, linux-cpupower, dkms, util-linux, debsecan, genisoimage, csvtool, systemd-container
-Filename: ./devjam-tools_1.71-1_amd64.deb
-Size: 27555904
-MD5sum: a4ded500a17d2ed700af47a115f5a057
-SHA1: 74b7a9c8914ecc71c4b6af137e32715656984e8d
-SHA256: 368b6ee5c0ca140eb7ade8753fcff9d8043c27b323dd98e610ecbb741214fc85
+Filename: ./devjam-tools_1.72-1_amd64.deb
+Size: 27556356
+MD5sum: 7bb67cbb5e3a2b8aba9720e7f4b145bd
+SHA1: 03da51669f595790a7efe424411865f863dded97
+SHA256: 58178074fddfa9f739913df5e626b764c02a6a666e7ec4a8425d38279c580846
 Section: base
 Priority: optional
 Description: personal tools for Debian
