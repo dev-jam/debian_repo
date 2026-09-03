@@ -353,6 +353,20 @@ Section: libs
 Priority: optional
 Description: Low latency tools and settings for Debian
 
+Package: devjam-mpv
+Version: 1.10-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: mpv
+Filename: ./devjam-mpv_1.10-1_all.deb
+Size: 1952
+MD5sum: 993ba6b59d3d51cc6e30ca796806acf1
+SHA1: 4997a0be5114b63aab5c2e56cf366cc439b2f451
+SHA256: 4aaf3afe712b642299710f355b1019419599a051452aa0f716d83a810e062203
+Section: base
+Priority: optional
+Description: mpv configs for the CLS lab monitors
+
 Package: devjam-opensesame-psychopy
 Version: 1.2-1
 Architecture: all
