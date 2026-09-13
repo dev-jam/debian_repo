@@ -71,14 +71,14 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.21-1
+Version: 1.22-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.21-1_all.deb
-Size: 3904
-MD5sum: 3996e783c6ac8db0b98caf7eb03ad31a
-SHA1: 6122faa5d83751d607bb134699dd576639d495bf
-SHA256: 5beb0c2949435a2081f9802c3902f025b447a7448e5da3a3d7b2f1c5699c668d
+Filename: ./devjam-config-tools_1.22-1_all.deb
+Size: 3940
+MD5sum: 5019b9bcdf82a70fb395dbb93d34c787
+SHA1: 2df5ee328de6d4126e8e5113027e5fdf401dbdc9
+SHA256: 2e65178b706bc7fe72b961cfbee298645ce07be45c42b71d0b15fd7d2d712f0d
 Section: libs
 Priority: optional
 Description: Generic configs by devjam
