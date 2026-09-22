@@ -437,15 +437,15 @@ Priority: optional
 Description: lm-sensor config for the ASUS TUF Gaming Z790-Plus WiFi mainboard
 
 Package: devjam-thunar-custom-actions
-Version: 3.3-1
+Version: 3.4-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, unoconv, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd
-Filename: ./devjam-thunar-custom-actions_3.3-1_all.deb
-Size: 5040
-MD5sum: 84f280ddb039115d2b978be8250f1d40
-SHA1: fe21059b7319bf2935fcc1d08fb7dd0ec76a3f97
-SHA256: c13bdaff56357e36a2e493ae0726c5f52c750974f37aabcdd71e4e4c2956d951
+Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd
+Filename: ./devjam-thunar-custom-actions_3.4-1_all.deb
+Size: 4888
+MD5sum: 41f34b7905783e1fb5f0dceb16b7730e
+SHA1: dbf3d0fed95c6bd1ca8a8ccd5a7ef1612eacf46c
+SHA256: 6931ab55cb830dceb679c9b6a08e9301fdc3d2738ccf7ea0a194ab4d33212f60
 Section: base
 Priority: optional
 Description: Thunar custom actions collection
