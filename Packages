@@ -451,7 +451,7 @@ Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.83-1
+Version: 1.84-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox,
@@ -480,11 +480,11 @@ Recommends: sox,
  csvtool,
  libevtx-utils,
  systemd-container
-Filename: ./devjam-tools_1.83-1_amd64.deb
-Size: 27568292
-MD5sum: af5c79f51b92278206935080a224b5c5
-SHA1: 88788839c5ce4ad95ef097ef343598bee21d427c
-SHA256: 634dfc43fb607a5a106ad6f227cfac2717e0cd53821e4cb10cd98a13f61e4483
+Filename: ./devjam-tools_1.84-1_amd64.deb
+Size: 27568372
+MD5sum: ecc85fdda003eecbc0a6e02f850e3dd6
+SHA1: 36abb33bd60e4fde72c619072f293d3332220c8e
+SHA256: 7393b9921aaaed9f1fa2881d4ccb2cfc988ae211bb479f2c34f2cb4a5a752c94
 Section: base
 Priority: optional
 Description: personal tools for Debian
