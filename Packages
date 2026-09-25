@@ -99,14 +99,14 @@ Priority: optional
 Description: conky theme
 
 Package: devjam-cpu-powercap
-Version: 1.2-1
+Version: 1.3-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-cpu-powercap_1.2-1_all.deb
-Size: 1220
-MD5sum: 4c6e823faaf8604941eb08c20b7f8c8c
-SHA1: 739e3b0b6166ee42235a8f4e593810332acca024
-SHA256: 9141486f33179665079f37cf102b0db441ad924493f80c02e392d24b86e26519
+Filename: ./devjam-cpu-powercap_1.3-1_all.deb
+Size: 1244
+MD5sum: e3392af35fb127c54a5ed76a7a72856c
+SHA1: 49035e9c6b4f3a6f2dd37862f6c9a24fb5e1cb94
+SHA256: 091675aed14e9b57cbc4a46755e59d8a1c6ccaa2bde2a99003328f9a502d9ce9
 Section: base
 Priority: optional
 Description: powercap permissions
