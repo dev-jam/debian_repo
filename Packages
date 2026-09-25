@@ -71,14 +71,14 @@ Description: The Ultimate Music Player
     files (with and without xing/info tags)
 
 Package: devjam-config-tools
-Version: 1.22-1
+Version: 1.23-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.22-1_all.deb
-Size: 3940
-MD5sum: 5019b9bcdf82a70fb395dbb93d34c787
-SHA1: 2df5ee328de6d4126e8e5113027e5fdf401dbdc9
-SHA256: 2e65178b706bc7fe72b961cfbee298645ce07be45c42b71d0b15fd7d2d712f0d
+Filename: ./devjam-config-tools_1.23-1_all.deb
+Size: 3824
+MD5sum: 092bfdd8414e43609301cfbf9bab60a7
+SHA1: 981e49d170d3785701e180e94a421248594a7526
+SHA256: a237bccbba47014fbb91cdc565c55113ba66b2d56f9e8c693e1e1817e880a49e
 Section: libs
 Priority: optional
 Description: Generic configs by devjam
@@ -340,15 +340,15 @@ Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-lowlatency
-Version: 1.24.1
+Version: 1.25.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.24.1_amd64.deb
-Size: 2732
-MD5sum: b8a2557e49199b69436d98ed227124f1
-SHA1: 9410a45b9b720e4a7d8b6dfc9555a4695c36851c
-SHA256: 9ef0d87e66b2c82e5569c837fa6c5f35cd89e109cb12991154e4a6f06dd1dee4
+Filename: ./devjam-lowlatency_1.25.1_amd64.deb
+Size: 2684
+MD5sum: 3c7dd1efb1e7c9aca55616e80365d744
+SHA1: 4c76bbc7f65d8cf045a23dac4431b9cc5a6a83fa
+SHA256: 8ff75c52d765bc9c9e223ab921696480dd4da19d00f88456500bf27f7149c659
 Section: libs
 Priority: optional
 Description: Low latency tools and settings for Debian
