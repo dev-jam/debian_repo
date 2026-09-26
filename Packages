@@ -340,15 +340,15 @@ Priority: optional
 Description: custom keyring for Debian
 
 Package: devjam-lowlatency
-Version: 1.26.1
+Version: 1.27.1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.26.1_amd64.deb
-Size: 2420
-MD5sum: cd0f16496aeaedcb395393ddd088bd2f
-SHA1: 1286452ab0ab7ae537b8947895113331dc9a68a6
-SHA256: a38b4828122dce013c6b7044389227faf808cb88d57c6372fc23e4956f5518bd
+Filename: ./devjam-lowlatency_1.27.1_amd64.deb
+Size: 2416
+MD5sum: bd86410f21c690b00188d63558aaaf16
+SHA1: 1df957e2a98221504e86cb308369ccd05f98e0a2
+SHA256: a18aa14bdd1ad9de1f465104288abb398bfdb536939ed1823e21fe43031046bb
 Section: libs
 Priority: optional
 Description: Low latency tools and settings for Debian
