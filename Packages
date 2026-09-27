@@ -84,16 +84,16 @@ Priority: optional
 Description: Generic configs by devjam
 
 Package: devjam-conky
-Version: 1.15-1
+Version: 1.16-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: jq, procps
 Recommends: conky-std, lm-sensors, devjam-cpu-powercap
-Filename: ./devjam-conky_1.15-1_all.deb
-Size: 7016
-MD5sum: 6a4c5435318ea7e7d354f0b9cef18377
-SHA1: 0992f981fde8441df386b06e50b4c36c0b4d58c7
-SHA256: 26bc9ea9733f1151d9f740667ee05d54e7f02b4bd71a4c8b3ea7467d9e73cd8a
+Filename: ./devjam-conky_1.16-1_all.deb
+Size: 7020
+MD5sum: 96c69acc21db099ba9f2929351e8d3da
+SHA1: d62fecd12623f163c5354a406920838a6c94e9a5
+SHA256: 4cde2da5b8a0d6e85ccc42ed8833f520ec872d25f2f54f79a5829afb000c4041
 Section: base
 Priority: optional
 Description: conky theme
