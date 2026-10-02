@@ -388,15 +388,15 @@ Priority: optional
 Description: mpv configs for the CLS lab monitors
 
 Package: devjam-opensesame-psychopy
-Version: 1.4-1
+Version: 1.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy_1.4-1_all.deb
-Size: 4200
-MD5sum: ce9a857b440cb5d3b8ef9ed245a8d640
-SHA1: 624c9828ba12d6768b0999840d1b06b9d9a001bb
-SHA256: c40163c23c941f144291006dd9fdd4edd1137452da46dea65f1d64ab01e3102c
+Filename: ./devjam-opensesame-psychopy_1.5-1_all.deb
+Size: 4204
+MD5sum: d6e9d305cd450689e914485e200756d5
+SHA1: a7f523a48a290b04f8934163ae6f48d711c43892
+SHA256: c383b94f7b0aa8572a565ba12ba7c999221d833c44620d83c16e9283142a69ce
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy
@@ -415,15 +415,15 @@ Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
 Package: devjam-science
-Version: 1.74-1
+Version: 1.75-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.74-1_all.deb
-Size: 1903796
-MD5sum: 679e8a3703370078c1c783fcf005b95b
-SHA1: 389cf893471b4167ff08f02a3fc4b5851d623286
-SHA256: 7eeb781b2e5a80aa0f511f7b0d5abc1bd548941699b4d43a31b0a01fa5caa09e
+Filename: ./devjam-science_1.75-1_all.deb
+Size: 1998496
+MD5sum: 7d05f05903131857688363b2298f6195
+SHA1: 166bbc7573a12a3a91c7d713bb317ece50d4c6c0
+SHA256: 9594ca26d8d7716f6897c229b8efb7238f9e1fe80ca02867aa6163f656dfe388
 Section: science
 Priority: optional
 Description: science tools
