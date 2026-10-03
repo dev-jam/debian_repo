@@ -1439,19 +1439,6 @@ Priority: optional
 Homepage: https://geteduroam.org/
 Description: Geteduroam GUI client for Linux distributions.
 
-Package: grafito
-Version: 0.9.3-2
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./grafito_0.9.3-2_all.deb
-Size: 2620608
-MD5sum: 2f5b8ebb02e1b48fcb3783e8149b0db5
-SHA1: fca896e454c8a13dd8ec4b715ae1df0273745709
-SHA256: 3bc66d5303c9077a5499bbd01c60f5f484bac469f649963a35e99485d968c5a3
-Section: utils
-Priority: optional
-Description: grafito
-
 Package: inxi-gui
 Version: 1.0.0
 Architecture: all
