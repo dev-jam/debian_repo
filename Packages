@@ -113,14 +113,14 @@ Priority: optional
 Description: conky theme
 
 Package: devjam-cpu-powercap
-Version: 1.4-2
+Version: 1.5-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-cpu-powercap_1.4-2_all.deb
-Size: 1244
-MD5sum: 329db99234c639ae0cfb3b6cb83a9a20
-SHA1: 30d42698bc8d8850fe7631eb7d0a8388a0c4f5f5
-SHA256: 12be370e7c31cda2f1f7037eae9c5ad257765ba96a21cb948b3066c08e7334fd
+Filename: ./devjam-cpu-powercap_1.5-1_all.deb
+Size: 1288
+MD5sum: 1b61a46c1bff783e8a5a0de3288bf74b
+SHA1: fa8f8b0795bee6e7d5b55ac8e86a5ce4619888e9
+SHA256: 1fa13858cabca7bc2b8d8aea6eca58b3b1797cccaeda4df19f543dc423780e3a
 Section: admin
 Priority: optional
 Description: powercap permissions
@@ -426,15 +426,15 @@ Priority: optional
 Description: Generic configs by devjam
 
 Package: devjam-system-config-lowlatency
-Version: 1.27-2
+Version: 1.28-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: devjam-tools
-Filename: ./devjam-system-config-lowlatency_1.27-2_amd64.deb
-Size: 2420
-MD5sum: 1f9826d9d4c8d28c9985fc71a15d5360
-SHA1: 39edb9b37bf79ad4672cadd9a6dcf5eed94962f5
-SHA256: 170086e44a8e0dd5ebbd6a7151e831f9a67ac7140617c77edcc13977b38c8a58
+Filename: ./devjam-system-config-lowlatency_1.28-1_amd64.deb
+Size: 2316
+MD5sum: bf912328926d25e574fb2f9b1961541d
+SHA1: ece990dbfbfef0eef745306fef35911c751d4aee
+SHA256: 9a6446967f2a41973874a53af5d31a119c2e40d85e8d62b80f3cb37069809fd1
 Section: admin
 Priority: optional
 Description: Low latency tools and settings for Debian
