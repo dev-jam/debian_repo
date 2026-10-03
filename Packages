@@ -11,34 +11,16 @@ Section: base
 Priority: optional
 Description: android tools for Debian
 
-Package: appimagelauncher
-Version: 3.0.0-beta-2-gha287~96cb937
-Architecture: amd64
-Maintainer: ldnp <ldnp@ldnp>
-Installed-Size: 149170
-Pre-Depends: bash
-Depends: systemd, libgl1, libfontconfig1, libharfbuzz0b, libfribidi0
-Built-Using: linuxdeploy-plugin-native_packages
-Filename: ./appimagelauncher_3.0.0-beta-2-gha287.96cb937_amd64.deb
-Size: 37972152
-MD5sum: 503170dd49a2b0ee20e33f29f6e2eeb4
-SHA1: ef526ab2682dcf0505eddabae7a04bc235fc8913
-SHA256: 4117552105968a8011955d065b5fd55f547a2ed21dac1fe0a046ee9b60220c36
-Section: misc
-Priority: standard
-Multi-Arch: no
-Description: ldnp-built package
-
 Package: brave-flags-wrapper
-Version: 2.2.0-1
+Version: 2.2.0-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: bash
-Filename: ./brave-flags-wrapper_2.2.0-1_all.deb
+Filename: ./brave-flags-wrapper_2.2.0-2_all.deb
 Size: 2792
-MD5sum: f5930393950d2d5a5687537783d63a64
-SHA1: c24bbe7bc9c4af40f1b5d6cb248c9618f444b15a
-SHA256: 109b7fe5713480d0b7c3947edca5b135053277662b3d6c50b1265411780411dc
+MD5sum: 95a658047dfaac8bf524a92cc252bdde
+SHA1: ca0f3dbbc81018438d69f4d8ee3ba22d64c9de50
+SHA256: bb6bc54034dab6788d5ff48826528a96a89749a09c753053d9599fe6b7c4476f
 Section: web
 Priority: optional
 Description: Wrapper that applies persistent command-line flags to Brave and Brave Origin
@@ -89,301 +71,275 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
-Package: devjam-config-tools
-Version: 1.23-1
+Package: devjam-archive-keyring
+Version: 1.41-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-config-tools_1.23-1_all.deb
-Size: 3824
-MD5sum: 092bfdd8414e43609301cfbf9bab60a7
-SHA1: 981e49d170d3785701e180e94a421248594a7526
-SHA256: a237bccbba47014fbb91cdc565c55113ba66b2d56f9e8c693e1e1817e880a49e
-Section: libs
+Filename: ./devjam-archive-keyring_1.41-2_all.deb
+Size: 63016
+MD5sum: 06129a937cc198454b5bd011891146a9
+SHA1: a7ed6cea4e7a59b5afd2d5bab9f919be15584f9b
+SHA256: ced639601bf0c1b1cad673a57796932bdb0f74ff8ba523827bd482f4c0bb1817
+Section: misc
 Priority: optional
-Description: Generic configs by devjam
+Description: custom keyring for Debian
 
-Package: devjam-conky
-Version: 1.16-1
+Package: devjam-archive-keyring-legacy
+Version: 1.41-2
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-archive-keyring-legacy_1.41-2_all.deb
+Size: 41048
+MD5sum: d60a9577a93a59cf0ea009ec4cfb9b08
+SHA1: 3fc8bffd3f84ae041d416085c466c584b894c8b7
+SHA256: 2a66088a11d69f23e0cd934a5a24f746fed1d400df6b5fd6186078fd7c5d83ee
+Section: misc
+Priority: optional
+Description: custom keyring for Debian
+
+Package: devjam-conky-system-monitor
+Version: 1.16-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: jq, procps
 Recommends: conky-std, lm-sensors, devjam-cpu-powercap
-Filename: ./devjam-conky_1.16-1_all.deb
-Size: 7020
-MD5sum: 96c69acc21db099ba9f2929351e8d3da
-SHA1: d62fecd12623f163c5354a406920838a6c94e9a5
-SHA256: 4cde2da5b8a0d6e85ccc42ed8833f520ec872d25f2f54f79a5829afb000c4041
-Section: base
+Filename: ./devjam-conky-system-monitor_1.16-2_all.deb
+Size: 7028
+MD5sum: 8ce4985522567b9f608244f72824ae27
+SHA1: 0dca45537b2c1cfdef05fb1c8b3b0254844ab0e7
+SHA256: 27f9e404a9c7b10faccf9be847abe4e1b5ff410734b1418b558ce5cc4c017040
+Section: utils
 Priority: optional
 Description: conky theme
 
 Package: devjam-cpu-powercap
-Version: 1.4-1
+Version: 1.4-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-cpu-powercap_1.4-1_all.deb
-Size: 1248
-MD5sum: 0779817b60a74217eb32ab696f8e525f
-SHA1: d7344a1c4ff1f06e1d7bf06b20b27960950ff300
-SHA256: db5242da9dd3bdbdf5eb81e4ee731a95d648b7f8fb8662cd094a6970e3aba751
-Section: base
+Filename: ./devjam-cpu-powercap_1.4-2_all.deb
+Size: 1244
+MD5sum: 329db99234c639ae0cfb3b6cb83a9a20
+SHA1: 30d42698bc8d8850fe7631eb7d0a8388a0c4f5f5
+SHA256: 12be370e7c31cda2f1f7037eae9c5ad257765ba96a21cb948b3066c08e7334fd
+Section: admin
 Priority: optional
 Description: powercap permissions
 
 Package: devjam-desktop-kernel-hardening
-Version: 1.0.1
+Version: 1.0-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-desktop-kernel-hardening_1.0.1_all.deb
-Size: 1920
-MD5sum: 16ba913001606d833f13d6433575b449
-SHA1: aa598ddc97b6702d87f0403cd2c1503fdeb1ec19
-SHA256: 11617736d684844df7b4d28bcc8d904d105bb5316d99f907987c10cda67fa306
-Section: libs
+Filename: ./devjam-desktop-kernel-hardening_1.0-2_all.deb
+Size: 1928
+MD5sum: 4e6a5be508136482763754935ce11a86
+SHA1: 09eb959ef60f80e745f973448aa24ab659af3d94
+SHA256: 58668144333d1fe2b4e8f891a55b218560a4d13bc49439498bfdd27c9388b402
+Section: admin
 Priority: optional
 Description: Desktop kernel hardening
 
-Package: devjam-gpu-brave-optimizations
-Version: 1.5-1
+Package: devjam-gpu-brave-config
+Version: 1.5-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: brave-flags-wrapper
 Suggests: brave-origin | brave-browser
-Filename: ./devjam-gpu-brave-optimizations_1.5-1_all.deb
+Filename: ./devjam-gpu-brave-config_1.5-2_all.deb
 Size: 1464
-MD5sum: d31850f956c0d38625c179a8fc9194c4
-SHA1: df3b84b1d7e219fa5e1d3ec7a8af8b06664efa5b
-SHA256: 30862ed3216d1ae73db065d3865141b1a9d3064f4b665ccda4d1215d7c2484b3
+MD5sum: 1479f6f0c8dcfc7f5ef777c549265e6d
+SHA1: 3171c1b98abaa65f461129d4f98f18bcae7056bf
+SHA256: 153a41f675f5b2d4229d8be28e5e792b29c4c22f56024bc2c52a600634cb1138
 Section: web
 Priority: optional
 Description: GPU Optimizations for brave-browser such as video decoding, compositing and rendering.
 
-Package: devjam-gpu-chromium-optimizations
-Version: 1.3-1
+Package: devjam-gpu-chromium-config
+Version: 1.3-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: chromium
-Filename: ./devjam-gpu-chromium-optimizations_1.3-1_all.deb
+Filename: ./devjam-gpu-chromium-config_1.3-2_all.deb
 Size: 1464
-MD5sum: 88d76717b5ef524aa6f05529ba376566
-SHA1: 421621adf37f73a8dee70cfc7ab0ce975785f86c
-SHA256: 603d56c6d9641cfc9c2312ac254cd48bf8c0eedc26f057a942b6c5782420c5ad
+MD5sum: 14cafed648974f3b4cfe53e20109a393
+SHA1: 1e4494f9f83f075956052f6487437da8ee6bfdb7
+SHA256: 50d525b7870eb1cd942ddd8ec3d532fe873fab7d6dc749983a859eb9b97c4bf7
 Section: web
 Priority: optional
 Description: GPU Optimizations for chromium such as video decoding, compositing and rendering.
 
-Package: devjam-gpu-intel-optimizations
-Version: 1.0-6
+Package: devjam-gpu-intel-config
+Version: 1.0-7
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-gpu-intel-optimizations_1.0-6_all.deb
-Size: 896
-MD5sum: 5c1f78eebb5b6a1f84a7c1d5c6a6d20f
-SHA1: 4cac92dd95c126a1f9531c294bd276f55326123f
-SHA256: 85b4be471c1e467e544d5943dbc3cc8c30b2a7a14d7f241dce504fe11451b123
-Section: x11
+Filename: ./devjam-gpu-intel-config_1.0-7_all.deb
+Size: 904
+MD5sum: 2dcef94b5e327bd201f0eaab2bbd851d
+SHA1: 12e9665066cc7db6075b84da9c983862ac0c9636
+SHA256: 773980f912530448e8f6b97d2f02029e6b7cee56dc040a6e6e20f055b95aaa0e
+Section: graphics
 Priority: optional
 Description: Optimizations for the i915 Intel driver
 
-Package: devjam-gpu-mesa-optimizations
-Version: 1.1-1
+Package: devjam-gpu-mesa-config
+Version: 1.1-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-gpu-mesa-optimizations_1.1-1_all.deb
-Size: 1188
-MD5sum: 1c051bc74c84756b0db3d4eb444542b8
-SHA1: 64a3eaa9a9e9e43f6ec54e4d0e8b6cdecbda9592
-SHA256: 2991df19e7c324eea4b50d52895661c3ea4a60b234e1724494abbd6ee1427bbf
-Section: video
+Filename: ./devjam-gpu-mesa-config_1.1-2_all.deb
+Size: 1196
+MD5sum: 5687770fd99a7d85c8c8c7e8ee1c7f73
+SHA1: 83829496cb8a0dbe8908bf8635b80ab5a46227db
+SHA256: aaa1970c44440eb2e34b3f407ed55c15270cf2e143a2d97aea4b25cf18e115b3
+Section: graphics
 Priority: optional
 Description: Mesa optimizations for gl threads, DRI and video decoding/encoding
 
 Package: devjam-gpu-x11-gtk4-vulkan
-Version: 1.0-1
+Version: 1.0-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-gpu-x11-gtk4-vulkan_1.0-1_all.deb
-Size: 832
-MD5sum: df49361af8272dca09a0e2dd3f417208
-SHA1: d89b9afe38d31d8f62b8f9a0cab9726705356cbb
-SHA256: 6152e7db7247094986a43a28492631eb9e01017ad8e2672fa50a50ba51d5c27f
+Filename: ./devjam-gpu-x11-gtk4-vulkan_1.0-2_all.deb
+Size: 836
+MD5sum: 545694892d556a31cc981a2b1ce203cd
+SHA1: fd8dcd80bb445db1ba14c1ebba7de89c6b3c6b1e
+SHA256: c8d434e44e68c7f02a29b4e471a40485a94a1894d5f76f0efec973a3008c160e
 Section: x11
 Priority: optional
 Description: Switch from OpenGL to Vulkan for GTK4.
 
-Package: devjam-gpu-x11-synaptics-inertial-scrolling
-Version: 1.0-1
+Package: devjam-gpu-x11-synaptics-config
+Version: 1.0-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xserver-xlibre-input-synaptics | xserver-xorg-input-synaptics
-Filename: ./devjam-gpu-x11-synaptics-inertial-scrolling_1.0-1_all.deb
-Size: 1916
-MD5sum: e7d44887f31e55330ab3475418f550aa
-SHA1: 09be39ac6e35a8707223d02a8a1f3941cab553c9
-SHA256: 02cf77c9e48fb8890112cca9dd855cf6e10f0341de79f27d23412efa4ee6c2a3
+Filename: ./devjam-gpu-x11-synaptics-config_1.0-2_all.deb
+Size: 1920
+MD5sum: 943dc5e33ff48860e17dc8cc61d5e700
+SHA1: e419942a19ffce72ae348e47f9e43622f38bbabb
+SHA256: 8890bef6c0ff59bfce055d5b138244e0c7bef0b5dc2f2d8e750a07fb8f404b18
 Section: x11
 Priority: optional
 Description: Inertial scrolling (aka kinetic scrolling) for synaptics
 
-Package: devjam-gpu-x11-xlibre-tearfree-modesetting
-Version: 1.6-1
+Package: devjam-gpu-x11-xlibre-tearfree-amdgpu
+Version: 1.5-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-tearfree-modesetting_1.6-1_all.deb
+Filename: ./devjam-gpu-x11-xlibre-tearfree-amdgpu_1.5-2_all.deb
+Size: 1100
+MD5sum: a1236a6724bd0e85c721cbb77e588e66
+SHA1: 7def286ba8123d8d8fc59fce28126da604c63b28
+SHA256: 459bf7ed51305c0bbf5b488caa914eddfc58571e9b63fef84f66a7552c6dd322
+Section: x11
+Priority: optional
+Description: Tearfree improvements to the amdgpu driver
+
+Package: devjam-gpu-x11-xlibre-tearfree-modesetting
+Version: 1.6-2
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre
+Filename: ./devjam-gpu-x11-xlibre-tearfree-modesetting_1.6-2_all.deb
 Size: 1116
-MD5sum: 7d36cd24c34dc15905d81809f3f7fdfb
-SHA1: 1666b9ecd375940526d1a753c6698d161ee777ed
-SHA256: 8802c0dafbffdbf029ac40f64fbf1b5cd792523bc459313eb2b101923d4b2091
+MD5sum: 452b50928e16fb5d07620ff597020649
+SHA1: bc986cb9f65521d4686caff8d3fea9810c5838e2
+SHA256: 7257e4f48c10e1c92913e498a2967118b988786375c47e67f8ad9abc79f768e2
 Section: x11
 Priority: optional
 Description: Tearfree improvements to the modesetting driver
 
 Package: devjam-gpu-x11-xlibre-tearfree-plasma
-Version: 1.4-1
+Version: 1.4-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: ./devjam-gpu-x11-xlibre-tearfree-plasma_1.4-1_all.deb
-Size: 1204
-MD5sum: dd98e920bf834274fd8188e899966151
-SHA1: 9eb8a80e18bf8c0fb8ae8c6613204735add5bce1
-SHA256: f71df4b1468e460cfc7ab340de451ebc1bc0b7444636b5de9f78161ed4c3ebc3
+Filename: ./devjam-gpu-x11-xlibre-tearfree-plasma_1.4-2_all.deb
+Size: 1208
+MD5sum: 8937ca9405663c0832a56b3cfe9dbcab
+SHA1: aded3b4be226f3d53ca50501ab6202cfae65a68e
+SHA256: e6f1a918b86bc72ea946197805213145b2a9ab59a5cbba287d6be4ccf18fded2
 Section: x11
 Priority: optional
 Description: Disable sync to vblank at kwin, let modesetting handle vsync/tearfree. Applies to the modesetting driver from XLibre or latest unreleased Xorg.
 
 Package: devjam-gpu-x11-xlibre-tearfree-plasma-egl
-Version: 1.4-1
+Version: 1.4-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre,devjam-gpu-x11-xlibre-tearfree-plasma
-Filename: ./devjam-gpu-x11-xlibre-tearfree-plasma-egl_1.4-1_all.deb
+Filename: ./devjam-gpu-x11-xlibre-tearfree-plasma-egl_1.4-2_all.deb
 Size: 988
-MD5sum: 468af56737cedab72eaeb4c101f3101b
-SHA1: 48ba2cc4a5ed928be927c12a72377c41a0cd2ddd
-SHA256: ab289e17ac05b466dcb81e2cda9541cc5029df60137f31585ddd1f13912d32da
+MD5sum: 68532c9ff0e74943730472b17c8e5376
+SHA1: 4bdef047e39014795e6679206b541e492bbd3d7a
+SHA256: 2a6918c02739947a52b52238d96e884f55759dc4bb89c3fc650a8695cab7650f
 Section: x11
 Priority: optional
 Description: Switch from glx to EGL for Kwin/Qt.
 
 Package: devjam-grub-theme
-Version: 1.1-3
+Version: 1.1-4
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-theme_1.1-3_all.deb
+Filename: ./devjam-grub-theme_1.1-4_all.deb
 Size: 162912
-MD5sum: 09c3d1c95fa2fb373a2264dd1f06d6e3
-SHA1: c8daac5dd9cacf68a5b9fea0c14936d3e8c90715
-SHA256: c35c3fd5ee827515ffd550b1de30e24f7ae2bd326bc715629f8d3595d945fc32
-Section: base
+MD5sum: f5c29da38fd530e356eadf2e9dddc95c
+SHA1: 3028403e3e72a159c771e38d5859ef6026d9342b
+SHA256: 1f07c9dd3e3d1cda057eb1c33930f07d27b185f144c75f60cd023c43075a3649
+Section: admin
 Priority: optional
 Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
-Version: 1.27-1
+Version: 1.27-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tools_1.27-1_all.deb
-Size: 8876844
-MD5sum: bc2dcba7875f1f6278bbb776e77ef541
-SHA1: 6f9531484f2238ae16e6631ddc0b988ec751b3e3
-SHA256: 66eaef7040f01917a6c8807e791d112744ff3f1b6f953090884e69303ca085c1
-Section: base
+Filename: ./devjam-grub-tools_1.27-2_all.deb
+Size: 8879220
+MD5sum: b2f927c37a6a8f02ef051470d7dd083d
+SHA1: 0fb0a85bcaf66242d70a98c6d6fe1145255813d9
+SHA256: b0385d279fb7f39cbbd50bd8aa90316e7bdef834da4bdc1c268b0be68dcc0738
+Section: admin
 Priority: optional
 Description: Grub boot items by devjam
 
-Package: devjam-grub-tpm
-Version: 1.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-grub-tpm_1.0-1_all.deb
-Size: 1176
-MD5sum: 7f65eac536d133a9efeaa39a43e08721
-SHA1: 34db6eea5eeeee6c69b39b3e37bc98054130723a
-SHA256: 461542fd1bae7bc5b2399c4d5924d7ab644a031bb31b16fa7b82a53b284d6894
-Section: base
-Priority: optional
-Description: Grub tpm workaround by devjam
-
-Package: devjam-hooks
-Version: 1.18-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-hooks_1.18-1_all.deb
-Size: 2372
-MD5sum: 61fae3b45a590df3892820b70f6a21e6
-SHA1: b26018b8733e90d397eaf2460c7b00155164450b
-SHA256: a75fa0f27e59f8428bcdc3f0d53e6865a4037b88c0af2f127b357c6815b327f6
-Section: base
-Priority: optional
-Description: Grub boot items by devjam
-
-Package: devjam-kde-servicemenu-collection
-Version: 1.34-1
+Package: devjam-kde-servicemenus
+Version: 1.34-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, imagemagick, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: ./devjam-kde-servicemenu-collection_1.34-1_all.deb
-Size: 4844
-MD5sum: a08f4eed162fef6183fb30d643c788eb
-SHA1: f716c64d54d051e9be60a285ba56eb341f450995
-SHA256: 256560eda10cc0ab33fa33e9a0691779c0d71caf4dda78a442e6ef382d094805
-Section: base
+Filename: ./devjam-kde-servicemenus_1.34-2_all.deb
+Size: 4840
+MD5sum: cddfb4d7c982de103236d563cfa09177
+SHA1: 3346ddd096e7a2abc1a9aa39834bacb261db9177
+SHA256: 5c10d7a3b4c381afd178e83bc901049afeb93300ebdacfefda96e072548932dd
+Section: kde
 Priority: optional
 Description: KDE Service Menu items collection by devjam
 
-Package: devjam-keyring
-Version: 1.41-1
+Package: devjam-live-boot-hooks
+Version: 1.18-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-keyring_1.41-1_all.deb
-Size: 63012
-MD5sum: a514a2490b8501fa11824d631d9d1f27
-SHA1: d0fb1940f1d560af68e4191fb854f7e7076d604c
-SHA256: 1236ce49bdf062a3ba26383127c2dfcb53e26e0fbb3b21911ba4034bde226426
-Section: base
+Filename: ./devjam-live-boot-hooks_1.18-2_all.deb
+Size: 2380
+MD5sum: fedf3f6fd21eaf6360a550ccb6e7291b
+SHA1: 039b49f67795af3ddb8deebf67c96996c020c546
+SHA256: 11c7ccb593792f7e67d82d784344992335bede3d591013a88fe562c395d2cff3
+Section: admin
 Priority: optional
-Description: custom keyring for Debian
+Description: Grub boot items by devjam
 
-Package: devjam-keyring-legacy
-Version: 1.41-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-keyring-legacy_1.41-1_all.deb
-Size: 41044
-MD5sum: 402c1726781a462bca059214595e0199
-SHA1: 7727fa55a525159a2786d83c563d94454b0a5c9a
-SHA256: b901cb9c9b78ba8ee454cb27aa3e9e079c95133b74fcc6f9f5bf2e81bb157353
-Section: base
-Priority: optional
-Description: custom keyring for Debian
-
-Package: devjam-lowlatency
-Version: 1.27.1
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: devjam-tools
-Filename: ./devjam-lowlatency_1.27.1_amd64.deb
-Size: 2416
-MD5sum: bd86410f21c690b00188d63558aaaf16
-SHA1: 1df957e2a98221504e86cb308369ccd05f98e0a2
-SHA256: a18aa14bdd1ad9de1f465104288abb398bfdb536939ed1823e21fe43031046bb
-Section: libs
-Priority: optional
-Description: Low latency tools and settings for Debian
-
-Package: devjam-mpv
-Version: 1.1-1
+Package: devjam-mpv-config
+Version: 1.1-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: mpv
-Filename: ./devjam-mpv_1.1-1_all.deb
-Size: 2704
-MD5sum: 13d5bcf0f7bd8fc841403a581ac42de1
-SHA1: dbe6e17146106d8163118868573292e1937b41c7
-SHA256: d20f50532c9d9eeaf772482a64051ecea5d9f36b653973293e49fb6836cf3b0d
-Section: base
+Filename: ./devjam-mpv-config_1.1-2_all.deb
+Size: 2712
+MD5sum: e9ce20269c7a4ff90617eae5bcaab9c9
+SHA1: ee2355c0ec513c35ce721471cfc6cb0b9c58c15b
+SHA256: db8a184185d902d05a8aeadedb13f8b790d405c71dbc070a7d5e47589e7a70e1
+Section: video
 Priority: optional
 Description: mpv configs for the CLS lab monitors
 
@@ -402,15 +358,15 @@ Priority: optional
 Description: OpenSesame Launcher with PsychoPy
 
 Package: devjam-pipewire-scripts
-Version: 1.1-1
+Version: 1.1-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-pipewire-scripts_1.1-1_all.deb
+Filename: ./devjam-pipewire-scripts_1.1-2_all.deb
 Size: 1692
-MD5sum: d4a01d3dca21d3b9584dfe3a9ddf8169
-SHA1: 81da6645f5015dd4ff27780857b2da493e1d0e1f
-SHA256: 53be99a897260c57aece91fa7dca4505fa556740aba29e2693c83e5dff72f63d
-Section: base
+MD5sum: e1a171c7674665064d3ad9bb892ec2f5
+SHA1: 501fe389a0cb85c68369b4244b6257bdaba4e18c
+SHA256: 16b537dfea66a72d714d040e3c2be39151490693a0250bec8be21d800466c4a8
+Section: sound
 Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
 
@@ -429,49 +385,104 @@ Priority: optional
 Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
-Version: 1.44-1
+Version: 1.44-2
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: ./devjam-science-experiment-mode-rtirq_1.44-1_amd64.deb
+Filename: ./devjam-science-experiment-mode-rtirq_1.44-2_amd64.deb
 Size: 10240
-MD5sum: a66ae5206a4d6822a6e88755ad9f8cbe
-SHA1: 67e97273df9cdb6a85acdbf95c9ecf420f24804b
-SHA256: 132df1d2bf8a391bd2f5cf30f903f5f810a5369c3bcb3568250fcae5f31a4754
-Section: libs
+MD5sum: 9119db0f0edbe8b022eccc997c97bc0f
+SHA1: 1c379329569f5a4c2b38b64b2363439d2609f53b
+SHA256: 2679fdfc0a244293be90e5a43277a2853cd58bec20508a43016e18e06a4b24d7
+Section: science
 Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
 
+Package: devjam-science-opensesame-psychopy
+Version: 1.5-2
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science
+Filename: ./devjam-science-opensesame-psychopy_1.5-2_all.deb
+Size: 4204
+MD5sum: 1b62fe8f33dfa9b6920b04b80ab6ed50
+SHA1: 8ef4321ef247bb982c8c99078d61ed3d83a13fc3
+SHA256: b064670f36d3aa33aa5a8ffb5aa7c72fa306510ac19de0e12340cbcf573082fc
+Section: science
+Priority: optional
+Description: OpenSesame Launcher with PsychoPy
+
+Package: devjam-science-tools
+Version: 1.75-2
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
+Filename: ./devjam-science-tools_1.75-2_all.deb
+Size: 1998500
+MD5sum: 9ce4bf154f7d5d53c3e9cc1549e73dd0
+SHA1: 2f97ed391c0ab0fda0e44c10d7cfa3bfdbfa578f
+SHA256: 2ff6a3080abe08846c2360b6b5b38d21ef19530cd55216e048b1451e4f1eb0e3
+Section: science
+Priority: optional
+Description: science tools
+
 Package: devjam-sensors-asus-z790-plus-wifi
-Version: 1.0-1
+Version: 1.0-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: lm-sensors
-Filename: ./devjam-sensors-asus-z790-plus-wifi_1.0-1_all.deb
-Size: 2108
-MD5sum: 9b5cb7e21f46834e88e26aa9aa3ad413
-SHA1: 393d23a5e0d2e63b7d703144df61e92c2a463890
-SHA256: 8045fb5126743cd95f9202fe0eb5b6a1fa28b6915ffbd88d8db8708da185847c
-Section: libs
+Filename: ./devjam-sensors-asus-z790-plus-wifi_1.0-2_all.deb
+Size: 2112
+MD5sum: cf95ae7c694c73d3960db397ec57e780
+SHA1: 2235ae337fdf866078746efdaf3c73374a2c3ece
+SHA256: da226eca64d187b8de519bb57e86bfd6572ab6ed75942472ec0ecf67e45156e8
+Section: utils
 Priority: optional
 Description: lm-sensor config for the ASUS TUF Gaming Z790-Plus WiFi mainboard
 
-Package: devjam-thunar-custom-actions
-Version: 3.5-1
+Package: devjam-system-config
+Version: 1.23-2
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-system-config_1.23-2_all.deb
+Size: 3824
+MD5sum: c9c9947a4f6014ff455cd78c21eaab5a
+SHA1: 197afd8df4f0655b9773526e13d1a11315925746
+SHA256: f5ed3250489cdb0b574e60b485fa4f18fbaea5d3d0da5dbc85080170a8ad4e22
+Section: admin
+Priority: optional
+Description: Generic configs by devjam
+
+Package: devjam-system-config-lowlatency
+Version: 1.27-2
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: devjam-tools
+Filename: ./devjam-system-config-lowlatency_1.27-2_amd64.deb
+Size: 2420
+MD5sum: 1f9826d9d4c8d28c9985fc71a15d5360
+SHA1: 39edb9b37bf79ad4672cadd9a6dcf5eed94962f5
+SHA256: 170086e44a8e0dd5ebbd6a7151e831f9a67ac7140617c77edcc13977b38c8a58
+Section: admin
+Priority: optional
+Description: Low latency tools and settings for Debian
+
+Package: devjam-thunar-actions
+Version: 3.5-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd
-Filename: ./devjam-thunar-custom-actions_3.5-1_all.deb
+Filename: ./devjam-thunar-actions_3.5-2_all.deb
 Size: 4752
-MD5sum: 03da2d6ba3b99de3de9a29f3407c6e32
-SHA1: ed839690bab60098a941a34d4a19f240c29a6444
-SHA256: d009ecb563e0a4e97ee5373281669c27a8a89daed7ee48d525bfd644dcc5643a
-Section: base
+MD5sum: fa5d3527bcd636577e6e15d39d5846db
+SHA1: 47ad59a355090acd4fe7e7ea142b9fc6760fbffe
+SHA256: d32002413d4555bc87ef48532b1e243f1036865c5dc343885f70e199de9909cc
+Section: xfce
 Priority: optional
 Description: Thunar custom actions collection
 
 Package: devjam-tools
-Version: 1.84-1
+Version: 1.84-2
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: sox,
@@ -500,25 +511,25 @@ Recommends: sox,
  csvtool,
  libevtx-utils,
  systemd-container
-Filename: ./devjam-tools_1.84-1_amd64.deb
-Size: 27568372
-MD5sum: ecc85fdda003eecbc0a6e02f850e3dd6
-SHA1: 36abb33bd60e4fde72c619072f293d3332220c8e
-SHA256: 7393b9921aaaed9f1fa2881d4ccb2cfc988ae211bb479f2c34f2cb4a5a752c94
-Section: base
+Filename: ./devjam-tools_1.84-2_amd64.deb
+Size: 27568368
+MD5sum: 585f34400d04c2cb0ae441c9d1603eca
+SHA1: 5e03ba0ba0a22e2cfbe8daab3ae33327c4b45248
+SHA256: 84292a0cbadf348d2d74892661415a2a1dc10bcc96a60f1976fb12881169435c
+Section: utils
 Priority: optional
 Description: personal tools for Debian
 
-Package: devjam-x11-monitor
-Version: 1.1-1
+Package: devjam-x11-monitor-config
+Version: 1.1-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-x11-monitor_1.1-1_all.deb
-Size: 2456
-MD5sum: 1d1751bfec003c1d1ed3704626af4844
-SHA1: 1cde3defe2dc67151ecae72ea5a561890c315a91
-SHA256: 0e7f0de2a6a7ebe7e14b1122e6d0109e78f51d49e3c80b24e5acb275e7dc9a83
-Section: base
+Filename: ./devjam-x11-monitor-config_1.1-2_all.deb
+Size: 2460
+MD5sum: d543866a491706e7f8701b55735212fa
+SHA1: eb183cf3792f5cd332e29b29401f26662c1fb819
+SHA256: 77f7abb7a34cb55619ea789ab52d106c16b10a352a482348e2d94abe0f107852
+Section: x11
 Priority: optional
 Description: X11 display size confs for the CLS lab monitors
 
@@ -1394,15 +1405,15 @@ Vcs-Browser: https://github.com/pkolaczk/fclones-gui
 Vcs-Git: https://github.com/pkolaczk/fclones-gui
 
 Package: fclones-gui-launcher
-Version: 1.1-1
+Version: 1.1-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./fclones-gui-launcher_1.1-1_all.deb
+Filename: ./fclones-gui-launcher_1.1-2_all.deb
 Size: 23608
-MD5sum: cb8e8d1bb793c28647b3b38b81d3d21d
-SHA1: 80aaf2652f6018a6b76bc6ed1bc68f28e770af64
-SHA256: 749b981e8b5395bb095e5ac14f331b2c600cc2bdacffc6ec2020ed32f6cf9cd8
-Section: base
+MD5sum: 9680b20e46b91ee3da514e558ad1b766
+SHA1: 8272ce296d46e39d89ec868bcfeeae9c37ec1e80
+SHA256: 76d9f339695158d56898f980a465cb8859123d569e07e8385f38970268c6c478
+Section: utils
 Priority: optional
 Description: Desktop launcher for fclones-gui
 
@@ -1455,6 +1466,19 @@ SHA256: 66cbc82f8ca883b2d70d888d589976002f42494e938905fe35cf29f7d6322241
 Priority: optional
 Homepage: https://geteduroam.org/
 Description: Geteduroam GUI client for Linux distributions.
+
+Package: grafito
+Version: 0.9.3-2
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./grafito_0.9.3-2_all.deb
+Size: 2620608
+MD5sum: 2f5b8ebb02e1b48fcb3783e8149b0db5
+SHA1: fca896e454c8a13dd8ec4b715ae1df0273745709
+SHA256: 3bc66d5303c9077a5499bbd01c60f5f484bac469f649963a35e99485d968c5a3
+Section: utils
+Priority: optional
+Description: grafito
 
 Package: inxi-gui
 Version: 1.0.0
@@ -1986,6 +2010,19 @@ Description: Graphical hard drive backup and restore
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
 
+Package: rtcqs
+Version: 0.6.2-2
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./rtcqs_0.6.2-2_amd64.deb
+Size: 19875272
+MD5sum: 58d9643416c9a184b7f597f40618dc2e
+SHA1: 24bfcff443b27c05a1c06b491be78ad0d5efabb0
+SHA256: b73f0aed5de8ba5afd4b718ee4d73433a8ab828675b00f5273d94632a4f4030a
+Section: sound
+Priority: optional
+Description: rtcqs for Debian
+
 Package: rtirq
 Version: 20240905-48.1
 Architecture: all
@@ -2005,18 +2042,44 @@ Description: Realtime IRQ thread system tunning
   of relevant IRQ service threads, featured for a PREEMPT_RT / threadirqs
   enabled kernel configuration.
 
-Package: sedutil
-Version: 1.16.0-1
+Package: scrcpy
+Version: 3.2-2
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./sedutil_1.16.0-1_amd64.deb
+Filename: ./scrcpy_3.2-2_amd64.deb
+Size: 6825788
+MD5sum: 82525affb3b49fde89cd9c305aec2334
+SHA1: 0e7594b5dc76a214be0d74ebe109a0362844f58c
+SHA256: 1ef7487015f0962169acb27292670fdb18fb4a9bfae9e7aee5bad44c31531293
+Section: utils
+Priority: optional
+Description: scrcpy for Debian
+
+Package: sedutil
+Version: 1.16.0-2
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./sedutil_1.16.0-2_amd64.deb
 Size: 44437560
-MD5sum: 951a95e1041220741462d1e511fc7b5d
-SHA1: 19a00f768396a11e69bb88c4a19cd9ad0bcb59f5
-SHA256: ff032d4a89e6a5d50df57f6d68f8e86a916f8ec1321125cfba988b70d80ac31d
-Section: base
+MD5sum: 49ca13df024100d1a237e97e13ddbd90
+SHA1: a2df190254ef2b47d84ccd9970eded7fe342c53f
+SHA256: 34cedd03f66a21cfb49c971cc6b828463d4c174d7eb15d6328289a3999b66273
+Section: admin
 Priority: optional
 Description: sedutil ladar for Debian
+
+Package: systemctl-tui
+Version: 0.4.0-2
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./systemctl-tui_0.4.0-2_amd64.deb
+Size: 1628824
+MD5sum: 13c91d8813891b3668ebf63e8f21e55f
+SHA1: 40120b4e5d4b8c74420c8fc595bee5be1de59ce2
+SHA256: 18a840de844214b567cea4f2664f970ff217b6bfc1438a80cbcd1f7e899de8f6
+Section: admin
+Priority: optional
+Description: systemctl-tui for Debian
 
 Package: systemd-manager-tui
 Version: 1.2.5-1
