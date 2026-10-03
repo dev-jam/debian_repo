@@ -343,20 +343,6 @@ Section: video
 Priority: optional
 Description: mpv configs for the CLS lab monitors
 
-Package: devjam-opensesame-psychopy
-Version: 1.5-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: devjam-science
-Filename: ./devjam-opensesame-psychopy_1.5-1_all.deb
-Size: 4204
-MD5sum: d6e9d305cd450689e914485e200756d5
-SHA1: a7f523a48a290b04f8934163ae6f48d711c43892
-SHA256: c383b94f7b0aa8572a565ba12ba7c999221d833c44620d83c16e9283142a69ce
-Section: science
-Priority: optional
-Description: OpenSesame Launcher with PsychoPy
-
 Package: devjam-pipewire-scripts
 Version: 1.1-2
 Architecture: all
@@ -369,20 +355,6 @@ SHA256: 16b537dfea66a72d714d040e3c2be39151490693a0250bec8be21d800466c4a8
 Section: sound
 Priority: optional
 Description: Scripts to enable and disable Pulse, Pipewire and ALSA
-
-Package: devjam-science
-Version: 1.75-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: ./devjam-science_1.75-1_all.deb
-Size: 1998496
-MD5sum: 7d05f05903131857688363b2298f6195
-SHA1: 166bbc7573a12a3a91c7d713bb317ece50d4c6c0
-SHA256: 9594ca26d8d7716f6897c229b8efb7238f9e1fe80ca02867aa6163f656dfe388
-Section: science
-Priority: optional
-Description: science tools
 
 Package: devjam-science-experiment-mode-rtirq
 Version: 1.44-2
@@ -399,15 +371,15 @@ Priority: optional
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
 
 Package: devjam-science-opensesame-psychopy
-Version: 1.5-2
+Version: 1.5-3
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: devjam-science
-Filename: ./devjam-science-opensesame-psychopy_1.5-2_all.deb
+Depends: devjam-science-tools
+Filename: ./devjam-science-opensesame-psychopy_1.5-3_all.deb
 Size: 4204
-MD5sum: 1b62fe8f33dfa9b6920b04b80ab6ed50
-SHA1: 8ef4321ef247bb982c8c99078d61ed3d83a13fc3
-SHA256: b064670f36d3aa33aa5a8ffb5aa7c72fa306510ac19de0e12340cbcf573082fc
+MD5sum: 8a03e57a18809124f335263d772858d9
+SHA1: ef21c254840ff66273c2f9f9f3097fb72384e50b
+SHA256: c599eb76be37130fcf381919d7cc43048bb97a11aa94d6efad8db0f41853d132
 Section: science
 Priority: optional
 Description: OpenSesame Launcher with PsychoPy
@@ -468,15 +440,15 @@ Priority: optional
 Description: Low latency tools and settings for Debian
 
 Package: devjam-thunar-actions
-Version: 3.5-2
+Version: 3.5-3
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd
-Filename: ./devjam-thunar-actions_3.5-2_all.deb
-Size: 4752
-MD5sum: fa5d3527bcd636577e6e15d39d5846db
-SHA1: 47ad59a355090acd4fe7e7ea142b9fc6760fbffe
-SHA256: d32002413d4555bc87ef48532b1e243f1036865c5dc343885f70e199de9909cc
+Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd, devjam-tools
+Filename: ./devjam-thunar-actions_3.5-3_all.deb
+Size: 4756
+MD5sum: 420a95630172f7aeff67d984929f4bf5
+SHA1: a58965c02271fae919d1f639f5b3744f56f2670f
+SHA256: b092a85a34ddaf23e16d03b42c79c4f6dcb45ca1a2ab1d3de12dde65a7792065
 Section: xfce
 Priority: optional
 Description: Thunar custom actions collection
