@@ -1982,19 +1982,6 @@ Description: Graphical hard drive backup and restore
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
 
-Package: rtcqs
-Version: 0.6.2-2
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./rtcqs_0.6.2-2_amd64.deb
-Size: 19875272
-MD5sum: 58d9643416c9a184b7f597f40618dc2e
-SHA1: 24bfcff443b27c05a1c06b491be78ad0d5efabb0
-SHA256: b73f0aed5de8ba5afd4b718ee4d73433a8ab828675b00f5273d94632a4f4030a
-Section: sound
-Priority: optional
-Description: rtcqs for Debian
-
 Package: rtirq
 Version: 20240905-48.1
 Architecture: all
