@@ -440,15 +440,15 @@ Priority: optional
 Description: Low latency tools and settings for Debian
 
 Package: devjam-thunar-actions
-Version: 3.5-3
+Version: 3.5-4
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd, devjam-tools
-Filename: ./devjam-thunar-actions_3.5-3_all.deb
-Size: 4756
-MD5sum: 420a95630172f7aeff67d984929f4bf5
-SHA1: a58965c02271fae919d1f639f5b3744f56f2670f
-SHA256: b092a85a34ddaf23e16d03b42c79c4f6dcb45ca1a2ab1d3de12dde65a7792065
+Filename: ./devjam-thunar-actions_3.5-4_all.deb
+Size: 4744
+MD5sum: dc97a8063b58fc12b32c6d12ae4a62f9
+SHA1: 6f0f49959606b3a8612bf6e4f1064715d57961ee
+SHA256: e3f73508dc7d2711aaa771be7cee86bb5a0b842e261c84ef7d379adc07dd0b0a
 Section: xfce
 Priority: optional
 Description: Thunar custom actions collection
