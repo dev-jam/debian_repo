@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 06 Oct 2026 16:39:09 +0000
+MD5Sum:
+ d45c2d2ff98d3038aefe11d1a5b7c9df            51833 Packages
+ 5dd6f8ecfe8394fae02127cdd48e16f9            20114 Packages.gz
+ ec59ef2fca84488051dc30f3006cd2af               38 Release
+SHA1:
+ cade99b38f130f3499d5f92fa3822bcc246709ad            51833 Packages
+ fbae445734f3a639313e06b94d556a3ab0ee54b4            20114 Packages.gz
+ bcdc848cdb99b94bf78cd8fe694db7b0e87341a1               38 Release
+SHA256:
+ 0908beeb5ad2b580d6c049b03f2f6deaa6e9a3edbb47eb75cb86b9b665b6efd6            51833 Packages
+ 603a9cf5fb2692d5cde405b4fa4fa1db68aa20ffad6d9268aafc4c672f7f263f            20114 Packages.gz
+ 4650dc17fef527ae7b304c9cc79f81b13efe347a676c75e7ba075feb803d64ca               38 Release
+SHA512:
+ 6162a04ab0452051939c9dc857cc83a4b7b93e97dd7466e1e7ae723b2bb9af065304fecf4d154699623bc9715408bd95b53019aceb695625c52229d072a96a79            51833 Packages
+ 75327b505d4b08bc3ff6fc68ffc330423c0fdcaca6084f3ec75452234783cabf9e3faf2b6f7ee8f60aed79b503354723363bcf7bd3f5a6189f106043386fe041            20114 Packages.gz
+ 7a9854d6127b8c22d8091cd1cb7013d3c1ce3e198f19ea1c4a7d80e2d1d2bf09b248b8779ed0199499d1a1d1e0bb90f94707168c241bbd70503b07913d64d13a               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmrFJC4UHGRlYmlhbkBi
+b2Jyb3NiYWcubmwACgkQi19wb+ePuyRU0w/9FYRZXFEBjCe9hLHIKWTVFldfA7iv
+hpGnfJZ8uXrQp59mqRsMDWcLEw2Vd0TU6F+bo0gOGI+yDUFVnlGIuzZ6acOY9+4X
++6TbJwK+3GXW9IDmlFFc4rCxIJXTIUVG+5JVoog4thLk+M8Z4qbjyYGHXlmJvDBp
+rU2raMpwnFg5UguBSpjwmZOqGyBSpxd7xAoyY6WPJkH6pWIYd8mlkbw/Fk2Jh1Vb
+HaQYZS6geevrcdpvsMq6xSrNxO9FyuzVAn0o1h5ip5bFIK7wJHKEfajozEXr0Lw0
+DW/hMvEFpxakZyKCAztc5TEpsVwMlmKv71eoW3DxWlfgzeS8G9HEjZ2JXlPZrwxL
+mdifbhvrOPiilt4/hlbH3lS/d2mDLxisR0zixN9hkugeHOOxfksKfIrmmkc8TxqV
+FWiua7Rb7OjWCoW/wv5y6U409MxpL7r/pjGEJB5P7RvU8jajbkaOj4BuoczLQ7zd
+K26Eapbgbz4rQm9mwUokuK1HXBx6RbMkowks2r5wLQ2iwbrarUZenvSCfotTmUEt
+DHj24NDt6kdDg51YTiWl1NtCZ0SngOrMHeYbSEhkPc3Fm51b/pAQdzVsE5YrWRTb
++/dmdB4XYmB1LokbgYLDzHej9Kz9f128bpWFOuvOWQr1k+ZcfQEw3t1Kq8PNqULy
+tJ0id9JPQm3hFMw=
+=LWzc
+-----END PGP SIGNATURE-----
